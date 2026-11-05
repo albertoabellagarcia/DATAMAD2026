@@ -1,0 +1,59 @@
+{
+  "dataset": "Accidentes de circulación con víctimas por ubicación y resultado del accidente",
+  "fuente": "https://datos.comunidad.madrid/dataset/fb9c5a17-afb0-4e95-a7b1-186e7cacc901/resource/58e39362-fbd1-45f6-865b-91505f6bd199/download/accidentes-de-circulacion-con-victimas-por-ubicacion-y-resultado-del-accidente.csv",
+  "columnas": {
+    "ubicacion": "Tipo territorio",
+    "resultado": null,
+    "valor": null,
+    "año": "Año"
+  },
+  "año_2024": {
+    "por_ubicacion": {
+      "Otros": 40
+    },
+    "por_resultado": {
+      "Total": 40
+    },
+    "cruce": {
+      "Otros": {
+        "Total": 40
+      }
+    }
+  },
+  "evolucion_anual": {
+    "2004": 40,
+    "2005": 40,
+    "2006": 40,
+    "2007": 40,
+    "2008": 40,
+    "2009": 40,
+    "2010": 40,
+    "2011": 40,
+    "2012": 40,
+    "2013": 40,
+    "2014": 40,
+    "2015": 40,
+    "2016": 40,
+    "2017": 40,
+    "2018": 40,
+    "2019": 40,
+    "2020": 40,
+    "2021": 40,
+    "2022": 40,
+    "2023": 40,
+    "2024": 40
+  },
+  "todos_los_años": {
+    "por_ubicacion": {
+      "Otros": 840
+    },
+    "por_resultado": {
+      "Total": 840
+    },
+    "cruce": {
+      "Otros": {
+        "Total": 840
+      }
+    }
+  }
+}

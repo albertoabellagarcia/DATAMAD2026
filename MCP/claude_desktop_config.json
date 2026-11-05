@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "datos-madrid": {
+      "command": "uv",
+      "args": ["run", "--with", "mcp", "--with", "httpx",
+               "python", "/ruta/servidor.py"]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿geografico;titulo;id;formatos_geo;todos_los_formatos;url
+posible;Billetes por modo de transporte;902003;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/902003
+posible;Censo de conductores por tipo de licencia, sexo y comunidad autónoma de primera expedición;1902477;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1902477
+posible;Distancia a la capital. Municipios;1922701;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1922701
+posible;Empresas autorizadas para el transporte de mercancías por carretera por tipo de transporte y ámbito;1907961;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1907961
+posible;Encuesta de la Estructura de la Industria de la Construcción. Principales magnitudes económicas del sector de la Construcción por actividad principal y sede en la Comunidad de Madrid;magnitudes_economicas_construccion_por_actividad_principal;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/magnitudes_economicas_construccion_por_actividad_principal
+posible;Gasto medio de los hogares por subgrupo de gasto (4 dígitos COICOP/EPF) (Base 2006);gasto_por_subgrupo_gasto_4_digitos_coicop_epf_base_2006;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/gasto_por_subgrupo_gasto_4_digitos_coicop_epf_base_2006
+posible;Indicadores de red y motorización;901007;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/901007
+posible;Intensidad media diaria de vehículos en las carreteras;1906160;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1906160
+posible;Inversiones realizadas en la red de carreteras;901023;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/901023
+posible;Operaciones del transporte interior de mercancías por carretera por clase de mercancía transportada;1908121;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908121
+posible;Operaciones del transporte interior de mercancías por carretera por tipo de desplazamiento;1908120;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908120
+posible;Operaciones del transporte interior intermunicipal intrarregional de mercancías por carretera por clase de mercancía transportada;1908141;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908141
+posible;Operaciones del transporte interior interrregional de mercancías por carretera por clase de mercancía transportada;1908142;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908142
+posible;Operaciones del transporte interior intramunicipal de mercancías por carretera por clase de mercancía transportada;1908140;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908140
+posible;Parque de vehículos por antigüedad;1934066;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1934066
+posible;Parque de vehículos por tipo;1934065;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1934065
+posible;Parque de vehículos por tipo de distintivo ambiental;1934068;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1934068
+posible;Parque de vehículos por tipo de propulsión;1934067;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1934067
+posible;Permisos de conducir expedidos por clase y sexo;1909520;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1909520
+posible;Red de carreteras por dependencia, tipo y ancho de vía;901001;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/901001
+posible;T-km del transporte interior de mercancías por carretera por tipo de desplazamiento y clase de mercancía transportada;1908149;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908149
+posible;T-km del transporte interior intermunicipal intrarregional de mercancías por carretera por clase de mercancía transportada;1908151;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908151
+posible;T-km del transporte interior interregional de mercancías por carretera por clase de mercancía transportada;1908153;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908153
+posible;T-km del transporte interior intramunicipal de mercancías por carretera por clase de mercancía transportada;1908150;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908150
+posible;Toneladas del transporte interior de mercancías por carretera por tipo de desplazamiento;1908143;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908143
+posible;Toneladas del transporte interior de mercancías por carretera por tipo de desplazamiento y clase de mercancía transportada;1908144;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908144
+posible;Toneladas del transporte interior intermunicipal intrarregional de mercancías por carretera por clase de mercancía transportada;1908146;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908146
+posible;Toneladas del transporte interior interregional de mercancías por carretera por clase de mercancía transportada;1908147;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908147
+posible;Toneladas del transporte interior intramunicipal de mercancías por carretera por clase de mercancía transportada;1908145;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908145
+posible;Total t-km del transporte interior de mercancías por carretera por tipo de desplazamiento;1908148;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1908148
+posible;Transporte de mercancías por carretera. Toneladas kilómetro transportadas. España;transporte_carretera_toneladas_km;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/transporte_carretera_toneladas_km
+posible;Transporte de mercancías por carretera. Toneladas transportadas. Comunidad de Madrid y España;transporte_carretera_toneladas;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/transporte_carretera_toneladas
+posible;Transporte por carretera. Censo de conductores por sexo. Municipios;censo_conductores_por_sexo;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/censo_conductores_por_sexo
+posible;Transporte por carretera. Parque de vehículos por antigüedad. Municipios;parque_vehiculos_por_antiguedad;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/parque_vehiculos_por_antiguedad
+posible;Transporte por carretera. Parque de vehículos por tipo de combustible. Municipios;parque_vehiculos_por_combustible;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/parque_vehiculos_por_combustible
+posible;Transporte por carretera. Parque de vehículos por tipo de distintivo ambiental. Municipios;parque_vehiculos_por_distintivo;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/parque_vehiculos_por_distintivo
+posible;Transporte por carretera. Parque de vehículos por tipo de vehículo. Municipios;parque_vehiculos_por_tipo;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/parque_vehiculos_por_tipo
+posible;Turismos por 1.000 habitantes. Municipios;1933826;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1933826
+posible;Utilización de cinturón de seguridad y casco por edad;utilizacion_cinturon_casco_por_edad;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/utilizacion_cinturon_casco_por_edad
+posible;Utilización de cinturón de seguridad y casco por sexo y edad;utilizacion_cinturon_casco_por_sexo_y_edad;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/utilizacion_cinturon_casco_por_sexo_y_edad
+posible;Vehículos autorizados y capacidad de carga para el transporte de mercancías por carretera por tipo de transporte y ámbito;1907940;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1907940
+posible;Vehículos de transporte de mercancías peligrosas controlados y denunciados;1924721;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1924721
+posible;Vehículos de transporte escolar de menores controlados y denunciados;1924720;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/1924720
+posible;Vehículos, plazas y empresas autorizadas para transporte de viajeros por tipo de vehículos;901021;JSON;CSV, JSON;https://datos.comunidad.madrid/dataset/901021
+no;Evolución de la demanda diaria por modo de transporte;spacm_evolucion_demanda_transporte;;HTML;https://datos.comunidad.madrid/dataset/spacm_evolucion_demanda_transporte
