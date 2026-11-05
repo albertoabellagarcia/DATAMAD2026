@@ -1,0 +1,662 @@
+{
+  "server": "https://opendatamodels.org/mcp/v1",
+  "date": "2026-11-05T01:18:19.359448+00:00",
+  "summary": {
+    "PASS": 27,
+    "WARN": 0,
+    "FAIL": 8
+  },
+  "rate_limit_last": {
+    "limit": 60,
+    "remaining": 32,
+    "reset": 53,
+    "window": "60s"
+  },
+  "results": [
+    {
+      "group": "A",
+      "test": "GET /health",
+      "status": "PASS",
+      "detail": "HTTP 200, status=healthy, version=1.0.0, adapter=reachable, uptime=3d 19h 12m",
+      "ms": 204,
+      "response": {
+        "service": "smartdatamodels-mcp",
+        "version": "1.0.0",
+        "api_version": "v1",
+        "uptime_seconds": 328378.5,
+        "uptime_human": "3d 19h 12m",
+        "total_requests": 1979,
+        "timestamp": "2026-11-05T01:18:13.147395Z",
+        "sla": {
+          "target_availability": "99.5%",
+          "max_response_ms": 2000,
+          "retry_after_503_seconds": [
+            5,
+            15,
+            60
+          ],
+          "status_page": "https://opendatamodels.org/mcp/v1/health"
+        },
+        "status": "healthy",
+        "adapter": "MySQLAdapter",
+        "adapter_status": "reachable"
+      }
+    },
+    {
+      "group": "A",
+      "test": "GET /manifest.json",
+      "status": "PASS",
+      "detail": "HTTP 200, valid JSON, tools listed: 15",
+      "ms": 26,
+      "response": {
+        "schema_version": "1.0",
+        "name": "smartdatamodels",
+        "description": "Access Smart Data Models for IoT, Smart Cities, and data space application design",
+        "version": "1.0.0",
+        "api_version": "v1",
+        "mcp_endpoint": "https://opendatamodels.org/mcp/v1",
+        "legacy_endpoint": "https://opendatamodels.org/mcp",
+        "transport": "http",
+        "capabilities": [
+          "tools"
+        ],
+        "rate_limits": {
+          "requests_per_window": 60,
+          "window_seconds": 60,
+          "headers": [
+            "X-RateLimit-Limit",
+            "X-RateLimit-Remaining",
+            "X-RateLimit-Reset"
+          ]
+        },
+        "tools": [
+          {
+            "name": "search_data_models",
+            "description": "Search for data models by keyword or domain"
+          },
+          {
+            "name": "get_data_model",
+            "description": "Get complete schema and metadata for a model"
+          },
+          {
+            "name": "list_domains",
+            "description": "List all available domains with model counts"
+          },
+          {
+            "name": "list_models_by_domain",
+            "description": "List all models in a specific domain"
+          },
+          {
+            "name": "validate_data",
+            "description": "Validate a JSON payload against a model schema"
+          },
+          {
+            "name": "get_related_models",
+            "description": "Find models related to a given model"
+          },
+          {
+            "name": "get_attributes_for_model",
+            "description": "List all attributes of a model with types and units"
+          },
+          {
+            "name": "get_attribute_details",
+            "description": "Get full details for a single model attribute"
+          },
+          {
+            "name": "find_subject_by_model_name",
+            "description": "Resolve the domain/subject from a model name alone"
+          },
+          {
+            "name": "fuzzy_find_model",
+            "description": "Find models by approximate or misspelled name with similarity scoring"
+          },
+          {
+            "name": "get_subject_repo_url",
+            "description": "Get the GitHub repository URL for an SDM subject"
+          },
+          {
+            "name": "get_model_repo_url",
+            "description": "Get the GitHub repository URL(s) for a specific model"
+          },
+          {
+            "name": "get_full_catalog",
+            "description": "Get the complete model catalog for a domain (domain filter required)"
+          },
+          {
+            "name": "export_model_attributes",
+            "description": "Export model attributes as a flat delimited string with selected meta-fields"
+          },
+          {
+            "name": "get_model_context",
+            "description": "Get the NGSI-LD @context URL and content required for valid linked-data payloads"
+          }
+        ]
+      }
+    },
+    {
+      "group": "A",
+      "test": "GET /docs",
+      "status": "PASS",
+      "detail": "HTTP 200, 5001 bytes",
+      "ms": 31,
+      "response": null
+    },
+    {
+      "group": "B",
+      "test": "initialize",
+      "status": "PASS",
+      "detail": "protocol=2024-11-05, server=smartdatamodels 1.0.0, session=no",
+      "ms": 27,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": {
+          "protocolVersion": "2024-11-05",
+          "capabilities": {
+            "tools": {}
+          },
+          "serverInfo": {
+            "name": "smartdatamodels",
+            "version": "1.0.0"
+          },
+          "instructions": "\nYou are connected to the Smart Data Models (SDM) MCP server.\n\n## What are Smart Data Models?\nSmart Data Models (SDM) is an open, multi-sector catalog of standardized data schemas\ngoverned by FIWARE, TM Forum, IUDX, and ITU-T. They define interoperable data formats\nfor IoT, Digital Twins, Smart Cities, and data spaces. All models follow NGSI-LD\n(a JSON-LD standard from ETSI).\n\n## Key Concepts\n\n**Domain**: The top-level industry sector. Examples: SmartCities, SmartEnergy, SmartHealth.\nCall list_domains to see all 13 available domains.\n\n**Model (entity type)**: A specific schema within a domain — e.g., WeatherObserved,\nOffStreetParking, AirQualityObserved. This is the unit you validate against or retrieve\nschemas for.\n\n**Attribute**: A field inside a model. Every attribute has:\n- A name (e.g., temperature)\n- An NGSI type: Property, GeoProperty, or Relationship\n- A data type (e.g., Number, Text, DateTime)\n- Optional: units, reference model URL, format constraints\n\n## Correct Tool Call Sequence\n1. User doesn't know the domain → call list_domains\n2. User knows the domain but not the model → call list_models_by_domain or search_data_models\n3. User has an entity type from a payload but doesn't know its domain → call find_subject_by_model_name\n4. User wants the full schema → call get_data_model\n5. User wants to inspect individual attributes → call get_attributes_for_model or get_attribute_details\n6. User wants to validate a payload → call validate_data (requires model_name + data payload)\n\n## Validation Payloads\nPayloads can be in NGSI-LD normalized format (with type/value wrappers) or key-values format.\nThe validator accepts both. Always pass the data as a parsed JSON object, not a string.\n\n## When Returning Results\nWhen you find a model, always tell the user both the domain and model name so they can\nmake follow-up calls without ambiguity.\n"
+        }
+      }
+    },
+    {
+      "group": "B",
+      "test": "initialize returns server_instructions",
+      "status": "PASS",
+      "detail": "1866 characters",
+      "ms": null,
+      "response": null
+    },
+    {
+      "group": "B",
+      "test": "tools/list returns the 15 documented tools",
+      "status": "PASS",
+      "detail": "15 tools",
+      "ms": 28,
+      "response": [
+        "export_model_attributes",
+        "find_subject_by_model_name",
+        "fuzzy_find_model",
+        "get_attribute_details",
+        "get_attributes_for_model",
+        "get_data_model",
+        "get_full_catalog",
+        "get_model_context",
+        "get_model_repo_url",
+        "get_related_models",
+        "get_subject_repo_url",
+        "list_domains",
+        "list_models_by_domain",
+        "search_data_models",
+        "validate_data"
+      ]
+    },
+    {
+      "group": "B",
+      "test": "every tool has inputSchema and description",
+      "status": "PASS",
+      "detail": "",
+      "ms": null,
+      "response": null
+    },
+    {
+      "group": "C",
+      "test": "search_data_models — query \"traffic\"",
+      "status": "FAIL",
+      "detail": "missing ['TrafficFlowObserved']",
+      "ms": 38,
+      "response": {
+        "query": "traffic",
+        "domain": null,
+        "count": 10,
+        "models": [
+          {
+            "data_model": "WeatherAlert",
+            "description": "Category of the Alert. Enum:'traffic, naturalDisaster, weather, environment, health, security, agriculture'",
+            "repo_name": "dataModel.Weather",
+            "model_tags": "",
+            "license": "https://github.com/smart-data-models/dataModel.Weather/blob/master/WeatherAlert/LICENSE.md",
+            "schema_version": "0.4.1"
+          },
+          {
+            "data_model": "Camera",
+            "description": "Purpose of the camera corresponding to this observation. Enum: [SURVEILLANCE, RLVD, ANPR/LPR, TRAFFIC]",
+            "repo_name": "dataModel.Device",
+            "model_tags": "",
+            "license": "https://github.com/smart-data-models/dataModel.Device/blob/master/Camera/LICENSE.md",
+            "schema_version": "0.1.2"
+          },
+          {
+            "data_model": "DeviceModel",
+            "description": "Anything that can be sensed, measured or controlled by. Enum:'airPollution, atmosphericPressure, averageVelocity, batteryLife, batterySupply, cdom, conductance, conductivity, depth, eatingActivity, electricityConsumption, energy, fillingLevel, freeChlorine, gasConsumption, gateOpening, heading, humidity, light, location, milking, motion, movementActivity, noiseLevel, occupancy, orp, pH, power, precipitation, pressure, refractiveIndex, salinity, smoke, soilMoisture, solarRadiation, speed, tds, temperature, trafficFlow, tss, turbidity, waterConsumption, waterFlow, waterLevel, waterPollution, weatherConditions, weight, windDirection, windSpeed'",
+            "repo_name": "dataModel.Device",
+            "model_tags": "",
+            "license": "https://github.com/smart-data-models/dataModel.Device/blob/master/DeviceModel/LICENSE.md",
+            "schema_version": "0.0.3"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The mailing address",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The country. For example, Spain",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The locality in which the street address is, and which is in the region",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The region in which the locality is, and which is in the country",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "A district is a type of administrative division that, in some countries, is managed by the local government",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The post office box number for PO box addresses. For example, 03578",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          },
+          {
+            "data_model": "TrafficEnvironmentImpact",
+            "description": "The postal code. For example, 24004",
+            "repo_name": "dataModel.Environment",
+            "model_tags": "GreenMov",
+            "license": "https://github.com/smart-data-models/dataModel.Environment/blob/master/TrafficEnvironmentImpact/LICENSE.md",
+            "schema_version": "0.0.2"
+          }
+        ]
+      }
+    },
+    {
+      "group": "C",
+      "test": "search_data_models — with domain filter",
+      "status": "PASS",
+      "detail": "71 chars",
+      "ms": 357,
+      "response": {
+        "query": "traffic",
+        "domain": "SmartCities",
+        "count": 0,
+        "models": []
+      }
+    },
+    {
+      "group": "C",
+      "test": "list_domains — 13 domains",
+      "status": "FAIL",
+      "detail": "0/13 domains",
+      "ms": 1223,
+      "response": "{\"count\": 82, \"domains\": [{\"name\": \"dataModel.AAS\", \"model_count\": 8}, {\"name\": \"dataModel.ACRIS\", \"model_count\": 23}, {\"name\": \"dataModel.Aeronautics\", \"model_count\": 6}, {\"name\": \"dataModel.Agrifood\", \"model_count\": 21}, {\"name\": \"dataModel.Alert\", \"model_count\": 2}, {\"name\": \"dataModel.Aquaculture\", \"model_count\": 7}, {\"name\": \"dataModel.AutonomousMobileRobot\", \"model_count\": 5}, {\"name\": \"dataModel.Battery\", \"model_count\": 4}, {\"name\": \"dataModel.Building\", \"model_count\": 4}, {\"name\": \"dataModel.CallComplaints\", \"model_count\": 4}, {\"name\": \"dataModel.Consumption\", \"model_count\": 2}, {\"name\": \"dataModel.COVID19\", \"model_count\": 2}, {\"name\": \"dataModel.CPSV-AP\", \"model_count\": 9}, {\"name\": \"dataModel.DataQuality\", \"model_count\": 1}, {\"name\": \"dataModel.DataSpace\", \"model_count\": 3}, {\"name\": \"dataModel.DCAT-AP\", \"model_count\": 7}, {\"name\": \"dataModel.Device\", \"model_count\": 11}, {\"name\": \"dataModel.DigitalInnovationHub\", \"model_count\": 2}, {\"name\": \"dataModel.DistributedLedgerTech\", \"model_count\": 1}, {\"name\": \"dataModel.Energy\", \"model_count\": 5}, {\"name\": \"dataModel.EnergyCIM\", \"model_count\": 405}, {\"name\": \"dataModel.EnergyCommunity\", \"model_count\": 2}, {\"name\": \"dataModel.EnergyStorage\", \"model_count\": 4}, {\"name\": \"dataModel.Environment\", \"model_count\": 19}, {\"name\": \"dataModel.ERA\", \"model_count\": 34}, {\"name\": \"dataModel.Forestry\", \"model_count\": 1}, {\"name\": \"dataModel.FrictionlessData\", \"model_count\": 4}, {\"name\": \"dataModel.Gaia-X\", \"model_count\": 4}, {\"name\": \"dataModel.GBFS\", \"model_count\": 13}, {\"name\": \"dataModel.GreenEnergy\", \"model_count\": 5}, {\"name\": \"dataModel.Hl7\", \"model_count\": 9}, {\"name\": \"dataModel.HumanResources\", \"model_count\": 1}, {\"name\": \"dataModel.IndustrialProcess\", \"model_count\": 3}, {\"name\": \"dataModel.IssueTracking\", \"model_count\": 3}, {\"name\": \"dataModel.IT\", \"model_count\": 13}, {\"name\": \"dataModel.KeyPerformanceIndicator\", \"model_count\": 1}, {\"name\": \"dataModel.MachineLearning\", \"model_count\": 3}, {\"name\": \"dataModel.ManufacturingMachine\", \"model_count\": 3}, {\"name\": \"dataModel.MarineTransport\", \"model_count\": 18}, {\"name\": \"dataModel.Multimedia\", \"model_count\": 1}, {\"name\": \"dataModel.OCF\", \"model_count\": 131}, {\"name\": \"dataModel.OPCUA\", \"model_count\": 3}, {\"name\": \"dataModel.OpenChannelManagement\", \"model_count\": 10}, {\"name\": \"dataModel.OpenStreetMap\", \"model_count\": 35}, {\"name\": \"dataModel.Organization\", \"model_count\": 2}, {\"name\": \"dataModel.OSLO\", \"model_count\": 4}, {\"name\": \"dataModel.Parking\", \"model_count\": 5}, {\"name\": \"dataModel.ParksAndGardens\", \"model_count\": 3}, {\"name\": \"dataModel.PointOfInteraction\", \"model_count\": 2}, {\"name\": \"dataModel.PointOfInterest\", \"model_count\": 4}, {\"name\": \"dataModel.Ports\", \"model_count\": 4}, {\"name\": \"dataModel.PredictiveMaintenance\", \"model_count\": 8}, {\"name\": \"dataModel.PublicAccountability\", \"model_count\": 1}, {\"name\": \"dataModel.QueueManagement\", \"model_count\": 1}, {\"name\": \"dataModel.RiskManagement\", \"model_count\": 10}, {\"name\": \"dataModel.RoboticIndustrialActivities\", \"model_count\": 5}, {\"name\": \"dataModel.ROS2\", \"model_count\": 3}, {\"name\": \"dataModel.S4BLDG\", \"model_count\": 52}, {\"name\": \"dataModel.S4SYST\", \"model_count\": 3}, {\"name\": \"dataModel.SAREF\", \"model_count\": 2}, {\"name\": \"dataModel.SatelliteImagery\", \"model_count\": 7}, {\"name\": \"dataModel.SDG\", \"model_count\": 3}, {\"name\": \"dataModel.SDMX\", \"model_count\": 1}, {\"name\": \"dataModel.SmartDataModels\", \"model_count\": 1}, {\"name\": \"dataModel.SocialMedia\", \"model_count\": 5}, {\"name\": \"dataModel.STAT-DCAT-AP\", \"model_count\": 7}, {\"name\": \"dataModel.Streetlighting\", \"model_count\": 5}, {\"name\": \"dataModel.TourismDestinations\", \"model_count\": 8}, {\"name\": \"dataModel.Transportation\", \"model_count\": 27}, {\"name\": \"dataModel.UnmannedAerialVehicle\", \"model_count\": 7}, {\"name\": \"dataModel.UrbanMobility\", \"model_count\": 17}, {\"name\": \"dataModel.User\", \"model_count\": 2}, {\"name\": \"dataModel.VerifiableCredentials\", \"model_count\": 5}, {\"name\": \"dataModel.WasteManagement\", \"model_count\": 4}, {\"na …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "list_models_by_domain",
+      "status": "FAIL",
+      "detail": "isError: {\"code\": \"DOMAIN_NOT_FOUND\", \"message\": \"Domain 'SmartCities' returned no results.\", \"suggestion\": \"Valid domains are: SmartCities, SmartAgrifood, SmartWater, SmartEnergy, SmartEnvironment, SmartRobot",
+      "ms": 110,
+      "response": {
+        "isError": true,
+        "error": {
+          "code": "DOMAIN_NOT_FOUND",
+          "message": "Domain 'SmartCities' returned no results.",
+          "suggestion": "Valid domains are: SmartCities, SmartAgrifood, SmartWater, SmartEnergy, SmartEnvironment, SmartRobotics, SmartSensoring, CrossSector, SmartAeronautics, SmartDestinations, SmartHealth, SmartManufacturing, SmartLogistics. Call list_domains to confirm the exact name."
+        }
+      }
+    },
+    {
+      "group": "C",
+      "test": "get_data_model — full JSON Schema",
+      "status": "PASS",
+      "detail": "found intensity, properties",
+      "ms": 239,
+      "response": "{\"data_model\": \"TrafficFlowObserved\", \"description\": \"The mailing address\", \"repo_name\": \"dataModel.Transportation\", \"model_tags\": \"\", \"license\": \"https://github.com/smart-data-models/dataModel.Transportation/blob/master/TrafficFlowObserved/LICENSE.md\", \"schema_version\": \"0.0.1\", \"context\": \"https://smartdatamodels.org/address\", \"parent_context\": null, \"properties\": [{\"property\": \"address\", \"type\": \"object\", \"type_ngsi\": \"Property\", \"description\": \"The mailing address\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/address\"}, {\"property\": \"addressCountry\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The country. For example, Spain\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressCountry\"}, {\"property\": \"addressLocality\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The locality in which the street address is, and which is in the region\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressLocality\"}, {\"property\": \"addressRegion\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The region in which the locality is, and which is in the country\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressRegion\"}, {\"property\": \"alternateName\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"An alternative name for this item\", \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"areaServed\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The geographic area where a service or offered item is provided\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/Text\"}, {\"property\": \"averageGapDistance\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average gap distance between consecutive vehicles\", \"format\": null, \"enum\": null, \"units\": \"meter (m)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageHeadwayTime\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average headway time. Headway time is the time ellapsed between two consecutive vehicles\", \"format\": null, \"enum\": null, \"units\": \"second (s)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageVehicleLength\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average length of the vehicles transiting during\\n    the observation period\", \"format\": null, \"enum\": null, \"units\": \"meter (m)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageVehicleSpeed\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average speed of the vehicles transiting during the observation period\", \"format\": null, \"enum\": null, \"units\": \"Kilometer per hour (Km/h)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"congested\", \"type\": \"boolean\", \"type_ngsi\": \"Property\", \"description\": \" Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/Boolean\"}, {\"property\": \"coordinates\", \"type\": \"array\", \"type_ngsi\": null, \"description\": nu …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "get_data_model — include_examples=true",
+      "status": "PASS",
+      "detail": "found example",
+      "ms": 239,
+      "response": "{\"data_model\": \"TrafficFlowObserved\", \"description\": \"The mailing address\", \"repo_name\": \"dataModel.Transportation\", \"model_tags\": \"\", \"license\": \"https://github.com/smart-data-models/dataModel.Transportation/blob/master/TrafficFlowObserved/LICENSE.md\", \"schema_version\": \"0.0.1\", \"context\": \"https://smartdatamodels.org/address\", \"parent_context\": null, \"properties\": [{\"property\": \"address\", \"type\": \"object\", \"type_ngsi\": \"Property\", \"description\": \"The mailing address\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/address\"}, {\"property\": \"addressCountry\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The country. For example, Spain\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressCountry\"}, {\"property\": \"addressLocality\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The locality in which the street address is, and which is in the region\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressLocality\"}, {\"property\": \"addressRegion\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The region in which the locality is, and which is in the country\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/addressRegion\"}, {\"property\": \"alternateName\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"An alternative name for this item\", \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"areaServed\", \"type\": \"string\", \"type_ngsi\": \"Property\", \"description\": \"The geographic area where a service or offered item is provided\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/Text\"}, {\"property\": \"averageGapDistance\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average gap distance between consecutive vehicles\", \"format\": null, \"enum\": null, \"units\": \"meter (m)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageHeadwayTime\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average headway time. Headway time is the time ellapsed between two consecutive vehicles\", \"format\": null, \"enum\": null, \"units\": \"second (s)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageVehicleLength\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average length of the vehicles transiting during\\n    the observation period\", \"format\": null, \"enum\": null, \"units\": \"meter (m)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"averageVehicleSpeed\", \"type\": \"number\", \"type_ngsi\": \"Property\", \"description\": \"Average speed of the vehicles transiting during the observation period\", \"format\": null, \"enum\": null, \"units\": \"Kilometer per hour (Km/h)\", \"model\": \"https://schema.org/Number\"}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"bbox\", \"type\": \"array\", \"type_ngsi\": null, \"description\": null, \"format\": null, \"enum\": null, \"units\": null, \"model\": null}, {\"property\": \"congested\", \"type\": \"boolean\", \"type_ngsi\": \"Property\", \"description\": \" Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion\", \"format\": null, \"enum\": null, \"units\": null, \"model\": \"https://schema.org/Boolean\"}, {\"property\": \"coordinates\", \"type\": \"array\", \"type_ngsi\": null, \"description\": nu …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "get_attributes_for_model — attributes + NGSI types",
+      "status": "PASS",
+      "detail": "found intensity, occupancy, averageVehicleSpeed, congested, Property",
+      "ms": 338,
+      "response": "{\"model_name\": \"TrafficFlowObserved\", \"attribute_count\": 40, \"attributes\": [{\"name\": \"id\", \"description\": \"Unique identifier of the entity\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"type\", \"description\": \"\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"address\", \"description\": \"The mailing address (references: https://schema.org/address)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"addressCountry\", \"description\": \"The country. For example, Spain (references: https://schema.org/addressCountry)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"addressLocality\", \"description\": \"The locality in which the street address is, and which is in the region (references: https://schema.org/addressLocality)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"addressRegion\", \"description\": \"The region in which the locality is, and which is in the country (references: https://schema.org/addressRegion)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"alternateName\", \"description\": \"An alternative name for this item\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"areaServed\", \"description\": \"The geographic area where a service or offered item is provided (references: https://schema.org/Text)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"averageGapDistance\", \"description\": \"Average gap distance between consecutive vehicles (units: meter (m)) (references: https://schema.org/Number)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"averageHeadwayTime\", \"description\": \"Average headway time. Headway time is the time ellapsed between two consecutive vehicles (units: second (s)) (references: https://schema.org/Number)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"averageVehicleLength\", \"description\": \"Average length of the vehicles transiting during\\n    the observation period (units: meter (m)) (references: https://schema.org/Number)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"averageVehicleSpeed\", \"description\": \"Average speed of the vehicles transiting during the observation period (units: Kilometer per hour (Km/h)) (references: https://schema.org/Number)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"bbox\", \"description\": \"\", \"type\": \"array\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"congested\", \"description\": \" Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion (references: https://schema.org/Boolean)\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"coordinates\", \"description\": \"\", \"type\": \"array\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"dataProvider\", \"description\": \"A sequence of characters identifying the provider of the harmonised data entity\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": null}, {\"name\": \"dateCreated\", \"description\": \"Entity creation timestamp. This will usually be allocated by the storage platform\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": \"date-time\"}, {\"name\": \"dateModified\", \"description\": \"Timestamp of the last modification of the entity. This will usually be allocated by the storage platform\", \"type\": \"string\", \"ngsiType\": \"Property\", \"units\": null, \"model\": null, \"format\": \"date …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "get_attribute_details — averageVehicleSpeed",
+      "status": "PASS",
+      "detail": "found averageVehicleSpeed",
+      "ms": 306,
+      "response": {
+        "model_name": "TrafficFlowObserved",
+        "attribute": "averageVehicleSpeed",
+        "description": "Average speed of the vehicles transiting during the observation period (units: Kilometer per hour (Km/h)) (references: https://schema.org/Number)",
+        "type": "string",
+        "ngsiType": "Property",
+        "units": null,
+        "model": null,
+        "format": null,
+        "enum": null,
+        "minimum": null,
+        "maximum": null
+      }
+    },
+    {
+      "group": "C",
+      "test": "find_subject_by_model_name — resolves to subject",
+      "status": "FAIL",
+      "detail": "missing ['dataModel.Transportation']",
+      "ms": 265,
+      "response": {
+        "model_name": null,
+        "domain": null,
+        "subject": null,
+        "description": "The mailing address",
+        "next_step": "Call get_data_model({\"model_name\": \"None\"}) to retrieve the full schema."
+      }
+    },
+    {
+      "group": "C",
+      "test": "fuzzy_find_model — misspelled \"TraficFlowObservd\"",
+      "status": "PASS",
+      "detail": "found TrafficFlowObserved",
+      "ms": 250,
+      "response": "{\"query\": \"TraficFlowObservd\", \"threshold\": 70, \"match_count\": 39, \"matches\": [{\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": null, \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \" Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A description of this item\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A district is a type of administrative division that, in some countries, is managed by the local government\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A sequence of characters identifying the provider of the harmonised data entity\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"An alternative name for this item\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average gap distance between consecutive vehicles\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average headway time. Headway time is the time ellapsed between two consecutive vehicles\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average length of the vehicles transiting during\\n    the observation period\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average speed of the vehicles transiting during the observation period\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Concerned road segment on which the observation has been made. Reference to an entity of type RoadSegment\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Entity creation timestamp. This will usually be allocated by the storage platform\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Flags whether traffic in the lane was reversed during the observation period. The absence of this attribute means no lane reversion\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Fraction of the observation time where a vehicle has been occupying the observed lane\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"It allows to specify a sub type of `vehicleType`, eg if the `vehicleType` is set to `Lorry` the `vehicleSubType` may be `OGV1` or `OGV2` to convey more information about the exact type of vehicle\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Lane identifier. Lane identification is done using the conventions defined by RoadSegment entity which are based on [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right)\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObse …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "get_subject_repo_url — GitHub URL",
+      "status": "PASS",
+      "detail": "found github.com, Transportation",
+      "ms": 32,
+      "response": {
+        "subject": "dataModel.Transportation",
+        "repository_url": "https://github.com/smart-data-models/dataModel.Transportation",
+        "note": "This is the authoritative GitHub repository containing all schemas for this subject."
+      }
+    },
+    {
+      "group": "C",
+      "test": "get_model_repo_url",
+      "status": "FAIL",
+      "detail": "isError: {\"code\": \"MODEL_NOT_FOUND\", \"message\": \"No repository found for model 'TrafficFlowObserved'.\", \"suggestion\": \"Use fuzzy_find_model to check the correct spelling.\"}",
+      "ms": 120,
+      "response": {
+        "isError": true,
+        "error": {
+          "code": "MODEL_NOT_FOUND",
+          "message": "No repository found for model 'TrafficFlowObserved'.",
+          "suggestion": "Use fuzzy_find_model to check the correct spelling."
+        }
+      }
+    },
+    {
+      "group": "C",
+      "test": "get_full_catalog",
+      "status": "FAIL",
+      "detail": "isError: {\"code\": \"DOMAIN_NOT_FOUND\", \"message\": \"No catalog entries found for domain 'SmartCities'.\", \"suggestion\": \"Call list_domains to confirm the exact domain name.\"}",
+      "ms": 124,
+      "response": {
+        "isError": true,
+        "error": {
+          "code": "DOMAIN_NOT_FOUND",
+          "message": "No catalog entries found for domain 'SmartCities'.",
+          "suggestion": "Call list_domains to confirm the exact domain name."
+        }
+      }
+    },
+    {
+      "group": "C",
+      "test": "export_model_attributes — CSV export",
+      "status": "PASS",
+      "detail": "delimited export with intensity",
+      "ms": 234,
+      "response": "{\"model_name\": \"TrafficFlowObserved\", \"separator\": \",\", \"fields\": [\"property\", \"type\", \"typeNGSI\", \"units\", \"description\"], \"header\": \"property,type,typeNGSI,units,description\", \"rows\": [\"address,object,Property,,The mailing address\", \"addressCountry,string,Property,,\\\"The country. For example, Spain\\\"\", \"addressLocality,string,Property,,\\\"The locality in which the street address is, and which is in the region\\\"\", \"addressRegion,string,Property,,\\\"The region in which the locality is, and which is in the country\\\"\", \"alternateName,string,Property,,An alternative name for this item\", \"areaServed,string,Property,,The geographic area where a service or offered item is provided\", \"averageGapDistance,number,Property,meter (m),Average gap distance between consecutive vehicles\", \"averageHeadwayTime,number,Property,second (s),Average headway time. Headway time is the time ellapsed between two consecutive vehicles\", \"averageVehicleLength,number,Property,meter (m),Average length of the vehicles transiting during\\n    the observation period\", \"averageVehicleSpeed,number,Property,Kilometer per hour (Km/h),Average speed of the vehicles transiting during the observation period\", \"bbox,array,,,\", \"congested,boolean,Property,, Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion\", \"coordinates,array,,,\", \"dataProvider,string,Property,,A sequence of characters identifying the provider of the harmonised data entity\", \"dateCreated,string,Property,,Entity creation timestamp. This will usually be allocated by the storage platform\", \"dateModified,string,Property,,Timestamp of the last modification of the entity. This will usually be allocated by the storage platform\", \"dateObserved,string,Property,,\\\"The date and time of this observation in ISO8601 UTC format. It can be represented by an specific time instant or by an ISO8601 interval. As a workaround for the lack of support of Orion Context Broker for datetime intervals, it can be used two separate attributes: `dateObservedFrom`, `dateObservedTo`. [DateTime](https://schema.org/DateTime) or an ISO8601 interval represented as [Text](https://schema.org/Text)\\\"\", \"dateObservedFrom,string,Property,,Observation period start date and time. See `dateObserved`\", \"dateObservedTo,string,Property,,Observation period end date and time. See `dateObserved`\", \"description,string,Property,,A description of this item\", \"district,string,Property,,\\\"A district is a type of administrative division that, in some countries, is managed by the local government\\\"\", \"id,string,Property,,Unique identifier of the entity\", \"intensity,number,Property,,Total number of vehicles detected during this observation period\", \"laneDirection,string,Property,,\\\"Usual direction of travel in the lane referred by this observation. This attribute is useful when the observation is not referencing any road segment, allowing to know the direction of travel of the traffic flow observed. Enum:forward, backward'. See RoadSegment for a description of the semantics of these values\\\"\", \"laneId,number,Property,,\\\"Lane identifier. Lane identification is done using the conventions defined by RoadSegment entity which are based on [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right)\\\"\", \"location,,GeoProperty,,\\\"Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon\\\"\", \"name,string,Property,,The name of this item\", \"occupancy,number,Property,,Fraction of the observation time where a vehicle has been occupying the observed lane\", \"owner,array,Property,,A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)\", \"postalCode,string,Property,,\\\"The postal code. For example, 24004\\\"\", \"postOfficeBoxNumber,string,Property,,\\\"The post office box number for PO box addresses. For example, 03578\\\"\", \"refRoadSegment,string,Relationshi …(truncated)"
+    },
+    {
+      "group": "C",
+      "test": "get_model_context — @context for NGSI-LD",
+      "status": "PASS",
+      "detail": "found context",
+      "ms": 120,
+      "response": {
+        "model_name": "TrafficFlowObserved",
+        "context_url": "https://smartdatamodels.org/address",
+        "context": null,
+        "usage": "Include this @context in your NGSI-LD payload: {\"@context\": \"https://smartdatamodels.org/address\", ...rest of payload}"
+      }
+    },
+    {
+      "group": "C",
+      "test": "get_related_models — related models",
+      "status": "PASS",
+      "detail": "172 chars",
+      "ms": 287,
+      "response": {
+        "model_name": "TrafficFlowObserved",
+        "relationship_type": "all",
+        "count": 1,
+        "related_models": [
+          {
+            "name": "https://smartdatamodels.org/address",
+            "relationship": "parent"
+          }
+        ]
+      }
+    },
+    {
+      "group": "C",
+      "test": "validate_data — Madrid point (key-values) is valid",
+      "status": "FAIL",
+      "detail": "valid=False, errors=[\"At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)\", \"At 'congested': False is not of type 'string' (validator: type)\", \"At 'intensity': 80 is not of type 'string' (validator: type)\", \"At 'occupancy': 0.01 is not of type 'string' (validator: type)\"]",
+      "ms": 269,
+      "response": {
+        "isError": false,
+        "model_name": "TrafficFlowObserved",
+        "valid": false,
+        "errors": [
+          "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+          "At 'congested': False is not of type 'string' (validator: type)",
+          "At 'intensity': 80 is not of type 'string' (validator: type)",
+          "At 'occupancy': 0.01 is not of type 'string' (validator: type)"
+        ],
+        "detail": {
+          "valid": false,
+          "errors": [
+            "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+            "At 'congested': False is not of type 'string' (validator: type)",
+            "At 'intensity': 80 is not of type 'string' (validator: type)",
+            "At 'occupancy': 0.01 is not of type 'string' (validator: type)"
+          ],
+          "warnings": [
+            "Recommended property 'dateCreated' is missing",
+            "Recommended property 'dateModified' is missing",
+            "Recommended property 'source' is missing"
+          ]
+        }
+      }
+    },
+    {
+      "group": "C",
+      "test": "validate_data — same point in NGSI-LD normalized",
+      "status": "FAIL",
+      "detail": "valid=False, errors=[\"At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)\", \"At 'dateObserved': {'type': 'Property', 'value': '2026-11-05T11:15:00Z'} is not of type 'string' (validator: type)\", \"At 'intensity': {'type': 'Property', 'value': 80} is not of type 'string' (validator: type)\"]",
+      "ms": 347,
+      "response": {
+        "isError": false,
+        "model_name": "TrafficFlowObserved",
+        "valid": false,
+        "errors": [
+          "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+          "At 'dateObserved': {'type': 'Property', 'value': '2026-11-05T11:15:00Z'} is not of type 'string' (validator: type)",
+          "At 'intensity': {'type': 'Property', 'value': 80} is not of type 'string' (validator: type)"
+        ],
+        "detail": {
+          "valid": false,
+          "errors": [
+            "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+            "At 'dateObserved': {'type': 'Property', 'value': '2026-11-05T11:15:00Z'} is not of type 'string' (validator: type)",
+            "At 'intensity': {'type': 'Property', 'value': 80} is not of type 'string' (validator: type)"
+          ],
+          "warnings": [
+            "Recommended property 'dateCreated' is missing",
+            "Recommended property 'dateModified' is missing",
+            "Recommended property 'source' is missing"
+          ]
+        }
+      }
+    },
+    {
+      "group": "D",
+      "test": "invalid payload (intensity=\"mucho\") -> isError false, valid false",
+      "status": "PASS",
+      "detail": "isError=False, valid=False, errors=[\"At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)\", \"At 'congested': False is not of type 'string' (validator: type)\", \"At ",
+      "ms": 314,
+      "response": {
+        "isError": false,
+        "model_name": "TrafficFlowObserved",
+        "valid": false,
+        "errors": [
+          "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+          "At 'congested': False is not of type 'string' (validator: type)",
+          "At 'occupancy': 0.01 is not of type 'string' (validator: type)"
+        ],
+        "detail": {
+          "valid": false,
+          "errors": [
+            "At 'type': 'TrafficFlowObserved' is not one of ['Point'] (validator: enum)",
+            "At 'congested': False is not of type 'string' (validator: type)",
+            "At 'occupancy': 0.01 is not of type 'string' (validator: type)"
+          ],
+          "warnings": [
+            "Recommended property 'dateCreated' is missing",
+            "Recommended property 'dateModified' is missing",
+            "Recommended property 'source' is missing"
+          ]
+        }
+      }
+    },
+    {
+      "group": "D",
+      "test": "unknown model \"TraficFlowObservd\" -> MODEL_NOT_FOUND",
+      "status": "PASS",
+      "detail": "isError=True, code=MODEL_NOT_FOUND",
+      "ms": 121,
+      "response": {
+        "isError": true,
+        "error": {
+          "code": "MODEL_NOT_FOUND",
+          "message": "Data model 'TraficFlowObservd' was not found.",
+          "suggestion": "Check the spelling — model names are CamelCase (e.g., 'WeatherObserved'). Use search_data_models to find the correct name."
+        }
+      }
+    },
+    {
+      "group": "D",
+      "test": "error includes a suggestion",
+      "status": "PASS",
+      "detail": "Check the spelling — model names are CamelCase (e.g., 'WeatherObserved'). Use search_data_models to find the correct nam",
+      "ms": null,
+      "response": null
+    },
+    {
+      "group": "D",
+      "test": "recovery step 1: fuzzy_find_model proposes the right name",
+      "status": "PASS",
+      "detail": "TrafficFlowObserved found",
+      "ms": 182,
+      "response": "{\"query\": \"TraficFlowObservd\", \"threshold\": 70, \"match_count\": 39, \"matches\": [{\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": null, \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \" Flags whether there was a traffic congestion during the observation period in the referred lane. The absence of this attribute means no traffic congestion\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A description of this item\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A district is a type of administrative division that, in some countries, is managed by the local government\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"A sequence of characters identifying the provider of the harmonised data entity\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"An alternative name for this item\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average gap distance between consecutive vehicles\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average headway time. Headway time is the time ellapsed between two consecutive vehicles\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average length of the vehicles transiting during\\n    the observation period\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Average speed of the vehicles transiting during the observation period\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Concerned road segment on which the observation has been made. Reference to an entity of type RoadSegment\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Entity creation timestamp. This will usually be allocated by the storage platform\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Flags whether traffic in the lane was reversed during the observation period. The absence of this attribute means no lane reversion\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Fraction of the observation time where a vehicle has been occupying the observed lane\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"It allows to specify a sub type of `vehicleType`, eg if the `vehicleType` is set to `Lorry` the `vehicleSubType` may be `OGV1` or `OGV2` to convey more information about the exact type of vehicle\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObserved\", \"score\": 94, \"description\": \"Lane identifier. Lane identification is done using the conventions defined by RoadSegment entity which are based on [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right)\", \"repo_name\": \"dataModel.Transportation\"}, {\"name\": \"TrafficFlowObse …(truncated)"
+    },
+    {
+      "group": "D",
+      "test": "recovery step 2: retry with corrected name succeeds",
+      "status": "PASS",
+      "detail": "",
+      "ms": 329,
+      "response": null
+    },
+    {
+      "group": "D",
+      "test": "invalid domain \"SmartMars\" -> structured error",
+      "status": "PASS",
+      "detail": "isError=True, code=DOMAIN_NOT_FOUND",
+      "ms": 179,
+      "response": {
+        "isError": true,
+        "error": {
+          "code": "DOMAIN_NOT_FOUND",
+          "message": "Domain 'SmartMars' returned no results.",
+          "suggestion": "Valid domains are: SmartCities, SmartAgrifood, SmartWater, SmartEnergy, SmartEnvironment, SmartRobotics, SmartSensoring, CrossSector, SmartAeronautics, SmartDestinations, SmartHealth, SmartManufacturing, SmartLogistics. Call list_domains to confirm the exact name."
+        }
+      }
+    },
+    {
+      "group": "D",
+      "test": "unknown tool -> error",
+      "status": "PASS",
+      "detail": "{\"jsonrpc\": \"2.0\", \"id\": 26, \"error\": {\"code\": -32601, \"message\": \"Unknown tool: does_not_exist\"}}",
+      "ms": 37,
+      "response": null
+    },
+    {
+      "group": "E",
+      "test": "rate-limit headers present",
+      "status": "PASS",
+      "detail": "limit=60, remaining=33, reset=53, window=60s",
+      "ms": null,
+      "response": null
+    },
+    {
+      "group": "E",
+      "test": "response times within SLA (2000 ms)",
+      "status": "PASS",
+      "detail": "30 requests, avg 213 ms, max 1223 ms",
+      "ms": null,
+      "response": null
+    },
+    {
+      "group": "E",
+      "test": "legacy /mcp sends Deprecation + Sunset headers",
+      "status": "PASS",
+      "detail": "HTTP 200, Deprecation=true, Sunset=2026-12-31",
+      "ms": 27,
+      "response": null
+    }
+  ]
+}
