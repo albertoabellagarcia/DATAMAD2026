@@ -1,0 +1,47 @@
+{
+  "ingestion_id": "ING_1795434934115",
+  "timestamp": "2026-11-23T11:55:29.647Z",
+  "previous_timestamp": "2026-11-17T10:01:21.346Z",
+  "source_url": "https://datos.madrid.es/dataset/212774-0-atencion-social/resource/212774-0-atencion-social-csv/download/212774-0-atencion-social-csv.csv",
+  "sha256_hash": "1d7324bf3a0c99870f077deeef6e1385bcce7de1625ed1431bb9e1022ac61cee",
+  "file_size_bytes": 832753,
+  "extracted_records_count": 613,
+  "total_combined_records": 5500,
+  "status": "SUCCESS",
+  "verification_notes": "Descarga directa e íntegra (sin re-codificación) de 3 registros oficiales abiertos: Ayuntamiento de Madrid y Comunidad de Madrid (Centros y Servicios). Firma SHA-256 verificada byte a byte en disco.",
+  "sources": [
+    {
+      "source_id": "madrid_municipal",
+      "source_name": "Catálogo de Centros de Atención Social (Ayuntamiento de Madrid - datos.madrid.es)",
+      "source_url": "https://datos.madrid.es/dataset/212774-0-atencion-social/resource/212774-0-atencion-social-csv/download/212774-0-atencion-social-csv.csv",
+      "file": "snapshot-latest.csv",
+      "encoding": "latin1",
+      "sha256_hash": "1d7324bf3a0c99870f077deeef6e1385bcce7de1625ed1431bb9e1022ac61cee",
+      "file_size_bytes": 832753,
+      "extracted_records_count": 613,
+      "status": "SUCCESS"
+    },
+    {
+      "source_id": "cam_centros",
+      "source_name": "Registro de Centros de Atención Social (Comunidad de Madrid - datos.comunidad.madrid)",
+      "source_url": "https://datos.comunidad.madrid/dataset/b8cdb7f7-3185-4938-800a-fefda72333f5/resource/0d815439-396e-4975-983e-5bb421f617a0/download/atencion_social_registro_centros.csv",
+      "file": "cam-centros-latest.csv",
+      "encoding": "utf-8",
+      "sha256_hash": "f0856b4696961e554f1a8097c7505b54bc36891622a194313bb63d0323e5cf14",
+      "file_size_bytes": 1053619,
+      "extracted_records_count": 2633,
+      "status": "SUCCESS"
+    },
+    {
+      "source_id": "cam_servicios",
+      "source_name": "Registro de Servicios de Atención Social (Comunidad de Madrid - datos.comunidad.madrid)",
+      "source_url": "https://datos.comunidad.madrid/dataset/95c75a5f-40ea-4af7-8b62-860918224c02/resource/1feb4b85-58da-4178-9391-f8821629ed7e/download/atencion_social_registro_servicios.csv",
+      "file": "cam-servicios-latest.csv",
+      "encoding": "utf-8",
+      "sha256_hash": "9cfb71e8b200f0a9bd0e55469ca3428a10dd217fbfce0fb96b066ba2e3b4c429",
+      "file_size_bytes": 904207,
+      "extracted_records_count": 2254,
+      "status": "SUCCESS"
+    }
+  ]
+}

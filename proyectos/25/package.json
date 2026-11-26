@@ -1,0 +1,59 @@
+{
+  "name": "madrid-apoyo-especializado",
+  "private": true,
+  "version": "1.9.0",
+  "description": "Buscador ciudadano basado en datos abiertos oficiales para localizar recursos de atención social autorizados en la Comunidad de Madrid y el Ayuntamiento de Madrid.",
+  "license": "Apache-2.0",
+  "homepage": "https://madrid-apoyo-especializado.herasr.workers.dev/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herasr/Madrid-Apoyo-Especializado.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@11.19.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "ingest": "tsx scripts/ingest.ts",
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/leaflet": "^1.9.22",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitest/coverage-v8": "5.1.0",
+    "esbuild": "^0.27.0",
+    "fast-check": "^4.10.3",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.0"
+  }
+
+}

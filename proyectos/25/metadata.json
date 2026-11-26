@@ -1,0 +1,6 @@
+{
+  "name": "Madrid Apoyo Especializado v1.7",
+  "description": "Buscador de recursos de atención social autorizados de la Comunidad de Madrid y Ayuntamiento de Madrid por perfil, necesidad de apoyo y nivel de evidencia registral. DATAMAD 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
