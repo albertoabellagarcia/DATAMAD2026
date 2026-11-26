@@ -2,7 +2,7 @@
 
 **DATAMAD 2026 · Hackathon de Datos Abiertos de la Comunidad de Madrid**
 
-**Integrantes:** COMPLETAR ANTES DE SUBIR
+**Integrantes:** IÑIGO DÍEZ OSÚA
 
 CercaSalud MAD mide a cuántos minutos, a pie y en transporte público, queda cada persona de la Comunidad de Madrid de los recursos de salud que necesita, y señala dónde conviene actuar:
 
