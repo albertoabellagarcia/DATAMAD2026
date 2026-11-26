@@ -1,0 +1,236 @@
+{
+ "files": [
+  {
+   "id": "alquiler-mivau",
+   "title": "Alquiler por municipio 2011 a 2024 (VDP001_01, Ministerio de Vivienda y Agenda Urbana)",
+   "license": "Reutilización con las condiciones del artículo 7 y el anexo del RD 1495/2011 (deducida de su artículo 8.1; el conjunto no trae licencia escrita)",
+   "file": "VDP001_01.csv",
+   "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+   "downloaded": "2026-11-26T00:56:43+01:00",
+   "bytes": 37788115,
+   "sha256": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61"
+  },
+  {
+   "id": "relieve-ign-200",
+   "title": "Modelo digital del terreno a 200 m (IGN)",
+   "license": "CC BY 4.0 scne.es",
+   "file": "relieve-ign-200.tif",
+   "url": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=Elevacion25830_200&subset=x(365000,496000)&subset=y(4415000,4558000)&format=image/tiff",
+   "downloaded": "2026-11-26T00:56:44+01:00",
+   "bytes": 938066,
+   "sha256": "b7ab2514a2335883dd781ed200f63d0427ee40dcbb45462b79eeae5421267ac2",
+   "declared_by_service": {
+    "url": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&version=2.0.1&request=GetCapabilities",
+    "read": "2026-11-26T00:56:44+01:00",
+    "sha256": "30c95575991611cd15924369d2a3ad5066aa9a81ff68f8e549c71bdc6c638d3f",
+    "Fees": "No se aplican condiciones",
+    "AccessConstraints": "CC BY 4.0 scne.es"
+   }
+  },
+  {
+   "id": "registro-sanitario",
+   "title": "Registro de centros, servicios y establecimientos sanitarios",
+   "license": "cc-by",
+   "file": "centros_servicios_establecimientos_sanitarios.csv",
+   "url": "https://datos.comunidad.madrid/dataset/d8a0a444-adf5-4c04-8999-0eac3de52cb7/resource/2948b4da-8b39-42b7-b667-779a5284f39d/download/centros_servicios_establecimientos_sanitarios.csv",
+   "downloaded": "2026-11-26T00:56:45+01:00",
+   "bytes": 7927521,
+   "sha256": "08d3d1ff38fdb160412d19ffa90ede2236c6b52e16024747bedcf0aa1448e9a4",
+   "declared_by_service": {
+    "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=d8a0a444-adf5-4c04-8999-0eac3de52cb7",
+    "read": "2026-11-26T00:56:45+01:00",
+    "sha256": "7ed0135d545f7b522234395cbe3c52b1c8522d01e3f84d652ac320902adb008c",
+    "title": "Centros, servicios y establecimientos sanitarios",
+    "license_id": "cc-by",
+    "license_title": "Creative Commons Attribution",
+    "metadata_modified": "2026-11-25T06:06:36.462148",
+    "resources": [
+     {
+      "url": "https://datos.comunidad.madrid/dataset/d8a0a444-adf5-4c04-8999-0eac3de52cb7/resource/2948b4da-8b39-42b7-b667-779a5284f39d/download/centros_servicios_establecimientos_sanitarios.csv",
+      "last_modified": "2026-11-25T06:06:36.453024"
+     },
+     {
+      "url": "https://datos.comunidad.madrid/dataset/d8a0a444-adf5-4c04-8999-0eac3de52cb7/resource/94090084-2276-4a07-87b4-cd028ea6b46d/download/centros_servicios_establecimientos_sanitarios.json",
+      "last_modified": "2026-11-25T06:06:30.688228"
+     }
+    ]
+   }
+  },
+  {
+   "id": "oficinas-farmacia",
+   "title": "Oficinas de farmacia",
+   "license": "cc-by",
+   "file": "oficinas_farmacia.csv",
+   "url": "https://datos.comunidad.madrid/dataset/2d682b1d-e2e8-4c6f-b902-7a3f108e2fb9/resource/904a161b-f339-4296-be61-1ae914494c89/download/oficinas_farmacia.csv",
+   "downloaded": "2026-11-26T00:56:45+01:00",
+   "bytes": 293533,
+   "sha256": "aaf5a17b7019d27beb82512f684d363494f91808dc238aa86e8db57b93147e63",
+   "declared_by_service": {
+    "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=2d682b1d-e2e8-4c6f-b902-7a3f108e2fb9",
+    "read": "2026-11-26T00:56:45+01:00",
+    "sha256": "f906c2a2b1ca1e6f131a8e5fc9d99ea85f99b604240c07abe4760eb38344ad67",
+    "title": "Oficinas de farmacia",
+    "license_id": "cc-by",
+    "license_title": "Creative Commons Attribution",
+    "metadata_modified": "2026-11-23T06:05:46.251259",
+    "resources": [
+     {
+      "url": "https://datos.comunidad.madrid/dataset/2d682b1d-e2e8-4c6f-b902-7a3f108e2fb9/resource/904a161b-f339-4296-be61-1ae914494c89/download/oficinas_farmacia.csv",
+      "last_modified": "2026-11-23T06:05:46.240645"
+     },
+     {
+      "url": "https://datos.comunidad.madrid/dataset/2d682b1d-e2e8-4c6f-b902-7a3f108e2fb9/resource/6f1a2274-740c-47b5-a06d-2ab6ffb30685/download/oficinas_farmacia.json",
+      "last_modified": "2026-11-23T06:05:40.805792"
+     }
+    ]
+   }
+  },
+  {
+   "id": "crtm-bus-interurbano",
+   "title": "Paradas de autobús interurbano (CRTM)",
+   "license": "Licencia de uso del CRTM, https://www.crtm.es/licencia-de-uso",
+   "file": "crtm-bus-interurbano.geojson",
+   "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M8_Red/FeatureServer/0/query?where=1%3D1&outFields=CODIGOMUNICIPIO%2CCODIGOPROVINCIA%2CDENOMINACION&outSR=25830&geometryPrecision=0&f=geojson",
+   "downloaded": "2026-11-26T00:56:47+01:00",
+   "bytes": 1598901,
+   "sha256": "75320b060fac2976dd954c2dcefb2d5fb460bc411b8fe050863be6e60789716c",
+   "declared_by_service": {
+    "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M8_Red/FeatureServer/0?f=json",
+    "read": "2026-11-26T00:56:47+01:00",
+    "sha256": "5c193dc41c8069ce7927c170421f9edbdc5ec0e10b6d531e5971e504b586c784",
+    "name": "M8_Estaciones",
+    "copyrightText": "© CRTM",
+    "maxRecordCount": 16000,
+    "editingInfo": {
+     "lastEditDate": 1780573861510,
+     "schemaLastEditDate": 1780573861510,
+     "dataLastEditDate": 1780554899038
+    },
+    "count": 8686
+   }
+  },
+  {
+   "id": "crtm-metro",
+   "title": "Estaciones de metro (CRTM)",
+   "license": "Licencia de uso del CRTM, https://www.crtm.es/licencia-de-uso",
+   "file": "crtm-metro.geojson",
+   "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M4_Red/FeatureServer/0/query?where=1%3D1&outFields=CODIGOMUNICIPIO%2CCODIGOPROVINCIA%2CDENOMINACION&outSR=25830&geometryPrecision=0&f=geojson",
+   "downloaded": "2026-11-26T00:56:49+01:00",
+   "bytes": 49948,
+   "sha256": "5e60446e1f87ced7caf729f3442f6469d0e081d72911827693763bb484502a60",
+   "declared_by_service": {
+    "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M4_Red/FeatureServer/0?f=json",
+    "read": "2026-11-26T00:56:49+01:00",
+    "sha256": "7856714a07ce2cb6143d72cbde1702bb33060df3454e000dc949c145634b8839",
+    "name": "M4_Estaciones",
+    "copyrightText": "",
+    "maxRecordCount": 1000,
+    "editingInfo": {
+     "lastEditDate": 1780644450398,
+     "schemaLastEditDate": 1780644450398,
+     "dataLastEditDate": 1780579731347
+    },
+    "count": 293
+   }
+  },
+  {
+   "id": "crtm-cercanias",
+   "title": "Estaciones de cercanías (CRTM)",
+   "license": "Licencia de uso del CRTM, https://www.crtm.es/licencia-de-uso",
+   "file": "crtm-cercanias.geojson",
+   "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M5_Red/FeatureServer/0/query?where=1%3D1&outFields=CODIGOMUNICIPIO%2CCODIGOPROVINCIA%2CDENOMINACION&outSR=25830&geometryPrecision=0&f=geojson",
+   "downloaded": "2026-11-26T00:56:50+01:00",
+   "bytes": 19159,
+   "sha256": "7bdb25cca3107b672b4e44e34beacaf20985a474c3ca491c0f65d9e8342aa53f",
+   "declared_by_service": {
+    "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M5_Red/FeatureServer/0?f=json",
+    "read": "2026-11-26T00:56:50+01:00",
+    "sha256": "bbc8ba8975e65473c18f9dce8f55ee15d6f846cb324d68d96c1b3dd2d1383ef0",
+    "name": "M5_Estaciones",
+    "copyrightText": "",
+    "maxRecordCount": 1000,
+    "editingInfo": {
+     "lastEditDate": 1780574583891,
+     "schemaLastEditDate": 1780574583891,
+     "dataLastEditDate": 1780574402441
+    },
+    "count": 111
+   }
+  },
+  {
+   "id": "crtm-metro-ligero",
+   "title": "Paradas de metro ligero (CRTM)",
+   "license": "Licencia de uso del CRTM, https://www.crtm.es/licencia-de-uso",
+   "file": "crtm-metro-ligero.geojson",
+   "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M10_Red/FeatureServer/0/query?where=1%3D1&outFields=CODIGOMUNICIPIO%2CCODIGOPROVINCIA%2CDENOMINACION&outSR=25830&geometryPrecision=0&f=geojson",
+   "downloaded": "2026-11-26T00:56:52+01:00",
+   "bytes": 9945,
+   "sha256": "711c33780d0277f7053dcdf66692d0431440e508aa2f689784672f14e0627c78",
+   "declared_by_service": {
+    "url": "https://services5.arcgis.com/UxADft6QPcvFyDU1/arcgis/rest/services/M10_Red/FeatureServer/0?f=json",
+    "read": "2026-11-26T00:56:52+01:00",
+    "sha256": "a214d6862f10247fd51d56e945c6dfeafca39aafb4512de99d0baf8005b5d95b",
+    "name": "M10_Estaciones",
+    "copyrightText": "",
+    "maxRecordCount": 1000,
+    "editingInfo": {
+     "lastEditDate": 1780656427945,
+     "schemaLastEditDate": 1780656427945,
+     "dataLastEditDate": 1780651209814
+    },
+    "count": 57
+   }
+  },
+  {
+   "id": "idem-deporte",
+   "title": "Instalaciones deportivas, EIEL 2023 (IDEM)",
+   "license": "CC BY 4.0 Comunidad de Madrid",
+   "file": "idem-deporte.geojson",
+   "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=ServiciosPublicos:IDEM_EIEL_INSTAL_DEPORTIVA_23&outputFormat=application/json&srsName=EPSG:25830",
+   "downloaded": "2026-11-26T00:56:53+01:00",
+   "bytes": 657040,
+   "sha256": "c9bc702d7bb75ed938ae574990602aa09a4c4eb62bd072f73ef5ed688a77d570",
+   "declared_by_service": {
+    "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "read": "2026-11-26T00:56:54+01:00",
+    "sha256": "b2a437f9663801161e6e2d794d3ddae5d5f5448f5816ca8c6d9465c9aa0a8e4b",
+    "Fees": "NONE",
+    "AccessConstraints": "CC BY 4.0 Comunidad de Madrid"
+   }
+  },
+  {
+   "id": "idem-parques",
+   "title": "Parques, EIEL 2023 (IDEM)",
+   "license": "CC BY 4.0 Comunidad de Madrid",
+   "file": "idem-parques.geojson",
+   "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=CubiertaTerrestre:IDEM_EIEL_PARQUE_23&outputFormat=application/json&srsName=EPSG:25830",
+   "downloaded": "2026-11-26T00:56:54+01:00",
+   "bytes": 1467138,
+   "sha256": "211e277b4afd65744f08b0c925d9642e4b9a52232276afd14ead5fc80fe1366a",
+   "declared_by_service": {
+    "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "read": "2026-11-26T00:56:54+01:00",
+    "sha256": "b2a437f9663801161e6e2d794d3ddae5d5f5448f5816ca8c6d9465c9aa0a8e4b",
+    "Fees": "NONE",
+    "AccessConstraints": "CC BY 4.0 Comunidad de Madrid"
+   }
+  },
+  {
+   "id": "idem-cultura",
+   "title": "Centros culturales, EIEL 2023 (IDEM)",
+   "license": "CC BY 4.0 Comunidad de Madrid",
+   "file": "idem-cultura.geojson",
+   "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=ServiciosPublicos:IDEM_EIEL_CENT_CULTURAL_23&outputFormat=application/json&srsName=EPSG:25830",
+   "downloaded": "2026-11-26T00:56:55+01:00",
+   "bytes": 481034,
+   "sha256": "444ed3ef7719bfdc6908f54f5d7e2e29aaa3b01abf5c602d75848981fef6ce79",
+   "declared_by_service": {
+    "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "read": "2026-11-26T00:56:55+01:00",
+    "sha256": "b2a437f9663801161e6e2d794d3ddae5d5f5448f5816ca8c6d9465c9aa0a8e4b",
+    "Fees": "NONE",
+    "AccessConstraints": "CC BY 4.0 Comunidad de Madrid"
+   }
+  }
+ ]
+}

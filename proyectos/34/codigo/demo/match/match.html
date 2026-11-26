@@ -1,0 +1,24 @@
+<section id="match" class="mt" hidden aria-labelledby="mt-title">
+  <header class="mt-top">
+    <button type="button" class="mt-btn" id="mt-back">Volver</button>
+    <h2 id="mt-title" tabindex="-1">Dónde cabes: municipios que cumplen</h2>
+    <button type="button" class="mt-btn" id="mt-undo" disabled>Deshacer</button>
+    <button type="button" class="mt-btn" id="mt-src">Fuentes</button>
+  </header>
+  <div class="mt-stats" id="mt-stats" aria-live="polite"></div>
+  <form class="mt-filters" id="mt-filters" aria-label="Filtros" onsubmit="return false"></form>
+  <div class="mt-mapbox">
+    <div class="mt-map" id="mt-map" role="img" aria-label="Mapa de los municipios de la Comunidad de Madrid. En amarillo, los que cumplen; rayados, sin dato. La columna de resultados dice lo mismo en texto."></div>
+    <button type="button" class="mt-btn mt-backmap" id="mt-backmap" hidden>Atrás</button>
+    <div class="mt-legend" aria-hidden="true"><span><i class="mt-sw mt-sw-on"></i>Cumple</span><span><i class="mt-sw mt-sw-unk"></i>Sin dato</span><span><i class="mt-sw mt-sw-off"></i>No cumple</span></div>
+  </div>
+  <aside class="mt-panel" id="mt-panel" aria-label="Resultados">
+    <button type="button" class="mt-grip" aria-expanded="true" aria-label="Subir o bajar los resultados"><span></span></button>
+    <div id="mt-result"></div>
+    <div id="mt-drops"></div>
+  </aside>
+  <dialog class="mt-sheet" id="mt-sheet" aria-labelledby="mt-sheet-title">
+    <div class="mt-sheet-head"><h3 id="mt-sheet-title">Fuentes y reglas</h3><button type="button" class="mt-btn" id="mt-sheet-close">Cerrar</button></div>
+    <div id="mt-sheet-body"></div>
+  </dialog>
+</section>

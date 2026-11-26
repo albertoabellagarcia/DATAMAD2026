@@ -1,0 +1,112 @@
+<section class="story" id="story" aria-label="Cómo está hecho ¿Dónde cabes?: un edificio, de la azotea al portal">
+<svg class="story-defs" aria-hidden="true" focusable="false" width="0" height="0"><defs>
+<pattern id="story-forja" width="24" height="60" patternUnits="userSpaceOnUse"><path d="M0 2H24M0 58H24M12 2V58M12 30C4 30 4 18 12 18C20 18 20 30 12 30M12 30C4 30 4 42 12 42C20 42 20 30 12 30" fill="none" stroke="#9fb0bd" stroke-width="2"/></pattern>
+<pattern id="story-rayas" width="14" height="10" patternUnits="userSpaceOnUse"><rect width="14" height="10" fill="#2c3d4c"/><rect width="7" height="10" fill="#dcd6c6"/></pattern>
+<pattern id="story-lamas" width="10" height="7" patternUnits="userSpaceOnUse"><rect width="10" height="7" fill="#33495b"/><rect width="10" height="2" y="5" fill="#22323f"/></pattern>
+<symbol id="story-balcon" viewBox="0 0 150 300"><rect x="0" y="0" width="150" height="14" fill="#223345"/><rect x="18" y="26" width="114" height="226" fill="#06101a"/><rect class="story-light" x="18" y="26" width="114" height="226" fill="#ffcf4a"/><path d="M75 26V252M18 120H132" stroke="#1a2a39" stroke-width="6"/><rect x="0" y="252" width="150" height="10" fill="#2a3d50"/><rect x="6" y="196" width="138" height="56" fill="url(#story-forja)"/><rect x="0" y="190" width="150" height="6" fill="#9fb0bd"/></symbol>
+</defs></svg>
+
+<header class="story-roof">
+  <div class="story-sign-frame" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <h2 class="story-sign" aria-label="¿Dónde cabes?"><span>¿</span><span>D</span><span>ó</span><span>n</span><span>d</span><span>e</span><span class="story-gap"></span><span>c</span><span>a</span><span>b</span><span>e</span><span>s</span><span>?</span></h2>
+  <div class="story-chimneys" aria-hidden="true"><i></i><i></i><i></i></div>
+</header>
+
+<article class="story-floor story-f3" aria-labelledby="story-h3">
+  <span class="story-plate" aria-hidden="true">3º</span>
+  <div class="story-facade" aria-hidden="true">
+    <svg viewBox="0 0 520 330" class="story-balcones">
+      <g class="story-bal"><use href="#story-balcon" x="10" y="10" width="150" height="300"/><rect class="story-blind" x="28" y="36" width="114" height="150" fill="url(#story-lamas)"/></g>
+      <g class="story-bal"><use href="#story-balcon" x="185" y="10" width="150" height="300"/><rect class="story-blind" x="203" y="36" width="114" height="150" fill="url(#story-lamas)"/><rect x="200" y="200" width="120" height="58" fill="url(#story-rayas)" class="story-alicantina"/></g>
+      <g class="story-bal"><use href="#story-balcon" x="360" y="10" width="150" height="300"/><rect class="story-blind" x="378" y="36" width="114" height="150" fill="url(#story-lamas)"/></g>
+    </svg>
+  </div>
+  <div class="story-room">
+    <h3 id="story-h3">Saber dónde te llega el sueldo</h3>
+    <p class="story-lead">Se empieza por el sueldo, no por los precios. Escribes lo que ganas y qué parte darías al alquiler, y el mapa enciende los municipios donde el alquiler mediano cabe en esa cifra.</p>
+    <p>Al tocar uno ves qué tiene: salud, farmacias, colegios, parques, transporte{{pets}}. Sin dato, nunca se enciende. Lo que escribes no sale del navegador.</p>
+  </div>
+</article>
+
+<article class="story-floor story-f2" aria-labelledby="story-h2">
+  <span class="story-plate" aria-hidden="true">2º</span>
+  <figure class="story-facade story-facade-grid">
+    {{grid}}
+    <figcaption>
+      <span class="story-key story-key-fit">Encendida: entra en {{cap30}}&nbsp;€ <b>{{fit30}}</b></span>
+      <span class="story-key story-key-off">Persiana bajada: no entra <b>{{off30}}</b></span>
+      <span class="story-key story-key-none">Tapiada: sin dato de alquiler <b>{{no_rent}}</b></span>
+    </figcaption>
+  </figure>
+  <div class="story-room">
+    <p class="story-kicker">Salario medio de {{ages}} años: {{salary}}&nbsp;€ brutos en {{salary_year}}</p>
+    <h3 id="story-h2">Con {{cap30}}&nbsp;€ al mes, el alquiler mediano entra en</h3>
+    <p class="story-tally"><span class="story-flaps" aria-hidden="true" data-n="{{fit30}}">{{flaps30}}</span><span class="story-sr">{{fit30}}</span> <span class="story-tally-of">de {{with_rent}} municipios con dato</span></p>
+    <table class="story-departures">
+      <caption class="story-sr">Tope de alquiler y municipios que entran según la parte del sueldo</caption>
+      <thead><tr><th scope="col">Parte del sueldo</th><th scope="col">Tope al mes</th><th scope="col">Entran</th></tr></thead>
+      <tbody>
+        <tr class="story-dep-on"><th scope="row">30&nbsp;%</th><td>{{cap30}}&nbsp;€</td><td>{{fit30}}</td></tr>
+        <tr><th scope="row">40&nbsp;%</th><td>{{cap40}}&nbsp;€</td><td>{{fit40}}</td></tr>
+        <tr><th scope="row">Dos sueldos, 30&nbsp;%</th><td>{{cap_two}}&nbsp;€</td><td>{{fit_two}}</td></tr>
+      </tbody>
+    </table>
+    <p>Es una media, no alguien concreto. Cada ventana es un municipio, del alquiler más bajo al más alto: se encienden según bajas.</p>
+  </div>
+</article>
+
+<article class="story-floor story-f1" aria-labelledby="story-h1">
+  <span class="story-plate" aria-hidden="true">1º</span>
+  <div class="story-room story-room-wide">
+    <h3 id="story-h1">{{n_sources}} conjuntos de datos, un buzón cada uno</h3>
+    <p class="story-lead">Los publican {{n_publishers}} organismos. Cada archivo se descargó una vez y se guardó con su huella SHA-256: las cifras de esta web salen de esas copias.</p>
+    <ol class="story-boxes">
+{{boxes}}
+    </ol>
+  </div>
+</article>
+
+<article class="story-floor story-f0" aria-labelledby="story-h0">
+  <span class="story-plate" aria-hidden="true">Bajo</span>
+  <div class="story-shop">
+    <div class="story-toldo" aria-hidden="true"></div>
+    <div class="story-shop-in">
+      <div class="story-shutter" aria-hidden="true"></div>
+      <div class="story-board">
+        <h3 id="story-h0">Una división y una comparación</h3>
+        <p class="story-chalk">tope = sueldo bruto anual ÷ 12 × parte para el alquiler</p>
+        <p class="story-chalk story-chalk-eg">{{salary}} ÷ 12 × 30&nbsp;% = {{cap30}}&nbsp;€</p>
+        <p class="story-chalk">entra si alquiler mediano ≤ tope</p>
+      </div>
+      <div class="story-notes">
+        <h4>Lo que no sabemos</h4>
+        <ul>
+          <li>{{no_rent}} municipios no tienen dato de alquiler. Salen tapiados, nunca encendidos: {{no_rent_names}}.</li>
+          <li>El archivo del Ministerio no trae diccionario. Leemos su precio como la «cuantía» en euros al mes de la <a href="https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2026-03-18_Metodologia_SERPAVI.pdf" target="_blank" rel="noopener noreferrer">metodología SERPAVI</a> (18 de marzo de 2026), porque el número de viviendas de la Comunidad de Madrid en 2023 y 2024 coincide con el del documento; la correspondencia es deducción nuestra. La licencia la deducimos del Real Decreto 1495/2011, porque el archivo no trae ninguna.</li>
+          <li>El sueldo es bruto y es una media de todo el tramo de edad. Lo que llega cada mes a la cuenta es menos. El alquiler, en cambio, es una mediana.</li>
+          <li>Es el alquiler de 2024 que recoge el Ministerio. Los anuncios de hoy pueden pedir más.</li>
+          <li>En {{detached}} municipios solo hay dato de casas unifamiliares, no de pisos.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>
+
+<footer class="story-portal" aria-labelledby="story-hp">
+  <div class="story-door">
+    <div class="story-fan" aria-hidden="true"><span>{{total}}</span></div>
+    <div class="story-doorway">
+      <h3 id="story-hp">Ahora, con tu sueldo</h3>
+      <a class="story-go" href="{{map_href}}" data-story-map>Entrar al mapa</a>
+      <i class="story-leaf story-leaf-l" aria-hidden="true"></i><i class="story-leaf story-leaf-r" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="story-street" aria-hidden="true"></div>
+  <dl class="story-credits">
+    <div><dt>Equipo</dt><dd>pendiente</dd></div>
+    <div><dt>Datos</dt><dd>los {{n_sources}} conjuntos de los buzones, con su licencia y crédito. Transporte: Powered by CRTM.</dd></div>
+    <div><dt>Animación</dt><dd>GSAP 3.15.1 y ScrollTrigger, de GreenSock, con su licencia estándar sin coste: <a href="https://gsap.com/standard-license">gsap.com/standard-license</a>.</dd></div>
+    <div><dt>Letra</dt><dd>Avenir Next, la del sistema. La página no descarga ninguna fuente.</dd></div>
+  </dl>
+</footer>
+</section>
