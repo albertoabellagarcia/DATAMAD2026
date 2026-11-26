@@ -12,7 +12,7 @@
 Sin voz y con rótulos.
 
 - **Pruébalo:** https://donde-hace-falta.vercel.app
-- **Presentación:** [donde-hace-falta-DATAMAD2026.pdf](donde-hace-falta-DATAMAD2026.pdf)
+- **Presentación (4 diapositivas):** [donde-hace-falta-DATAMAD2026.pdf](donde-hace-falta-DATAMAD2026.pdf)
 - **Código (MIT) y datos derivados (CC BY 4.0):** https://github.com/guillemolero10/donde-hace-falta
 - **Integrante:** Guillermo Molero Jiménez
 
