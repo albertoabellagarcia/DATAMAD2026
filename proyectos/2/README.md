@@ -13,7 +13,7 @@
 
 <table>
 <tr>
-<td width="40%" valign="top"><a href="https://radar-natalidad-madrid.vercel.app/video/demo_radar_natalidad.mp4"><img src="imagenes/video_poster.png" alt="Vídeo de la demo (1 min 48 s). Primer fotograma: «En 2030, en el sur de Madrid, de cada 20 sillas de primero, 4 estarán vacías», junto a un aula de 20 sillas con 4 vacías."></a><br><b>▶ Vídeo de la demo (1 min 48 s):</b> pulsa la imagen y se ve en el navegador; también está en esta carpeta: <a href="2_VIDEO_demo_radar_natalidad.mp4">2_VIDEO_demo_radar_natalidad.mp4</a></td>
+<td width="40%" valign="top"><a href="https://radar-natalidad-madrid.vercel.app/video/demo_radar_natalidad.mp4"><img src="imagenes/demo_radar.gif" alt="La web real en movimiento: al abrir, cuatro de las veinte sillas se vacían solas; con el scroll, el mapa de toda la región. Pulsa para ver el vídeo completo (1 min 48 s)."></a><br><b>▶ Vídeo de la demo (1 min 48 s):</b> pulsa la imagen y se ve en el navegador; también está en esta carpeta: <a href="2_VIDEO_demo_radar_natalidad.mp4">2_VIDEO_demo_radar_natalidad.mp4</a></td>
 <td valign="top"><b>Qué es:</b> una previsión abierta de cuántos niños empezarán 1.º de primaria en cada uno de los 136 municipios con colegio de la Comunidad de Madrid, hasta el curso 2030/31, con su margen de error y solo con datos abiertos de la Comunidad.<br><br><b>Para quién:</b> la Consejería de Educación, que decide aulas y docentes con años de antelación, y los ayuntamientos y las familias, que verían la misma cifra.<br><br><b>La cifra que lo prueba:</b> en cursos ya cerrados falla un <b>4,3 %</b>, frente al <b>16,1 %</b> de suponer que nada cambia (error mediano a cinco cursos vista, en los 36 municipios grandes).</td>
 </tr>
 </table>
