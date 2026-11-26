@@ -6,7 +6,7 @@
 - **Demostración (búsqueda y recorrido 3D de una ruta accesible):** https://movilimad.es/app.php?demo=recorrido
 - **Presentación (PDF, 4 diapositivas):** [moviliMAD-DATAMAD2026.pdf](moviliMAD-DATAMAD2026.pdf)
 - **Presentación interactiva (HTML, con vídeo):** carpeta [presentacion/](presentacion/). Descarga la carpeta completa y abre `index.html` en el navegador; funciona sin conexión. Teclas: flechas o espacio para avanzar, 1–4 para saltar, F para pantalla completa.
-- **Vídeo de la aplicación:** [presentacion/media/recorrido.mp4](presentacion/media/recorrido.mp4)
+- **Vídeo de la aplicación (39 s):** [presentacion/media/demo.mp4](presentacion/media/demo.mp4)
 - **Fuentes de datos, con sus registros:** https://movilimad.es/fuentes.php
 - **Estadísticas de uso:** https://movilimad.es/estadisticas/
 - **Integrante:** Eugenio Serrano Mayor (e.serranom.2020@alumnos.urjc.es)
