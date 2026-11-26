@@ -9,6 +9,7 @@ Aplicación de Streamlit para consultar, preparar, cruzar, analizar y visualizar
 **Puedes probar la aplicación directamente en el navegador, sin instalar nada: [Madrid Data Explorer](https://madrid-data-explorer.streamlit.app/).**
 
 - [Presentación del proyecto (PDF)](PRESENTACION.pdf)
+- [Vídeo de demostración de la aplicación (MP4)](demo.mp4)
 - [Repositorio de desarrollo del equipo](https://github.com/GohanGH/Madrid-Data-Explorer)
 - [Resultados y metodología](RESULTADOS_DATAMAD.md)
 - [Fuentes y metadatos de los extractos](demo_data/sources.json)
