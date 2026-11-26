@@ -1,0 +1,2 @@
+pk,nombre,coordenada_x,coordenada_y,crs,precision,osm_id,osm_nombre,nota,fecha
+12409,Mercado municipal de Vicálvaro,448438.7,4472750.5,EPSG:25830,mercado_osm,11083489393,Mercado de Vicálvaro,"Nodo de OSM con el mismo nombre a 122 m del Paseo de los Artilleros (dirección de madrid.es: Paseo Artilleros 31). Se descartó el portal 31 de la Calle del Pico de los Artilleros, otra calle a 2,6 km. © OpenStreetMap contributors, ODbL",2026-11-14

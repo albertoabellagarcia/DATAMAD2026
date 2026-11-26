@@ -1,0 +1,41 @@
+# Entorno virtual que crea uv: se regenera con `uv sync`.
+.venv/
+
+# Cachés de Python, pytest y ruff.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Paquetes construidos.
+build/
+dist/
+*.egg-info/
+
+# Datos: nunca van a git (CLAUDE.md). Los crudos viven fuera del repositorio,
+# en DATAMAD26/datos/crudos/; aquí se excluyen además las versiones y escenarios locales.
+data/
+*.osm.pbf
+*.zip
+*.parquet
+*.npz
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Secretos y configuración local.
+.env
+*.local.toml
+
+# Sistema operativo y editores.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Copia local de las capas del mapa (datos derivados), servida por la app
+app/static/capas/
+
+# Datos de la página web: derivados, se regeneran con `uv run cercasalud web` (no van a git)
+web/datos/

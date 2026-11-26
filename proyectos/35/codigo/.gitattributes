@@ -1,0 +1,2 @@
+# Librerías de terceros: byte a byte, sin convertir saltos de línea (su SHA-256 está anotado en web/vendor/README.md).
+web/vendor/** -text

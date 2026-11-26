@@ -1,0 +1,80 @@
+{
+  "version_datos": "20261113T190802Z",
+  "componente": "b1",
+  "objetivo": "total",
+  "restricciones": {
+    "max_centros": 3,
+    "max_centro_horas": 12
+  },
+  "supuestos": {
+    "tipo_dia": "laborable_julio",
+    "umbral_min": 10,
+    "velocidad_kmh": 3.0,
+    "supuesto_acceso": "D-33"
+  },
+  "solver": {
+    "estado": "optimo",
+    "estado_etapa1": "optimo",
+    "estado_etapa2": "optimo",
+    "bloques": "[('12394', 14), ('12394', 15), ('12394', 16), ('12394', 17), ('12394', 20), ('12412', 14), ('12412', 15), ('12412', 16), ('12412', 17), ('12412', 20), ('12437', 15), ('12437', 20)]",
+    "peor_hora_antes": 87621.60243748262,
+    "peor_hora_despues": 165447.62978572198,
+    "personas_hora_ganadas": 312713.1872658705,
+    "centros": 3,
+    "centro_horas": 12,
+    "segundos": 0.03,
+    "limite_s": 600,
+    "escala_solver": 1000.0,
+    "bloques_detalle": "[{\"mercado\": \"Mercado municipal de Pacífico\", \"hora_inicio\": 14}, {\"mercado\": \"Mercado municipal de Pacífico\", \"hora_inicio\": 15}, {\"mercado\": \"Mercado municipal de Pacífico\", \"hora_inicio\": 16}, {\"mercado\": \"Mercado municipal de Pacífico\", \"hora_inicio\": 17}, {\"mercado\": \"Mercado municipal de Pacífico\", \"hora_inicio\": 20}, {\"mercado\": \"Mercado municipal de Prosperidad\", \"hora_inicio\": 14}, {\"mercado\": \"Mercado municipal de Prosperidad\", \"hora_inicio\": 15}, {\"mercado\": \"Mercado municipal de Prosperidad\", \"hora_inicio\": 16}, {\"mercado\": \"Mercado municipal de Prosperidad\", \"hora_inicio\": 17}, {\"mercado\": \"Mercado municipal de Prosperidad\", \"hora_inicio\": 20}, {\"mercado\": \"Mercado municipal de Villaverde Alto\", \"hora_inicio\": 15}, {\"mercado\": \"Mercado municipal de Villaverde Alto\", \"hora_inicio\": 20}]"
+  },
+  "no_evaluable": {
+    "conexion": 1193.4543738076788
+  },
+  "responsable_propuesto": "Ayuntamiento de Madrid, titular de la red de mercados municipales. Propuesta sin consultar con el organismo.",
+  "condiciones": "Abrir al público la zona climatizada del mercado en esas horas. El acceso a la zona climatizada no consta en ninguna ficha (D-33): la ganancia es bajo el supuesto de acceso dentro del horario abierto.",
+  "atribuciones": [
+    "Mapa y red viaria: © colaboradores de OpenStreetMap, datos bajo la Open Database License (ODbL): https://www.openstreetmap.org/copyright",
+    "Powered by CRTM (http://www.crtm.es/). Horarios GTFS explotados para calcular tiempos de viaje.",
+    "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es",
+    "Fuente de los datos: Comunidad de Madrid (http://datos.comunidad.madrid)",
+    "Origen de los datos: Ayuntamiento de Madrid"
+  ],
+  "alternativas_sin_mercado": [
+    {
+      "excluido": "Mercado municipal de Pacífico",
+      "mercados": [
+        "Mercado municipal de Maravillas",
+        "Mercado municipal de Prosperidad",
+        "Mercado municipal de Villaverde Alto"
+      ],
+      "estado": "optimo",
+      "peor_hora_despues": 164076.47360088452,
+      "personas_hora_ganadas": 309332.7013448235,
+      "perdida_peor_hora_pct": 1.761822145568066
+    },
+    {
+      "excluido": "Mercado municipal de Prosperidad",
+      "mercados": [
+        "Mercado municipal de Pacífico",
+        "Mercado municipal de Maravillas",
+        "Mercado municipal de Villaverde Alto"
+      ],
+      "estado": "optimo",
+      "peor_hora_despues": 163092.8447622186,
+      "personas_hora_ganadas": 304414.55715149385,
+      "perdida_peor_hora_pct": 3.0257037442838786
+    },
+    {
+      "excluido": "Mercado municipal de Villaverde Alto",
+      "mercados": [
+        "Mercado municipal de Pacífico",
+        "Mercado municipal de Maravillas",
+        "Mercado municipal de Prosperidad"
+      ],
+      "estado": "optimo",
+      "peor_hora_despues": 164289.19811800876,
+      "personas_hora_ganadas": 310396.3239304447,
+      "perdida_peor_hora_pct": 1.4884887577897257
+    }
+  ]
+}

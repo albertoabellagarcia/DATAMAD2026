@@ -1,0 +1,54 @@
+<!doctype html><html lang='es'><head><meta charset='utf-8'><title>Ficha de decisión - Nuevos centros: transporte público (incluido ir andando) - Población total - 5 zonas</title><style>body{font-family:'Segoe UI',Arial,sans-serif;color:#1A1A1A;max-width:60rem;margin:2rem auto;padding:0 1rem;line-height:1.45}h1{margin-bottom:.2rem}.sub{color:#4D4D4D;margin-top:0}table{border-collapse:collapse;margin:.6rem 0 1.2rem}th,td{padding:.45rem .6rem;text-align:left;vertical-align:top;border-bottom:1px solid #BDBDBD}table.resumen th{font-weight:400;color:#4D4D4D;width:22rem}table.resumen td{font-weight:700}table.datos th{background:#F2F2F2}.limites{background:#F2F2F2;padding:.2rem 1rem;border-left:4px solid #1A1A1A}details{margin-top:1.5rem}small{color:#4D4D4D}</style></head><body><h1>Ficha de decisión - Nuevos centros: transporte público (incluido ir andando) - Población total - 5 zonas</h1><p class='sub'>Versión de datos 20261113T190802Z · resultados precalculados por CercaSalud MAD</p><table class='resumen'><tr><th>Actuación que se propone estudiar</th><td>5 zonas de búsqueda para nuevos centros de atención primaria</td></tr><tr><th>Población objetivo</th><td>Población total</td></tr><tr><th>Sin opción verificada, antes</th><td>289.240</td></tr><tr><th>Sin opción verificada, después</th><td>220.432</td></tr><tr><th>Ganancia (personas que pasan a tener opción)</th><td>68.807</td></tr><tr><th>Regla simple con el mismo número de zonas</th><td>16.280</td></tr><tr><th>Peor ganancia de la cartera entre los escenarios calculados</th><td>42.947</td></tr><tr><th>Restricción</th><td>Hasta 5 zonas; presupuesto en número de actuaciones, no en euros</td></tr><tr><th>Condiciones</th><td>Transporte público, incluido ir andando · 30 min · de 9 a 13 h · percentil 50 de las salidas · martes laborable</td></tr><tr><th>Estado del solver</th><td>optimo (óptimo acreditado por el solver)</td></tr><tr><th>Responsable propuesto</th><td>Consejería de Sanidad de la Comunidad de Madrid (Servicio Madrileño de Salud); la mejora del transporte depende además del Consorcio Regional de Transportes. Propuesta sin consultar con el organismo.</td></tr></table><div class='limites'><h2>Límites que acompañan</h2><p>Una zona es una celda de búsqueda de 250 m, no un solar. El tiempo en transporte usa los horarios GTFS de un martes laborable y supone el centro abierto en la franja. Mide proximidad, no capacidad ni citas. Los escenarios no son un intervalo de confianza.</p></div><h2>Zonas o bloques</h2><table class="dataframe datos">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Orden</th>
+      <th>Zona de búsqueda (celda de 250 m)</th>
+      <th>Municipio</th>
+      <th>Población residente en la celda</th>
+      <th>Longitud</th>
+      <th>Latitud</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>z1649_17868</td>
+      <td>Sevilla la Nueva</td>
+      <td>279</td>
+      <td>-4.0317</td>
+      <td>40.3499</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>z1690_17831</td>
+      <td>Arroyomolinos</td>
+      <td>344</td>
+      <td>-3.9094</td>
+      <td>40.2677</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>z1694_17896</td>
+      <td>Boadilla del Monte</td>
+      <td>26</td>
+      <td>-3.8991</td>
+      <td>40.4148</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>z1784_17944</td>
+      <td>Alcobendas</td>
+      <td>68</td>
+      <td>-3.6353</td>
+      <td>40.5251</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>z1818_17880</td>
+      <td>Rivas-Vaciamadrid</td>
+      <td>1340</td>
+      <td>-3.5348</td>
+      <td>40.3797</td>
+    </tr>
+  </tbody>
+</table><h2>Manifiesto técnico (para reproducir)</h2><table><tr><th>version_datos</th><td>&quot;20261113T190802Z&quot;</td></tr><tr><th>componente</th><td>&quot;a_transporte&quot;</td></tr><tr><th>objetivo</th><td>&quot;total&quot;</td></tr><tr><th>restricciones</th><td>{&quot;k&quot;: 5}</td></tr><tr><th>supuestos</th><td>{&quot;umbral_min&quot;: 30, &quot;umbrales_sensibilidad_min&quot;: [20, 45], &quot;franja&quot;: &quot;09:00-13:00&quot;, &quot;dia&quot;: &quot;2026-11-17&quot;, &quot;percentil_estado&quot;: 50, &quot;margenes_sesgo_min&quot;: [2, 4, 6]}</td></tr><tr><th>solver</th><td>{&quot;k&quot;: 5, &quot;candidatos&quot;: 1406, &quot;grupos_demanda&quot;: 1601, &quot;limite_s&quot;: 600, &quot;tolerancia_gap&quot;: 0.0001, &quot;estado&quot;: &quot;optimo&quot;, &quot;elegidos&quot;: &quot;[&#x27;z1649_17868&#x27;, &#x27;z1690_17831&#x27;, &#x27;z1694_17896&#x27;, &#x27;z1784_17944&#x27;, &#x27;z1818_17880&#x27;]&quot;, &quot;ganancia&quot;: 68807.38101147834, &quot;brecha&quot;: 0.0, &quot;segundos&quot;: 0.09, &quot;causa&quot;: NaN, &quot;candidatos_sin_fusionar&quot;: 3559, &quot;equivalentes&quot;: &quot;{\&quot;z1649_17868\&quot;: [\&quot;z1648_17869\&quot;], \&quot;z1690_17831\&quot;: [], \&quot;z1694_17896\&quot;: [], \&quot;z1784_17944\&quot;: [], \&quot;z1818_17880\&quot;: []}&quot;}</td></tr><tr><th>no_evaluable</th><td>{&quot;conexion&quot;: 1193.4543738076788}</td></tr><tr><th>responsable_propuesto</th><td>&quot;Consejería de Sanidad de la Comunidad de Madrid (Servicio Madrileño de Salud); la mejora del transporte depende además del Consorcio Regional de Transportes. Propuesta sin consultar con el organismo.&quot;</td></tr><tr><th>condiciones</th><td>&quot;Igual que a pie, con transporte público de 9 a 13 h en un martes laborable (mediana de las salidas de la franja). Supone el centro abierto en la franja.&quot;</td></tr></table><h2>Atribuciones</h2><ul><li>Mapa y red viaria: © colaboradores de OpenStreetMap, datos bajo la Open Database License (ODbL): https://www.openstreetmap.org/copyright</li><li>Powered by CRTM (http://www.crtm.es/). Horarios GTFS explotados para calcular tiempos de viaje.</li><li>Elaboración propia con datos extraídos del sitio web del INE: www.ine.es</li><li>Fuente de los datos: Comunidad de Madrid (http://datos.comunidad.madrid)</li><li>Origen de los datos: Ayuntamiento de Madrid</li></ul><p><small>Mide proximidad física potencial. No mide citas, capacidad ni efectos sobre la salud.</small></p></body></html>

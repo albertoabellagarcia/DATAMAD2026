@@ -1,0 +1,51 @@
+# Ficha del proyecto: nombre, versión, Python admitido y dependencias.
+# uv lee este archivo y fija las versiones exactas en uv.lock.
+
+[project]
+name = "cercasalud-mad"
+version = "0.1.0"
+description = "Planificación local del acceso territorial a atención primaria y refugios climáticos en la Comunidad de Madrid (DATAMAD 2026)."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+# Solo CPython 3.12: es la versión con la que se prueba el producto (CLAUDE.md).
+requires-python = ">=3.12,<3.13"
+# Las dependencias se añaden con `uv add`, que escribe aquí la cota inferior.
+dependencies = [
+    "geopandas>=1.2.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "pydeck>=0.9.3",
+    "pyogrio>=0.13.0",
+    "pyproj>=3.8.0",
+    "r5py>=1.1.7",
+    "scipy>=1.18.1",
+    "shapely>=2.2.0",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+# `uv run cercasalud <orden>` ejecuta cercasalud.cli:main (SPEC §12).
+cercasalud = "cercasalud.cli:main"
+
+[dependency-groups]
+# Herramientas de desarrollo: no forman parte del producto instalado.
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+# El paquete se importa como `cercasalud`, no como `cercasalud_mad`.
+module-name = "cercasalud"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,50 @@
+{
+  "version_datos": "20261113T190802Z",
+  "componente": "a_transporte",
+  "objetivo": "65+",
+  "restricciones": {
+    "k": 3
+  },
+  "supuestos": {
+    "umbral_min": 30,
+    "umbrales_sensibilidad_min": [
+      20,
+      45
+    ],
+    "franja": "09:00-13:00",
+    "dia": "2026-11-17",
+    "percentil_estado": 50,
+    "margenes_sesgo_min": [
+      2,
+      4,
+      6
+    ]
+  },
+  "solver": {
+    "k": 3,
+    "candidatos": 1406,
+    "grupos_demanda": 1601,
+    "limite_s": 600,
+    "tolerancia_gap": 0.0001,
+    "estado": "optimo",
+    "elegidos": "['z1695_17905', 'z1727_17895', 'z1784_17944']",
+    "ganancia": 5602.783317157462,
+    "brecha": 0.0,
+    "segundos": 0.09,
+    "causa": NaN,
+    "candidatos_sin_fusionar": 3559,
+    "equivalentes": "{\"z1695_17905\": [], \"z1727_17895\": [], \"z1784_17944\": []}"
+  },
+  "no_evaluable": {
+    "conexion": 1193.4543738076788
+  },
+  "responsable_propuesto": "Consejería de Sanidad de la Comunidad de Madrid (Servicio Madrileño de Salud); la mejora del transporte depende además del Consorcio Regional de Transportes. Propuesta sin consultar con el organismo.",
+  "condiciones": "Igual que a pie, con transporte público de 9 a 13 h en un martes laborable (mediana de las salidas de la franja). Supone el centro abierto en la franja.",
+  "atribuciones": [
+    "Mapa y red viaria: © colaboradores de OpenStreetMap, datos bajo la Open Database License (ODbL): https://www.openstreetmap.org/copyright",
+    "Powered by CRTM (http://www.crtm.es/). Horarios GTFS explotados para calcular tiempos de viaje.",
+    "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es",
+    "Fuente de los datos: Comunidad de Madrid (http://datos.comunidad.madrid)",
+    "Origen de los datos: Ayuntamiento de Madrid"
+  ]
+}
