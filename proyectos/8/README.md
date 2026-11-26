@@ -5,6 +5,7 @@
 https://github.com/user-attachments/assets/4cd542a3-f760-4498-b979-b952985f7afd
 
 - **Demostración (búsqueda y recorrido 3D de una ruta accesible):** https://movilimad.es/app.php?demo=recorrido
+- **Disponible en** https://www.moviliMAD.es
 - **Presentación (PDF, 4 diapositivas):** [moviliMAD-DATAMAD2026.pdf](moviliMAD-DATAMAD2026.pdf)
 - **Presentación interactiva (HTML, con vídeo):** carpeta [presentacion/](presentacion/). Descarga la carpeta completa y abre `index.html` en el navegador; funciona sin conexión. Teclas: flechas o espacio para avanzar, 1–4 para saltar, F para pantalla completa.
 - **Vídeo de la aplicación (39 s):** [presentacion/media/demo.mp4](presentacion/media/demo.mp4)
