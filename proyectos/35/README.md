@@ -2,7 +2,7 @@
 
 **DATAMAD 2026 · Hackathon de Datos Abiertos de la Comunidad de Madrid**
 
-**Integrantes:** COMPLETAR ANTES DE SUBIR
+**Integrantes:** IÑIGO DÍEZ OSÚA
 
 **Web publicada:** https://inigo-diez.github.io/CERCASALUD-MAD/
 
