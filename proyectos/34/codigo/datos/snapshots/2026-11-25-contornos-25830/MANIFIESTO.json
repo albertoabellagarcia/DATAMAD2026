@@ -1,0 +1,22 @@
+{
+ "files": [
+  {
+   "id": "idem-unid-admin",
+   "title": "Divisiones Administrativas de la Comunidad de Madrid (IDEM)",
+   "license": "CC BY 4.0",
+   "file": "idem-unid-admin.geojson",
+   "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=UnidadesAdministrativas:IDEM_CM_UNID_ADMIN&outputFormat=application/json&srsName=EPSG:25830",
+   "downloaded": "2026-11-25T22:07:52+01:00",
+   "bytes": 4204202,
+   "sha256": "6c5715cfd089c6b1667dd0d2592a06523a5b7071db3e252f48ec41ceae70ff75",
+   "crs": "EPSG:25830",
+   "declared_by_service": {
+    "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "read": "2026-11-25T22:07:53+01:00",
+    "sha256": "b2a437f9663801161e6e2d794d3ddae5d5f5448f5816ca8c6d9465c9aa0a8e4b",
+    "Fees": "NONE",
+    "AccessConstraints": "CC BY 4.0 Comunidad de Madrid"
+   }
+  }
+ ]
+}

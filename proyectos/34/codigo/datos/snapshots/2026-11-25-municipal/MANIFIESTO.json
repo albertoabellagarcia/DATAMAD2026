@@ -1,0 +1,168 @@
+{
+ "files": [
+  {
+   "id": "alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000",
+   "title": "Alquiler medio mensual de viviendas arrendadas con valor catastral para municipios de más de 20.000 habitantes por tipo de vivienda. Municipios",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000",
+   "file": "alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000.csv",
+   "url": "https://datos.comunidad.madrid/dataset/06ce1705-c4be-4825-a83b-36f1141a30e6/resource/95acb6d6-8a3d-4918-bdac-9eed12e24948/download/alquiler-medio-mensual-de-viviendas-arrendadas-con-valor-catastral-para-municipios-de-mas-de-20..csv",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 50422,
+   "sha256": "99974a931ed49a5a190e148f0598208f1a83f70fb5cd01a96bffeef84b488d15"
+  },
+  {
+   "id": "alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000",
+   "title": "Alquiler medio mensual de viviendas arrendadas con valor catastral para municipios de más de 20.000 habitantes por tipo de vivienda. Municipios",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000",
+   "file": "alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=alquiler_medio_mensual_viviendas_arrendadas_valor_catastral_municipios_mas_20000",
+   "downloaded": "2026-11-25T21:25:31+01:00",
+   "bytes": 5344,
+   "sha256": "80f4004778245a5f15bf95b3afedf31521380002aad849cb5c58f97b9ec5112b"
+  },
+  {
+   "id": "perceptores_salarios_por_edad_nacionalidad_y_sexo",
+   "title": "Recursos económicos de los hogares. Óptica perceptores. Salarios por grupo de edad, nacionalidad y sexo",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/perceptores_salarios_por_edad_nacionalidad_y_sexo",
+   "file": "perceptores_salarios_por_edad_nacionalidad_y_sexo.csv",
+   "url": "https://datos.comunidad.madrid/dataset/51a51785-67aa-47e6-952a-d7a9946992b4/resource/71b49318-2dcb-4fa0-9a10-404cbd19c956/download/recursos-economicos-de-los-hogares.-optica-perceptores.-salarios-por-grupo-de-edad-nacionalidad-.csv",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 185771,
+   "sha256": "8c8841d4651da64143a781fae06ef5d5e51de363c5dcfca4f6af7f2a99ce3752"
+  },
+  {
+   "id": "perceptores_salarios_por_edad_nacionalidad_y_sexo",
+   "title": "Recursos económicos de los hogares. Óptica perceptores. Salarios por grupo de edad, nacionalidad y sexo",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/perceptores_salarios_por_edad_nacionalidad_y_sexo",
+   "file": "perceptores_salarios_por_edad_nacionalidad_y_sexo.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=perceptores_salarios_por_edad_nacionalidad_y_sexo",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 27815,
+   "sha256": "9e76af704f55abb387233169012fafb58b959168fc21bb32a992d8f68d2f5b60"
+  },
+  {
+   "id": "perceptores_asalariados_por_edad_nacionalidad_y_sexo",
+   "title": "Recursos económicos de los hogares. Óptica perceptores. Asalariados por grupo de edad, nacionalidad y sexo",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/perceptores_asalariados_por_edad_nacionalidad_y_sexo",
+   "file": "perceptores_asalariados_por_edad_nacionalidad_y_sexo.csv",
+   "url": "https://datos.comunidad.madrid/dataset/23060a10-73cc-44bd-8702-2abe451e5e04/resource/524130e1-cd87-4cdd-91ef-25e4a9846ea5/download/recursos-economicos-de-los-hogares.-optica-perceptores.-asalariados-por-grupo-de-edad-nacionalid.csv",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 178267,
+   "sha256": "90fc0ed2f6bd5769b368d02dd3de5be936296ab37acbe3bc93f3a08185e1e8e9"
+  },
+  {
+   "id": "perceptores_asalariados_por_edad_nacionalidad_y_sexo",
+   "title": "Recursos económicos de los hogares. Óptica perceptores. Asalariados por grupo de edad, nacionalidad y sexo",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/perceptores_asalariados_por_edad_nacionalidad_y_sexo",
+   "file": "perceptores_asalariados_por_edad_nacionalidad_y_sexo.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=perceptores_asalariados_por_edad_nacionalidad_y_sexo",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 27646,
+   "sha256": "2b9fe372cf0056e0354aaf18230e54ffdb643f9edbf54c547938672b7e861877"
+  },
+  {
+   "id": "spacm_bono_alquiler_joven_2022",
+   "title": "Bono Alquiler Joven (2022)",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/spacm_bono_alquiler_joven_2022",
+   "file": "spacm_bono_alquiler_joven_2022.csv",
+   "url": "https://datos.comunidad.madrid/dataset/ff697366-36f4-41a1-a966-f5ccf3b6db7c/resource/6fbda6ce-b479-4319-83c6-0b977d3fa8d5/download/spacm_bono_alquiler_joven_2022.csv",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 4623,
+   "sha256": "af30b424617af40a4224b7bf848281aa377cc7cd9fa6e0ec8d32a84f1511289c"
+  },
+  {
+   "id": "spacm_bono_alquiler_joven_2022",
+   "title": "Bono Alquiler Joven (2022)",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/spacm_bono_alquiler_joven_2022",
+   "file": "spacm_bono_alquiler_joven_2022.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=spacm_bono_alquiler_joven_2022",
+   "downloaded": "2026-11-25T21:25:32+01:00",
+   "bytes": 5209,
+   "sha256": "37d0fff17892636935c24e0b3f817ac6fc1a46304527903e7936889aca708603"
+  },
+  {
+   "id": "centros_educativos",
+   "title": "Centros educativos de la comunidad de Madrid",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/centros_educativos",
+   "file": "centros_educativos.csv",
+   "url": "https://datos.comunidad.madrid/dataset/c750856d-3166-4dac-8e80-d1b824c968b5/resource/28d60557-1d73-4281-ab08-6cfd3b2f5f83/download/centros_educativos.csv",
+   "downloaded": "2026-11-25T21:25:33+01:00",
+   "bytes": 2284653,
+   "sha256": "aaeb63b52db8af9683bc326dad9ece03380f7b867e74493cc080de2488cf8e84"
+  },
+  {
+   "id": "centros_educativos",
+   "title": "Centros educativos de la comunidad de Madrid",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/centros_educativos",
+   "file": "centros_educativos.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=centros_educativos",
+   "downloaded": "2026-11-25T21:25:33+01:00",
+   "bytes": 4332,
+   "sha256": "90d55d055d66621922dcedd5fadfa4a6c4bd6c489d8145998d661eb8b489a5f6"
+  },
+  {
+   "id": "spacm_listado_bibliotecas_servicios_lectura",
+   "title": "Relación  de  Bibliotecas  Directorio  de  Bibliotecas  de  la  Comunidad  de  Madrid",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/spacm_listado_bibliotecas_servicios_lectura",
+   "file": "spacm_listado_bibliotecas_servicios_lectura.csv",
+   "url": "https://datos.comunidad.madrid/dataset/e6a74331-d329-4ba2-8bb9-6be2669417a2/resource/c7a913c5-5bdf-4ba6-b3a9-4c14c89d555a/download/spacm_listado_bibliotecas_servicios_lectura.csv",
+   "downloaded": "2026-11-25T21:25:33+01:00",
+   "bytes": 191169,
+   "sha256": "d232cdb0f7d54a59506ee54556eb99e52d265cfb35c56131ccb63dcad9b1b27b"
+  },
+  {
+   "id": "spacm_listado_bibliotecas_servicios_lectura",
+   "title": "Relación  de  Bibliotecas  Directorio  de  Bibliotecas  de  la  Comunidad  de  Madrid",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/spacm_listado_bibliotecas_servicios_lectura",
+   "file": "spacm_listado_bibliotecas_servicios_lectura.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=spacm_listado_bibliotecas_servicios_lectura",
+   "downloaded": "2026-11-25T21:25:33+01:00",
+   "bytes": 4401,
+   "sha256": "7df75507cc8dd3ccb490be04e2de2e275227826abcb8585b14e96cd475d8b5a8"
+  },
+  {
+   "id": "poblacion_censada_por_edad_nacionalidad_y_sexo",
+   "title": "Población censada por edad, nacionalidad y sexo. Censo anual. Municipios",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/poblacion_censada_por_edad_nacionalidad_y_sexo",
+   "file": "poblacion_censada_por_edad_nacionalidad_y_sexo.csv",
+   "url": "https://datos.comunidad.madrid/dataset/0a14fbfe-783e-4de3-81b1-ff3792bfd402/resource/bab16922-8df1-49b5-9791-aed4edf8ced1/download/poblacion-censada-por-edad-nacionalidad-y-sexo.-censo-anual.-municipios.csv",
+   "downloaded": "2026-11-25T21:25:34+01:00",
+   "bytes": 15573665,
+   "sha256": "9a8087ab860803241ffe77903c9d306bc37cad4a2ca2d3814454960bc6dbedde"
+  },
+  {
+   "id": "poblacion_censada_por_edad_nacionalidad_y_sexo",
+   "title": "Población censada por edad, nacionalidad y sexo. Censo anual. Municipios",
+   "license": "cc-by",
+   "page": "https://datos.comunidad.madrid/dataset/poblacion_censada_por_edad_nacionalidad_y_sexo",
+   "file": "poblacion_censada_por_edad_nacionalidad_y_sexo.meta.json",
+   "url": "https://datos.comunidad.madrid/api/3/action/package_show?id=poblacion_censada_por_edad_nacionalidad_y_sexo",
+   "downloaded": "2026-11-25T21:25:33+01:00",
+   "bytes": 47101,
+   "sha256": "c1a91739d01710b091178660c8852b2423f84217258b7d5492bb3ac81c79e967"
+  },
+  {
+   "id": "idem-unid-admin",
+   "title": "Divisiones Administrativas de la Comunidad de Madrid (IDEM)",
+   "license": "CC BY 4.0",
+   "file": "idem-unid-admin.geojson",
+   "url": "https://idem.comunidad.madrid/geoidem/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=UnidadesAdministrativas:IDEM_CM_UNID_ADMIN&outputFormat=application/json&srsName=EPSG:4326",
+   "downloaded": "2026-11-25T21:25:35+01:00",
+   "bytes": 2844938,
+   "sha256": "f761718ce8178d72adba2b7b2e5ee8f8d977b8a7e85c1bd193d164aeaad89dc7"
+  }
+ ]
+}

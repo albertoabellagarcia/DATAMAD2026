@@ -1,0 +1,161 @@
+municipio_nombre;municipio;solicitudes;aceptadas;rechazadas
+Ajalvir;002;47;13;34
+Álamo, El;004;55;11;44
+Alcalá de Henares;005;1386;305;1081
+Alcobendas;006;605;158;447
+Alcorcón;007;1006;265;741
+Aldea del Fresno;008;10;3;7
+Algete;009;61;17;44
+Alpedrete;010;54;14;40
+Anchuelo;012;7;2;5
+Aranjuez;013;363;94;269
+Arganda del Rey;014;309;67;242
+Arroyomolinos;015;119;21;98
+Batres;017;3;0;3
+Becerril de la Sierra;018;27;2;25
+Belmonte de Tajo;019;6;1;5
+Berrueco, El;021;5;2;3
+Berzosa del Lozoya;020;2;0;2
+Boadilla del Monte;022;52;9;43
+Boalo, El;023;22;3;19
+Brea de Tajo;025;1;0;1
+Brunete;026;32;7;25
+Buitrago del Lozoya;027;4;0;4
+Bustarviejo;028;10;2;8
+Cabrera, La;030;13;2;11
+Cadalso de los Vidrios;031;2;0;2
+Camarma de Esteruelas;032;41;11;30
+Campo Real;033;36;11;25
+Canencia;034;1;0;1
+Carabaña;035;7;0;7
+Casarrubuelos;036;20;2;18
+Cenicientos;037;2;0;2
+Cercedilla;038;39;6;33
+Chapinería;051;3;1;2
+Chinchón;052;12;6;6
+Ciempozuelos;040;138;25;113
+Cobeña;041;19;2;17
+Collado Mediano;046;36;13;23
+Collado Villalba;047;545;126;419
+Colmenar de Oreja;043;14;3;11
+Colmenar del Arroyo;042;10;4;6
+Colmenar Viejo;045;233;47;186
+Colmenarejo;044;49;11;38
+Corpa;048;2;0;2
+Coslada;049;376;88;288
+Cubas de la Sagra;050;2;0;2
+Daganzo de Arriba;053;17;3;14
+Escorial, El;054;58;15;43
+Estremera;055;1;0;1
+Fresnedillas de la Oliva;056;8;1;7
+Fresno de Torote;057;6;2;4
+Fuenlabrada;058;898;239;659
+Fuente el Saz de Jarama;059;30;3;27
+Fuentidueña de Tajo;060;5;0;5
+Galapagar;061;157;37;120
+Garganta de los Montes;062;8;0;8
+Gargantilla del Lozoya y Pinilla de Buitrago;063;1;0;1
+Gascones;064;2;0;2
+Getafe;065;1209;282;927
+Griñón;066;19;1;18
+Guadalix de la Sierra;067;29;4;25
+Guadarrama;068;48;10;38
+Hiruela, La;069;2;0;2
+Horcajo de la Sierra-Aoslos;070;5;1;4
+Hoyo de Manzanares;072;22;4;18
+Humanes de Madrid;073;93;21;72
+Leganés;074;1143;234;909
+Loeches;075;33;10;23
+Lozoya;076;4;0;4
+Lozoyuela-Navas-Sieteiglesias;901;5;1;4
+Madarcos;078;6;0;6
+Madrid;079;30961;7324;23637
+Majadahonda;080;189;40;149
+Manzanares el Real;082;42;13;29
+Meco;083;79;23;56
+Mejorada del Campo;084;87;15;72
+Miraflores de la Sierra;085;29;9;20
+Molar, El;086;52;6;46
+Molinos, Los;087;9;2;7
+Montejo de la Sierra;088;2;0;2
+Moraleja de Enmedio;089;14;5;9
+Moralzarzal;090;30;5;25
+Morata de Tajuña;091;45;11;34
+Móstoles;092;1269;367;902
+Navacerrada;093;11;3;8
+Navalafuente;094;9;2;7
+Navalagamella;095;10;3;7
+Navalcarnero;096;134;33;101
+Navas del Rey;099;15;0;15
+Nuevo Baztán;100;9;0;9
+Orusco de Tajuña;102;1;0;1
+Paracuellos de Jarama;104;53;10;43
+Parla;106;604;128;476
+Pedrezuela;108;62;22;40
+Pelayos de la Presa;109;5;0;5
+Perales de Tajuña;110;13;2;11
+Pezuela de las Torres;111;1;0;1
+Pinto;113;476;136;340
+Pozuelo de Alarcón;115;166;25;141
+Pozuelo del Rey;116;6;1;5
+Prádena del Rincón;117;1;1;0
+Puebla de la Sierra;118;1;0;1
+Puentes Viejas;902;1;0;1
+Quijorna;119;11;0;11
+Rascafría;120;4;1;3
+Redueña;121;6;0;6
+Ribatejada;122;3;1;2
+Rivas-Vaciamadrid;123;443;116;327
+Robledo de Chavela;125;14;3;11
+Rozas de Madrid, Las;127;324;76;248
+San Agustín del Guadalix;129;44;4;40
+San Fernando de Henares;130;193;33;160
+San Lorenzo de El Escorial;131;92;32;60
+San Martín de la Vega;132;90;17;73
+San Martín de Valdeiglesias;133;37;4;33
+San Sebastián de los Reyes;134;599;131;468
+Santa María de la Alameda;135;2;0;2
+Santorcaz;136;2;0;2
+Santos de la Humosa, Los;137;7;0;7
+Serranillos del Valle;140;11;4;7
+Sevilla la Nueva;141;47;8;39
+Soto del Real;144;19;6;13
+Talamanca de Jarama;145;19;2;17
+Tielmes;146;14;1;13
+Torrejón de Ardoz;148;895;257;638
+Torrejón de la Calzada;149;21;3;18
+Torrejón de Velasco;150;2;1;1
+Torrelaguna;151;20;3;17
+Torrelodones;152;96;27;69
+Torremocha de Jarama;153;1;1;0
+Torres de la Alameda;154;31;1;30
+Tres Cantos;903;269;103;166
+Valdeavero;156;18;2;16
+Valdelaguna;157;2;1;1
+Valdemanco;158;1;0;1
+Valdemaqueda;159;1;0;1
+Valdemorillo;160;37;12;25
+Valdemoro;161;470;107;363
+Valdeolmos-Alalpardo;162;26;8;18
+Valdepiélagos;163;3;0;3
+Valdetorres de Jarama;164;22;4;18
+Valdilecha;165;16;6;10
+Valverde de Alcalá;166;1;0;1
+Velilla de San Antonio;167;40;10;30
+Vellón, El;168;22;5;17
+Venturada;169;6;0;6
+Villa del Prado;171;16;2;14
+Villaconejos;170;12;5;7
+Villalbilla;172;91;19;72
+Villamanrique de Tajo;173;4;0;4
+Villamanta;174;3;1;2
+Villamantilla;175;3;0;3
+Villanueva de la Cañada;176;97;17;80
+Villanueva de Perales;178;3;2;1
+Villanueva del Pardillo;177;70;13;57
+Villar del Olmo;179;4;0;4
+Villarejo de Salvanés;180;30;6;24
+Villaviciosa de Odón;181;73;12;61
+Villavieja del Lozoya;182;5;0;5
+Zarzalejo;183;10;2;8
+Otro;-;3352;0;3352

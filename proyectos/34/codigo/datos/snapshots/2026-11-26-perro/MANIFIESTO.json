@@ -1,0 +1,41 @@
+{
+ "files": [
+  {
+   "id": "ayto-areas-caninas",
+   "title": "Áreas caninas (Ayuntamiento de Madrid)",
+   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "file": "areas-caninas.csv",
+   "url": "https://datos.madrid.es/dataset/300094-0-areas-caninas/resource/300094-2-areas-caninas/download/300094-0-areas-caninas_29_20261126_070032.csv",
+   "downloaded": "2026-11-26T10:06:45+01:00",
+   "bytes": 25450,
+   "sha256": "b2bff103c94ffe8915f3adccbe3098d4d50f2562647e1fa7a1daf0633869232f",
+   "page": "https://datos.madrid.es/dataset/300094-0-areas-caninas",
+   "declared_by_service": {
+    "url": "https://datos.madrid.es/api/3/action/package_show?id=300094-0-areas-caninas",
+    "read": "2026-11-26T10:06:44+01:00",
+    "sha256": "42dc765e9f575d1389161b69b4a329dd2d451c315a361484f8b8a00ddced5a21",
+    "title": "Áreas caninas",
+    "license_id": "cc-by",
+    "license_title": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.es",
+    "metadata_modified": "2026-11-26T07:00:32.512000"
+   }
+  },
+  {
+   "id": "osm-perro",
+   "title": "Zonas caninas y veterinarios de la Comunidad de Madrid (OpenStreetMap)",
+   "license": "ODbL 1.0, © OpenStreetMap",
+   "file": "osm-perro.tsv",
+   "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3Atype%2C%3A%3Aid%2C%3A%3Alat%2C%3A%3Alon%2C%22amenity%22%2C%22leisure%22%2C%22access%22%2C%22name%22%2C%22addr%3Astreet%22%2C%22addr%3Ahousenumber%22%3Btrue%3B%22%5Ct%22%29%5D%5Btimeout%3A150%5D%3Barea%5B%22ISO3166-2%22%3D%22ES-MD%22%5D%5B%22boundary%22%3D%22administrative%22%5D-%3E.region%3B%28nwr%5B%22leisure%22%3D%22dog_park%22%5D%28area.region%29%3Bnwr%5B%22amenity%22%3D%22veterinary%22%5D%28area.region%29%3B%29%3Bout+center%3B",
+   "downloaded": "2026-11-26T10:07:21+01:00",
+   "bytes": 52083,
+   "sha256": "7d8e19d96b81ce3fa2fe2d6fec8f5ea8877dd469872f89177c1fed83b7ecdd9f",
+   "page": "https://www.openstreetmap.org/copyright",
+   "query": "[out:csv(::type,::id,::lat,::lon,\"amenity\",\"leisure\",\"access\",\"name\",\"addr:street\",\"addr:housenumber\";true;\"\\t\")][timeout:150];area[\"ISO3166-2\"=\"ES-MD\"][\"boundary\"=\"administrative\"]->.region;(nwr[\"leisure\"=\"dog_park\"](area.region);nwr[\"amenity\"=\"veterinary\"](area.region););out center;",
+   "declared_by_service": {
+    "url": "https://overpass-api.de/api/timestamp",
+    "data_until": "2026-11-26T09:07:05Z"
+   }
+  }
+ ]
+}
