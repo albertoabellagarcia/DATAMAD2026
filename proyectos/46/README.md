@@ -4,7 +4,7 @@
 
 - Repositorio completo (código, datos, documentación): https://github.com/Kuantoapp/kuantoapp.github.io
 - Aplicación publicada: https://kuantoapp.github.io/
-- Presentación: pendiente, se añadirá en esta carpeta.
+- Presentación (HTML): [presentacion/index.html](presentacion/index.html). Empieza con el vídeo de Kuanto ([presentacion/video/corto.mp4](presentacion/video/corto.mp4)). Para verla, descarga la carpeta `presentacion/` y abre `index.html` en el navegador; flechas para avanzar, `?sin-corto` en la URL para saltar el vídeo.
 
 ## Qué hace
 
