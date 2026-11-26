@@ -1,0 +1,11 @@
+# Cómo se calcula el mapa 2027–2030
+
+La pregunta es si se registrará al menos un incendio en un municipio durante un mes. Para cada uno de los 179 municipios se construyeron los 48 meses de 2020–2023. Los partes de la EGIF proporcionan la respuesta histórica. Una regresión logística ajusta un efecto por municipio, otro por mes y otro por temperatura regional. Para entrenar se usa la mediana entre estaciones de las máximas diarias medias mensuales disponibles. Cada transformación se ajusta en los años de entrenamiento.
+
+Se compararon tres intensidades de regularización (C de 0,1, 1 y 10) y se eligió C=1 por el menor Brier medio en 2021 y 2022, entrenando cada vez solo con años previos. En la prueba de 2023, la temperatura observada dio AP 0,216 y Brier 0,0694. La referencia municipio y mes con C=1 obtuvo AP 0,204 y Brier 0,0700. La temperatura real de 2023 se conoció después del mes. Esta comparación mide asociación retrospectiva con la temperatura y no evalúa el acierto de una previsión emitida años antes. Solo hay 48 meses de meteorología independiente, compartida por todos los municipios, y 2023 ya se había analizado en versiones anteriores.
+
+Para cada mes futuro se aplicó el ajuste 2020–2023 a las temperaturas de dos simulaciones CMIP6 HighResMIP. Un punto de Madrid capital aproxima el clima regional. Cada municipio tiene su propio historial y recibe la misma señal climática regional. La diferencia entre años procede de las temperaturas simuladas. El rango entre las dos probabilidades muestra sensibilidad al modelo climático. Su media es la estimación central. El rango no es un intervalo de confianza. El método no resuelve variaciones meteorológicas futuras de una ladera a otra.
+
+La lluvia y los días calurosos se muestran como contexto. Las probabilidades dependen de la temperatura, el calendario y el municipio. La leyenda del mapa usa una escala continua fija. Valores cercanos pueden tener colores muy parecidos. Pulsa el municipio para leer el porcentaje.
+
+Reproducción desde la raíz: python scripts/predecir_campanas.py. Las métricas para cada combinación están en results/validacion_campanas.csv. Las 8.592 filas del mapa se guardan en results/campanas_municipales.csv.
