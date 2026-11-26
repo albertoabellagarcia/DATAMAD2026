@@ -1,0 +1,2 @@
+# Preservar codificación original (Latin-1 / UTF-8 con BOM) y saltos de línea exactos para integridad SHA-256
+public/data/snapshots/*.csv binary

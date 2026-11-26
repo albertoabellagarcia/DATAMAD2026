@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "Madrid Apoyo Especializado: Buscador ciudadano de atención social con explicabilidad algorítmica"
+message: "Si reutiliza este software, taxonomía o flujo de ingesta en investigación, docencia o reutilización pública, por favor cítelo mediante estos metadatos."
+type: software
+version: "1.9.0"
+date-released: "2026-11-19"
+license: "Apache-2.0"
+repository-code: "https://github.com/herasr/Madrid-Apoyo-Especializado"
+url: "https://madrid-apoyo-especializado.herasr.workers.dev/"
+abstract: >-
+  Buscador ciudadano basado en datos abiertos oficiales (Ayuntamiento de Madrid y Comunidad de Madrid)
+  para localizar centros y servicios de atención social autorizados. Implementa un motor determinista
+  lexicográfico con niveles de evidencia auditables (A1, A2 de apoyo, A2 por entidad titular, B1, B2 y C),
+  reglas negativas anti-sesgo clínico, verificación criptográfica SHA-256 multi-fuente y funcionamiento
+  offline mediante Progressive Web App (PWA) con cero telemetría.
+keywords:
+  - open-data
+  - civic-tech
+  - social-services
+  - madrid
+  - datamad
+  - accessibility
+  - algorithmic-transparency
+  - pwa
+authors:
+  - name: "herasr (Equipo Madrid Apoyo Especializado)"
+    alias: "herasr"
+    website: "https://github.com/herasr"
+references:
+  - type: dataset
+    title: "Centros de atención social (datos.madrid.es · 212774-0-atencion-social)"
+    url: "https://datos.madrid.es/dataset/212774-0-atencion-social"
+  - type: dataset
+    title: "Registro General de Centros de Atención Social (datos.comunidad.madrid)"
+    url: "https://datos.comunidad.madrid/dataset/atencion_social_registro_centros"
+  - type: dataset
+    title: "Registro General de Servicios de Atención Social (datos.comunidad.madrid)"
+    url: "https://datos.comunidad.madrid/dataset/atencion_social_registro_servicios"

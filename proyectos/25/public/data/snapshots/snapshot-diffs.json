@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-23T11:55:29.647Z",
+  "previous_snapshot": "2026-11-17",
+  "current_snapshot": "2026-11-23",
+  "total_changes": 4,
+  "diffs": [
+    {
+      "change_id": "DIFF-MADRID_MUNICIPAL-UPD-1",
+      "change_type": "service_added",
+      "centre_id": "MAD-PK6575001",
+      "centre_name": "Centro de Rehabilitación Psicosocial de Vallecas Villa",
+      "previous_snapshot": "2026-11-17",
+      "current_snapshot": "2026-11-23",
+      "detail": "Cambio registral real (datos.madrid.es): Teléfono: \"917 517 579 / 638 986 607\" -> \"917 517 579\".",
+      "reason": "Comparación directa fila a fila entre descargas oficiales de datos.madrid.es.",
+      "category": "servicio"
+    },
+    {
+      "change_id": "DIFF-MADRID_MUNICIPAL-UPD-2",
+      "change_type": "service_added",
+      "centre_id": "MAD-PK6574781",
+      "centre_name": "Centro de Rehabilitación Psicosocial de Villaverde",
+      "previous_snapshot": "2026-11-17",
+      "current_snapshot": "2026-11-23",
+      "detail": "Cambio registral real (datos.madrid.es): Teléfono: \"917 100 721 / 607 664 879\" -> \"917 100 721\".",
+      "reason": "Comparación directa fila a fila entre descargas oficiales de datos.madrid.es.",
+      "category": "servicio"
+    },
+    {
+      "change_id": "DIFF-MADRID_MUNICIPAL-UPD-3",
+      "change_type": "access_route_changed",
+      "centre_id": "MAD-PK176580",
+      "centre_name": "Centro Municipal de Mayores Isaac Rabin",
+      "previous_snapshot": "2026-11-17",
+      "current_snapshot": "2026-11-23",
+      "detail": "Cambio registral real (datos.madrid.es): Coordenadas: \"40.40656028475513,-3.6466776174792517\" -> \"40.40669316171223,-3.646807701736745\".",
+      "reason": "Comparación directa fila a fila entre descargas oficiales de datos.madrid.es.",
+      "category": "acceso"
+    },
+    {
+      "change_id": "DIFF-MADRID_MUNICIPAL-UPD-4",
+      "change_type": "access_route_changed",
+      "centre_id": "MAD-PK11741",
+      "centre_name": "Centro Municipal de Mayores La Guindalera",
+      "previous_snapshot": "2026-11-17",
+      "current_snapshot": "2026-11-23",
+      "detail": "Cambio registral real (datos.madrid.es): Accesibilidad código: \"1\" -> \"1,6\".",
+      "reason": "Comparación directa fila a fila entre descargas oficiales de datos.madrid.es.",
+      "category": "acceso"
+    }
+  ]
+}
