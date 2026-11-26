@@ -1,0 +1,132 @@
+﻿unidad_territorial,id,nombre,poblacion_2025,quintil_renta,calidad,personas_solas_2026,personas_solas_65mas_2026,x,cumple_criterio_x,pct_sin_opcion,poblacion_sin_opcion,poblacion_con_acceso,poblacion_no_evaluable,clase_corte_5,clase_corte_10,clase_corte_20
+barrio,011,Palacio,23256.198888894556,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5809,1671,1671,True,18.25326890482219,4245.016520230193,19011.182368664362,0.0,3,3,1
+barrio,012,Embajadores,47933.801111105444,,Conteos por barrio; personas solas 2026 y población/acceso 2025,11843,2441,2441,True,14.635209214619984,7015.21207713012,40918.589033975324,0.0,3,3,1
+barrio,013,Cortes,10663.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2879,689,689,False,0.0,0.0,10663.0,0.0,0,0,0
+barrio,014,Justicia,18097.129305432325,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4737,1033,1033,False,0.08746856329534515,15.829299001162529,18081.30000643116,0.0,0,0,0
+barrio,015,Universidad,33052.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,9065,1893,1893,True,,1855.5541755395457,30880.08390813229,316.36191632816644,-1,-1,-1
+barrio,016,Sol,8008.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2016,445,445,False,11.965218296064943,958.1746811488806,7049.82531885112,0.0,2,2,0
+barrio,021,Imperial,23428.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3852,1456,1456,True,24.247260413112542,5680.648169584007,17747.35183041599,0.0,3,3,3
+barrio,022,Acacias,36326.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5609,2339,2339,True,7.873373924987028,2860.081811990788,33465.918188009215,0.0,3,1,1
+barrio,023,Chopera,20416.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3302,1378,1378,True,0.0,0.0,20416.0,0.0,1,1,1
+barrio,024,Legazpi,19891.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2408,604,604,False,18.048615817567185,3590.050172272289,16300.94982772771,0.0,2,2,0
+barrio,025,Delicias,29295.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4394,1463,1463,True,24.49043431226156,7174.472731777023,22120.527268222977,0.0,3,3,3
+barrio,026,Palos de la Frontera,25715.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5210,1763,1763,True,5.387511068650372,1385.3984713034433,24329.601528696556,0.0,3,1,1
+barrio,027,Atocha,2104.164102333789,,Conteos por barrio; personas solas 2026 y población/acceso 2025,420,60,60,False,84.46676473478779,1777.3193419521406,326.84476038164826,0.0,2,2,2
+barrio,031,Pacífico,33857.83589766621,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5698,2652,2652,True,7.21585203802349,2443.1313416523963,31414.704556013814,0.0,3,1,1
+barrio,032,Adelfas,18988.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2660,1071,1071,False,14.01954198910357,2662.030632890986,16325.969367109015,0.0,2,2,0
+barrio,033,Estrella,22762.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2437,1436,1436,True,86.77807902492766,19752.426347654036,3009.5736523459655,0.0,3,3,3
+barrio,034,Ibiza,21618.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3631,1565,1565,True,4.087612591643505,883.6600900614928,20734.339909938506,0.0,1,1,1
+barrio,035,Los Jerónimos,6827.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,947,457,457,False,28.01743483139584,1912.7502759393938,4914.249724060606,0.0,2,2,2
+barrio,036,Niño Jesús,15176.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1736,969,969,False,27.012920688088453,4099.480843624304,11076.519156375696,0.0,2,2,2
+barrio,041,Recoletos,15096.870694567677,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3014,1002,1002,False,88.94253617093901,13427.539678195748,1669.3310163719273,0.0,2,2,2
+barrio,042,Goya,29826.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5758,2131,2131,True,20.904421864207304,6234.95286521847,23591.04713478153,0.0,3,3,3
+barrio,043,Fuente del Berro,21382.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3826,1537,1537,True,43.787360582916264,9362.613439839157,12019.386560160843,0.0,3,3,3
+barrio,044,Guindalera,42931.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,7078,2807,2807,True,7.980957560821164,3426.304890436134,39504.695109563865,0.0,3,1,1
+barrio,045,Lista,21089.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4092,1519,1519,True,1.6796409887084847,354.2194881087323,20734.78051189127,0.0,1,1,1
+barrio,046,Castellana,16986.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3197,998,998,False,10.377952147409825,1762.798951759033,15223.201048240968,0.0,2,2,0
+barrio,051,El Viso,17222.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2045,814,814,False,10.956123971602315,1886.8636703893508,15335.136329610648,0.0,2,2,0
+barrio,052,Prosperidad,36904.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6485,2831,2831,True,2.6168632450857707,965.727211966453,35938.272788033544,0.0,1,1,1
+barrio,053,Ciudad Jardín,18912.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3303,1285,1285,False,2.2686985550792764,429.0562707365928,18482.943729263407,0.0,0,0,0
+barrio,054,Hispanoamérica,32018.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4459,2093,2093,True,30.10138422535901,9637.861201275447,22380.13879872455,0.0,3,3,3
+barrio,055,Nueva España,24909.21458060596,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3363,1348,1348,True,64.1916825782314,15989.64395631311,8919.57062429285,0.0,3,3,3
+barrio,056,Castilla,17573.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2380,1009,1009,False,58.21773662009774,10230.602856249776,7342.397143750223,0.0,2,2,2
+barrio,061,Bellas Vistas,30533.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4981,1687,1687,True,4.287918345508428,1309.2301084340884,29223.769891565913,0.0,1,1,1
+barrio,062,Cuatro Caminos,35656.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6434,2315,2315,True,13.945360227840991,4972.357642838984,30683.642357161018,0.0,3,3,1
+barrio,063,Castillejos,21371.785419394044,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4265,1559,1559,True,10.825002496042092,2313.496305098165,19058.28911429588,0.0,3,3,1
+barrio,064,Almenara,24218.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3669,1265,1265,False,23.899246400314066,5787.919493228061,18430.08050677194,0.0,2,2,2
+barrio,065,Valdeacederas,28106.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4618,1203,1203,False,15.822815954425533,4447.16065215084,23658.83934784916,0.0,2,2,0
+barrio,066,Berruguete,26863.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4268,1321,1321,False,0.7522121168971416,202.06674096207917,26660.93325903792,0.0,0,0,0
+barrio,071,Gaztambide,23462.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4860,1826,1826,True,15.633385575630943,3667.904923754532,19794.095076245467,0.0,3,3,1
+barrio,072,Arapiles,24912.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5230,1916,1916,True,0.0,0.0,24912.0,0.0,1,1,1
+barrio,073,Trafalgar,25059.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5737,1740,1740,True,0.581599948880417,145.74313118994368,24913.256868810055,0.0,1,1,1
+barrio,074,Almagro,19643.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3386,1271,1271,False,37.522478317298756,7370.540415866994,12272.459584133007,0.0,2,2,2
+barrio,075,Ríos Rosas,27885.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5429,1915,1915,True,4.200565650972584,1171.3277317737052,26713.672268226295,0.0,1,1,1
+barrio,076,Vallehermoso,20244.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3375,1486,1486,True,38.12678110632206,7718.3855671638385,12525.61443283616,0.0,3,3,3
+barrio,081,El Pardo,3446.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,457,244,244,False,,839.4651940262617,2594.487672016809,12.047133956929319,-1,-1,-1
+barrio,082,Fuentelarreina,3632.4918869582125,,Conteos por barrio; personas solas 2026 y población/acceso 2025,300,178,178,False,96.53185330442159,3506.5117396135174,125.98014734469488,0.0,2,2,2
+barrio,083,Peñagrande,44745.9130001083,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5086,2792,2792,True,67.11075693750666,30029.320912970878,14716.592087137422,0.0,3,3,3
+barrio,084,Pilar,46650.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6766,3445,3445,True,36.36837941352725,16965.848996410463,29684.15100358954,0.0,3,3,3
+barrio,085,La Paz,32196.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3124,2113,2113,True,38.42665041430905,12371.844367390944,19824.155632609054,0.0,3,3,3
+barrio,086,Valverde,67505.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6409,2157,2157,True,,47916.22853592917,18726.239880940197,862.5315831306298,-1,-1,-1
+barrio,087,Mirasierra,37574.595112933486,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2360,1137,1137,False,73.81229168888457,27734.669745675834,9839.925367257654,0.0,2,2,2
+barrio,088,El Goloso,19641.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1313,310,310,False,100.0,19641.0,0.0,0.0,2,2,2
+barrio,091,Casa de Campo,13251.41462205632,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2150,1004,1004,False,33.22603794430707,4402.920050481888,8848.494571574432,0.0,2,2,2
+barrio,092,Argüelles,24709.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4371,1647,1647,True,7.93053877082977,1959.5568248843279,22749.44317511567,0.0,3,1,1
+barrio,093,Ciudad Universitaria,16863.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2120,968,968,False,31.101416188489033,5244.631811864906,11618.368188135095,0.0,2,2,2
+barrio,094,Valdezarza,31563.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4285,2084,2084,True,36.37240640715019,11480.222634288813,20082.777365711187,0.0,3,3,3
+barrio,095,Valdemarín,7574.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,482,136,136,False,100.0,7574.0,0.0,0.0,2,2,2
+barrio,096,El Plantío,3099.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,191,97,97,False,100.0,3099.0,0.0,0.0,2,2,2
+barrio,097,Aravaca,28165.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2078,966,966,False,73.15643066215453,20604.508695995824,7560.491304004175,0.0,2,2,2
+barrio,101,Los Cármenes,18518.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2061,882,882,False,63.289139673805686,11719.882884795337,6798.117115204662,0.0,2,2,2
+barrio,102,Puerta del Ángel,45366.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,7044,2586,2586,True,16.727898714123345,7588.778530649197,37777.22146935081,0.0,3,3,1
+barrio,103,Lucero,38213.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4751,2216,2216,True,53.498752206039434,20443.47818049385,17769.521819506153,0.0,3,3,3
+barrio,104,Aluche,68849.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,8688,4981,4981,True,49.58135480071049,34136.26696674117,34712.73303325883,0.0,3,3,3
+barrio,105,Campamento,20747.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2255,1110,1110,False,74.07572128040262,15368.489894045131,5378.510105954869,0.0,2,2,2
+barrio,106,Cuatro Vientos,6597.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,806,146,146,False,67.2242850585689,4434.78608531379,2162.2139146862096,0.0,2,2,2
+barrio,107,Águilas,52447.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6564,3642,3642,True,18.52233242730625,9714.40768814931,42732.59231185069,0.0,3,3,1
+barrio,111,Comillas,23285.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3756,1583,1583,True,3.4852201422972753,811.5335101339205,22473.46648986608,0.0,1,1,1
+barrio,112,Opañel,35666.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4774,2007,2007,True,26.898732323628145,9593.701870545214,26072.298129454786,0.0,3,3,3
+barrio,113,San Isidro,42538.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5180,2071,2071,True,3.7018627477030748,1574.6983756179338,40963.30162438207,0.0,1,1,1
+barrio,114,Vista Alegre,50306.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5482,2768,2768,True,53.82765946508672,27078.542370506526,23227.457629493478,0.0,3,3,3
+barrio,115,Puerta Bonita,39176.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3663,1654,1654,True,27.87389625486486,10919.877596805856,28256.122403194142,0.0,3,3,3
+barrio,116,Buenavista,51818.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4977,1600,1600,True,55.98457435674064,29010.086740175862,22807.913259824138,0.0,3,3,3
+barrio,117,Abrantes,33545.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3014,1462,1462,True,34.465793293183154,11561.55036019829,21983.44963980171,0.0,3,3,3
+barrio,121,Orcasitas,23570.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2177,1144,1144,False,56.65352040067971,13353.234758440207,10216.765241559793,0.0,2,2,2
+barrio,122,Orcasur,14977.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1223,463,463,False,20.71379463367294,3102.305022285196,11874.694977714804,0.0,2,2,2
+barrio,123,San Fermín,24586.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2092,856,856,False,34.57027360496337,8499.447468516293,16086.552531483705,0.0,2,2,2
+barrio,124,Almendrales,24531.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2440,931,931,False,16.886942700195466,4142.53591378495,20388.464086215048,0.0,2,2,0
+barrio,125,Moscardó,28636.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3220,1397,1397,True,10.366808999449432,2968.6394250823396,25667.36057491766,0.0,3,3,1
+barrio,126,Zofío,15300.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1370,642,642,False,38.628930844905916,5910.226419270605,9389.773580729394,0.0,2,2,2
+barrio,127,Pradolongo,19782.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1642,712,712,False,0.5003322008600135,98.97571597412787,19683.024284025872,0.0,0,0,0
+barrio,131,Entrevías,37611.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3448,1617,1617,True,14.740963977517243,5544.223961584011,32066.77603841599,0.0,3,3,1
+barrio,132,San Diego,50078.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5561,1783,1783,True,0.0,0.0,50078.0,0.0,1,1,1
+barrio,133,Palomeras Bajas,42246.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4329,1970,1970,True,11.348619627317927,4794.337847756731,37451.66215224327,0.0,3,3,1
+barrio,134,Palomeras Sureste,44987.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4588,2074,2074,True,13.087313211244808,5887.589594342702,39099.4104056573,0.0,3,3,1
+barrio,135,Portazgo,30243.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3239,1629,1629,True,16.574246415517567,5012.549343444977,25230.450656555022,0.0,3,3,1
+barrio,136,Numancia,51202.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6160,2553,2553,True,3.252006985897444,1665.0926169192091,49536.90738308079,0.0,1,1,1
+barrio,141,Pavones,9077.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,894,517,517,False,17.467732371280615,1585.5460673411415,7491.453932658859,0.0,2,2,0
+barrio,142,Horcajo,6458.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,463,181,181,False,80.89726070248636,5224.345096166569,1233.6549038334308,0.0,2,2,2
+barrio,143,Marroquina,26439.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3299,1992,1992,True,51.36148673852192,13579.46347879781,12859.536521202192,0.0,3,3,3
+barrio,144,Media Legua,17719.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2338,1315,1315,False,23.355049784970053,4138.281271398843,13580.718728601156,0.0,2,2,2
+barrio,145,Fontarrón,18175.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2243,1149,1149,False,67.85253710580334,12332.198618979757,5842.801381020242,0.0,2,2,2
+barrio,146,Vinateros,17321.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2574,1338,1338,True,13.258120610034979,2296.4390708641586,15024.560929135841,0.0,3,3,1
+barrio,151,Ventas,52543.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,7460,3349,3349,True,63.2834129631158,33251.00367320993,19291.996326790064,0.0,3,3,3
+barrio,152,Pueblo Nuevo,66148.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,7847,3699,3699,True,41.59893254766696,27516.861901630742,38631.13809836926,0.0,3,3,3
+barrio,153,Quintana,26928.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4107,1736,1736,True,18.868423052152455,5080.888959483613,21847.11104051639,0.0,3,3,1
+barrio,154,La Concepción,22387.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3717,1659,1659,True,10.827437884211324,2423.938519138389,19963.061480861612,0.0,3,3,1
+barrio,155,San Pascual,19144.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2757,1332,1332,False,6.776500141274491,1297.2931870455886,17846.706812954413,0.0,2,0,0
+barrio,156,San Juan Bautista,13334.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1642,735,735,False,91.01268148998308,12135.630949874343,1198.3690501256567,0.0,2,2,2
+barrio,157,Colina,6825.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1014,413,413,False,1.3101054044018174,89.41469385042404,6735.585306149576,0.0,0,0,0
+barrio,158,Atalaya,1673.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,208,79,79,False,84.91299574405281,1420.5944187980035,252.40558120199645,0.0,2,2,2
+barrio,159,Costillares,22354.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2336,1208,1208,False,59.51479806136127,13303.937958636698,9050.062041363302,0.0,2,2,2
+barrio,161,Palomas,7068.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,437,195,195,False,100.0,7068.0,0.0,0.0,2,2,2
+barrio,162,Piovera,15268.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1139,479,479,False,78.36516891209965,11964.793989499374,3303.206010500626,0.0,2,2,2
+barrio,163,Canillas,40354.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4981,2545,2545,True,34.10076858300945,13761.024153987632,26592.975846012367,0.0,3,3,3
+barrio,164,Pinar del Rey,53662.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6899,3504,3504,True,34.78822409341903,18668.05681301052,34993.943186989476,0.0,3,3,3
+barrio,165,Apóstol Santiago,15914.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1770,939,939,False,48.72890751383031,7754.718341750955,8159.281658249044,0.0,2,2,2
+barrio,166,Valdefuentes,75053.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,5891,1224,1224,False,66.26764384123041,49735.85473215866,25317.145267841337,0.0,2,2,2
+barrio,171,Villaverde Alto - Casco Histórico de Villaverde,51163.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4600,1991,1991,True,18.30309133803675,9364.410621279743,41798.58937872026,0.0,3,3,1
+barrio,172,San Cristóbal,19449.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1215,544,544,False,17.32634752389179,3369.8013299217146,16079.198670078285,0.0,2,2,0
+barrio,173,Butarque,23033.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1742,452,452,False,39.607316667307195,9122.753247980867,13910.246752019133,0.0,2,2,2
+barrio,174,Los Rosales,39558.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3399,1664,1664,True,3.4013308744486985,1345.498467314416,38212.50153268559,0.0,1,1,1
+barrio,175,Ángeles,37268.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4091,2087,2087,True,20.565622584897053,7664.3962249394335,29603.603775060565,0.0,3,3,3
+barrio,181,Casco Histórico de Vallecas,42957.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4294,1825,1825,True,55.97103704248291,24043.478382339385,18913.521617660615,0.0,3,3,3
+barrio,182,Santa Eugenia,23989.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2275,1333,1333,True,37.46246913140607,8986.871719933002,15002.128280066998,0.0,3,3,3
+barrio,183,Ensanche de Vallecas,58221.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,6971,869,869,False,85.47603601659343,49765.00292922086,8455.997070779144,0.0,2,2,2
+barrio,191,Casco Histórico de Vicálvaro,35855.37111408072,,Conteos por barrio; personas solas 2026 y población/acceso 2025,4089,1920,1920,True,12.909572776615022,4628.775228297651,31226.595885783074,0.0,3,3,1
+barrio,192,Valdebernardo,17484.868549223775,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1376,667,667,False,8.009193034828217,1400.3968739933,16084.471675230474,0.0,2,0,0
+barrio,193,Valderrivas,17936.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1313,294,294,False,72.77104249127926,13052.214181235848,4883.785818764153,0.0,2,2,2
+barrio,194,El Cañaveral,21567.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2072,117,117,False,100.0,21567.0,0.0,0.0,2,2,2
+barrio,201,Simancas,30463.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3696,1393,1393,True,53.327026808439626,16245.012176654964,14217.987823345036,0.0,3,3,3
+barrio,202,Hellín,10169.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1096,582,582,False,100.0,10169.0,0.0,0.0,2,2,2
+barrio,203,Amposta,10280.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1069,489,489,False,49.21369499217708,5059.167845195804,5220.832154804196,0.0,2,2,2
+barrio,204,Arcos,26458.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2472,1086,1086,False,37.404457645548526,9896.47140385923,16561.52859614077,0.0,2,2,2
+barrio,205,Rosas,30620.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2433,1108,1108,False,30.693346968836824,9398.302841857836,21221.697158142164,0.0,2,2,2
+barrio,206,Rejas,18372.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,2373,588,588,False,61.916558272590734,11375.31008584037,6996.68991415963,0.0,2,2,2
+barrio,207,Canillejas,30288.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,3301,1677,1677,True,43.183200739416634,13079.327839954509,17208.67216004549,0.0,3,3,3
+barrio,208,El Salvador,11419.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1290,640,640,False,63.07124165187607,7202.105084227728,4216.894915772271,0.0,2,2,2
+barrio,211,Alameda de Osuna,19938.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1862,1063,1063,False,31.679234709505597,6316.205816381225,13621.794183618775,0.0,2,2,2
+barrio,212,Aeropuerto,1937.0000000000005,,Conteos por barrio; personas solas 2026 y población/acceso 2025,204,88,88,False,79.20967880838464,1534.291478518411,402.70852148158934,0.0,2,2,2
+barrio,213,Casco Histórico de Barajas,8126.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1237,393,393,False,11.034882721800281,896.6945699734908,7229.305430026509,0.0,2,2,0
+barrio,214,Timón,12402.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,1286,363,363,False,41.194472043505314,5108.938422835529,7293.06157716447,0.0,2,2,2
+barrio,215,Corralejos,7706.0,,Conteos por barrio; personas solas 2026 y población/acceso 2025,624,161,161,False,95.78067948992522,7380.859161493638,325.14083850636223,0.0,2,2,2

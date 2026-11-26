@@ -1,0 +1,50 @@
+# Supuestos del análisis (CLAUDE.md, «Parámetros base»; SPEC D-13, D-14, D-17, D-22, P-18).
+# Son supuestos, no estándares: viven aquí y no en el código. Cambiarlos cambia los resultados,
+# y cada tabla de resultados lleva copiados los valores con los que se calculó.
+
+[primaria.pie]
+velocidad_kmh = 3.0                     # D-22
+umbral_min = 15                         # D-13
+umbrales_sensibilidad_min = [10, 20]
+velocidades_sensibilidad_kmh = [2.4, 3.6]
+radio_calculo_min = 60                  # más allá, «fuera de radio»
+
+[primaria.transporte]
+umbral_min = 30                         # puerta a puerta (D-13)
+umbrales_sensibilidad_min = [20, 45]
+franja = "09:00-13:00"                  # A1: base; se publican también tarde y ambas franjas (D-17)
+dia = "2026-11-17"                      # martes laborable
+percentil_estado = 50                   # P-18: el estado se decide con la mediana; se publica también el p80
+# Posible sesgo optimista de la matriz urbana (seguimiento del 14/11/2026): escenarios en los que
+# el tiempo de la matriz de transporte (no el de ir andando) se alarga estos minutos.
+margenes_sesgo_min = [2, 4, 6]
+
+[demanda]
+# Clases de usos_edificios.py cuyos building=yes en zona residencial NO cuentan como vivienda.
+# Base vigente sin exclusiones (versión 20261113T190802Z). S1 (["claro_no_residencial"]) y S2 (añade
+# "ambiguo") son escenarios de sensibilidad (informe de edificios). El usuario decidió el 15/11/2026 no
+# recalcular la base con S1; devuelto a [] el 17/11/2026 para que la configuración coincida con los
+# resultados publicados.
+excluir_usos = []
+
+[poblacion]
+umbrales_mayores = [65, 75, 85]         # D-14
+
+[refugios]
+umbral_min = 10                         # D-20, solo a pie y a la velocidad de D-22
+umbrales_sensibilidad_min = [5, 15]
+horas = "12:00-21:00"                   # D-20; perfil hora a hora
+tipos_dia = ["laborable_julio", "laborable_agosto", "fin_de_semana"]
+
+[actuaciones]
+limite_solver_s = 600                   # R-OPS-02
+carteras_a = [1, 3, 5]                  # P-08 (la cartera 0 es la situación inicial)
+# Pares unidad-candidato a pie hasta este tiempo a 3,0 km/h: cubre el umbral de 15 min a 3,6 km/h
+# (15 × 3,6 / 3,0 = 18 min) para la robustez con las velocidades. R5 da el tiempo a pie como
+# distancia / velocidad, así que a otra velocidad se reescala (aproximación por el redondeo a minutos).
+max_pares_candidatos_min = 19
+b1_tipo_dia = "laborable_julio"
+b1_max_centros = 3
+b1_max_centro_horas = 12
+b1_sensibilidad_centros = [1, 5]
+b1_sensibilidad_centro_horas = [6, 24]

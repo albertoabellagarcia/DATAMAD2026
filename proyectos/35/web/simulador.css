@@ -1,0 +1,10 @@
+/* Simuladores «Probar una zona» y «Probar un refugio» (24/11/2026). Usa las variables de interfaz.css. */
+.sim-bloque { border-top: 1px solid var(--borde); margin-top: 1rem; padding-top: .8rem; }
+.sim-bloque h3 { margin: 0 0 .3rem; color: var(--marino); }
+.sim-zona { border-left: 4px solid var(--rojo); background: var(--suave); padding: .55rem .75rem; margin: .5rem 0;
+  border-radius: 0 6px 6px 0; }
+.sim-zona b { display: block; color: var(--texto); }
+.sim-cifra { display: flex; align-items: baseline; gap: .5rem; margin: .2rem 0; }
+.sim-cifra strong { font-size: 1.5rem; color: var(--marino); font-variant-numeric: tabular-nums; }
+.sim-zona .nota, .sim-zona .micro { margin: .15rem 0; }
+.rf-bibliotecas { border-top: 1px dashed var(--borde); margin-top: .5rem; padding-top: .5rem; }

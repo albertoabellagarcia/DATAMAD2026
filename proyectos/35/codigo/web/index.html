@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CercaSalud Madrid</title>
+<link rel="icon" type="image/svg+xml" href="marca/icono.svg">
+<link rel="icon" type="image/png" href="marca/icono_cercasalud.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="mapa" aria-label="Mapa de la Comunidad de Madrid"></div>
+
+<header id="cabecera">
+  <div class="buscador">
+    <input id="buscar" type="search" placeholder="Buscar municipio o distrito" autocomplete="off" aria-label="Buscar municipio o distrito">
+    <ul id="sugerencias" role="listbox" hidden></ul>
+  </div>
+</header>
+
+<aside id="panel" aria-label="Panel">
+  <div class="panel-marca">
+    <img class="logo" src="marca/logo.svg" alt="CercaSalud Madrid" width="642" height="204">
+    <p id="lema" class="lema"></p>
+  </div>
+  <nav id="pasos" role="tablist">
+    <button data-paso="diagnosticar" role="tab" aria-selected="true"><span class="paso-num">1</span><span class="paso-titulo">Diagnosticar</span><span class="paso-sub">dónde falta acceso</span></button>
+    <button data-paso="comparar" role="tab"><span class="paso-num">2</span><span class="paso-titulo">Comparar</span><span class="paso-sub">dónde actuar</span></button>
+    <button data-paso="ficha" role="tab"><span class="paso-num">3</span><span class="paso-titulo">Ficha</span><span class="paso-sub">qué llevarse</span></button>
+  </nav>
+  <button id="plegar" class="plegar" aria-label="Plegar el panel" title="Plegar el panel">‹</button>
+
+  <section id="vista-diagnosticar" class="vista">
+    <h2>¿Qué quieres colorear?</h2>
+    <div id="variables" class="opciones"></div>
+    <div id="territorio" class="tarjeta"></div>
+    <div id="leyenda"></div>
+    <p id="nota" class="nota"></p>
+    <h3>Ir a</h3>
+    <div id="ir-a" class="botones-fila"></div>
+    <h3>Puntos en el mapa</h3>
+    <label class="casilla"><input type="checkbox" id="ver-centros"> Centros de atención primaria (422)</label>
+    <label class="casilla" id="casilla-mercados"><input type="checkbox" id="ver-mercados"> Mercados climatizados (43, Madrid capital)</label>
+    <!-- Refugios ampliados (22/11/2026): lo rellena app.js con datos/capas/refugios.json, si existe. -->
+    <div id="refugios-ampliados" hidden></div>
+    <div id="zona-senalada" class="tarjeta" hidden></div>
+  </section>
+
+  <section id="vista-comparar" class="vista" hidden>
+    <h2>Comparar actuaciones</h2>
+    <label class="campo">Actuación <select id="componente"></select></label>
+    <label class="campo">Población objetivo <select id="objetivo"></select></label>
+    <div id="opciones-cartera" class="opciones fila"></div>
+    <p id="condiciones" class="nota"></p>
+    <div id="barras"></div>
+    <p id="zonas-texto"></p>
+    <label class="casilla" id="casilla-cambia"><input type="checkbox" id="ver-cambia"> Ver quién pasa a tener opción</label>
+    <p id="cambia-texto" class="nota"></p>
+    <div id="leyenda-cambia"></div>
+    <div id="simulador" hidden>
+      <h3 id="simulador-titulo"></h3>
+      <label class="casilla"><input type="checkbox" id="ver-simulador"> <span id="simulador-casilla"></span></label>
+      <p id="simulador-texto" class="nota"></p>
+      <div id="simulador-zonas"></div>
+      <p id="simulador-aviso" class="nota"></p>
+      <p id="simulador-limites" class="nota"></p>
+    </div>
+    <h3 id="titulo-escenarios">¿Aguanta la cartera si cambian los supuestos?</h3>
+    <div id="escenarios"></div>
+    <p class="nota">«Misma cartera»: las zonas elegidas en la base, evaluadas con el otro supuesto. «Mejor cartera para ese escenario»: la que se elegiría si ese supuesto fuera el bueno. Son escenarios calculados, no un intervalo de confianza.</p>
+    <p id="estado-solver" class="nota"></p>
+    <div id="b-c"></div>
+  </section>
+
+  <section id="vista-ficha" class="vista" hidden>
+    <h2 id="ficha-titulo">Ficha de decisión</h2>
+    <div id="ficha-resumen"></div>
+    <div id="ficha-limites" class="limites"></div>
+    <h3 class="sin-imprimir">Llevarse la decisión</h3>
+    <div id="descargas" class="botones-columna"></div>
+    <h3 id="ficha-tabla-titulo">Zonas de búsqueda elegidas</h3>
+    <div id="ficha-tabla"></div>
+    <div id="ficha-alternativas"></div>
+  </section>
+
+  <section id="vista-desglose" aria-label="Desglose en 3D">
+    <h2 id="desglose-titulo"></h2>
+    <p class="nota">Cada capa es un dato ya calculado para las secciones de este territorio, de abajo arriba. Arrastra con el botón derecho (o con Ctrl) para girar la vista.</p>
+    <div class="botones-fila">
+      <button id="desglose-separar">Juntar o separar las capas</button>
+      <button id="desglose-cerrar" class="principal">Volver al mapa</button>
+    </div>
+    <ol id="desglose-capas"></ol>
+  </section>
+
+  <footer class="pie-panel">
+    <button id="abrir-datos" class="enlace">Para quién, datos y código</button> ·
+    <button id="abrir-ayuda" class="enlace">Cómo se calcula</button> ·
+    <button id="abrir-demo" class="enlace">Recorrido de la demo</button>
+  </footer>
+</aside>
+
+<!-- La barra de la demo y la ventana de inicio solo salen en el recorrido (`?demo=1` o «Recorrido de la demo»). -->
+<div id="demo" aria-label="Recorrido de la demo" hidden>
+  <span id="demo-titulo"></span>
+  <button id="demo-atras">Atrás</button>
+  <button id="demo-siguiente">Siguiente</button>
+  <button id="demo-reiniciar">Reiniciar</button>
+</div>
+
+<div id="estado-carga" role="status">Cargando el mapa…</div>
+<div id="atribuciones"></div>
+
+<div id="inicio" class="capa-modal" role="dialog" aria-modal="true" aria-labelledby="inicio-titulo" hidden>
+  <div class="caja">
+    <p class="marca">CercaSalud MAD</p>
+    <h1 id="inicio-titulo"></h1>
+    <div id="inicio-cifras" class="cifras"></div>
+    <p id="inicio-mide" class="nota"></p>
+    <div class="botones-fila">
+      <button id="inicio-explorar" class="principal">Explorar el diagnóstico</button>
+      <button id="inicio-caso">Ver un caso de decisión</button>
+    </div>
+  </div>
+</div>
+
+<div id="datos" class="capa-modal" role="dialog" aria-modal="true" hidden>
+  <div class="caja ancha">
+    <button class="cerrar" data-cerrar="datos" aria-label="Cerrar">×</button>
+    <div id="datos-contenido"></div>
+  </div>
+</div>
+
+<div id="ayuda" class="capa-modal" role="dialog" aria-modal="true" hidden>
+  <div class="caja ancha">
+    <button class="cerrar" data-cerrar="ayuda" aria-label="Cerrar">×</button>
+    <div id="ayuda-contenido"></div>
+  </div>
+</div>
+
+<script src="vendor/deckgl-9.3.12.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

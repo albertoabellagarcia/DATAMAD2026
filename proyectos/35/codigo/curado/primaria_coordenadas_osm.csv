@@ -1,0 +1,9 @@
+centro_nro_registro,x,y,precision,osm_id,osm_nombre,nota
+CS10286,468586.8,4484518.5,centro_osm,7410196,Centro de Salud Miguel de Cervantes,Centro de salud de OSM a 72 m de la calle de la dirección
+CS1135,443742.2,4481498.6,centro_y_portal_osm,339068441,Centro de Salud Jazmín,Centro de salud de OSM con el mismo portal (Jazmín 33)
+CS1184,440524.6,4468565.0,centro_osm,318323407,Centro de Salud Orcasur,Centro de salud de OSM a 37 m de la calle de la dirección
+CS19950,443331.0,4476709.1,centro_y_portal_osm,1255670012,Centro de Salud Baviera,Centro de salud de OSM con el mismo portal (Pintor Moreno Carbonero 21)
+CS6158,433667.0,4471784.5,centro_osm,391435113,Centro de Salud Campamento,Centro de salud de OSM a 19 m de la calle de la dirección
+CS7529,469675.7,4482135.6,centro_osm,375144425,Centro de Salud María de Guzmán,Centro de salud de OSM a 19 m de la calle de la dirección
+CS11438,480022.0,4464936.4,calle_osm,,,Sin centro ni portal en OSM: centroide de los tramos de la calle Real en Villar del Olmo
+CS9495,439592.5,4535144.2,calle_osm,,,Sin centro ni portal en OSM: centroide de los tramos de la calle Carretas en el término municipal

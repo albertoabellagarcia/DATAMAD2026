@@ -1,0 +1,63 @@
+<!doctype html><html lang='es'><head><meta charset='utf-8'><title>Ficha de decisión - Refugios: ampliar el horario de los mercados - Población total - 3 mercados, 24 horas</title><style>body{font-family:'Segoe UI',Arial,sans-serif;color:#1A1A1A;max-width:60rem;margin:2rem auto;padding:0 1rem;line-height:1.45}h1{margin-bottom:.2rem}.sub{color:#4D4D4D;margin-top:0}table{border-collapse:collapse;margin:.6rem 0 1.2rem}th,td{padding:.45rem .6rem;text-align:left;vertical-align:top;border-bottom:1px solid #BDBDBD}table.resumen th{font-weight:400;color:#4D4D4D;width:22rem}table.resumen td{font-weight:700}table.datos th{background:#F2F2F2}.limites{background:#F2F2F2;padding:.2rem 1rem;border-left:4px solid #1A1A1A}details{margin-top:1.5rem}small{color:#4D4D4D}</style></head><body><h1>Ficha de decisión - Refugios: ampliar el horario de los mercados - Población total - 3 mercados, 24 horas</h1><p class='sub'>Versión de datos 20261113T190802Z · resultados precalculados por CercaSalud MAD</p><table class='resumen'><tr><th>Actuación que se propone estudiar</th><td>Ampliar el horario de hasta 3 mercados municipales, con un máximo de 24 horas en total</td></tr><tr><th>Población objetivo</th><td>Población total</td></tr><tr><th>Peor hora, hoy (personas con acceso)</th><td>87.622</td></tr><tr><th>Peor hora, con la cartera</th><td>165.448</td></tr><tr><th>Peor hora, con la regla simple</th><td>165.448</td></tr><tr><th>Personas-hora ganadas (no son personas)</th><td>389.130</td></tr><tr><th>Mercados elegidos y horas ampliadas</th><td>3 mercados, 15 horas</td></tr><tr><th>Misma cartera en laborable de agosto: peor hora hoy → con la cartera</th><td>87.622 → 165.448</td></tr><tr><th>Misma cartera en fin de semana: peor hora hoy → con la cartera</th><td>0 → 0 (a alguna hora ningún mercado cuenta como abierto; la cartera gana 389.130 personas-hora)</td></tr><tr><th>Condiciones</th><td>Refugios a pie · 10 min a 3,0 km/h · peor hora del laborable de julio · acceso supuesto en horario comercial (D-33)</td></tr><tr><th>Estado del solver</th><td>optimo (óptimo acreditado por el solver)</td></tr><tr><th>Responsable propuesto</th><td>Ayuntamiento de Madrid, titular de la red de mercados municipales. Propuesta sin consultar con el organismo.</td></tr></table><div class='limites'><h2>Límites que acompañan</h2><p>El acceso a la zona climatizada de los mercados no consta en ninguna ficha (D-33): la ganancia supone acceso dentro del horario abierto. Personas-hora no son personas. Solo Madrid capital, con la lista oficial de 43 mercados.</p></div><h2>Zonas o bloques</h2><table class="dataframe datos">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Mercado</th>
+      <th>Horas ampliadas</th>
+      <th>Número de horas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pacífico</td>
+      <td>14–18 h y 20–21 h</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Prosperidad</td>
+      <td>14–18 h y 20–21 h</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Villaverde Alto</td>
+      <td>14–18 h y 20–21 h</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table><h2>Alternativas: ¿elección firme o empate?</h2><p>Mejor cartera posible sin cada mercado elegido. «Pérdida» es el porcentaje de la ganancia en la peor hora que se pierde al excluirlo: si es pequeña, ese mercado y el que entra en su lugar están prácticamente empatados y la elección entre ellos es casi indiferente; si es grande, la elección es firme.</p><table class="dataframe datos">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Sin este mercado</th>
+      <th>Pérdida (% de la ganancia)</th>
+      <th>Peor hora</th>
+      <th>Personas-hora ganadas</th>
+      <th>Mejor cartera sin él</th>
+      <th>Estado del solver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pacífico</td>
+      <td>1.8</td>
+      <td>164076</td>
+      <td>382274</td>
+      <td>Maravillas, Prosperidad, Villaverde Alto</td>
+      <td>optimo</td>
+    </tr>
+    <tr>
+      <td>Prosperidad</td>
+      <td>3.0</td>
+      <td>163093</td>
+      <td>377356</td>
+      <td>Pacífico, Maravillas, Villaverde Alto</td>
+      <td>optimo</td>
+    </tr>
+    <tr>
+      <td>Villaverde Alto</td>
+      <td>1.5</td>
+      <td>164289</td>
+      <td>383338</td>
+      <td>Pacífico, Maravillas, Prosperidad</td>
+      <td>optimo</td>
+    </tr>
+  </tbody>
+</table><h2>Manifiesto técnico (para reproducir)</h2><table><tr><th>version_datos</th><td>&quot;20261113T190802Z&quot;</td></tr><tr><th>componente</th><td>&quot;b1&quot;</td></tr><tr><th>objetivo</th><td>&quot;total&quot;</td></tr><tr><th>restricciones</th><td>{&quot;max_centros&quot;: 3, &quot;max_centro_horas&quot;: 24}</td></tr><tr><th>supuestos</th><td>{&quot;tipo_dia&quot;: &quot;laborable_julio&quot;, &quot;umbral_min&quot;: 10, &quot;velocidad_kmh&quot;: 3.0, &quot;supuesto_acceso&quot;: &quot;D-33&quot;}</td></tr><tr><th>solver</th><td>{&quot;estado&quot;: &quot;optimo&quot;, &quot;estado_etapa1&quot;: &quot;optimo&quot;, &quot;estado_etapa2&quot;: &quot;optimo&quot;, &quot;bloques&quot;: &quot;[(&#x27;12394&#x27;, 14), (&#x27;12394&#x27;, 15), (&#x27;12394&#x27;, 16), (&#x27;12394&#x27;, 17), (&#x27;12394&#x27;, 20), (&#x27;12412&#x27;, 14), (&#x27;12412&#x27;, 15), (&#x27;12412&#x27;, 16), (&#x27;12412&#x27;, 17), (&#x27;12412&#x27;, 20), (&#x27;12437&#x27;, 14), (&#x27;12437&#x27;, 15), (&#x27;12437&#x27;, 16), (&#x27;12437&#x27;, 17), (&#x27;12437&#x27;, 20)]&quot;, &quot;peor_hora_antes&quot;: 87621.60243748262, &quot;peor_hora_despues&quot;: 165447.62978572163, &quot;personas_hora_ganadas&quot;: 389130.1367411951, &quot;centros&quot;: 3, &quot;centro_horas&quot;: 15, &quot;segundos&quot;: 0.03, &quot;limite_s&quot;: 600, &quot;escala_solver&quot;: 1000.0, &quot;bloques_detalle&quot;: &quot;[{\&quot;mercado\&quot;: \&quot;Mercado municipal de Pacífico\&quot;, \&quot;hora_inicio\&quot;: 14}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Pacífico\&quot;, \&quot;hora_inicio\&quot;: 15}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Pacífico\&quot;, \&quot;hora_inicio\&quot;: 16}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Pacífico\&quot;, \&quot;hora_inicio\&quot;: 17}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Pacífico\&quot;, \&quot;hora_inicio\&quot;: 20}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Prosperidad\&quot;, \&quot;hora_inicio\&quot;: 14}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Prosperidad\&quot;, \&quot;hora_inicio\&quot;: 15}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Prosperidad\&quot;, \&quot;hora_inicio\&quot;: 16}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Prosperidad\&quot;, \&quot;hora_inicio\&quot;: 17}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Prosperidad\&quot;, \&quot;hora_inicio\&quot;: 20}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Villaverde Alto\&quot;, \&quot;hora_inicio\&quot;: 14}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Villaverde Alto\&quot;, \&quot;hora_inicio\&quot;: 15}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Villaverde Alto\&quot;, \&quot;hora_inicio\&quot;: 16}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Villaverde Alto\&quot;, \&quot;hora_inicio\&quot;: 17}, {\&quot;mercado\&quot;: \&quot;Mercado municipal de Villaverde Alto\&quot;, \&quot;hora_inicio\&quot;: 20}]&quot;}</td></tr><tr><th>no_evaluable</th><td>{&quot;conexion&quot;: 1193.4543738076788}</td></tr><tr><th>responsable_propuesto</th><td>&quot;Ayuntamiento de Madrid, titular de la red de mercados municipales. Propuesta sin consultar con el organismo.&quot;</td></tr><tr><th>condiciones</th><td>&quot;Abrir al público la zona climatizada del mercado en esas horas. El acceso a la zona climatizada no consta en ninguna ficha (D-33): la ganancia es bajo el supuesto de acceso dentro del horario abierto.&quot;</td></tr></table><h2>Atribuciones</h2><ul><li>Mapa y red viaria: © colaboradores de OpenStreetMap, datos bajo la Open Database License (ODbL): https://www.openstreetmap.org/copyright</li><li>Powered by CRTM (http://www.crtm.es/). Horarios GTFS explotados para calcular tiempos de viaje.</li><li>Elaboración propia con datos extraídos del sitio web del INE: www.ine.es</li><li>Fuente de los datos: Comunidad de Madrid (http://datos.comunidad.madrid)</li><li>Origen de los datos: Ayuntamiento de Madrid</li></ul><p><small>Mide proximidad física potencial. No mide citas, capacidad ni efectos sobre la salud.</small></p></body></html>

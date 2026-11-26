@@ -1,0 +1,46 @@
+{
+  "version_datos": "20261113T190802Z",
+  "componente": "a_pie",
+  "objetivo": "total",
+  "restricciones": {
+    "k": 3
+  },
+  "supuestos": {
+    "velocidad_kmh": 3.0,
+    "umbral_min": 15,
+    "umbrales_sensibilidad_min": [
+      10,
+      20
+    ],
+    "velocidades_sensibilidad_kmh": [
+      2.4,
+      3.6
+    ],
+    "radio_calculo_min": 60
+  },
+  "solver": {
+    "k": 3,
+    "candidatos": 11309,
+    "grupos_demanda": 21313,
+    "limite_s": 600,
+    "tolerancia_gap": 0.0001,
+    "estado": "optimo",
+    "elegidos": "['z1748_17884', 'z1750_17848', 'z1781_17902']",
+    "ganancia": 92368.2367401533,
+    "brecha": 0.0,
+    "segundos": 15.86,
+    "causa": NaN
+  },
+  "no_evaluable": {
+    "conexion": 1193.4543738076788
+  },
+  "responsable_propuesto": "Consejería de Sanidad de la Comunidad de Madrid (Servicio Madrileño de Salud), como titular de la red pública de atención primaria. Propuesta sin consultar con el organismo.",
+  "condiciones": "Una zona de búsqueda es una celda de 250 m con población residente, no un solar ni un edificio. La ganancia supone un centro abierto en esa zona y mide proximidad física potencial, no capacidad ni citas.",
+  "atribuciones": [
+    "Mapa y red viaria: © colaboradores de OpenStreetMap, datos bajo la Open Database License (ODbL): https://www.openstreetmap.org/copyright",
+    "Powered by CRTM (http://www.crtm.es/). Horarios GTFS explotados para calcular tiempos de viaje.",
+    "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es",
+    "Fuente de los datos: Comunidad de Madrid (http://datos.comunidad.madrid)",
+    "Origen de los datos: Ayuntamiento de Madrid"
+  ]
+}
