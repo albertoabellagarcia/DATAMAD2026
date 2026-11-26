@@ -6,8 +6,7 @@ Sombra Útil combina cartografía abierta, modelos geométricos de sombra y un a
 
 ## Entrega
 
-- **Presentación (PPTX, cuatro diapositivas: tres de contenido y una de captura/QR):**  
-  https://github.com/alex-udit/sombra-util/blob/entrega/datamad-jurado/docs/datamad/Sombra_Util_Pitch_DataMAD_3min_QR.pptx
+- **Presentación (PPTX, cuatro diapositivas: tres de contenido y una de captura/QR):** [descargar desde esta carpeta](./Sombra_Util_Pitch_DataMAD_3min_QR.pptx).
 - **Demo guiada:**  
   https://jocular-bonbon-683268.netlify.app/orion.html?vista=publicados&demo=1  
   Es un walkthrough con escenarios y respuestas preparados. Algunas capas y cifras son simuladas o precalculadas; no representa una consulta en tiempo real del motor ni una validación de campo.
