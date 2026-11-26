@@ -1,0 +1,5 @@
+                                    modelo       ap  roc_auc    brier  recall_at_20
+                               Prevalencia 0.003046 0.500000 0.003038      0.111732
+                                Calendario 0.004949 0.669139 0.003044      0.111732
+                    Municipio y calendario 0.014368 0.759585 0.003059      0.298995
+Municipio, calendario y tiempo antecedente 0.009898 0.769355 0.003058      0.298995

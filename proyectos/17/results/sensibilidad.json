@@ -1,0 +1,9 @@
+{
+  "metodo": "Verificación de las salidas originales entregadas, excluida la fila de referencia",
+  "alternativas": 180,
+  "municipios": 179,
+  "spearman_mediana": 0.9852938714874563,
+  "spearman_minimo": 0.7615550394409224,
+  "top20_minimo": 15,
+  "top20_mediana": 18.0
+}

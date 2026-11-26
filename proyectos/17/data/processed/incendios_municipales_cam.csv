@@ -1,0 +1,180 @@
+cod_ine,nombre,rayo,negligencia_accidente,intencionado,desconocida,reproducido,total
+28001,Acebeda (La),0,0,0,0,0,0
+28002,Ajalvir,0,1,5,0,0,6
+28003,Alameda del Valle,0,0,1,1,0,2
+28004,Alamo (El),0,2,1,3,0,6
+28005,Alcalá de Henares,1,51,42,9,0,103
+28006,Alcobendas,0,0,1,1,0,2
+28007,Alcorcón,0,0,0,0,0,0
+28008,Aldea del Fresno,0,12,3,12,0,27
+28009,Algete,0,7,4,2,0,13
+28010,Alpedrete,0,4,1,0,0,5
+28011,Ambite,0,1,1,0,0,2
+28012,Anchuelo,0,1,0,0,0,1
+28013,Aranjuez,0,43,53,14,3,113
+28014,Arganda del Rey,2,21,17,1,0,41
+28015,Arroyomolinos,1,18,13,8,0,40
+28016,Atazar (El),1,1,6,1,0,9
+28017,Batres,0,7,1,2,0,10
+28018,Becerril de la Sierra,0,7,3,6,0,16
+28019,Belmonte de Tajo,0,0,0,0,0,0
+28021,Berrueco (El),0,5,0,2,0,7
+28020,Berzosa del Lozoya,0,1,1,1,0,3
+28022,Boadilla del Monte,1,3,1,3,0,8
+28023,Boalo (El),1,12,7,8,0,28
+28024,Braojos,0,1,2,1,0,4
+28025,Brea de Tajo,0,8,1,2,0,11
+28026,Brunete,0,7,10,6,0,23
+28027,Buitrago del Lozoya,2,2,1,0,0,5
+28028,Bustarviejo,3,14,3,9,0,29
+28029,Cabanillas de la Sierra,1,4,0,1,0,6
+28030,Cabrera (La),1,0,1,1,0,3
+28031,Cadalso de los Vidrios,2,8,5,1,0,16
+28032,Camarma de Esteruelas,0,6,8,1,1,16
+28033,Campo Real,0,5,4,2,0,11
+28034,Canencia,4,6,4,0,0,14
+28035,Carabaña,0,6,1,4,0,11
+28036,Casarrubuelos,0,0,1,1,0,2
+28037,Cenicientos,1,6,13,6,0,26
+28038,Cercedilla,5,6,7,6,0,24
+28039,Cervera de Buitrago,2,1,2,2,0,7
+28051,Chapinería,0,4,0,1,0,5
+28052,Chinchón,2,29,53,7,0,91
+28040,Ciempozuelos,0,18,59,7,1,85
+28041,Cobeña,0,2,3,1,0,6
+28046,Collado Mediano,1,4,2,2,0,9
+28047,Collado Villalba,0,8,16,9,0,33
+28043,Colmenar de Oreja,0,23,12,10,0,45
+28042,Colmenar del Arroyo,0,3,3,1,0,7
+28045,Colmenar Viejo,1,24,15,20,1,61
+28044,Colmenarejo,0,2,2,4,0,8
+28048,Corpa,2,2,0,1,0,5
+28049,Coslada,0,30,9,6,1,46
+28050,Cubas de la Sagra,0,1,1,5,0,7
+28053,Daganzo de Arriba,0,7,5,1,0,13
+28054,Escorial (El),1,9,6,7,1,24
+28055,Estremera,0,8,7,2,0,17
+28056,Fresnedillas de la Oliva,2,2,5,0,0,9
+28057,Fresno de Torote,1,2,0,3,0,6
+28058,Fuenlabrada,0,0,4,0,0,4
+28059,Fuente el Saz de Jarama,0,11,2,9,2,24
+28060,Fuentidueña de Tajo,2,4,4,1,2,13
+28061,Galapagar,3,12,20,7,0,42
+28062,Garganta de los Montes,1,6,1,0,0,8
+28063,Gargantilla del Lozoya y Pinilla de Buitrago,0,4,1,2,0,7
+28064,Gascones,0,1,0,0,0,1
+28065,Getafe,0,9,5,3,0,17
+28066,Griñón,0,7,18,11,0,36
+28067,Guadalix de la Sierra,1,15,4,6,0,26
+28068,Guadarrama,0,7,14,6,0,27
+28069,Hiruela (La),1,0,0,0,0,1
+28070,Horcajo de la Sierra-Aoslos,0,0,2,0,0,2
+28071,Horcajuelo de la Sierra,1,1,1,0,0,3
+28072,Hoyo de Manzanares,1,3,2,0,0,6
+28073,Humanes de Madrid,0,0,1,4,0,5
+28074,Leganés,0,6,6,10,1,23
+28075,Loeches,0,4,4,2,0,10
+28076,Lozoya,2,3,1,1,0,7
+28901,Lozoyuela-Navas-Sieteiglesias,2,10,0,2,0,14
+28078,Madarcos,0,0,1,0,0,1
+28079,Madrid ,0,20,14,42,1,77
+28080,Majadahonda,0,3,1,3,0,7
+28082,Manzanares el Real,4,13,2,3,0,22
+28083,Meco,0,3,6,3,0,12
+28084,Mejorada del Campo,0,9,20,9,1,39
+28085,Miraflores de la Sierra,0,7,6,5,0,18
+28086,Molar (El),0,22,3,5,0,30
+28087,Molinos (Los),0,6,1,3,0,10
+28088,Montejo de la Sierra,0,0,1,0,0,1
+28089,Moraleja de Enmedio,0,2,5,3,0,10
+28090,Moralzarzal,1,7,16,9,0,33
+28091,Morata de Tajuña,0,5,7,6,0,18
+28092,Móstoles,0,20,19,5,0,44
+28093,Navacerrada,0,5,3,0,0,8
+28094,Navalafuente,0,2,1,2,0,5
+28095,Navalagamella,0,3,5,6,0,14
+28096,Navalcarnero,1,24,38,19,4,86
+28097,Navarredonda y San Mamés,2,1,0,0,0,3
+28099,Navas del Rey,1,5,0,6,0,12
+28100,Nuevo Baztán,0,3,1,0,0,4
+28101,Olmeda de las Fuentes,0,2,0,1,0,3
+28102,Orusco de Tajuña,0,2,0,3,0,5
+28104,Paracuellos de Jarama,1,16,8,2,1,28
+28106,Parla,0,0,2,8,0,10
+28107,Patones,1,2,2,1,0,6
+28108,Pedrezuela,0,8,3,3,0,14
+28109,Pelayos de la Presa,0,4,1,7,0,12
+28110,Perales de Tajuña,1,11,5,2,1,20
+28111,Pezuela de las Torres,0,5,0,1,0,6
+28112,Pinilla del Valle,0,1,9,5,0,15
+28113,Pinto,0,3,0,1,0,4
+28114,Piñuecar-Gandullas,3,1,0,1,0,5
+28115,Pozuelo de Alarcón,0,1,0,0,0,1
+28116,Pozuelo del Rey,0,1,0,0,0,1
+28117,Prádena del Rincón,0,1,1,0,0,2
+28118,Puebla de la Sierra,3,1,0,0,0,4
+28902,Puentes Viejas,2,1,2,2,0,7
+28119,Quijorna,0,2,6,2,0,10
+28120,Rascafría,7,8,1,5,0,21
+28121,Redueña,0,1,0,2,0,3
+28122,Ribatejada,0,2,0,1,0,3
+28123,Rivas-Vaciamadrid,1,15,19,2,2,39
+28124,Robledillo de la Jara,1,0,0,0,0,1
+28125,Robledo de Chavela,6,6,6,3,1,22
+28126,Robregordo,2,0,0,0,1,3
+28127,Rozas de Madrid (Las),0,12,25,6,0,43
+28128,Rozas de Puerto Real,1,4,1,3,0,9
+28129,San Agustín del Guadalix,1,9,8,9,0,27
+28130,San Fernando de Henares,0,42,16,9,0,67
+28131,San Lorenzo de El Escorial,4,7,5,2,0,18
+28132,San Martín de la Vega,2,20,23,6,0,51
+28133,San Martín de Valdeiglesias,4,20,12,13,0,49
+28134,San Sebastián de los Reyes,1,7,8,17,0,33
+28135,Santa María de la Alameda,3,2,8,3,2,18
+28136,Santorcaz,0,1,1,1,0,3
+28137,Santos de la Humosa (Los),0,3,1,2,0,6
+28138,Serna del Monte (La),0,1,1,0,0,2
+28140,Serranillos del Valle,0,3,5,4,0,12
+28141,Sevilla la Nueva,0,3,3,0,0,6
+28143,Somosierra,0,1,0,0,0,1
+28144,Soto del Real,0,3,8,10,0,21
+28145,Talamanca de Jarama,0,16,9,2,1,28
+28146,Tielmes,0,5,2,1,0,8
+28147,Titulcia,0,12,21,3,0,36
+28148,Torrejón de Ardoz,0,0,2,2,0,4
+28149,Torrejón de la Calzada,0,0,0,1,0,1
+28150,Torrejón de Velasco,0,3,6,3,0,12
+28151,Torrelaguna,0,12,5,1,0,18
+28152,Torrelodones,0,4,4,4,0,12
+28153,Torremocha de Jarama,0,1,0,0,0,1
+28154,Torres de la Alameda,0,3,2,0,0,5
+28903,Tres Cantos,1,5,0,5,0,11
+28155,Valdaracete,2,3,3,0,0,8
+28156,Valdeavero,0,8,5,1,0,14
+28157,Valdelaguna,0,8,6,2,0,16
+28158,Valdemanco,0,3,5,3,0,11
+28159,Valdemaqueda,3,0,2,1,0,6
+28160,Valdemorillo,0,17,7,7,0,31
+28161,Valdemoro,0,3,5,2,0,10
+28162,Valdeolmos-Alalpardo,0,4,5,1,0,10
+28163,Valdepiélagos,0,2,2,0,0,4
+28164,Valdetorres de Jarama,0,6,7,2,1,16
+28165,Valdilecha,0,5,1,0,0,6
+28166,Valverde de Alcalá,1,1,2,0,0,4
+28167,Velilla de San Antonio,0,4,4,1,0,9
+28168,Vellón (El),0,6,10,1,2,19
+28169,Venturada,1,4,0,2,0,7
+28171,Villa del Prado,0,20,7,10,0,37
+28170,Villaconejos,0,3,2,0,0,5
+28172,Villalbilla,1,8,6,5,0,20
+28173,Villamanrique de Tajo,1,2,7,1,0,11
+28174,Villamanta,1,7,3,6,0,17
+28175,Villamantilla,1,4,0,1,0,6
+28176,Villanueva de la Cañada,0,5,3,0,0,8
+28178,Villanueva de Perales,0,3,0,6,0,9
+28177,Villanueva del Pardillo,0,9,8,3,0,20
+28179,Villar del Olmo,0,2,16,2,0,20
+28180,Villarejo de Salvanés,2,5,3,1,0,11
+28181,Villaviciosa de Odón,1,14,7,4,0,26
+28182,Villavieja del Lozoya,1,3,1,0,0,5
+28183,Zarzalejo,2,3,6,4,0,15
