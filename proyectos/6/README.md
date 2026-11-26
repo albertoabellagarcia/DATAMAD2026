@@ -59,6 +59,7 @@
 - `Los_invisibles_del_Bono.pptx` y `Los_invisibles_del_Bono.pdf`: la presentación (3 diapositivas y la captura).
 - `Los_invisibles_del_Bono_codigo.zip`: el código del repositorio.
 - `Informe_Los_invisibles_del_Bono.pdf`: este README como informe en PDF, con todas las imágenes.
+- `demo_app.mp4`: vídeo de 16 segundos de la app, con Marta y Campo Real.
 - Las imágenes de este README: la portada, dos capturas de la app y cuatro gráficos del análisis (`resultados/figuras/` en el código).
 
 ## Datos abiertos utilizados
