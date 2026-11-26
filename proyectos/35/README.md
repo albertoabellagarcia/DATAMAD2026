@@ -2,7 +2,9 @@
 
 **DATAMAD 2026 · Hackathon de Datos Abiertos de la Comunidad de Madrid**
 
-**Integrantes:** IÑIGO DÍEZ OSÚA
+**Integrantes:** COMPLETAR ANTES DE SUBIR
+
+**Web publicada:** https://inigo-diez.github.io/CERCASALUD-MAD/
 
 CercaSalud MAD mide a cuántos minutos, a pie y en transporte público, queda cada persona de la Comunidad de Madrid de los recursos de salud que necesita, y señala dónde conviene actuar:
 
@@ -14,25 +16,28 @@ La población se reparte en celdas de 100 m a partir de las secciones censales d
 
 ## Contenido de esta carpeta
 
-| Ruta | Qué es |
-|---|---|
-| `CercaSalud_Madrid_DATAMAD2026_Presentacion_Final.pdf` / `.pptx` | Presentación de la entrega |
-| `CercaSalud_Madrid_producto_con_musica.mp4` | Vídeo de la aplicación |
-| `web/` | Aplicación web estática con los resultados (mapa con deck.gl). No hace cálculos en el navegador ni pide nada a servicios externos |
-| `codigo/` | Código en Python que descarga los datos, hace los cálculos y genera la web, con sus tests |
+| Ruta                                                                 | Qué es                                                                                                                                                                                                     |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CercaSalud_Madrid_DATAMAD2026_Presentacion_Final.pdf` / `.pptx` | Presentación de la entrega                                                                                                                                                                                 |
+| `CercaSalud_Madrid_producto_con_musica.mp4`                        | Vídeo de la aplicación                                                                                                                                                                                    |
+| `web/`                                                             | Copia de la aplicación web estática con los resultados (mapa con deck.gl), publicada en https://inigo-diez.github.io/CERCASALUD-MAD/. No hace cálculos en el navegador ni pide nada a servicios externos |
+| `codigo/`                                                          | Código en Python que descarga los datos, hace los cálculos y genera la web, con sus tests                                                                                                                 |
 
 Repositorio del proyecto: https://github.com/inigo-diez/CERCASALUD-MAD
 
 ## Cómo abrir la web
 
-La página carga sus datos desde `web/datos/`, así que necesita un servidor local (abrir `index.html` con doble clic no funciona):
+**Web publicada (GitHub Pages): https://inigo-diez.github.io/CERCASALUD-MAD/**
+
+Es la forma de verla: se abre directamente en el navegador, sin instalar nada.
+
+Alternativa sin conexión a esa dirección: la misma web está en `web/`. Carga sus datos desde `web/datos/`, así que necesita un servidor local (abrir `index.html` con doble clic no funciona). Con Python instalado, desde la carpeta `web/`:
 
 ```
-cd web
 python -m http.server 8000
 ```
 
-Después, abrir http://127.0.0.1:8000 en el navegador.
+y abrir http://127.0.0.1:8000 en el navegador.
 
 ## Cómo reproducir el cálculo
 
@@ -51,10 +56,12 @@ Los datos descargados no se incluyen en el repositorio: `fetch` los descarga de 
 ## Conjuntos de datos utilizados
 
 **Comunidad de Madrid (Portal de Datos Abiertos)**
+
 - Centros, servicios y establecimientos sanitarios: https://datos.comunidad.madrid/dataset/d8a0a444-adf5-4c04-8999-0eac3de52cb7 (CC BY 4.0; la columna NIF se elimina en la ingesta)
 - Bibliotecas y servicios de lectura: https://datos.comunidad.madrid/dataset/e6a74331-d329-4ba2-8bb9-6be2669417a2 (CC BY 4.0)
 
 **Ayuntamiento de Madrid**
+
 - Equipamientos municipales (horarios de los mercados): https://datos.madrid.es/dataset/300331-0-equipamientos-municipales (CC BY 4.0)
 - Bibliotecas, centros de mayores, centros culturales, piscinas municipales y fuentes de agua: https://datos.madrid.es (CC BY 4.0)
 - Salas de estudio: https://datos.madrid.es/dataset/217921-0-salas-estudio (CC BY 4.0)
@@ -63,14 +70,17 @@ Los datos descargados no se incluyen en el repositorio: `fetch` los descarga de 
 - Mercados con aire acondicionado en zonas comunes: https://www.madrid.es (aviso legal de madrid.es)
 
 **INE**
+
 - Población por sección censal, sexo y edad (tabla 69213): https://www.ine.es/jaxiT3/files/t/es/csv_bdsc/69213.csv (CC BY 4.0)
 - Secciones censales 2025 (cartografía): https://www.ine.es/dyngs/AYU/index.htm?cid=125 (CC BY 4.0)
 - Atlas de Distribución de Renta de los Hogares 2024: https://www.ine.es (CC BY 4.0)
 
 **Consorcio Regional de Transportes de Madrid (CRTM)**
+
 - GTFS de Metro, EMT, interurbanos, urbanos, Metro Ligero y Cercanías (licencia de datos abiertos del CRTM)
 
 **OpenStreetMap**
+
 - Extracto de Madrid de Geofabrik: https://download.geofabrik.de/europe/spain/ (ODbL 1.0)
 
 ## Licencias y atribuciones
