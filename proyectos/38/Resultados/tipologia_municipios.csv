@@ -1,0 +1,180 @@
+cod_mun,municipio,cluster,tipo,indice,rango,fiabilidad,paro,residentes,empleo,ratio_empleo,A_deficit_empleo,B_presion_paro,C_desajuste_sectorial,baja_cualif,alta_cualif,temporal,var_paro
+126,Robregordo,0,Municipios pequeños (fuera de tipología),1.9487,1,baja (municipio < 1.000 afiliados residentes),6,16,10.0000,0.5208,0.6524,0.2381,,0.3750,0.0625,0.0000,2.0000
+037,Cenicientos,0,Municipios pequeños (fuera de tipología),1.6693,2,baja (municipio < 1.000 afiliados residentes),168,671,230.0000,0.2856,1.2531,0.1726,,0.2792,0.0646,0.1759,-0.1683
+157,Valdelaguna,0,Municipios pequeños (fuera de tipología),1.5634,3,baja (municipio < 1.000 afiliados residentes),69,250,115.0000,0.3833,0.9589,0.1870,,0.1321,0.1132,0.1111,-0.0143
+016,Atazar (El),0,Municipios pequeños (fuera de tipología),1.5101,4,baja (municipio < 1.000 afiliados residentes),10,43,15.0000,0.2907,1.2355,0.1623,,0.2143,0.0952,0.2619,-0.2308
+168,Vellón (El),0,Municipios pequeños (fuera de tipología),1.4675,5,baja (municipio < 1.000 afiliados residentes),139,804,180.0000,0.1866,1.6790,0.1259,,0.2038,0.1359,0.1387,-0.1090
+155,Valdaracete,0,Municipios pequeños (fuera de tipología),1.3548,6,baja (municipio < 1.000 afiliados residentes),49,254,75.0000,0.2460,1.4022,0.1385,,0.3571,0.0810,0.1321,-0.2222
+173,Villamanrique de Tajo,0,Municipios pequeños (fuera de tipología),1.3325,7,baja (municipio < 1.000 afiliados residentes),65,268,120.0000,0.3731,0.9859,0.1681,,0.2805,0.0498,0.1441,0.0000
+159,Valdemaqueda,0,Municipios pequeños (fuera de tipología),1.3282,8,baja (municipio < 1.000 afiliados residentes),72,293,135.0000,0.3839,0.9573,0.1700,,0.2251,0.1342,0.1191,-0.1325
+094,Navalafuente,0,Municipios pequeños (fuera de tipología),1.3123,9,baja (municipio < 1.000 afiliados residentes),116,668,175.0000,0.2183,1.5219,0.1264,,0.2448,0.1318,0.1454,-0.1594
+122,Ribatejada,0,Municipios pequeños (fuera de tipología),1.1484,10,baja (municipio < 1.000 afiliados residentes),61,292,120.0000,0.3424,1.0716,0.1483,,0.2080,0.1504,0.1053,-0.1286
+095,Navalagamella,0,Municipios pequeños (fuera de tipología),1.1475,11,media (sin componente sectorial: < 500 empleos),181,1126,310.0000,0.2294,1.4722,0.1181,,0.2228,0.1328,0.1097,-0.0423
+069,Hiruela (La),0,Municipios pequeños (fuera de tipología),1.0836,12,baja (municipio < 1.000 afiliados residentes),4,9,20.0000,1.8517,-0.6161,0.2703,,0.0000,0.0000,0.2000,1.0000
+056,Fresnedillas de la Oliva,0,Municipios pequeños (fuera de tipología),1.0697,13,baja (municipio < 1.000 afiliados residentes),121,673,235.0000,0.2910,1.2345,0.1303,,0.2195,0.1970,0.1556,-0.1655
+048,Corpa,0,Municipios pequeños (fuera de tipología),1.0238,14,baja (municipio < 1.000 afiliados residentes),45,298,85.0000,0.2377,1.4368,0.1118,,0.2760,0.1040,0.1401,-0.2742
+039,Cervera de Buitrago,0,Municipios pequeños (fuera de tipología),0.9508,15,baja (municipio < 1.000 afiliados residentes),12,36,45.0000,1.0416,-0.0408,0.2174,,0.1875,0.0938,0.0938,0.0000
+036,Casarrubuelos,2,Desajuste sectorial (el empleo local es de otros sectores),0.9498,16,alta,202,1619,1105.0000,0.5687,0.5643,0.0942,0.3849,0.1981,0.1213,0.1060,-0.2546
+135,Santa María de la Alameda,0,Municipios pequeños (fuera de tipología),0.9410,17,baja (municipio < 1.000 afiliados residentes),115,494,300.0000,0.5060,0.6811,0.1625,,0.2069,0.1552,0.1575,-0.0726
+097,Navarredonda y San Mamés,0,Municipios pequeños (fuera de tipología),0.9264,18,baja (municipio < 1.000 afiliados residentes),8,37,20.0000,0.4504,0.7976,0.1527,,0.1200,0.1600,0.1538,0.6000
+060,Fuentidueña de Tajo,0,Municipios pequeños (fuera de tipología),0.9063,19,baja (municipio < 1.000 afiliados residentes),151,725,375.0000,0.4310,0.8416,0.1479,,0.2548,0.0780,0.1265,-0.2634
+136,Santorcaz,0,Municipios pequeños (fuera de tipología),0.8777,20,baja (municipio < 1.000 afiliados residentes),51,348,110.0000,0.2634,1.3341,0.1088,,0.2590,0.1942,0.2021,0.0625
+042,Colmenar del Arroyo,0,Municipios pequeños (fuera de tipología),0.8541,21,baja (municipio < 1.000 afiliados residentes),112,669,525.0000,0.6539,0.4248,0.1224,0.3164,0.1827,0.1846,0.1588,0.0182
+147,Titulcia,0,Municipios pequeños (fuera de tipología),0.8362,22,baja (municipio < 1.000 afiliados residentes),97,571,230.0000,0.3356,1.0917,0.1240,,0.2328,0.1164,0.1179,-0.2422
+019,Belmonte de Tajo,0,Municipios pequeños (fuera de tipología),0.8335,23,baja (municipio < 1.000 afiliados residentes),108,719,245.0000,0.2839,1.2590,0.1112,,0.2291,0.0970,0.1421,-0.1000
+102,Orusco de Tajuña,0,Municipios pequeños (fuera de tipología),0.8226,24,baja (municipio < 1.000 afiliados residentes),100,524,255.0000,0.4055,0.9026,0.1372,,0.2867,0.0778,0.1425,-0.1803
+180,Villarejo de Salvanés,2,Desajuste sectorial (el empleo local es de otros sectores),0.8169,25,alta,479,3161,2355.0000,0.6208,0.4767,0.1121,0.3221,0.2652,0.1081,0.1195,-0.2480
+031,Cadalso de los Vidrios,1,Paro alto y empleo poco cualificado,0.8146,26,alta,220,1096,630.0000,0.4790,0.7361,0.1433,0.1985,0.2771,0.1220,0.1742,-0.3452
+116,Pozuelo del Rey,0,Municipios pequeños (fuera de tipología),0.7853,27,baja (municipio < 1.000 afiliados residentes),72,490,170.0000,0.2891,1.2410,0.1091,,0.2075,0.1175,0.0963,-0.2727
+043,Colmenar de Oreja,1,Paro alto y empleo poco cualificado,0.6959,28,alta,514,3418,1395.0000,0.3401,1.0785,0.1114,0.1821,0.2449,0.0895,0.1125,-0.2572
+137,Santos de la Humosa (Los),0,Municipios pequeños (fuera de tipología),0.6903,29,baja (municipio < 1.000 afiliados residentes),132,972,335.0000,0.2872,1.2476,0.1017,,0.2386,0.1894,0.1007,-0.2370
+145,Talamanca de Jarama,2,Desajuste sectorial (el empleo local es de otros sectores),0.6891,30,alta,173,1733,730.0000,0.3510,1.0469,0.0768,0.2700,0.1877,0.1545,0.1148,-0.2700
+174,Villamanta,1,Paro alto y empleo poco cualificado,0.6716,31,alta,161,1009,525.0000,0.4336,0.8357,0.1174,0.2054,0.2246,0.1556,0.1351,-0.1571
+011,Ambite,0,Municipios pequeños (fuera de tipología),0.6473,32,baja (municipio < 1.000 afiliados residentes),45,239,135.0000,0.4707,0.7536,0.1356,,0.3105,0.0947,0.1753,-0.3836
+057,Fresno de Torote,0,Municipios pequeños (fuera de tipología),0.6395,33,baja (municipio < 1.000 afiliados residentes),127,918,340.0000,0.3086,1.1756,0.1034,,0.2090,0.1298,0.1242,-0.2160
+035,Carabaña,0,Municipios pequeños (fuera de tipología),0.6372,34,baja (municipio < 1.000 afiliados residentes),127,875,345.0000,0.3286,1.1131,0.1079,,0.2446,0.1016,0.1450,-0.2209
+166,Valverde de Alcalá,0,Municipios pequeños (fuera de tipología),0.6356,35,baja (municipio < 1.000 afiliados residentes),21,179,55.0000,0.2560,1.3624,0.0891,,0.2292,0.0972,0.0872,-0.1923
+156,Valdeavero,0,Municipios pequeños (fuera de tipología),0.6166,36,baja (municipio < 1.000 afiliados residentes),110,638,325.0000,0.4245,0.8569,0.1256,,0.2169,0.1305,0.1028,-0.0984
+012,Anchuelo,0,Municipios pequeños (fuera de tipología),0.6124,37,baja (municipio < 1.000 afiliados residentes),68,516,185.0000,0.2988,1.2081,0.0989,,0.2104,0.1678,0.1023,-0.3200
+109,Pelayos de la Presa,0,Municipios pequeños (fuera de tipología),0.6052,38,baja (municipio < 1.000 afiliados residentes),247,973,640.0000,0.5481,0.6013,0.1746,0.0916,0.2956,0.0763,0.1360,-0.2492
+033,Campo Real,2,Desajuste sectorial (el empleo local es de otros sectores),0.5906,39,alta,332,2890,1685.0000,0.4858,0.7219,0.0874,0.2774,0.2408,0.1170,0.1001,-0.3279
+170,Villaconejos,1,Paro alto y empleo poco cualificado,0.5797,40,alta,220,1440,600.0000,0.3472,1.0578,0.1129,0.1513,0.3019,0.0689,0.1209,-0.2568
+067,Guadalix de la Sierra,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.5778,41,alta,345,2866,1035.0000,0.3009,1.2009,0.0912,0.1775,0.1784,0.2139,0.1163,-0.2500
+099,Navas del Rey,1,Paro alto y empleo poco cualificado,0.5624,42,alta,203,1122,630.0000,0.4679,0.7595,0.1310,0.1571,0.2299,0.1183,0.1396,-0.2222
+032,Camarma de Esteruelas,2,Desajuste sectorial (el empleo local es de otros sectores),0.5579,43,alta,447,3262,2355.0000,0.6016,0.5082,0.1025,0.2710,0.2085,0.1604,0.0936,-0.2060
+124,Robledillo de la Jara,0,Municipios pequeños (fuera de tipología),0.5444,44,baja (municipio < 1.000 afiliados residentes),9,38,35.0000,0.7675,0.2646,0.1648,,0.2941,0.1471,0.2353,2.0000
+175,Villamantilla,0,Municipios pequeños (fuera de tipología),0.5345,45,baja (municipio < 1.000 afiliados residentes),93,634,280.0000,0.3680,0.9996,0.1089,,0.1804,0.2078,0.1448,-0.1696
+183,Zarzalejo,0,Municipios pequeños (fuera de tipología),0.5290,46,baja (municipio < 1.000 afiliados residentes),124,665,415.0000,0.5200,0.6539,0.1345,,0.1718,0.1988,0.1563,-0.1079
+110,Perales de Tajuña,1,Paro alto y empleo poco cualificado,0.4974,47,alta,233,1204,560.0000,0.3876,0.9478,0.1389,0.0865,0.2339,0.1143,0.1446,-0.2673
+003,Alameda del Valle,0,Municipios pequeños (fuera de tipología),0.4883,48,baja (municipio < 1.000 afiliados residentes),17,89,60.0000,0.5618,0.5767,0.1373,,0.1818,0.1970,0.2388,0.2143
+063,Gargantilla del Lozoya y Pinilla de Buitrago,0,Municipios pequeños (fuera de tipología),0.4865,49,baja (municipio < 1.000 afiliados residentes),25,117,95.0000,0.6766,0.3907,0.1511,,0.3626,0.1538,0.1630,0.0417
+178,Villanueva de Perales,0,Municipios pequeños (fuera de tipología),0.4659,50,baja (municipio < 1.000 afiliados residentes),95,697,300.0000,0.3587,1.0254,0.1020,,0.1818,0.1545,0.0986,-0.1593
+101,Olmeda de las Fuentes,0,Municipios pequeños (fuera de tipología),0.4618,51,baja (municipio < 1.000 afiliados residentes),27,149,95.0000,0.5313,0.6324,0.1312,,0.1887,0.3585,0.1009,0.9286
+089,Moraleja de Enmedio,2,Desajuste sectorial (el empleo local es de otros sectores),0.4570,52,alta,221,2484,2625.0000,0.8806,0.1272,0.0690,0.3949,0.1997,0.1631,0.0966,-0.3557
+008,Aldea del Fresno,1,Paro alto y empleo poco cualificado,0.4219,53,alta,204,1082,610.0000,0.4698,0.7555,0.1358,0.1090,0.2981,0.1012,0.1340,-0.2714
+179,Villar del Olmo,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.4036,54,alta,115,1209,520.0000,0.3584,1.0261,0.0734,0.2062,0.1929,0.1862,0.1147,-0.2230
+028,Bustarviejo,0,Municipios pequeños (fuera de tipología),0.3916,55,media (sin componente sectorial: < 500 empleos),146,1077,495.0000,0.3830,0.9598,0.1015,,0.1611,0.2669,0.1374,-0.1978
+164,Valdetorres de Jarama,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.3909,56,alta,288,1999,980.0000,0.4085,0.8952,0.1072,0.1447,0.1996,0.1450,0.0932,-0.1529
+125,Robledo de Chavela,1,Paro alto y empleo poco cualificado,0.3476,57,alta,278,1626,1005.0000,0.5150,0.6635,0.1247,0.1330,0.1799,0.1669,0.1097,-0.1726
+106,Parla,4,Grandes municipios metropolitanos de cualificación media,0.3333,58,alta,7519,57321,18665.0000,0.2713,1.3044,0.0985,0.0759,0.2730,0.0939,0.1000,-0.3521
+017,Batres,0,Municipios pequeños (fuera de tipología),0.3315,59,baja (municipio < 1.000 afiliados residentes),82,665,290.0000,0.3634,1.0123,0.0932,,0.1578,0.1865,0.1174,-0.1546
+073,Humanes de Madrid,2,Desajuste sectorial (el empleo local es de otros sectores),0.3195,60,alta,1100,8972,11500.0000,1.0681,-0.0659,0.0927,0.3361,0.2469,0.1073,0.0988,-0.3125
+150,Torrejón de Velasco,2,Desajuste sectorial (el empleo local es de otros sectores),0.3133,61,alta,199,1956,1095.0000,0.4665,0.7625,0.0782,0.2188,0.1883,0.1299,0.1040,-0.2196
+075,Loeches,2,Desajuste sectorial (el empleo local es de otros sectores),0.3036,62,alta,424,4128,4595.0000,0.9276,0.0752,0.0788,0.3398,0.2119,0.1470,0.0926,-0.2945
+108,Pedrezuela,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.2854,63,alta,293,2534,930.0000,0.3058,1.1847,0.0879,0.1108,0.1619,0.1911,0.1147,-0.2124
+902,Puentes Viejas,0,Municipios pequeños (fuera de tipología),0.2684,64,baja (municipio < 1.000 afiliados residentes),24,254,90.0000,0.2953,1.2199,0.0730,,0.1300,0.1550,0.1980,-0.4146
+034,Canencia,0,Municipios pequeños (fuera de tipología),0.2565,65,baja (municipio < 1.000 afiliados residentes),24,141,100.0000,0.5910,0.5260,0.1242,,0.2190,0.1714,0.1869,-0.2727
+046,Collado Mediano,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.2526,66,alta,384,3180,1555.0000,0.4075,0.8978,0.0914,0.1458,0.1330,0.2826,0.1101,-0.2658
+133,San Martín de Valdeiglesias,1,Paro alto y empleo poco cualificado,0.2502,67,alta,585,3201,1760.0000,0.4582,0.7805,0.1322,0.0677,0.2523,0.1242,0.1909,-0.2813
+129,San Agustín del Guadalix,2,Desajuste sectorial (el empleo local es de otros sectores),0.2459,68,alta,503,6327,5490.0000,0.7231,0.3243,0.0621,0.3196,0.1424,0.2942,0.0825,-0.2635
+052,Chinchón,1,Paro alto y empleo poco cualificado,0.2405,69,alta,354,2210,1470.0000,0.5543,0.5901,0.1178,0.1348,0.2655,0.1232,0.1006,-0.1324
+084,Mejorada del Campo,4,Grandes municipios metropolitanos de cualificación media,0.2369,70,alta,1194,11132,6855.0000,0.5131,0.6672,0.0820,0.2064,0.2749,0.0919,0.0974,-0.3649
+070,Horcajo de la Sierra-Aoslos,0,Municipios pequeños (fuera de tipología),0.2271,71,baja (municipio < 1.000 afiliados residentes),12,62,55.0000,0.7392,0.3022,0.1389,,0.2222,0.1333,0.1304,0.2000
+151,Torrelaguna,1,Paro alto y empleo poco cualificado,0.2258,72,alta,235,2033,765.0000,0.3136,1.1598,0.0879,0.0996,0.2285,0.1195,0.1328,-0.1924
+086,Molar (El),3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.2123,73,alta,468,3994,1375.0000,0.2869,1.2487,0.0890,0.0772,0.2317,0.1426,0.1028,-0.2427
+119,Quijorna,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.2101,74,alta,147,1691,510.0000,0.2513,1.3810,0.0675,0.1044,0.1459,0.2193,0.1146,-0.3553
+091,Morata de Tajuña,4,Grandes municipios metropolitanos de cualificación media,0.2068,75,alta,459,3353,1430.0000,0.3554,1.0346,0.1024,0.0821,0.2270,0.0998,0.1076,-0.3149
+165,Valdilecha,4,Grandes municipios metropolitanos de cualificación media,0.2056,76,alta,172,1305,660.0000,0.4214,0.8641,0.0990,0.1212,0.2949,0.0765,0.0994,-0.4007
+021,Berrueco (El),0,Municipios pequeños (fuera de tipología),0.1932,77,baja (municipio < 1.000 afiliados residentes),39,238,170.0000,0.5952,0.5189,0.1201,,0.2155,0.1713,0.1657,0.0263
+111,Pezuela de las Torres,0,Municipios pequeños (fuera de tipología),0.1645,78,baja (municipio < 1.000 afiliados residentes),40,288,170.0000,0.4919,0.7095,0.1037,,0.2152,0.1256,0.1106,-0.2982
+023,Boalo (El),3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.1597,79,alta,363,3508,1750.0000,0.4157,0.8778,0.0794,0.1540,0.1282,0.2743,0.1050,-0.1915
+100,Nuevo Baztán,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.1545,80,alta,397,2591,1320.0000,0.4245,0.8568,0.1132,0.0744,0.1793,0.1719,0.1041,-0.2336
+158,Valdemanco,0,Municipios pequeños (fuera de tipología),0.1382,81,baja (municipio < 1.000 afiliados residentes),46,400,195.0000,0.4062,0.9008,0.0874,,0.1975,0.1599,0.1553,-0.1481
+018,Becerril de la Sierra,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.1345,82,alta,327,2671,1150.0000,0.3588,1.0251,0.0926,0.0885,0.1825,0.2260,0.1157,-0.0840
+114,Piñuécar-Gandullas,0,Municipios pequeños (fuera de tipología),0.1322,83,baja (municipio < 1.000 afiliados residentes),7,75,30.0000,0.3333,1.0987,0.0722,,0.2143,0.1964,0.2143,-0.5625
+062,Garganta de los Montes,0,Municipios pequeños (fuera de tipología),0.0970,84,baja (municipio < 1.000 afiliados residentes),17,148,75.0000,0.4223,0.8621,0.0874,,0.2478,0.1504,0.1667,-0.3462
+085,Miraflores de la Sierra,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.0697,85,alta,348,2879,1150.0000,0.3329,1.1001,0.0915,0.0602,0.1997,0.2037,0.1181,-0.2249
+050,Cubas de la Sagra,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.0516,86,alta,260,2695,1635.0000,0.5055,0.6821,0.0744,0.1731,0.1635,0.1863,0.1000,-0.2486
+182,Villavieja del Lozoya,0,Municipios pequeños (fuera de tipología),0.0506,87,baja (municipio < 1.000 afiliados residentes),13,113,60.0000,0.4425,0.8154,0.0875,,0.2439,0.1341,0.2073,-0.1333
+163,Valdepiélagos,0,Municipios pequeños (fuera de tipología),0.0459,88,baja (municipio < 1.000 afiliados residentes),35,266,165.0000,0.5169,0.6599,0.0988,,0.1942,0.2136,0.1070,0.0606
+128,Rozas de Puerto Real,0,Municipios pequeños (fuera de tipología),0.0174,89,baja (municipio < 1.000 afiliados residentes),30,135,185.0000,1.1419,-0.1327,0.1562,,0.3394,0.1193,0.2018,-0.2857
+058,Fuenlabrada,4,Grandes municipios metropolitanos de cualificación media,0.0171,90,alta,9632,91484,47665.0000,0.4342,0.8343,0.0807,0.1210,0.2254,0.1189,0.1008,-0.3884
+044,Colmenarejo,3,"Residenciales cualificados (pocos empleos locales, poco paro)",0.0126,91,alta,441,4229,1665.0000,0.3281,1.1145,0.0799,0.0705,0.1282,0.2611,0.0929,-0.2650
+004,Álamo (El),4,Grandes municipios metropolitanos de cualificación media,0.0032,92,alta,523,3771,2010.0000,0.4442,0.8116,0.1036,0.0658,0.2115,0.1246,0.1298,-0.3321
+112,Pinilla del Valle,0,Municipios pequeños (fuera de tipología),-0.0022,93,baja (municipio < 1.000 afiliados residentes),5,62,25.0000,0.3360,1.0906,0.0630,,0.2000,0.1455,0.1607,-0.5833
+082,Manzanares el Real,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.0077,94,alta,411,3805,1490.0000,0.3263,1.1199,0.0826,0.0578,0.1530,0.2464,0.1091,-0.2595
+140,Serranillos del Valle,4,Grandes municipios metropolitanos de cualificación media,-0.0082,95,alta,183,1934,1305.0000,0.5623,0.5758,0.0731,0.1798,0.1659,0.1582,0.1108,-0.3690
+132,San Martín de la Vega,4,Grandes municipios metropolitanos de cualificación media,-0.0177,96,alta,1159,8719,5285.0000,0.5051,0.6830,0.0997,0.0931,0.2409,0.1061,0.0987,-0.3324
+061,Galapagar,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.0189,97,alta,1540,16864,6225.0000,0.3076,1.1790,0.0707,0.0728,0.1452,0.2655,0.0963,-0.2978
+013,Aranjuez,1,Paro alto y empleo poco cualificado,-0.0297,98,alta,3310,22816,12875.0000,0.4702,0.7546,0.1079,0.0571,0.2162,0.2154,0.1338,-0.3195
+146,Tielmes,1,Paro alto y empleo poco cualificado,-0.0344,99,alta,198,1129,640.0000,0.4724,0.7500,0.1275,0.0090,0.2756,0.0788,0.1356,-0.2048
+154,Torres de la Alameda,4,Grandes municipios metropolitanos de cualificación media,-0.0489,100,alta,434,3419,2980.0000,0.7263,0.3198,0.0957,0.1609,0.2512,0.1247,0.1110,-0.3165
+172,Villalbilla,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.0507,101,alta,578,7052,3245.0000,0.3834,0.9586,0.0639,0.1210,0.1345,0.2755,0.0868,-0.2775
+051,Chapinería,0,Municipios pequeños (fuera de tipología),-0.0656,102,baja (municipio < 1.000 afiliados residentes),128,918,510.0000,0.4629,0.7702,0.1041,0.0539,0.1878,0.2149,0.1337,-0.3600
+059,Fuente el Saz de Jarama,4,Grandes municipios metropolitanos de cualificación media,-0.0688,103,alta,331,3180,2215.0000,0.5804,0.5440,0.0798,0.1532,0.2139,0.1581,0.0929,-0.3002
+171,Villa del Prado,1,Paro alto y empleo poco cualificado,-0.0748,104,alta,400,2867,1810.0000,0.5261,0.6423,0.1042,0.0746,0.3167,0.0790,0.1831,-0.2141
+053,Daganzo de Arriba,2,Desajuste sectorial (el empleo local es de otros sectores),-0.0846,105,alta,433,4926,4005.0000,0.6775,0.3894,0.0682,0.2052,0.1499,0.2439,0.0852,-0.2636
+121,Redueña,0,Municipios pequeños (fuera de tipología),-0.0930,106,baja (municipio < 1.000 afiliados residentes),10,128,55.0000,0.3581,1.0271,0.0611,,0.1905,0.2000,0.1296,-0.6667
+160,Valdemorillo,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.1182,107,alta,583,6026,3115.0000,0.4307,0.8422,0.0746,0.0984,0.1404,0.2690,0.0935,-0.2740
+029,Cabanillas de la Sierra,0,Municipios pequeños (fuera de tipología),-0.1300,108,baja (municipio < 1.000 afiliados residentes),29,368,165.0000,0.3736,0.9845,0.0616,,0.1791,0.1993,0.1056,-0.4082
+087,Molinos (Los),3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.1599,109,alta,219,2006,960.0000,0.3988,0.9193,0.0834,0.0519,0.1659,0.2253,0.1080,-0.2261
+076,Lozoya,0,Municipios pequeños (fuera de tipología),-0.1806,110,baja (municipio < 1.000 afiliados residentes),29,197,175.0000,0.7402,0.3008,0.1093,,0.2434,0.1645,0.1634,-0.0645
+009,Algete,2,Desajuste sectorial (el empleo local es de otros sectores),-0.1819,111,alta,759,9796,8685.0000,0.7388,0.3028,0.0606,0.2136,0.1597,0.2431,0.0786,-0.3360
+065,Getafe,4,Grandes municipios metropolitanos de cualificación media,-0.1848,112,alta,8640,85734,78465.0000,0.7626,0.2710,0.0775,0.1778,0.1901,0.2048,0.1017,-0.3249
+092,Móstoles,4,Grandes municipios metropolitanos de cualificación media,-0.1883,113,alta,9776,94134,45515.0000,0.4029,0.9091,0.0796,0.0554,0.1933,0.1622,0.0992,-0.3618
+030,Cabrera (La),1,Paro alto y empleo poco cualificado,-0.2082,114,alta,153,1172,635.0000,0.4515,0.7952,0.0981,0.0260,0.2222,0.1590,0.1400,-0.2817
+107,Patones,0,Municipios pequeños (fuera de tipología),-0.2458,115,baja (municipio < 1.000 afiliados residentes),20,153,125.0000,0.6808,0.3845,0.0982,,0.1278,0.1579,0.1955,-0.2000
+014,Arganda del Rey,4,Grandes municipios metropolitanos de cualificación media,-0.2493,116,alta,3407,26642,26720.0000,0.8357,0.1795,0.0963,0.1317,0.2316,0.1368,0.1004,-0.3225
+104,Paracuellos de Jarama,5,Polos de empleo cualificado,-0.2551,117,alta,817,11394,6485.0000,0.4743,0.7460,0.0564,0.1238,0.0930,0.3424,0.0663,-0.2428
+118,Puebla de la Sierra,0,Municipios pequeños (fuera de tipología),-0.2592,118,baja (municipio < 1.000 afiliados residentes),3,19,20.0000,0.8771,0.1311,0.1163,,0.2353,0.1176,0.1176,0.0000
+054,Escorial (El),3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.2866,119,alta,720,7088,3075.0000,0.3615,1.0175,0.0780,0.0134,0.1370,0.2644,0.1095,-0.2199
+148,Torrejón de Ardoz,4,Grandes municipios metropolitanos de cualificación media,-0.2871,120,alta,6574,64097,39075.0000,0.5080,0.6773,0.0787,0.0736,0.2466,0.1505,0.0971,-0.3704
+005,Alcalá de Henares,4,Grandes municipios metropolitanos de cualificación media,-0.2963,121,alta,10061,86221,65545.0000,0.6335,0.4566,0.0886,0.0874,0.2270,0.2025,0.1142,-0.3306
+055,Estremera,0,Municipios pequeños (fuera de tipología),-0.2997,122,baja (municipio < 1.000 afiliados residentes),85,490,1235.0000,2.1002,-0.7420,0.1263,0.2134,0.4005,0.0893,0.2556,-0.2273
+093,Navacerrada,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3130,123,alta,127,1264,720.0000,0.4747,0.7452,0.0773,0.0579,0.1680,0.2272,0.1017,-0.2905
+090,Moralzarzal,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3156,124,alta,530,5821,3035.0000,0.4345,0.8336,0.0705,0.0574,0.1011,0.2903,0.0880,-0.2905
+113,Pinto,4,Grandes municipios metropolitanos de cualificación media,-0.3164,125,alta,2493,23999,21095.0000,0.7325,0.3114,0.0797,0.1302,0.1806,0.1873,0.0933,-0.3553
+120,Rascafría,0,Municipios pequeños (fuera de tipología),-0.3186,126,baja (municipio < 1.000 afiliados residentes),69,671,455.0000,0.5650,0.5709,0.0789,,0.3502,0.1194,0.1996,-0.2660
+024,Braojos,0,Municipios pequeños (fuera de tipología),-0.3219,127,baja (municipio < 1.000 afiliados residentes),7,103,50.0000,0.4045,0.9051,0.0536,,0.1461,0.1685,0.1685,-0.2222
+047,Collado Villalba,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3227,128,alta,3390,30980,14995.0000,0.4033,0.9080,0.0836,0.0103,0.1710,0.1939,0.0999,-0.2989
+901,Lozoyuela-Navas-Sieteiglesias,0,Municipios pequeños (fuera de tipología),-0.3277,129,baja (municipio < 1.000 afiliados residentes),70,503,480.0000,0.7952,0.2292,0.1039,,0.2660,0.1483,0.1750,-0.3913
+001,Acebeda (La),0,Municipios pequeños (fuera de tipología),-0.3287,130,baja (municipio < 1.000 afiliados residentes),3,30,20.0000,0.5555,0.5878,0.0769,,0.1600,0.3200,0.0400,-0.2500
+027,Buitrago del Lozoya,0,Municipios pequeños (fuera de tipología),-0.3375,131,baja (municipio < 1.000 afiliados residentes),83,883,605.0000,0.5709,0.5605,0.0726,0.0963,0.2500,0.1576,0.1275,-0.3664
+045,Colmenar Viejo,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3380,132,alta,2153,25390,13635.0000,0.4475,0.8041,0.0660,0.0679,0.1827,0.2626,0.1010,-0.2847
+123,Rivas-Vaciamadrid,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3521,133,alta,3780,44231,27705.0000,0.5219,0.6502,0.0665,0.0910,0.1216,0.2878,0.0964,-0.2607
+010,Alpedrete,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.3727,134,alta,599,6762,3185.0000,0.3925,0.9352,0.0687,0.0281,0.1063,0.2946,0.0990,-0.2953
+015,Arroyomolinos,5,Polos de empleo cualificado,-0.3983,135,alta,1252,14726,10960.0000,0.6202,0.4777,0.0662,0.1109,0.1037,0.2699,0.0848,-0.2776
+141,Sevilla la Nueva,4,Grandes municipios metropolitanos de cualificación media,-0.4076,136,alta,374,4259,2435.0000,0.4764,0.7415,0.0682,0.0555,0.1447,0.2074,0.0931,-0.4026
+162,Valdeolmos-Alalpardo,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.4338,137,alta,139,1865,1020.0000,0.4557,0.7858,0.0585,0.0640,0.1470,0.2648,0.1106,-0.2760
+068,Guadarrama,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.4401,138,alta,680,7344,4045.0000,0.4590,0.7788,0.0716,0.0317,0.1598,0.2161,0.1145,-0.2601
+177,Villanueva del Pardillo,5,Polos de empleo cualificado,-0.4466,139,alta,594,8535,4335.0000,0.4232,0.8598,0.0548,0.0560,0.1189,0.3249,0.0764,-0.2817
+117,Prádena del Rincón,0,Municipios pequeños (fuera de tipología),-0.4517,140,baja (municipio < 1.000 afiliados residentes),6,55,45.0000,0.6818,0.3830,0.0833,,0.1053,0.2632,0.1579,1.0000
+038,Cercedilla,1,Paro alto y empleo poco cualificado,-0.4608,141,alta,361,3197,1925.0000,0.5017,0.6897,0.0860,0.0076,0.2093,0.2019,0.1473,-0.1506
+153,Torremocha de Jarama,0,Municipios pequeños (fuera de tipología),-0.4650,142,baja (municipio < 1.000 afiliados residentes),43,345,330.0000,0.7971,0.2268,0.0941,,0.1614,0.2737,0.1897,-0.1731
+007,Alcorcón,4,Grandes municipios metropolitanos de cualificación media,-0.4788,143,alta,7389,79380,51385.0000,0.5394,0.6173,0.0720,0.0500,0.1626,0.2199,0.0941,-0.3442
+041,Cobeña,5,Polos de empleo cualificado,-0.4955,144,alta,231,3312,1605.0000,0.4038,0.9068,0.0549,0.0342,0.1058,0.3206,0.0726,-0.2620
+040,Ciempozuelos,4,Grandes municipios metropolitanos de cualificación media,-0.5059,145,alta,1287,10342,8030.0000,0.6470,0.4354,0.0940,0.0226,0.2463,0.1257,0.1152,-0.3777
+074,Leganés,4,Grandes municipios metropolitanos de cualificación media,-0.5065,146,alta,8873,85277,61905.0000,0.6049,0.5027,0.0798,0.0446,0.1944,0.1774,0.1079,-0.3361
+096,Navalcarnero,4,Grandes municipios metropolitanos de cualificación media,-0.5471,147,alta,1537,13054,10340.0000,0.6600,0.4155,0.0893,0.0265,0.1850,0.1862,0.1059,-0.2884
+026,Brunete,4,Grandes municipios metropolitanos de cualificación media,-0.5643,148,alta,397,5030,2845.0000,0.4713,0.7522,0.0617,0.0277,0.1594,0.2303,0.0960,-0.3405
+049,Coslada,4,Grandes municipios metropolitanos de cualificación media,-0.5655,149,alta,3390,39059,29805.0000,0.6359,0.4528,0.0674,0.0680,0.2073,0.1663,0.0952,-0.3905
+169,Venturada,0,Municipios pequeños (fuera de tipología),-0.5658,150,baja (municipio < 1.000 afiliados residentes),77,968,625.0000,0.5380,0.6199,0.0622,0.0503,0.0763,0.3747,0.1092,-0.3063
+071,Horcajuelo de la Sierra,0,Municipios pequeños (fuera de tipología),-0.5721,151,baja (municipio < 1.000 afiliados residentes),4,51,35.0000,0.5719,0.5589,0.0613,,0.1250,0.1250,0.2500,-0.5000
+088,Montejo de la Sierra,0,Municipios pequeños (fuera de tipología),-0.6463,152,baja (municipio < 1.000 afiliados residentes),11,113,100.0000,0.7374,0.3046,0.0750,,0.1474,0.2105,0.2396,0.0000
+131,San Lorenzo de El Escorial,4,Grandes municipios metropolitanos de cualificación media,-0.6520,153,alta,677,7932,4905.0000,0.5153,0.6630,0.0664,0.0093,0.1403,0.2725,0.1162,-0.3988
+144,Soto del Real,3,"Residenciales cualificados (pocos empleos locales, poco paro)",-0.6683,154,alta,325,3999,2660.0000,0.5543,0.5901,0.0634,0.0255,0.1676,0.3079,0.1537,-0.2389
+072,Hoyo de Manzanares,5,Polos de empleo cualificado,-0.6687,155,alta,324,3709,2945.0000,0.6616,0.4130,0.0679,0.0469,0.1032,0.3573,0.0950,-0.2230
+064,Gascones,0,Municipios pequeños (fuera de tipología),-0.6693,156,baja (municipio < 1.000 afiliados residentes),9,105,85.0000,0.6746,0.3937,0.0667,,0.1757,0.0946,0.1067,-0.1818
+083,Meco,4,Grandes municipios metropolitanos de cualificación media,-0.6889,157,alta,662,6224,7175.0000,0.9606,0.0402,0.0814,0.0765,0.2189,0.1858,0.1185,-0.3497
+143,Somosierra,0,Municipios pequeños (fuera de tipología),-0.6916,158,baja (municipio < 1.000 afiliados residentes),5,33,50.0000,1.2626,-0.2331,0.1121,,0.2963,0.1111,0.1111,1.5000
+066,Griñón,2,Desajuste sectorial (el empleo local es de otros sectores),-0.7342,159,alta,381,4524,6815.0000,1.2553,-0.2274,0.0656,0.1517,0.1578,0.2322,0.0921,-0.2825
+002,Ajalvir,2,Desajuste sectorial (el empleo local es de otros sectores),-0.8246,160,alta,177,2168,5625.0000,2.1620,-0.7710,0.0637,0.2313,0.1785,0.1455,0.0641,-0.3295
+152,Torrelodones,5,Polos de empleo cualificado,-0.8307,161,alta,643,10753,7155.0000,0.5545,0.5898,0.0475,0.0211,0.0563,0.4759,0.0783,-0.3041
+149,Torrejón de la Calzada,4,Grandes municipios metropolitanos de cualificación media,-0.8501,162,alta,407,4018,5520.0000,1.1448,-0.1352,0.0778,0.0744,0.1771,0.1736,0.0978,-0.2421
+138,Serna del Monte (La),0,Municipios pequeños (fuera de tipología),-0.8889,163,baja (municipio < 1.000 afiliados residentes),5,34,60.0000,1.4705,-0.3856,0.1092,,0.0769,0.2692,0.1538,-0.3750
+161,Valdemoro,4,Grandes municipios metropolitanos de cualificación media,-0.9132,164,alta,3721,34791,38740.0000,0.9279,0.0749,0.0818,0.0097,0.1726,0.1865,0.0996,-0.3365
+176,Villanueva de la Cañada,5,Polos de empleo cualificado,-0.9395,165,alta,658,9907,9380.0000,0.7890,0.2370,0.0524,0.0445,0.1121,0.3978,0.0816,-0.2761
+025,Brea de Tajo,0,Municipios pequeños (fuera de tipología),-0.9432,166,baja (municipio < 1.000 afiliados residentes),34,190,465.0000,2.0394,-0.7126,0.1298,,0.1963,0.0982,0.1687,-0.4138
+130,San Fernando de Henares,4,Grandes municipios metropolitanos de cualificación media,-0.9589,167,alta,1807,19722,26930.0000,1.1378,-0.1291,0.0709,0.0612,0.2139,0.1394,0.0980,-0.3765
+078,Madarcos,0,Municipios pequeños (fuera de tipología),-1.0131,168,baja (municipio < 1.000 afiliados residentes),1,30,20.0000,0.5555,0.5878,0.0270,,0.2857,0.1905,0.0952,inf
+903,Tres Cantos,5,Polos de empleo cualificado,-1.0734,169,alta,1428,23149,41450.0000,1.4921,-0.4002,0.0489,0.1337,0.0694,0.4691,0.0804,-0.2468
+181,Villaviciosa de Odón,5,Polos de empleo cualificado,-1.0823,170,alta,787,12131,13145.0000,0.9029,0.1021,0.0513,0.0340,0.0877,0.3952,0.0918,-0.2998
+080,Majadahonda,5,Polos de empleo cualificado,-1.1144,171,alta,1916,33054,33985.0000,0.8568,0.1546,0.0461,0.0285,0.1003,0.4455,0.0811,-0.3354
+079,Madrid,5,Polos de empleo cualificado,-1.1230,172,alta,140249,1581565,2391460.0000,1.2600,-0.2311,0.0688,0.0414,0.1508,0.3042,0.0905,-0.3460
+134,San Sebastián de los Reyes,5,Polos de empleo cualificado,-1.1346,173,alta,3364,44780,50740.0000,0.9442,0.0574,0.0589,0.0097,0.1518,0.2557,0.0788,-0.3178
+167,Velilla de San Antonio,4,Grandes municipios metropolitanos de cualificación media,-1.2610,174,alta,633,6359,15275.0000,2.0016,-0.6940,0.0766,0.0702,0.2022,0.1626,0.0948,-0.2935
+127,Rozas de Madrid (Las),5,Polos de empleo cualificado,-1.3249,175,alta,2547,44351,57685.0000,1.0838,-0.0805,0.0457,0.0165,0.0687,0.4683,0.0750,-0.2911
+022,Boadilla del Monte,5,Polos de empleo cualificado,-1.3662,176,alta,1439,26856,38665.0000,1.1997,-0.1821,0.0427,0.0311,0.0559,0.4852,0.0771,-0.2137
+006,Alcobendas,5,Polos de empleo cualificado,-1.4410,177,alta,4034,57899,130295.0000,1.8752,-0.6287,0.0549,0.0632,0.1595,0.2877,0.0802,-0.3470
+020,Berzosa del Lozoya,0,Municipios pequeños (fuera de tipología),-1.4451,178,baja (municipio < 1.000 afiliados residentes),3,56,70.0000,1.0416,-0.0408,0.0427,,0.3125,0.1250,0.1667,-0.7857
+115,Pozuelo de Alarcón,5,Polos de empleo cualificado,-1.6679,179,alta,1961,39903,90190.0000,1.8834,-0.6331,0.0393,0.0415,0.0659,0.5217,0.0745,-0.2887

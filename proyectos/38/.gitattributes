@@ -1,0 +1,6 @@
+# Datos originales: guardar byte a byte (sin conversión de fin de línea),
+# para que coincidan con los MD5 de la descarga CKAN indicados en el README.
+Datos/** -text
+*.zip binary
+*.png binary
+*.jpg binary
