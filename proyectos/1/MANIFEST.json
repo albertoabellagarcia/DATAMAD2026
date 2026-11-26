@@ -1,0 +1,107 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 104,
+    "sha256": "824cbbf2fbbb5382d7dbaba7c759fbcfb7545b715dea6f1031772c3d5c4e9b34"
+  },
+  {
+    "file": "Presentazione_Aria_Madrid_light.pptx",
+    "bytes": 23010698,
+    "sha256": "071326c5d817165ef56c8eaed6a06f0e0e019c5cfadacd860cca8a308dc9cc03"
+  },
+  {
+    "file": "README.md",
+    "bytes": 8624,
+    "sha256": "c4216eb4b5157a2fa38294daca4a5e2b6dd93631b74ef0e2154e39f5cb7c01a1"
+  },
+  {
+    "file": "audit_annual_history.py",
+    "bytes": 2053,
+    "sha256": "1844f9b8f5de397cec5d17fcd04d2fe322772821fe364a5f934dcb7309dd488a"
+  },
+  {
+    "file": "build_annual_history.py",
+    "bytes": 1692,
+    "sha256": "a8364de0feec6e437ce6a1fd39873283753a74f34416807735c8e4e4b5323314"
+  },
+  {
+    "file": "dist/annual-history.json",
+    "bytes": 161981,
+    "sha256": "48b97149f3cb862cf86ef74b0be20f258cda087e2f613711286902e3a28e2fe7"
+  },
+  {
+    "file": "dist/app.js",
+    "bytes": 34100,
+    "sha256": "4425fc281536ea5d11e3345fc1a2c832fb6fc18498619bd4c95f950f1431978b"
+  },
+  {
+    "file": "dist/data.json",
+    "bytes": 6975073,
+    "sha256": "667f0f2510a7e53de6abfb70a784ff7943ce115d416554af26761ef80a240995"
+  },
+  {
+    "file": "dist/i18n.js",
+    "bytes": 45026,
+    "sha256": "617a882e7d6920d09f6fd5afbeee3fe0cd720dd381ca3f994ad5e09ef32010a5"
+  },
+  {
+    "file": "dist/index.html",
+    "bytes": 12818,
+    "sha256": "4cadc5ddd737549ee4ce1dc2529026c6dec1df8ac13dac3b66816d72d77d4c94"
+  },
+  {
+    "file": "dist/recent-snapshot.json",
+    "bytes": 2480679,
+    "sha256": "21937c15294b19eaeec8a562e541b8179acddeaf7952dbc6544f9ea451d819a6"
+  },
+  {
+    "file": "dist/style.css",
+    "bytes": 19413,
+    "sha256": "6f6dc8acb998395aedcd1b05bc8d477820ccfe4b3222a61d57c8733215edc2dc"
+  },
+  {
+    "file": "fetch_sources.py",
+    "bytes": 916,
+    "sha256": "0f25a043255de74a76797604ec668b675494278c2f7d51c94b973c7aceaee93a"
+  },
+  {
+    "file": "inputs/stations.csv",
+    "bytes": 2968,
+    "sha256": "69ea41bffb0d7107936bfb7af96b2e8b49c23ecfb39e94a9d63752e166178066"
+  },
+  {
+    "file": "integrate_recent.py",
+    "bytes": 1336,
+    "sha256": "bb56dfc31d8ac5b25be1b7d1ca0faa538a6ea8b0ff5b72be9073a6d0fc7e56d6"
+  },
+  {
+    "file": "prepare_data.py",
+    "bytes": 5677,
+    "sha256": "3442d4bb7fb826752116d744e52e47fff1edb52190773c4983b66c5122bf8791"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 28,
+    "sha256": "a891e75fdcb967c24ef666d51a6a965a32f880f9f2adbc255f78dbde1aa299b9"
+  },
+  {
+    "file": "verify-annual.cjs",
+    "bytes": 1323,
+    "sha256": "d0afe821c675f22c92d08b18875a30c7fd020ff8ad8651cfb7a773890280f1f7"
+  },
+  {
+    "file": "verify-debug.cjs",
+    "bytes": 1924,
+    "sha256": "bc57e2480dd838c0f2236fb0a4ed23c01c0c2d220dc9fc33e6e628e5dfb0f861"
+  },
+  {
+    "file": "verify-live.cjs",
+    "bytes": 1613,
+    "sha256": "98335b37a6ceebdfc8627d298d6166068187210a7b7f813357045c9369e81f40"
+  },
+  {
+    "file": "verify.cjs",
+    "bytes": 2114,
+    "sha256": "e00ee932b1d473f98e14f614d94d4bc0fc7bc23f0c968fd02bc0501d72b47e49"
+  }
+]

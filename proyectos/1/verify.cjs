@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('dist/app.js','utf8').replace(/init\(\);\s*$/,'');
+const data=JSON.parse(fs.readFileSync('dist/data.json','utf8'));
+const ctx=vm.createContext({console});vm.runInContext(source,ctx);ctx.payload=data;
+vm.runInContext(`D=payload; if(quality().level!==2||!quality().complete)throw Error('Known observation classification mismatch'); let p=chooseProfile();if(!p?.g)throw Error('Historical reference missing');let before=JSON.stringify(p);for(const a of Object.values(row()))for(let i=state.hour;i<24;i++)a[i]=9999;if(JSON.stringify(chooseProfile())!==before)throw Error('Future observations leaked into group choice'); state.shared=true;if(chooseProfile()?.source!=='condiviso')throw Error('Shared reference unavailable');state.code=14;if(row()[14])throw Error('Missing pollutant case not missing');`,ctx);
+for(const [sid,byCode]of Object.entries(data.profiles))for(const months of Object.values(byCode))for(const gs of Object.values(months))for(const g of gs)for(let h=0;h<24;h++)assert(g.lo[h]<=g.median[h]&&g.median[h]<=g.hi[h]);
+assert.equal(data.stations.length,23);console.log('Verified known observation, missing pollutant, shared profile, absence of future leakage and profile quantiles.');
+const nodes={};ctx.document={getElementById:id=>nodes[id]||(nodes[id]={innerHTML:''})};
+vm.runInContext(`D=JSON.parse(JSON.stringify(payload));state.view='month';state.code=8;state.shared=false;let old=JSON.stringify(quality());row()[1]=Array(24).fill(100000);if(JSON.stringify(quality())!==old)throw Error('SO2 still affects index');drawChart(chooseProfile());if(!document.getElementById('chart').innerHTML.includes('Giorno del mese')||!document.getElementById('chart').innerHTML.includes('Concentrazione (µg/m³)'))throw Error('Axis labels missing');if(!chartRows.some(r=>r.median!==null))throw Error('Monthly clustering absent');if(document.getElementById('chart').innerHTML.includes('NaN'))throw Error('Invalid monthly SVG');`,ctx);
+console.log('Verified SO2 exclusion and monthly clustering chart with axis labels.');
