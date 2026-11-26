@@ -1,0 +1,29 @@
+OK   INE: 179 municipios (esperado 179)
+OK   INE: existen los 10 grupos quinquenales 15-64
+OK   INE: suma de grupos de edad = Todas las edades
+INE: pob. 15-64 CM 2021 = 4,524,261; 2025 = 4,827,262
+OK   centro_trabajo: 179 códigos coinciden con INE
+OK   centro_trabajo: contiene 999 (sin municipio asignado)
+OK   centro_trabajo: Total = suma de categorías (años < 2021; 0 filas comparables sin '-')
+OK   centro_trabajo: |Total - suma| <= 20.0 por redondeo a 5 (años >= 2021; máx. 15.0, 524 filas con diferencia)
+centro_trabajo: valores múltiplos de 5 desde 2021: 100.0%
+OK   centro_trabajo 999: sin fila Total, ramas sin '-' -> total = suma de ramas
+OK   centro_trabajo: total disponible 2020-2024 para 179 municipios + 999
+centro_trabajo: valores '-' por año (2020-2024): {2020: 388.0, 2021: 0.0, 2022: 0.0, 2023: 0.0, 2024: 0.0}
+OK   residencia_rama: 179 códigos coinciden con INE
+OK   residencia_rama: contiene 999 (sin municipio asignado)
+OK   residencia_rama: Total = suma de categorías sin suprimidos (máx. dif 0)
+OK   paro: 179 códigos coinciden con INE
+OK   paro: sin valores '-'
+OK   paro: Nacionalidad=Total no trae Sector=Total (se suman los 5 sectores)
+paro: años con diferencia Total vs Españoles+Extranjeros (fuera del análisis si < 2021): [2011]
+OK   paro: suma 5 sectores = Españoles+Extranjeros (Sector=Total), 2014+ (2148 filas)
+OK   grupo_cotizacion: 179 códigos coinciden con INE
+OK   grupo_cotizacion: contiene 999 (sin municipio asignado)
+OK   grupo_cotizacion: Total = suma de grupos
+OK   contrato: 179 códigos coinciden con INE
+OK   contrato: contiene 999 (sin municipio asignado)
+contrato: años sin fila 'Contrato temporal': [2014, 2015]
+OK   contrato: Total = suma de tipos (2016+)
+% 999 centro_trabajo: 2014: 0.4%, 2015: 0.4%, 2016: 0.4%, 2017: 0.4%, 2018: 0.5%, 2019: 0.5%, 2020: 0.6%, 2021: 0.6%, 2022: 0.6%, 2023: 0.7%, 2024: 0.7%, 2025: 0.8%
+% 999 residencia: 2014: 10.2%, 2015: 10.9%, 2016: 11.6%, 2017: 12.3%, 2018: 12.8%, 2019: 13.4%, 2020: 13.8%, 2021: 14.1%, 2022: 14.8%, 2023: 15.7%, 2024: 16.2%, 2025: 16.7%, 2026: 17.2%

@@ -1,0 +1,896 @@
+cod_mun,municipio,anio,empleo,residentes,s999,residentes_corr,paro,ratio_empleo,comp_A_deficit_empleo,comp_B_presion_paro,comp_C_desajuste_sectorial,z_A_deficit_empleo,z_B_presion_paro,z_C_desajuste_sectorial,n_componentes,indice,rango,percentil,fiabilidad,nota_anio
+011,Ambite,2021,92.0000,196,0.1410,228.1611,73,0.4032,0.9083,0.2424,,0.6971,2.4593,,2,1.5782,1,1.0000,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+155,Valdaracete,2021,64.0000,219,0.1410,254.9351,63,0.2510,1.3821,0.1982,,1.7076,1.3940,,2,1.5508,2,0.9940,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+016,Atazar (El),2021,14.0000,44,0.1410,51.2198,13,0.2733,1.2971,0.2024,,1.5263,1.4969,,2,1.5116,3,0.9890,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+109,Pelayos de la Presa,2021,528.0000,771,0.1410,897.5114,329,0.5883,0.5305,0.2682,,-0.1085,3.0816,,2,1.4866,4,0.9830,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+037,Cenicientos,2021,253.0000,639,0.1410,743.8518,202,0.3401,1.0785,0.2136,,1.0600,1.7650,,2,1.4125,5,0.9780,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+157,Valdelaguna,2021,96.0000,217,0.1410,252.6070,70,0.3800,0.9675,0.2170,,0.8234,1.8474,,2,1.3354,6,0.9720,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+122,Ribatejada,2021,94.0000,243,0.1410,282.8732,70,0.3323,1.1017,0.1984,,1.1096,1.3992,,2,1.2544,7,0.9660,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+168,Vellón (El),2021,182.0000,672,0.1410,782.2667,156,0.2327,1.4582,0.1663,,1.8699,0.6261,,2,1.2480,8,0.9610,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+094,Navalafuente,2021,183.0000,507,0.1410,590.1923,138,0.3101,1.1710,0.1895,,1.2573,1.1859,,2,1.2216,9,0.9550,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+110,Perales de Tajuña,2021,484.0000,1060,0.1410,1233.9326,318,0.3922,0.9359,0.2049,,0.7560,1.5566,,2,1.1563,10,0.9500,media (sin componente sectorial: < 500 empleos),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+159,Valdemaqueda,2021,139.0000,253,0.1410,294.5141,83,0.4720,0.7509,0.2199,,0.3614,1.9166,,2,1.1390,11,0.9440,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+031,Cadalso de los Vidrios,2021,611.0000,983,0.1410,1144.2979,336,0.5340,0.6274,0.2270,,0.0982,2.0881,,2,1.0932,12,0.9390,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+102,Orusco de Tajuña,2021,213.0000,382,0.1410,444.6814,122,0.4790,0.7361,0.2153,,0.3299,1.8066,,2,1.0682,13,0.9330,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+008,Aldea del Fresno,2021,502.0000,858,0.1410,998.7870,280,0.5026,0.6879,0.2190,,0.2272,1.8949,,2,1.0611,14,0.9270,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+060,Fuentidueña de Tajo,2021,349.0000,672,0.1410,782.2667,205,0.4461,0.8071,0.2076,,0.4814,1.6225,,2,1.0519,15,0.9220,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+056,Fresnedillas de la Oliva,2021,218.0000,570,0.1410,663.5298,145,0.3285,1.1131,0.1793,,1.1339,0.9409,,2,1.0374,16,0.9160,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+048,Corpa,2021,94.0000,249,0.1410,289.8578,62,0.3243,1.1261,0.1762,,1.1616,0.8655,,2,1.0136,17,0.9110,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+106,Parla,2021,17347.0000,50124,0.1410,58348.7155,11605,0.2973,1.2130,0.1659,,1.3470,0.6172,,2,0.9821,18,0.9050,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+116,Pozuelo del Rey,2021,150.0000,433,0.1410,504.0498,99,0.2976,1.2120,0.1642,,1.3449,0.5756,,2,0.9603,19,0.8990,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+091,Morata de Tajuña,2021,1093.0000,2888,0.1410,3361.8843,670,0.3251,1.1236,0.1662,,1.1563,0.6240,,2,0.8901,20,0.8940,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+173,Villamanrique de Tajo,2021,118.0000,238,0.1410,277.0528,65,0.4259,0.8535,0.1900,,0.5803,1.1984,,2,0.8893,21,0.8880,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+012,Anchuelo,2021,164.0000,433,0.1410,504.0498,100,0.3254,1.1228,0.1655,,1.1546,0.6089,,2,0.8818,22,0.8830,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+133,San Martín de Valdeiglesias,2021,1608.0000,2720,0.1410,3166.3177,814,0.5078,0.6776,0.2045,,0.2051,1.5469,,2,0.8760,23,0.8770,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+114,Piñuécar-Gandullas,2021,26.0000,73,0.1410,84.9784,16,0.3060,1.1843,0.1584,,1.2858,0.4380,,2,0.8619,24,0.8720,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+095,Navalagamella,2021,300.0000,916,0.1410,1066.3040,189,0.2813,1.2682,0.1506,,1.4646,0.2480,,2,0.8563,25,0.8660,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+147,Titulcia,2021,226.0000,520,0.1410,605.3254,128,0.3734,0.9852,0.1745,,0.8612,0.8256,,2,0.8434,26,0.8600,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+057,Fresno de Torote,2021,277.0000,716,0.1410,833.4866,162,0.3323,1.1016,0.1627,,1.1094,0.5411,,2,0.8253,27,0.8550,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+121,Redueña,2021,61.0000,103,0.1410,119.9010,30,0.5088,0.6758,0.2001,,0.2013,1.4416,,2,0.8215,28,0.8490,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+135,Santa María de la Alameda,2021,245.0000,442,0.1410,514.5266,124,0.4762,0.7420,0.1942,,0.3425,1.2987,,2,0.8206,29,0.8440,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+043,Colmenar de Oreja,2021,1330.0000,2979,0.1410,3467.8163,692,0.3835,0.9583,0.1664,,0.8039,0.6283,,2,0.7161,30,0.8380,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+112,Pinilla del Valle,2021,23.0000,52,0.1410,60.5325,12,0.3800,0.9677,0.1654,,0.8238,0.6063,,2,0.7151,31,0.8320,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+099,Navas del Rey,2021,581.0000,946,0.1410,1101.2267,261,0.5276,0.6394,0.1916,,0.1238,1.2361,,2,0.6799,32,0.8270,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+136,Santorcaz,2021,85.0000,275,0.1410,320.1240,48,0.2655,1.3261,0.1304,,1.5881,-0.2377,,2,0.6752,33,0.8210,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+166,Valverde de Alcalá,2021,46.0000,166,0.1410,193.2385,26,0.2380,1.4353,0.1186,,1.8210,-0.5218,,2,0.6496,34,0.8160,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+051,Chapinería,2021,434.0000,785,0.1410,913.8086,200,0.4749,0.7446,0.1796,,0.3480,0.9464,,2,0.6472,35,0.8100,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+175,Villamantilla,2021,228.0000,494,0.1410,575.0592,112,0.3965,0.9251,0.1630,,0.7330,0.5479,,2,0.6404,36,0.8040,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+170,Villaconejos,2021,608.0000,1289,0.1410,1500.5086,296,0.4052,0.9034,0.1648,,0.6867,0.5900,,2,0.6383,37,0.7990,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+004,Álamo (El),2021,1689.0000,3242,0.1410,3773.9713,783,0.4475,0.8040,0.1718,,0.4747,0.7600,,2,0.6174,38,0.7930,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+067,Guadalix de la Sierra,2021,906.0000,2428,0.1410,2826.4041,460,0.3205,1.1377,0.1400,,1.1864,-0.0070,,2,0.5897,39,0.7880,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+086,Molar (El),2021,1222.0000,3308,0.1410,3850.8010,618,0.3173,1.1478,0.1383,,1.2079,-0.0474,,2,0.5802,40,0.7820,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+137,Santos de la Humosa (Los),2021,355.0000,846,0.1410,984.8179,173,0.3605,1.0203,0.1494,,0.9361,0.2205,,2,0.5783,41,0.7770,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+019,Belmonte de Tajo,2021,239.0000,670,0.1410,779.9385,120,0.3064,1.1828,0.1333,,1.2825,-0.1666,,2,0.5579,42,0.7710,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+146,Tielmes,2021,597.0000,986,0.1410,1147.7901,249,0.5201,0.6537,0.1783,,0.1541,0.9151,,2,0.5346,43,0.7650,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+165,Valdilecha,2021,699.0000,1123,0.1410,1307.2701,287,0.5347,0.6260,0.1800,,0.0952,0.9573,,2,0.5263,44,0.7600,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+100,Nuevo Baztán,2021,1201.0000,2240,0.1410,2607.5557,518,0.4606,0.7753,0.1657,,0.4134,0.6133,,2,0.5134,45,0.7540,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+035,Carabaña,2021,379.0000,715,0.1410,832.3225,163,0.4554,0.7867,0.1638,,0.4378,0.5660,,2,0.5019,46,0.7490,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+164,Valdetorres de Jarama,2021,758.0000,1646,0.1410,1916.0878,340,0.3956,0.9274,0.1507,,0.7378,0.2514,,2,0.4946,47,0.7430,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+156,Valdeavero,2021,292.0000,516,0.1410,600.6691,122,0.4861,0.7213,0.1688,,0.2983,0.6876,,2,0.4930,48,0.7370,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+183,Zarzalejo,2021,342.0000,567,0.1410,660.0375,139,0.5182,0.6575,0.1740,,0.1623,0.8114,,2,0.4868,49,0.7320,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+125,Robledo de Chavela,2021,873.0000,1320,0.1410,1536.5953,336,0.5681,0.5654,0.1794,,-0.0341,0.9431,,2,0.4545,50,0.7260,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+111,Pezuela de las Torres,2021,137.0000,259,0.1410,301.4986,57,0.4544,0.7888,0.1590,,0.4423,0.4511,,2,0.4467,51,0.7210,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+119,Quijorna,2021,501.0000,1340,0.1410,1559.8771,228,0.3212,1.1358,0.1275,,1.1822,-0.3067,,2,0.4378,52,0.7150,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+128,Rozas de Puerto Real,2021,177.0000,105,0.1410,122.2292,42,1.4481,-0.3703,0.2557,,-2.0295,2.7806,,2,0.3756,53,0.7090,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+132,San Martín de la Vega,2021,4588.0000,7495,0.1410,8724.8349,1736,0.5259,0.6427,0.1660,,0.1308,0.6186,,2,0.3747,54,0.7040,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+046,Collado Mediano,2021,1277.0000,2716,0.1410,3161.6613,523,0.4039,0.9066,0.1419,,0.6935,0.0404,,2,0.3670,55,0.6980,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+028,Bustarviejo,2021,454.0000,931,0.1410,1083.7653,182,0.4189,0.8701,0.1438,,0.6157,0.0849,,2,0.3503,56,0.6930,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+174,Villamanta,2021,507.0000,854,0.1410,994.1306,191,0.5100,0.6734,0.1612,,0.1961,0.5033,,2,0.3497,57,0.6870,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+145,Talamanca de Jarama,2021,576.0000,1375,0.1410,1600.6201,237,0.3599,1.0220,0.1290,,0.9397,-0.2719,,2,0.3339,58,0.6820,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+902,Puentes Viejas,2021,102.0000,227,0.1410,264.2478,41,0.3860,0.9519,0.1343,,0.7902,-0.1431,,2,0.3235,59,0.6760,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+178,Villanueva de Perales,2021,288.0000,585,0.1410,680.9911,113,0.4229,0.8606,0.1423,,0.5954,0.0495,,2,0.3225,60,0.6700,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+085,Miraflores de la Sierra,2021,1140.0000,2395,0.1410,2787.9893,449,0.4089,0.8943,0.1387,,0.6673,-0.0374,,2,0.3150,61,0.6650,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+082,Manzanares el Real,2021,1367.0000,3361,0.1410,3912.4977,555,0.3494,1.0516,0.1242,,1.0027,-0.3860,,2,0.3083,62,0.6590,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+030,Cabrera (La),2021,567.0000,1034,0.1410,1203.6663,213,0.4711,0.7528,0.1504,,0.3655,0.2430,,2,0.3042,63,0.6540,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+013,Aranjuez,2021,14205.0000,19840,0.1410,23095.4935,4864,0.6151,0.4860,0.1740,,-0.2034,0.8116,,2,0.3041,64,0.6480,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+034,Canencia,2021,97.0000,134,0.1410,155.9877,33,0.6218,0.4751,0.1746,,-0.2268,0.8272,,2,0.3002,65,0.6420,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+151,Torrelaguna,2021,725.0000,1836,0.1410,2137.2644,291,0.3392,1.0811,0.1198,,1.0657,-0.4918,,2,0.2870,66,0.6370,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+061,Galapagar,2021,5618.0000,14637,0.1410,17038.7469,2193,0.3297,1.1095,0.1140,,1.1263,-0.6316,,2,0.2473,67,0.6310,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+901,Lozoyuela-Navas-Sieteiglesias,2021,407.0000,396,0.1410,460.9786,115,0.8829,0.1245,0.1997,,-0.9743,1.4303,,2,0.2280,68,0.6260,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+017,Batres,2021,263.0000,583,0.1410,678.6629,97,0.3875,0.9480,0.1251,,0.7818,-0.3662,,2,0.2078,69,0.6200,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+092,Móstoles,2021,42252.0000,87295,0.1410,101619.0072,15317,0.4158,0.8776,0.1310,,0.6316,-0.2233,,2,0.2042,70,0.6150,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+108,Pedrezuela,2021,1024.0000,2194,0.1410,2554.0077,372,0.4009,0.9139,0.1271,,0.7092,-0.3160,,2,0.1966,71,0.6090,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+058,Fuenlabrada,2021,44423.0000,86755,0.1410,100990.4000,15749,0.4399,0.8213,0.1349,,0.5116,-0.1289,,2,0.1913,72,0.6030,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+047,Collado Villalba,2021,13619.0000,27502,0.1410,32014.7309,4835,0.4254,0.8547,0.1312,,0.5829,-0.2180,,2,0.1825,73,0.5980,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+039,Cervera de Buitrago,2021,41.0000,46,0.1410,53.5480,12,0.7657,0.2670,0.1831,,-0.6705,1.0308,,2,0.1802,74,0.5920,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+087,Molinos (Los),2021,792.0000,1745,0.1410,2031.3325,283,0.3899,0.9419,0.1223,,0.7688,-0.4329,,2,0.1679,75,0.5870,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+158,Valdemanco,2021,156.0000,301,0.1410,350.3903,54,0.4452,0.8092,0.1335,,0.4858,-0.1620,,2,0.1619,76,0.5810,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+052,Chinchón,2021,1268.0000,1961,0.1410,2282.7753,408,0.5555,0.5880,0.1516,,0.0140,0.2737,,2,0.1439,77,0.5750,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+029,Cabanillas de la Sierra,2021,141.0000,299,0.1410,348.0621,49,0.4051,0.9036,0.1234,,0.6872,-0.4058,,2,0.1407,78,0.5700,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+062,Garganta de los Montes,2021,82.0000,126,0.1410,146.6750,26,0.5591,0.5815,0.1506,,0.0002,0.2483,,2,0.1242,79,0.5640,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+044,Colmenarejo,2021,1752.0000,3675,0.1410,4278.0211,600,0.4095,0.8927,0.1230,,0.6640,-0.4156,,2,0.1242,80,0.5590,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+018,Becerril de la Sierra,2021,1045.0000,2183,0.1410,2541.2027,357,0.4112,0.8886,0.1232,,0.6552,-0.4113,,2,0.1219,81,0.5530,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+040,Ciempozuelos,2021,6899.0000,9134,0.1410,10632.7741,2068,0.6488,0.4326,0.1628,,-0.3174,0.5433,,2,0.1130,82,0.5470,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+179,Villar del Olmo,2021,438.0000,973,0.1410,1132.6570,148,0.3867,0.9501,0.1156,,0.7863,-0.5946,,2,0.0958,83,0.5420,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+054,Escorial (El),2021,2732.0000,6219,0.1410,7239.4594,923,0.3774,0.9745,0.1131,,0.8384,-0.6545,,2,0.0919,84,0.5360,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+141,Sevilla la Nueva,2021,1918.0000,3725,0.1410,4336.2255,626,0.4423,0.8157,0.1262,,0.4997,-0.3397,,2,0.0800,85,0.5310,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+033,Campo Real,2021,1583.0000,2557,0.1410,2976.5714,494,0.5318,0.6315,0.1423,,0.1067,0.0500,,2,0.0784,86,0.5250,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+182,Villavieja del Lozoya,2021,46.0000,90,0.1410,104.7679,15,0.4391,0.8231,0.1252,,0.5155,-0.3616,,2,0.0769,87,0.5200,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+036,Casarrubuelos,2021,881.0000,1369,0.1410,1593.6356,271,0.5528,0.5927,0.1453,,0.0241,0.1222,,2,0.0732,88,0.5140,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+180,Villarejo de Salvanés,2021,2210.0000,2839,0.1410,3304.8441,637,0.6687,0.4024,0.1616,,-0.3817,0.5138,,2,0.0660,89,0.5080,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+163,Valdepiélagos,2021,102.0000,215,0.1410,250.2788,33,0.4075,0.8976,0.1165,,0.6743,-0.5723,,2,0.0510,90,0.5030,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+020,Berzosa del Lozoya,2021,51.0000,59,0.1410,68.6812,14,0.7426,0.2976,0.1693,,-0.6051,0.6998,,2,0.0474,91,0.4970,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+148,Torrejón de Ardoz,2021,34206.0000,55620,0.1410,64746.5397,10442,0.5283,0.6381,0.1389,,0.1209,-0.0333,,2,0.0438,92,0.4920,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+084,Mejorada del Campo,2021,6230.0000,10244,0.1410,11924.9110,1880,0.5224,0.6493,0.1362,,0.1447,-0.0982,,2,0.0233,93,0.4860,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+171,Villa del Prado,2021,1757.0000,2523,0.1410,2936.9924,509,0.5982,0.5138,0.1477,,-0.1442,0.1793,,2,0.0176,94,0.4800,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+090,Moralzarzal,2021,2391.0000,4979,0.1410,5795.9910,747,0.4125,0.8855,0.1142,,0.6484,-0.6283,,2,0.0101,95,0.4750,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+063,Gargantilla del Lozoya y Pinilla de Buitrago,2021,96.0000,93,0.1410,108.2601,24,0.8868,0.1202,0.1815,,-0.9836,0.9920,,2,0.0042,96,0.4690,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+160,Valdemorillo,2021,2608.0000,5087,0.1410,5921.7125,803,0.4404,0.8200,0.1194,,0.5089,-0.5021,,2,0.0034,97,0.4640,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+071,Horcajuelo de la Sierra,2021,30.0000,35,0.1410,40.7431,8,0.7363,0.3061,0.1641,,-0.5871,0.5746,,2,-0.0062,98,0.4580,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+042,Colmenar del Arroyo,2021,392.0000,556,0.1410,647.2326,110,0.6057,0.5014,0.1453,,-0.1705,0.1205,,2,-0.0250,99,0.4530,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+023,Boalo (El),2021,1509.0000,3018,0.1410,3513.2157,449,0.4295,0.8451,0.1133,,0.5623,-0.6487,,2,-0.0432,100,0.4470,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+032,Camarma de Esteruelas,2021,2124.0000,2675,0.1410,3113.9337,563,0.6821,0.3826,0.1531,,-0.4240,0.3095,,2,-0.0572,101,0.4410,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+010,Alpedrete,2021,2904.0000,5885,0.1410,6850.6542,850,0.4239,0.8583,0.1104,,0.5904,-0.7195,,2,-0.0645,102,0.4360,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+172,Villalbilla,2021,2748.0000,5338,0.1410,6213.8984,800,0.4422,0.8159,0.1141,,0.5001,-0.6309,,2,-0.0654,103,0.4300,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+003,Alameda del Valle,2021,51.0000,77,0.1410,89.6347,14,0.5690,0.5639,0.1351,,-0.0373,-0.1245,,2,-0.0809,104,0.4250,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+093,Navacerrada,2021,642.0000,1094,0.1410,1273.5116,179,0.5041,0.6849,0.1232,,0.2208,-0.4100,,2,-0.0946,105,0.4190,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+005,Alcalá de Henares,2021,57819.0000,78031,0.1410,90834.9018,15030,0.6365,0.4517,0.1420,,-0.2765,0.0412,,2,-0.1177,106,0.4130,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+027,Buitrago del Lozoya,2021,494.0000,811,0.1410,944.0749,131,0.5233,0.6477,0.1219,,0.1413,-0.4433,,2,-0.1510,107,0.4080,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+154,Torres de la Alameda,2021,2634.0000,3092,0.1410,3599.3582,635,0.7318,0.3123,0.1500,,-0.5740,0.2336,,2,-0.1702,108,0.4020,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+140,Serranillos del Valle,2021,1157.0000,1627,0.1410,1893.9702,290,0.6109,0.4928,0.1328,,-0.1888,-0.1800,,2,-0.1844,109,0.3970,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+021,Berrueco (El),2021,152.0000,217,0.1410,252.6070,38,0.6017,0.5080,0.1308,,-0.1566,-0.2288,,2,-0.1927,110,0.3910,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+026,Brunete,2021,2321.0000,4350,0.1410,5063.7801,602,0.4584,0.7801,0.1063,,0.4238,-0.8189,,2,-0.1976,111,0.3850,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+074,Leganés,2021,54574.0000,77481,0.1410,90194.6537,13365,0.6051,0.5024,0.1291,,-0.1684,-0.2698,,2,-0.2191,112,0.3800,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+045,Colmenar Viejo,2021,11856.0000,21879,0.1410,25469.0676,3010,0.4655,0.7646,0.1057,,0.3908,-0.8324,,2,-0.2208,113,0.3740,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+138,Serna del Monte (La),2021,35.0000,39,0.1410,45.3994,8,0.7709,0.2602,0.1498,,-0.6851,0.2300,,2,-0.2275,114,0.3690,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+131,San Lorenzo de El Escorial,2021,4554.0000,7095,0.1410,8259.1999,1126,0.5514,0.5953,0.1200,,0.0297,-0.4884,,2,-0.2294,115,0.3630,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+014,Arganda del Rey,2021,22622.0000,23258,0.1410,27074.3441,5029,0.8356,0.1797,0.1567,,-0.8567,0.3946,,2,-0.2311,116,0.3580,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+124,Robledillo de la Jara,2021,12.0000,22,0.1410,25.6099,3,0.4686,0.7581,0.1049,,0.3768,-0.8525,,2,-0.2378,117,0.3520,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+068,Guadarrama,2021,3720.0000,6485,0.1410,7549.1066,919,0.4928,0.7077,0.1085,,0.2694,-0.7642,,2,-0.2474,118,0.3460,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+059,Fuente el Saz de Jarama,2021,2002.0000,2687,0.1410,3127.9028,473,0.6400,0.4462,0.1314,,-0.2883,-0.2144,,2,-0.2514,119,0.3410,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+150,Torrejón de Velasco,2021,1064.0000,1633,0.1410,1900.9547,255,0.5597,0.5803,0.1183,,-0.0023,-0.5294,,2,-0.2658,120,0.3350,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+161,Valdemoro,2021,25223.0000,28595,0.1410,33287.0784,5608,0.7577,0.2774,0.1442,,-0.6483,0.0944,,2,-0.2769,121,0.3300,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+169,Venturada,2021,470.0000,749,0.1410,871.9014,111,0.5391,0.6179,0.1129,,0.0779,-0.6581,,2,-0.2901,122,0.3240,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+001,Acebeda (La),2021,17.0000,38,0.1410,44.2353,4,0.3843,0.9563,0.0829,,0.7995,-1.3805,,2,-0.2905,123,0.3180,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+050,Cubas de la Sagra,2021,1486.0000,2232,0.1410,2598.2430,346,0.5719,0.5587,0.1175,,-0.0483,-0.5476,,2,-0.2980,124,0.3130,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+038,Cercedilla,2021,1837.0000,2851,0.1410,3318.8131,425,0.5535,0.5915,0.1135,,0.0215,-0.6439,,2,-0.3112,125,0.3070,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+177,Villanueva del Pardillo,2021,3594.0000,7225,0.1410,8410.5313,827,0.4273,0.8502,0.0895,,0.5733,-1.2216,,2,-0.3242,126,0.3020,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+025,Brea de Tajo,2021,381.0000,180,0.1410,209.5357,58,1.8183,-0.5979,0.2168,,-2.5150,1.8428,,2,-0.3361,127,0.2960,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+097,Navarredonda y San Mamés,2021,22.0000,37,0.1410,43.0712,5,0.5108,0.6718,0.1040,,0.1928,-0.8728,,2,-0.3400,128,0.2910,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+153,Torremocha de Jarama,2021,249.0000,269,0.1410,313.1395,52,0.7952,0.2292,0.1424,,-0.7511,0.0518,,2,-0.3497,129,0.2850,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+076,Lozoya,2021,145.0000,192,0.1410,223.5048,31,0.6488,0.4327,0.1218,,-0.3171,-0.4444,,2,-0.3808,130,0.2790,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+007,Alcorcón,2021,52709.0000,71523,0.1410,83259.0211,11267,0.6331,0.4572,0.1192,,-0.2649,-0.5073,,2,-0.3861,131,0.2740,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+162,Valdeolmos-Alalpardo,2021,883.0000,1510,0.1410,1757.7719,192,0.5023,0.6885,0.0985,,0.2284,-1.0062,,2,-0.3889,132,0.2680,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+024,Braojos,2021,44.0000,102,0.1410,118.7369,9,0.3706,0.9927,0.0705,,0.8772,-1.6808,,2,-0.4018,133,0.2630,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+015,Arroyomolinos,2021,8246.0000,11591,0.1410,13492.9367,1733,0.6111,0.4924,0.1138,,-0.1897,-0.6367,,2,-0.4132,134,0.2570,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+041,Cobeña,2021,1498.0000,2898,0.1410,3373.5252,313,0.4440,0.8118,0.0849,,0.4914,-1.3329,,2,-0.4208,135,0.2510,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+120,Rascafría,2021,456.0000,645,0.1410,750.8364,94,0.6073,0.4987,0.1113,,-0.1764,-0.6982,,2,-0.4373,136,0.2460,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+123,Rivas-Vaciamadrid,2021,24707.0000,37317,0.1410,43440.2485,5113,0.5688,0.5643,0.1053,,-0.0365,-0.8417,,2,-0.4391,137,0.2400,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+070,Horcajo de la Sierra-Aoslos,2021,53.0000,50,0.1410,58.2044,10,0.9106,0.0937,0.1466,,-1.0401,0.1531,,2,-0.4435,138,0.2350,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+113,Pinto,2021,20174.0000,20591,0.1410,23969.7231,3867,0.8416,0.1724,0.1389,,-0.8722,-0.0324,,2,-0.4523,139,0.2290,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+107,Patones,2021,127.0000,147,0.1410,171.1208,25,0.7422,0.2982,0.1275,,-0.6040,-0.3079,,2,-0.4560,140,0.2230,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+096,Navalcarnero,2021,11623.0000,10830,0.1410,12607.0662,2160,0.9219,0.0813,0.1463,,-1.0666,0.1447,,2,-0.4609,141,0.2180,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+049,Coslada,2021,28324.0000,38338,0.1410,44628.7817,5562,0.6347,0.4547,0.1108,,-0.2703,-0.7090,,2,-0.4896,142,0.2120,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+065,Getafe,2021,69536.0000,75114,0.1410,87439.2589,12799,0.7952,0.2291,0.1277,,-0.7513,-0.3028,,2,-0.5271,143,0.2070,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+144,Soto del Real,2021,2251.0000,3480,0.1410,4051.0241,427,0.5557,0.5876,0.0954,,0.0132,-1.0813,,2,-0.5340,144,0.2010,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+053,Daganzo de Arriba,2021,3353.0000,4246,0.1410,4942.7150,588,0.6784,0.3881,0.1063,,-0.4123,-0.8174,,2,-0.6148,145,0.1960,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+083,Meco,2021,6334.0000,5339,0.1410,6215.0625,1018,1.0191,-0.0190,0.1407,,-1.2803,0.0116,,2,-0.6344,146,0.1900,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+072,Hoyo de Manzanares,2021,2439.0000,3271,0.1410,3807.7298,417,0.6405,0.4454,0.0987,,-0.2899,-1.0006,,2,-0.6453,147,0.1840,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+069,Hiruela (La),2021,22.0000,5,0.1410,5.8204,2,3.7798,-1.3297,0.2557,,-4.0756,2.7806,,2,-0.6475,148,0.1790,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+118,Puebla de la Sierra,2021,18.0000,19,0.1410,22.1177,3,0.8138,0.2060,0.1194,,-0.8006,-0.5014,,2,-0.6510,149,0.1730,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+104,Paracuellos de Jarama,2021,6450.0000,9466,0.1410,11019.2511,1079,0.5853,0.5356,0.0892,,-0.0977,-1.2298,,2,-0.6638,150,0.1680,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+073,Humanes de Madrid,2021,10515.0000,8016,0.1410,9331.3244,1600,1.1268,-0.1194,0.1464,,-1.4946,0.1471,,2,-0.6738,151,0.1620,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+129,San Agustín del Guadalix,2021,4119.0000,5482,0.1410,6381.5270,683,0.6455,0.4378,0.0967,,-0.3062,-1.0494,,2,-0.6778,152,0.1560,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+064,Gascones,2021,71.0000,87,0.1410,101.2756,11,0.7011,0.3552,0.0980,,-0.4825,-1.0182,,2,-0.7504,153,0.1510,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+075,Loeches,2021,4141.0000,3578,0.1410,4165.1046,601,0.9942,0.0058,0.1261,,-1.2275,-0.3410,,2,-0.7843,154,0.1450,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+055,Estremera,2021,914.0000,433,0.1410,504.0498,110,1.8133,-0.5952,0.1791,,-2.5091,0.9361,,2,-0.7865,155,0.1400,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+089,Moraleja de Enmedio,2021,2389.0000,2167,0.1410,2522.5773,343,0.9470,0.0544,0.1197,,-1.1239,-0.4952,,2,-0.8095,156,0.1340,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+126,Robregordo,2021,14.0000,13,0.1410,15.1331,2,0.9251,0.0778,0.1167,,-1.0739,-0.5665,,2,-0.8202,157,0.1280,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+152,Torrelodones,2021,6561.0000,9263,0.1410,10782.9413,924,0.6085,0.4968,0.0789,,-0.1804,-1.4768,,2,-0.8286,158,0.1230,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+009,Algete,2021,8031.0000,8967,0.1410,10438.3715,1143,0.7694,0.2622,0.0987,,-0.6808,-1.0009,,2,-0.8408,159,0.1170,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+176,Villanueva de la Cañada,2021,7002.0000,8489,0.1410,9881.9377,909,0.7086,0.3445,0.0842,,-0.5052,-1.3490,,2,-0.9271,160,0.1120,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+130,San Fernando de Henares,2021,23641.0000,18869,0.1410,21965.1646,2898,1.0763,-0.0735,0.1166,,-1.3967,-0.5707,,2,-0.9837,161,0.1060,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+134,San Sebastián de los Reyes,2021,42372.0000,39272,0.1410,45716.0393,4931,0.9269,0.0760,0.0974,,-1.0779,-1.0330,,2,-1.0555,162,0.1010,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+079,Madrid,2021,2007040.0000,1393758,0.1410,1622456.0880,214446,1.2370,-0.2127,0.1167,,-1.6935,-0.5663,,2,-1.1299,163,0.0950,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+181,Villaviciosa de Odón,2021,10817.0000,11017,0.1410,12824.7506,1124,0.8434,0.1703,0.0806,,-0.8768,-1.4370,,2,-1.1569,164,0.0890,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+149,Torrejón de la Calzada,2021,5300.0000,3371,0.1410,3924.1385,537,1.3506,-0.3006,0.1204,,-1.8809,-0.4789,,2,-1.1799,165,0.0840,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+101,Olmeda de las Fuentes,2021,144.0000,138,0.1410,160.6441,14,0.8964,0.1094,0.0802,,-1.0066,-1.4471,,2,-1.2269,166,0.0780,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+080,Majadahonda,2021,31183.0000,30043,0.1410,34972.6769,2883,0.8916,0.1147,0.0762,,-0.9953,-1.5435,,2,-1.2694,167,0.0730,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+066,Griñón,2021,5776.0000,4000,0.1410,4656.3495,531,1.2405,-0.2155,0.1024,,-1.6994,-0.9125,,2,-1.3060,168,0.0670,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+117,Prádena del Rincón,2021,38.0000,44,0.1410,51.2198,3,0.7419,0.2985,0.0553,,-0.6032,-2.0450,,2,-1.3241,169,0.0610,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+143,Somosierra,2021,31.0000,30,0.1410,34.9226,2,0.8877,0.1191,0.0542,,-0.9858,-2.0730,,2,-1.5294,170,0.0560,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+167,Velilla de San Antonio,2021,12725.0000,5340,0.1410,6216.2266,896,2.0471,-0.7164,0.1260,,-2.7677,-0.3439,,2,-1.5558,171,0.0500,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+127,Rozas de Madrid (Las),2021,54455.0000,39084,0.1410,45497.1909,3593,1.1969,-0.1797,0.0732,,-1.6232,-1.6150,,2,-1.6191,172,0.0450,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+088,Montejo de la Sierra,2021,171.0000,101,0.1410,117.5728,11,1.4544,-0.3746,0.0856,,-2.0388,-1.3173,,2,-1.6780,173,0.0390,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+078,Madarcos,2021,18.0000,27,0.1410,31.4304,0,0.5727,0.5574,0.0000,,-0.0512,-3.3773,,2,-1.7142,174,0.0340,baja (municipio < 1.000 afiliados residentes),atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+022,Boadilla del Monte,2021,31128.0000,21560,0.1410,25097.7237,1830,1.2403,-0.2153,0.0680,,-1.6991,-1.7409,,2,-1.7200,175,0.0280,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+002,Ajalvir,2021,4506.0000,1772,0.1410,2062.7628,264,2.1844,-0.7814,0.1135,,-2.9062,-0.6453,,2,-1.7758,176,0.0220,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+006,Alcobendas,2021,113525.0000,51948,0.1410,60472.0108,6178,1.8773,-0.6298,0.0927,,-2.5831,-1.1454,,2,-1.8642,177,0.0170,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+903,Tres Cantos,2021,37061.0000,19775,0.1410,23019.8278,1896,1.6100,-0.4762,0.0761,,-2.2555,-1.5450,,2,-1.9002,178,0.0110,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+115,Pozuelo de Alarcón,2021,79237.0000,36054,0.1410,41970.0061,2757,1.8879,-0.6355,0.0616,,-2.5951,-1.8931,,2,-2.2441,179,0.0060,alta,atípico (post-COVID; sectores centro de trabajo 2020 incompletos)
+016,Atazar (El),2022,15.0000,42,0.1484,49.3213,13,0.3041,1.1903,0.2086,,1.3247,2.5776,,2,1.9512,1,1.0000,baja (municipio < 1.000 afiliados residentes),
+155,Valdaracete,2022,65.0000,225,0.1484,264.2211,60,0.2460,1.4024,0.1851,,1.7782,1.9343,,2,1.8562,2,0.9940,baja (municipio < 1.000 afiliados residentes),
+157,Valdelaguna,2022,100.0000,240,0.1484,281.8359,71,0.3548,1.0362,0.2012,,0.9951,2.3762,,2,1.6857,3,0.9890,baja (municipio < 1.000 afiliados residentes),
+037,Cenicientos,2022,250.0000,644,0.1484,756.2596,184,0.3306,1.1069,0.1957,,1.1464,2.2249,,2,1.6857,4,0.9830,baja (municipio < 1.000 afiliados residentes),
+048,Corpa,2022,85.0000,249,0.1484,292.4047,55,0.2907,1.2355,0.1583,,1.4213,1.2034,,2,1.3124,5,0.9780,baja (municipio < 1.000 afiliados residentes),
+124,Robledillo de la Jara,2022,10.0000,25,0.1484,29.3579,6,0.3406,1.0770,0.1697,,1.0824,1.5144,,2,1.2984,6,0.9720,baja (municipio < 1.000 afiliados residentes),
+060,Fuentidueña de Tajo,2022,400.0000,686,0.1484,805.5809,192,0.4965,0.7001,0.1925,,0.2766,2.1368,,2,1.2067,7,0.9660,baja (municipio < 1.000 afiliados residentes),
+168,Vellón (El),2022,195.0000,686,0.1484,805.5809,125,0.2421,1.4186,0.1343,,1.8127,0.5477,,2,1.1802,8,0.9610,baja (municipio < 1.000 afiliados residentes),
+122,Ribatejada,2022,120.0000,256,0.1484,300.6249,62,0.3992,0.9184,0.1710,,0.7433,1.5494,,2,1.1464,9,0.9550,baja (municipio < 1.000 afiliados residentes),
+056,Fresnedillas de la Oliva,2022,230.0000,604,0.1484,709.2869,129,0.3243,1.1262,0.1539,,1.1876,1.0823,,2,1.1350,10,0.9500,baja (municipio < 1.000 afiliados residentes),
+095,Navalagamella,2022,300.0000,964,0.1484,1132.0407,174,0.2650,1.3280,0.1332,,1.6191,0.5177,,2,1.0684,11,0.9440,baja (municipio < 1.000 afiliados residentes),
+173,Villamanrique de Tajo,2022,125.0000,245,0.1484,287.7074,59,0.4345,0.8336,0.1702,,0.5621,1.5275,,2,1.0448,12,0.9390,baja (municipio < 1.000 afiliados residentes),
+057,Fresno de Torote,2022,295.0000,753,0.1484,884.2600,155,0.3336,1.0978,0.1491,,1.1269,0.9528,,2,1.0398,13,0.9330,baja (municipio < 1.000 afiliados residentes),
+180,Villarejo de Salvanés,2022,2310.0000,2930,0.1484,3440.7462,570,0.6714,0.3984,0.1421,0.3196,-0.3683,0.7607,2.7163,3,1.0362,14,0.9270,alta,
+031,Cadalso de los Vidrios,2022,650.0000,1030,0.1484,1209.5456,299,0.5374,0.6210,0.1982,0.1537,0.1076,2.2936,0.6433,3,1.0148,15,0.9220,alta,
+147,Titulcia,2022,210.0000,528,0.1484,620.0389,108,0.3387,1.0827,0.1483,,1.0946,0.9309,,2,1.0127,16,0.9160,baja (municipio < 1.000 afiliados residentes),
+159,Valdemaqueda,2022,150.0000,281,0.1484,329.9828,67,0.4546,0.7884,0.1688,,0.4654,1.4892,,2,0.9773,17,0.9110,baja (municipio < 1.000 afiliados residentes),
+102,Orusco de Tajuña,2022,225.0000,433,0.1484,508.4789,101,0.4425,0.8153,0.1657,,0.5230,1.4056,,2,0.9643,18,0.9050,baja (municipio < 1.000 afiliados residentes),
+143,Somosierra,2022,25.0000,25,0.1484,29.3579,8,0.8516,0.1607,0.2141,,-0.8766,2.7293,,2,0.9263,19,0.8990,baja (municipio < 1.000 afiliados residentes),
+094,Navalafuente,2022,195.0000,570,0.1484,669.3602,100,0.2913,1.2333,0.1300,,1.4167,0.4289,,2,0.9228,20,0.8940,baja (municipio < 1.000 afiliados residentes),
+011,Ambite,2022,110.0000,209,0.1484,245.4321,48,0.4482,0.8025,0.1636,,0.4957,1.3473,,2,0.9215,21,0.8880,baja (municipio < 1.000 afiliados residentes),
+145,Talamanca de Jarama,2022,625.0000,1509,0.1484,1772.0430,194,0.3527,1.0421,0.0987,0.2746,1.0079,-0.4266,2.1534,3,0.9116,22,0.8830,alta,
+019,Belmonte de Tajo,2022,235.0000,672,0.1484,789.1404,116,0.2978,1.2114,0.1282,,1.3697,0.3791,,2,0.8744,23,0.8770,baja (municipio < 1.000 afiliados residentes),
+043,Colmenar de Oreja,2022,1375.0000,3149,0.1484,3697.9215,577,0.3718,0.9893,0.1350,0.1896,0.8950,0.5654,1.0917,3,0.8507,24,0.8720,alta,
+109,Pelayos de la Presa,2022,580.0000,846,0.1484,993.4714,261,0.5838,0.5382,0.2081,0.0969,-0.0695,2.5629,-0.0665,3,0.8089,25,0.8660,baja (municipio < 1.000 afiliados residentes),
+008,Aldea del Fresno,2022,555.0000,911,0.1484,1069.8020,222,0.5188,0.6563,0.1719,0.1520,0.1829,1.5734,0.6228,3,0.7930,26,0.8600,baja (municipio < 1.000 afiliados residentes),
+183,Zarzalejo,2022,350.0000,580,0.1484,681.1033,132,0.5139,0.6658,0.1623,,0.2033,1.3134,,2,0.7583,27,0.8550,baja (municipio < 1.000 afiliados residentes),
+116,Pozuelo del Rey,2022,150.0000,464,0.1484,544.8827,69,0.2753,1.2899,0.1124,,1.5377,-0.0515,,2,0.7431,28,0.8490,baja (municipio < 1.000 afiliados residentes),
+033,Campo Real,2022,1620.0000,2620,0.1484,3076.7082,461,0.5265,0.6414,0.1303,0.2304,0.1512,0.4380,1.6016,3,0.7303,29,0.8440,alta,
+135,Santa María de la Alameda,2022,260.0000,464,0.1484,544.8827,99,0.4772,0.7399,0.1538,,0.3617,1.0788,,2,0.7202,30,0.8380,baja (municipio < 1.000 afiliados residentes),
+137,Santos de la Humosa (Los),2022,355.0000,870,0.1484,1021.6550,150,0.3475,1.0571,0.1280,,1.0398,0.3755,,2,0.7077,31,0.8320,baja (municipio < 1.000 afiliados residentes),
+110,Perales de Tajuña,2022,520.0000,1132,0.1484,1329.3258,285,0.3912,0.9386,0.1765,0.0724,0.7866,1.7016,-0.3720,3,0.7054,32,0.8270,alta,
+035,Carabaña,2022,395.0000,771,0.1484,905.3977,153,0.4363,0.8295,0.1446,,0.5533,0.8274,,2,0.6903,33,0.8210,baja (municipio < 1.000 afiliados residentes),
+136,Santorcaz,2022,120.0000,301,0.1484,353.4692,50,0.3395,1.0803,0.1239,,1.0895,0.2635,,2,0.6765,34,0.8160,baja (municipio < 1.000 afiliados residentes),
+156,Valdeavero,2022,305.0000,529,0.1484,621.2132,112,0.4910,0.7114,0.1528,,0.3007,1.0514,,2,0.6760,35,0.8100,baja (municipio < 1.000 afiliados residentes),
+170,Villaconejos,2022,635.0000,1357,0.1484,1593.5470,261,0.3985,0.9201,0.1407,0.1416,0.7470,0.7229,0.4928,3,0.6542,36,0.8040,alta,
+099,Navas del Rey,2022,590.0000,1003,0.1484,1177.8391,210,0.5009,0.6913,0.1513,0.1564,0.2579,1.0121,0.6768,3,0.6489,37,0.7990,alta,
+112,Pinilla del Valle,2022,30.0000,54,0.1484,63.4131,11,0.4731,0.7485,0.1478,,0.3801,0.9166,,2,0.6484,38,0.7930,baja (municipio < 1.000 afiliados residentes),
+075,Loeches,2022,4435.0000,3793,0.1484,4454.1810,518,0.9957,0.0043,0.1042,0.3688,-1.2109,-0.2762,3.3308,3,0.6145,39,0.7880,alta,
+091,Morata de Tajuña,2022,1200.0000,3055,0.1484,3587.5357,543,0.3345,1.0951,0.1315,0.1215,1.1213,0.4694,0.2415,3,0.6107,40,0.7820,alta,
+012,Anchuelo,2022,180.0000,457,0.1484,536.6625,70,0.3354,1.0924,0.1154,,1.1154,0.0301,,2,0.5727,41,0.7770,baja (municipio < 1.000 afiliados residentes),
+165,Valdilecha,2022,630.0000,1176,0.1484,1380.9958,247,0.4562,0.7848,0.1517,0.1195,0.4578,1.0231,0.2157,3,0.5656,42,0.7710,alta,
+036,Casarrubuelos,2022,940.0000,1422,0.1484,1669.8775,231,0.5629,0.5746,0.1215,0.2198,0.0084,0.1978,1.4692,3,0.5585,43,0.7650,alta,
+166,Valverde de Alcalá,2022,65.0000,174,0.1484,204.3310,25,0.3181,1.1454,0.1090,,1.2286,-0.1441,,2,0.5423,44,0.7600,baja (municipio < 1.000 afiliados residentes),
+032,Camarma de Esteruelas,2022,2310.0000,2830,0.1484,3323.3146,459,0.6951,0.3637,0.1214,0.2514,-0.4425,0.1932,1.8647,3,0.5385,45,0.7540,alta,
+178,Villanueva de Perales,2022,280.0000,621,0.1484,729.2503,102,0.3840,0.9572,0.1227,,0.8264,0.2302,,2,0.5283,46,0.7490,baja (municipio < 1.000 afiliados residentes),
+119,Quijorna,2022,495.0000,1402,0.1484,1646.3912,190,0.3007,1.2018,0.1035,,1.3493,-0.2958,,2,0.5268,47,0.7430,media (sin componente sectorial: < 500 empleos),
+063,Gargantilla del Lozoya y Pinilla de Buitrago,2022,105.0000,98,0.1484,115.0830,27,0.9124,0.0917,0.1900,,-1.0241,2.0702,,2,0.5230,48,0.7370,baja (municipio < 1.000 afiliados residentes),
+182,Villavieja del Lozoya,2022,50.0000,90,0.1484,105.6885,17,0.4731,0.7485,0.1386,,0.3801,0.6635,,2,0.5218,49,0.7320,baja (municipio < 1.000 afiliados residentes),
+073,Humanes de Madrid,2022,11285.0000,8282,0.1484,9725.6861,1269,1.1603,-0.1487,0.1154,0.3478,-1.5381,0.0310,3.0688,3,0.5206,50,0.7260,alta,
+175,Villamantilla,2022,280.0000,551,0.1484,647.0482,97,0.4327,0.8376,0.1304,,0.5707,0.4396,,2,0.5051,51,0.7210,baja (municipio < 1.000 afiliados residentes),
+067,Guadalix de la Sierra,2022,975.0000,2581,0.1484,3030.9099,374,0.3217,1.1342,0.1098,0.1293,1.2047,-0.1214,0.3392,3,0.4742,52,0.7150,alta,
+125,Robledo de Chavela,2022,975.0000,1432,0.1484,1681.6207,308,0.5798,0.5451,0.1548,0.1296,-0.0548,1.1074,0.3430,3,0.4652,53,0.7090,alta,
+028,Bustarviejo,2022,475.0000,966,0.1484,1134.3894,158,0.4187,0.8705,0.1223,,0.6410,0.2178,,2,0.4294,54,0.7040,baja (municipio < 1.000 afiliados residentes),
+164,Valdetorres de Jarama,2022,845.0000,1793,0.1484,2105.5488,277,0.4013,0.9130,0.1163,0.1332,0.7318,0.0540,0.3878,3,0.3912,55,0.6980,alta,
+084,Mejorada del Campo,2022,6640.0000,10656,0.1484,12513.5126,1460,0.5306,0.6337,0.1045,0.2066,0.1347,-0.2679,1.3040,3,0.3903,56,0.6930,alta,
+150,Torrejón de Velasco,2022,980.0000,1770,0.1484,2078.5395,213,0.4715,0.7519,0.0930,0.2111,0.3873,-0.5831,1.3612,3,0.3885,57,0.6870,alta,
+106,Parla,2022,17815.0000,52816,0.1484,62022.6801,9197,0.2872,1.2475,0.1291,0.0420,1.4469,0.4059,-0.7527,3,0.3667,58,0.6820,alta,
+174,Villamanta,2022,555.0000,934,0.1484,1096.8113,151,0.5060,0.6812,0.1210,0.1543,0.2362,0.1839,0.6506,3,0.3569,59,0.6760,baja (municipio < 1.000 afiliados residentes),
+100,Nuevo Baztán,2022,1260.0000,2366,0.1484,2778.4319,379,0.4535,0.7908,0.1200,0.1321,0.4705,0.1571,0.3740,3,0.3339,60,0.6700,alta,
+051,Chapinería,2022,485.0000,855,0.1484,1004.0403,145,0.4830,0.7276,0.1262,,0.3355,0.3254,,2,0.3305,61,0.6650,baja (municipio < 1.000 afiliados residentes),
+017,Batres,2022,295.0000,618,0.1484,725.7274,91,0.4065,0.9002,0.1114,,0.7045,-0.0783,,2,0.3131,62,0.6590,baja (municipio < 1.000 afiliados residentes),
+042,Colmenar del Arroyo,2022,440.0000,580,0.1484,681.1033,116,0.6460,0.4369,0.1455,,-0.2860,0.8539,,2,0.2839,63,0.6540,baja (municipio < 1.000 afiliados residentes),
+158,Valdemanco,2022,170.0000,322,0.1484,378.1298,50,0.4496,0.7994,0.1168,,0.4890,0.0684,,2,0.2787,64,0.6480,baja (municipio < 1.000 afiliados residentes),
+133,San Martín de Valdeiglesias,2022,1690.0000,2900,0.1484,3405.5167,654,0.4963,0.7007,0.1611,0.0441,0.2779,1.2796,-0.7261,3,0.2771,65,0.6420,alta,
+039,Cervera de Buitrago,2022,50.0000,44,0.1484,51.6699,11,0.9677,0.0329,0.1755,,-1.1499,1.6737,,2,0.2619,66,0.6370,baja (municipio < 1.000 afiliados residentes),
+179,Villar del Olmo,2022,455.0000,1061,0.1484,1245.9494,136,0.3652,1.0074,0.0984,,0.9336,-0.4338,,2,0.2499,67,0.6310,media (sin componente sectorial: < 500 empleos),
+089,Moraleja de Enmedio,2022,2335.0000,2269,0.1484,2664.5233,264,0.8763,0.1320,0.0901,0.2882,-0.9379,-0.6597,2.3234,3,0.2419,68,0.6260,alta,
+050,Cubas de la Sagra,2022,1610.0000,2345,0.1484,2753.7713,264,0.5847,0.5367,0.0875,0.2238,-0.0726,-0.7326,1.5190,3,0.2379,69,0.6200,alta,
+059,Fuente el Saz de Jarama,2022,2090.0000,2881,0.1484,3383.2047,387,0.6178,0.4817,0.1026,0.1980,-0.1904,-0.3181,1.1975,3,0.2297,70,0.6150,alta,
+086,Molar (El),2022,1280.0000,3510,0.1484,4121.8496,492,0.3105,1.1694,0.1066,0.0681,1.2801,-0.2091,-0.4258,3,0.2151,71,0.6090,alta,
+058,Fuenlabrada,2022,45460.0000,89447,0.1484,105039.0538,12138,0.4328,0.8375,0.1036,0.1249,0.5704,-0.2924,0.2840,3,0.1873,72,0.6030,alta,
+132,San Martín de la Vega,2022,4925.0000,7888,0.1484,9263.0055,1352,0.5317,0.6317,0.1274,0.1022,0.1304,0.3575,0.0003,3,0.1627,73,0.5980,alta,
+146,Tielmes,2022,590.0000,1014,0.1484,1190.7565,208,0.4955,0.7022,0.1487,0.0432,0.2812,0.9407,-0.7365,3,0.1618,74,0.5920,alta,
+902,Puentes Viejas,2022,110.0000,242,0.1484,284.1845,30,0.3871,0.9491,0.0955,,0.8091,-0.5138,,2,0.1476,75,0.5870,baja (municipio < 1.000 afiliados residentes),
+046,Collado Mediano,2022,1385.0000,2892,0.1484,3396.1222,421,0.4078,0.8969,0.1103,0.0893,0.6975,-0.1091,-0.1608,3,0.1425,76,0.5810,alta,
+111,Pezuela de las Torres,2022,140.0000,272,0.1484,319.4140,37,0.4383,0.8248,0.1038,,0.5434,-0.2862,,2,0.1286,77,0.5750,baja (municipio < 1.000 afiliados residentes),
+023,Boalo (El),2022,1685.0000,3177,0.1484,3730.8023,396,0.4516,0.7949,0.0960,0.1327,0.4792,-0.5009,0.3811,3,0.1198,78,0.5700,alta,
+052,Chinchón,2022,1360.0000,2053,0.1484,2410.8710,352,0.5641,0.5725,0.1274,0.0909,0.0038,0.3586,-0.1412,3,0.0737,79,0.5640,alta,
+029,Cabanillas de la Sierra,2022,155.0000,320,0.1484,375.7812,39,0.4125,0.8856,0.0940,,0.6732,-0.5537,,2,0.0598,80,0.5590,baja (municipio < 1.000 afiliados residentes),
+097,Navarredonda y San Mamés,2022,25.0000,41,0.1484,48.1470,6,0.5192,0.6554,0.1108,,0.1810,-0.0950,,2,0.0430,81,0.5530,baja (municipio < 1.000 afiliados residentes),
+003,Alameda del Valle,2022,45.0000,82,0.1484,96.2939,11,0.4673,0.7607,0.1025,,0.4063,-0.3215,,2,0.0424,82,0.5470,baja (municipio < 1.000 afiliados residentes),
+034,Canencia,2022,105.0000,142,0.1484,166.7529,24,0.6297,0.4626,0.1258,,-0.2312,0.3152,,2,0.0420,83,0.5420,baja (municipio < 1.000 afiliados residentes),
+014,Arganda del Rey,2022,23585.0000,24433,0.1484,28692.0657,4027,0.8220,0.1960,0.1231,0.1563,-0.8011,0.2403,0.6758,3,0.0383,84,0.5360,alta,
+126,Robregordo,2022,15.0000,14,0.1484,16.4404,3,0.9124,0.0917,0.1543,,-1.0241,1.0941,,2,0.0350,85,0.5310,baja (municipio < 1.000 afiliados residentes),
+004,Álamo (El),2022,1850.0000,3436,0.1484,4034.9502,591,0.4585,0.7798,0.1278,0.0441,0.4471,0.3682,-0.7260,3,0.0298,86,0.5250,alta,
+151,Torrelaguna,2022,790.0000,1939,0.1484,2276.9990,247,0.3469,1.0586,0.0979,0.0616,1.0431,-0.4489,-0.5075,3,0.0289,87,0.5200,alta,
+061,Galapagar,2022,5800.0000,15426,0.1484,18115.0004,1683,0.3202,1.1389,0.0850,0.0742,1.2148,-0.8001,-0.3501,3,0.0215,88,0.5140,alta,
+108,Pedrezuela,2022,1060.0000,2292,0.1484,2691.5325,296,0.3938,0.9318,0.0991,0.0768,0.7721,-0.4156,-0.3179,3,0.0129,89,0.5080,alta,
+082,Manzanares el Real,2022,1455.0000,3485,0.1484,4092.4917,434,0.3555,1.0341,0.0959,0.0658,0.9908,-0.5030,-0.4549,3,0.0110,90,0.5030,alta,
+062,Garganta de los Montes,2022,85.0000,144,0.1484,169.1015,20,0.5027,0.6878,0.1058,,0.2505,-0.2329,,2,0.0088,91,0.4970,baja (municipio < 1.000 afiliados residentes),
+013,Aranjuez,2022,13990.0000,20724,0.1484,24336.5272,4008,0.5749,0.5536,0.1414,0.0454,-0.0365,0.7412,-0.7099,3,-0.0017,92,0.4920,alta,
+163,Valdepiélagos,2022,110.0000,243,0.1484,285.3588,26,0.3855,0.9533,0.0835,,0.8179,-0.8412,,2,-0.0117,93,0.4860,baja (municipio < 1.000 afiliados residentes),
+018,Becerril de la Sierra,2022,1115.0000,2336,0.1484,2743.2025,289,0.4065,0.9003,0.0953,0.0801,0.7046,-0.5186,-0.2762,3,-0.0301,94,0.4800,alta,
+085,Miraflores de la Sierra,2022,1145.0000,2503,0.1484,2939.3132,381,0.3895,0.9428,0.1147,0.0285,0.7955,0.0127,-0.9213,3,-0.0377,95,0.4750,alta,
+114,Piñuécar-Gandullas,2022,35.0000,75,0.1484,88.0737,8,0.3974,0.9228,0.0833,,0.7528,-0.8477,,2,-0.0474,96,0.4690,baja (municipio < 1.000 afiliados residentes),
+140,Serranillos del Valle,2022,1150.0000,1678,0.1484,1970.5024,239,0.5836,0.5385,0.1082,0.1080,-0.0688,-0.1671,0.0729,3,-0.0544,97,0.4640,alta,
+044,Colmenarejo,2022,1780.0000,3826,0.1484,4492.9335,481,0.3962,0.9259,0.0967,0.0654,0.7594,-0.4805,-0.4603,3,-0.0605,98,0.4580,alta,
+053,Daganzo de Arriba,2022,3660.0000,4477,0.1484,5257.4133,487,0.6962,0.3622,0.0848,0.1837,-0.4458,-0.8065,1.0178,3,-0.0782,99,0.4530,alta,
+148,Torrejón de Ardoz,2022,37450.0000,58532,0.1484,68735.0710,8366,0.5448,0.6073,0.1085,0.0887,0.0781,-0.1579,-0.1683,3,-0.0827,100,0.4470,alta,
+030,Cabrera (La),2022,565.0000,1088,0.1484,1277.6559,166,0.4422,0.8160,0.1150,0.0388,0.5244,0.0192,-0.7923,3,-0.0829,101,0.4410,alta,
+055,Estremera,2022,985.0000,456,0.1484,535.4881,90,1.8394,-0.6095,0.1439,0.2162,-2.5232,0.8091,1.4237,3,-0.0968,102,0.4360,baja (municipio < 1.000 afiliados residentes),
+129,San Agustín del Guadalix,2022,4880.0000,5697,0.1484,6690.0789,535,0.7294,0.3155,0.0740,0.2062,-0.5457,-1.0997,1.2989,3,-0.1155,103,0.4300,alta,
+092,Móstoles,2022,43705.0000,89947,0.1484,105626.2119,11971,0.4138,0.8824,0.1018,0.0480,0.6665,-0.3413,-0.6769,3,-0.1172,104,0.4250,alta,
+009,Algete,2022,8395.0000,9416,0.1484,11057.3606,912,0.7592,0.2755,0.0762,0.2067,-0.6312,-1.0410,1.3055,3,-0.1223,105,0.4190,alta,
+171,Villa del Prado,2022,1800.0000,2621,0.1484,3077.8825,448,0.5848,0.5365,0.1271,0.0475,-0.0732,0.3492,-0.6830,3,-0.1357,106,0.4130,alta,
+172,Villalbilla,2022,2985.0000,5791,0.1484,6800.4646,593,0.4389,0.8234,0.0802,0.0983,0.5402,-0.9314,-0.0482,3,-0.1465,107,0.4080,alta,
+087,Molinos (Los),2022,830.0000,1836,0.1484,2156.0444,224,0.3850,0.9546,0.0941,0.0423,0.8208,-0.5512,-0.7488,3,-0.1597,108,0.4020,alta,
+021,Berrueco (El),2022,165.0000,233,0.1484,273.6157,33,0.6030,0.5058,0.1076,,-0.1388,-0.1820,,2,-0.1604,109,0.3970,baja (municipio < 1.000 afiliados residentes),
+065,Getafe,2022,70220.0000,78648,0.1484,92357.6141,9801,0.7603,0.2740,0.0959,0.1524,-0.6343,-0.5014,0.6274,3,-0.1694,110,0.3910,alta,
+160,Valdemorillo,2022,2895.0000,5440,0.1484,6388.2797,633,0.4532,0.7915,0.0902,0.0744,0.4720,-0.6595,-0.3467,3,-0.1781,111,0.3850,alta,
+121,Redueña,2022,65.0000,107,0.1484,125.6518,13,0.5173,0.6591,0.0938,,0.1891,-0.5610,,2,-0.1860,112,0.3800,baja (municipio < 1.000 afiliados residentes),
+120,Rascafría,2022,470.0000,666,0.1484,782.0945,90,0.6010,0.5092,0.1032,,-0.1314,-0.3030,,2,-0.2172,113,0.3740,baja (municipio < 1.000 afiliados residentes),
+093,Navacerrada,2022,650.0000,1143,0.1484,1342.2433,131,0.4843,0.7251,0.0889,0.0734,0.3302,-0.6933,-0.3602,3,-0.2411,114,0.3690,alta,
+154,Torres de la Alameda,2022,2795.0000,3205,0.1484,3763.6832,494,0.7426,0.2976,0.1160,0.0871,-0.5840,0.0476,-0.1883,3,-0.2416,115,0.3630,alta,
+010,Alpedrete,2022,3095.0000,6158,0.1484,7231.4387,683,0.4280,0.8487,0.0863,0.0569,0.5943,-0.7649,-0.5655,3,-0.2454,116,0.3580,alta,
+141,Sevilla la Nueva,2022,2080.0000,3900,0.1484,4579.8329,447,0.4542,0.7893,0.0889,0.0609,0.4673,-0.6932,-0.5160,3,-0.2473,117,0.3520,alta,
+162,Valdeolmos-Alalpardo,2022,925.0000,1606,0.1484,1885.9517,164,0.4905,0.7124,0.0800,0.0934,0.3029,-0.9370,-0.1098,3,-0.2479,118,0.3460,alta,
+047,Collado Villalba,2022,13850.0000,28734,0.1484,33742.7993,3814,0.4105,0.8905,0.1016,0.0119,0.6837,-0.3480,-1.1285,3,-0.2643,119,0.3410,alta,
+069,Hiruela (La),2022,20.0000,6,0.1484,7.0459,2,2.8385,-1.0433,0.2211,,-3.4507,2.9192,,2,-0.2657,120,0.3350,baja (municipio < 1.000 afiliados residentes),
+153,Torremocha de Jarama,2022,265.0000,293,0.1484,344.0746,46,0.7702,0.2611,0.1179,,-0.6619,0.0995,,2,-0.2812,121,0.3300,baja (municipio < 1.000 afiliados residentes),
+005,Alcalá de Henares,2022,62345.0000,80228,0.1484,94213.0335,12002,0.6617,0.4129,0.1130,0.0643,-0.3374,-0.0352,-0.4740,3,-0.2822,122,0.3240,alta,
+025,Brea de Tajo,2022,425.0000,177,0.1484,207.8540,50,2.0447,-0.7153,0.1939,,-2.7494,2.1762,,2,-0.2866,123,0.3180,baja (municipio < 1.000 afiliados residentes),
+090,Moralzarzal,2022,2670.0000,5200,0.1484,6106.4438,580,0.4372,0.8273,0.0867,0.0479,0.5485,-0.7528,-0.6783,3,-0.2942,124,0.3130,alta,
+070,Horcajo de la Sierra-Aoslos,2022,55.0000,52,0.1484,61.0644,9,0.9007,0.1046,0.1285,,-0.9965,0.3872,,2,-0.3047,125,0.3070,baja (municipio < 1.000 afiliados residentes),
+054,Escorial (El),2022,2875.0000,6418,0.1484,7536.7608,747,0.3815,0.9637,0.0902,0.0145,0.8403,-0.6589,-1.0958,3,-0.3048,126,0.3020,alta,
+015,Arroyomolinos,2022,9145.0000,12431,0.1484,14597.9237,1422,0.6265,0.4677,0.0888,0.1008,-0.2203,-0.6975,-0.0173,3,-0.3117,127,0.2960,alta,
+045,Colmenar Viejo,2022,12645.0000,22831,0.1484,26810.8113,2354,0.4716,0.7515,0.0807,0.0651,0.3866,-0.9175,-0.4630,3,-0.3313,128,0.2910,alta,
+104,Paracuellos de Jarama,2022,6665.0000,10084,0.1484,11841.8037,866,0.5628,0.5748,0.0681,0.1196,0.0087,-1.2610,0.2169,3,-0.3451,129,0.2850,alta,
+076,Lozoya,2022,165.0000,213,0.1484,250.1293,28,0.6597,0.4160,0.1007,,-0.3307,-0.3720,,2,-0.3514,130,0.2790,baja (municipio < 1.000 afiliados residentes),
+123,Rivas-Vaciamadrid,2022,26770.0000,39469,0.1484,46349.0829,4177,0.5776,0.5489,0.0827,0.0886,-0.0466,-0.8641,-0.1696,3,-0.3601,131,0.2740,alta,
+024,Braojos,2022,50.0000,109,0.1484,128.0005,8,0.3906,0.9400,0.0588,,0.7896,-1.5158,,2,-0.3631,132,0.2680,baja (municipio < 1.000 afiliados residentes),
+113,Pinto,2022,19315.0000,21659,0.1484,25434.5128,3011,0.7594,0.2752,0.1059,0.0826,-0.6317,-0.2305,-0.2444,3,-0.3689,133,0.2630,alta,
+169,Venturada,2022,515.0000,813,0.1484,954.7190,92,0.5394,0.6173,0.0879,0.0630,0.0995,-0.7213,-0.4896,3,-0.3705,134,0.2570,baja (municipio < 1.000 afiliados residentes),
+068,Guadarrama,2022,3850.0000,6681,0.1484,7845.6060,779,0.4907,0.7119,0.0903,0.0404,0.3018,-0.6549,-0.7715,3,-0.3748,135,0.2510,alta,
+002,Ajalvir,2022,5025.0000,1874,0.1484,2200.6684,213,2.2834,-0.8257,0.0882,0.3074,-2.9854,-0.7116,2.5633,3,-0.3779,136,0.2460,alta,
+177,Villanueva del Pardillo,2022,3815.0000,7549,0.1484,8864.9124,648,0.4303,0.8432,0.0681,0.0649,0.5825,-1.2618,-0.4665,3,-0.3819,137,0.2400,alta,
+064,Gascones,2022,80.0000,95,0.1484,111.5600,13,0.7171,0.3325,0.1044,,-0.5092,-0.2711,,2,-0.3901,138,0.2350,baja (municipio < 1.000 afiliados residentes),
+040,Ciempozuelos,2022,7465.0000,9428,0.1484,11071.4524,1613,0.6743,0.3941,0.1272,0.0048,-0.3775,0.3520,-1.2164,3,-0.4140,139,0.2290,alta,
+128,Rozas de Puerto Real,2022,200.0000,134,0.1484,157.3584,27,1.2710,-0.2398,0.1465,,-1.7328,0.8792,,2,-0.4268,140,0.2230,baja (municipio < 1.000 afiliados residentes),
+001,Acebeda (La),2022,25.0000,35,0.1484,41.1011,4,0.6083,0.4972,0.0887,,-0.1572,-0.6995,,2,-0.4284,141,0.2180,baja (municipio < 1.000 afiliados residentes),
+066,Griñón,2022,6080.0000,4101,0.1484,4815.8704,455,1.2625,-0.2331,0.0863,0.1940,-1.7185,-0.7642,1.1464,3,-0.4454,142,0.2120,alta,
+074,Leganés,2022,57690.0000,79952,0.1484,93888.9223,10528,0.6144,0.4870,0.1008,0.0328,-0.1789,-0.3678,-0.8672,3,-0.4713,143,0.2070,alta,
+901,Lozoyuela-Navas-Sieteiglesias,2022,460.0000,446,0.1484,523.7450,67,0.8783,0.1298,0.1134,,-0.9427,-0.0237,,2,-0.4832,144,0.2010,baja (municipio < 1.000 afiliados residentes),
+038,Cercedilla,2022,1990.0000,2930,0.1484,3440.7462,375,0.5784,0.5476,0.0983,0.0191,-0.0495,-0.4375,-1.0385,3,-0.5085,145,0.1960,alta,
+026,Brunete,2022,2555.0000,4572,0.1484,5368.9733,472,0.4759,0.7426,0.0808,0.0222,0.3675,-0.9149,-0.9991,3,-0.5155,146,0.1900,alta,
+041,Cobeña,2022,1585.0000,3020,0.1484,3546.4347,247,0.4469,0.8054,0.0651,0.0400,0.5017,-1.3439,-0.7771,3,-0.5398,147,0.1840,alta,
+083,Meco,2022,6440.0000,5651,0.1484,6636.0604,796,0.9705,0.0300,0.1071,0.0722,-1.1560,-0.1963,-0.3753,3,-0.5759,148,0.1790,alta,
+138,Serna del Monte (La),2022,55.0000,41,0.1484,48.1470,7,1.1423,-0.1331,0.1269,,-1.5047,0.3457,,2,-0.5795,149,0.1730,baja (municipio < 1.000 afiliados residentes),
+131,San Lorenzo de El Escorial,2022,4740.0000,7407,0.1484,8698.1595,875,0.5449,0.6071,0.0914,0.0067,0.0778,-0.6254,-1.1933,3,-0.5803,150,0.1680,alta,
+049,Coslada,2022,29235.0000,38865,0.1484,45639.7959,4323,0.6406,0.4454,0.0865,0.0409,-0.2679,-0.7587,-0.7663,3,-0.5976,151,0.1620,alta,
+072,Hoyo de Manzanares,2022,2620.0000,3409,0.1484,4003.2436,319,0.6545,0.4239,0.0738,0.0714,-0.3138,-1.1064,-0.3842,3,-0.6014,152,0.1560,alta,
+007,Alcorcón,2022,56515.0000,73991,0.1484,86888.8239,8749,0.6504,0.4301,0.0915,0.0212,-0.3006,-0.6233,-1.0118,3,-0.6452,153,0.1510,alta,
+027,Buitrago del Lozoya,2022,925.0000,838,0.1484,984.0769,84,0.9400,0.0619,0.0786,0.1056,-1.0878,-0.9740,0.0423,3,-0.6732,154,0.1450,baja (municipio < 1.000 afiliados residentes),
+161,Valdemoro,2022,29750.0000,30247,0.1484,35519.5396,4428,0.8376,0.1773,0.1108,0.0128,-0.8412,-0.0940,-1.1165,3,-0.6839,155,0.1400,alta,
+144,Soto del Real,2022,2370.0000,3621,0.1484,4252.1987,338,0.5574,0.5845,0.0736,0.0238,0.0296,-1.1110,-0.9789,3,-0.6868,156,0.1340,alta,
+096,Navalcarnero,2022,18700.0000,11561,0.1484,13576.2686,1836,1.3774,-0.3202,0.1191,0.0764,-1.9048,0.1323,-0.3220,3,-0.6981,157,0.1280,alta,
+107,Patones,2022,130.0000,155,0.1484,182.0190,16,0.7142,0.3366,0.0808,,-0.5006,-0.9152,,2,-0.7079,158,0.1230,baja (municipio < 1.000 afiliados residentes),
+152,Torrelodones,2022,6915.0000,9682,0.1484,11369.7287,749,0.6082,0.4973,0.0618,0.0296,-0.1570,-1.4343,-0.9073,3,-0.8329,159,0.1170,alta,
+176,Villanueva de la Cañada,2022,7615.0000,8963,0.1484,10525.3954,738,0.7235,0.3237,0.0655,0.0345,-0.5282,-1.3327,-0.8459,3,-0.9023,160,0.1120,alta,
+130,San Fernando de Henares,2022,22745.0000,19249,0.1484,22604.4110,2272,1.0062,-0.0062,0.0913,0.0282,-1.2334,-0.6273,-0.9249,3,-0.9285,161,0.1060,alta,
+118,Puebla de la Sierra,2022,20.0000,19,0.1484,22.3120,2,0.8964,0.1094,0.0823,,-0.9863,-0.8752,,2,-0.9307,162,0.1010,baja (municipio < 1.000 afiliados residentes),
+020,Berzosa del Lozoya,2022,60.0000,57,0.1484,66.9360,6,0.8964,0.1094,0.0823,,-0.9863,-0.8752,,2,-0.9307,163,0.0950,baja (municipio < 1.000 afiliados residentes),
+149,Torrejón de la Calzada,2022,5375.0000,3551,0.1484,4169.9965,451,1.2890,-0.2538,0.0976,0.0408,-1.7629,-0.4561,-0.7671,3,-0.9953,164,0.0890,alta,
+079,Madrid,2022,2109510.0000,1451234,0.1484,1704207.4774,159411,1.2378,-0.2134,0.0855,0.0517,-1.6763,-0.7857,-0.6306,3,-1.0309,165,0.0840,alta,
+117,Prádena del Rincón,2022,45.0000,43,0.1484,50.4956,4,0.8912,0.1152,0.0734,,-0.9738,-1.1174,,2,-1.0456,166,0.0780,baja (municipio < 1.000 afiliados residentes),
+071,Horcajuelo de la Sierra,2022,35.0000,38,0.1484,44.6240,3,0.7843,0.2429,0.0630,,-0.7008,-1.4018,,2,-1.0513,167,0.0730,baja (municipio < 1.000 afiliados residentes),
+101,Olmeda de las Fuentes,2022,140.0000,141,0.1484,165.5786,12,0.8455,0.1678,0.0676,,-0.8614,-1.2766,,2,-1.0690,168,0.0670,baja (municipio < 1.000 afiliados residentes),
+134,San Sebastián de los Reyes,2022,44510.0000,40905,0.1484,48035.4008,3789,0.9266,0.0762,0.0731,0.0101,-1.0572,-1.1253,-1.1502,3,-1.1109,169,0.0610,alta,
+080,Majadahonda,2022,32525.0000,31185,0.1484,36621.0481,2157,0.8882,0.1186,0.0556,0.0338,-0.9666,-1.6033,-0.8542,3,-1.1413,170,0.0560,alta,
+181,Villaviciosa de Odón,2022,11390.0000,11450,0.1484,13445.9196,852,0.8471,0.1659,0.0596,0.0151,-0.8654,-1.4949,-1.0883,3,-1.1495,171,0.0500,alta,
+167,Velilla de San Antonio,2022,13150.0000,5660,0.1484,6646.6292,692,1.9784,-0.6823,0.0943,0.0710,-2.6790,-0.5463,-0.3893,3,-1.2049,172,0.0450,alta,
+903,Tres Cantos,2022,38940.0000,20729,0.1484,24342.3988,1594,1.5997,-0.4698,0.0615,0.1044,-2.2246,-1.4438,0.0271,3,-1.2138,173,0.0390,alta,
+078,Madarcos,2022,20.0000,27,0.1484,31.7065,1,0.6308,0.4608,0.0306,,-0.2350,-2.2879,,2,-1.2614,174,0.0340,baja (municipio < 1.000 afiliados residentes),
+088,Montejo de la Sierra,2022,160.0000,106,0.1484,124.4775,11,1.2854,-0.2510,0.0812,,-1.7569,-0.9044,,2,-1.3307,175,0.0280,baja (municipio < 1.000 afiliados residentes),
+022,Boadilla del Monte,2022,32855.0000,23296,0.1484,27356.8683,1499,1.2010,-0.1831,0.0519,0.0353,-1.6117,-1.7037,-0.8352,3,-1.3836,176,0.0220,alta,
+127,Rozas de Madrid (Las),2022,54440.0000,40763,0.1484,47868.6479,2878,1.1373,-0.1286,0.0567,0.0152,-1.4952,-1.5735,-1.0872,3,-1.3853,177,0.0170,alta,
+006,Alcobendas,2022,118895.0000,53779,0.1484,63153.5465,4560,1.8826,-0.6327,0.0673,0.0532,-2.5728,-1.2830,-0.6115,3,-1.4891,178,0.0110,alta,
+115,Pozuelo de Alarcón,2022,80735.0000,37304,0.1484,43806.6885,2223,1.8430,-0.6114,0.0483,0.0520,-2.5273,-1.8036,-0.6267,3,-1.6525,179,0.0060,alta,
+016,Atazar (El),2023,10.0000,34,0.1566,40.3126,13,0.2481,1.3941,0.2438,,1.6844,3.7036,,2,2.6940,1,1.0000,baja (municipio < 1.000 afiliados residentes),
+173,Villamanrique de Tajo,2023,105.0000,243,0.1566,288.1165,73,0.3644,1.0094,0.2022,,0.8669,2.5750,,2,1.7209,2,0.9940,baja (municipio < 1.000 afiliados residentes),
+155,Valdaracete,2023,65.0000,234,0.1566,277.4455,54,0.2343,1.4512,0.1629,,1.8058,1.5131,,2,1.6595,3,0.9890,baja (municipio < 1.000 afiliados residentes),
+037,Cenicientos,2023,250.0000,655,0.1566,776.6102,160,0.3219,1.1335,0.1708,,1.1305,1.7271,,2,1.4288,4,0.9830,baja (municipio < 1.000 afiliados residentes),
+157,Valdelaguna,2023,110.0000,240,0.1566,284.5595,61,0.3866,0.9505,0.1765,,0.7416,1.8813,,2,1.3115,5,0.9780,baja (municipio < 1.000 afiliados residentes),
+039,Cervera de Buitrago,2023,40.0000,33,0.1566,39.1269,13,1.0223,-0.0221,0.2494,,-1.3252,3.8537,,2,1.2643,6,0.9720,baja (municipio < 1.000 afiliados residentes),
+011,Ambite,2023,120.0000,208,0.1566,246.6182,57,0.4866,0.7203,0.1877,,0.2526,2.1848,,2,1.2187,7,0.9660,baja (municipio < 1.000 afiliados residentes),
+095,Navalagamella,2023,300.0000,1013,0.1566,1201.0781,179,0.2498,1.3872,0.1297,,1.6697,0.6139,,2,1.1418,8,0.9610,media (sin componente sectorial: < 500 empleos),
+094,Navalafuente,2023,185.0000,606,0.1566,718.5127,106,0.2575,1.3568,0.1286,,1.6052,0.5830,,2,1.0941,9,0.9550,baja (municipio < 1.000 afiliados residentes),
+168,Vellón (El),2023,190.0000,725,0.1566,859.6067,112,0.2210,1.5095,0.1153,,1.9295,0.2233,,2,1.0764,10,0.9500,baja (municipio < 1.000 afiliados residentes),
+031,Cadalso de los Vidrios,2023,640.0000,1038,0.1566,1230.7197,245,0.5200,0.6539,0.1660,0.2081,0.1113,1.5970,1.3673,3,1.0252,11,0.9440,alta,
+056,Fresnedillas de la Oliva,2023,235.0000,636,0.1566,754.0826,121,0.3116,1.1659,0.1383,,1.1995,0.8459,,2,1.0227,12,0.9390,baja (municipio < 1.000 afiliados residentes),
+003,Alameda del Valle,2023,45.0000,79,0.1566,93.6675,19,0.4804,0.7331,0.1686,,0.2796,1.6678,,2,0.9737,13,0.9330,baja (municipio < 1.000 afiliados residentes),
+180,Villarejo de Salvanés,2023,2170.0000,2994,0.1566,3549.8794,535,0.6113,0.4922,0.1310,0.2963,-0.2323,0.6482,2.4861,3,0.9673,14,0.9270,alta,
+126,Robregordo,2023,10.0000,16,0.1566,18.9706,4,0.5271,0.6403,0.1741,,0.0825,1.8166,,2,0.9496,15,0.9220,baja (municipio < 1.000 afiliados residentes),
+060,Fuentidueña de Tajo,2023,360.0000,695,0.1566,824.0368,156,0.4369,0.8281,0.1592,,0.4816,1.4118,,2,0.9467,16,0.9160,baja (municipio < 1.000 afiliados residentes),
+102,Orusco de Tajuña,2023,225.0000,453,0.1566,537.1060,95,0.4189,0.8701,0.1503,,0.5708,1.1712,,2,0.8710,17,0.9110,baja (municipio < 1.000 afiliados residentes),
+116,Pozuelo del Rey,2023,160.0000,485,0.1566,575.0473,77,0.2782,1.2793,0.1181,,1.4404,0.2996,,2,0.8700,18,0.9050,baja (municipio < 1.000 afiliados residentes),
+122,Ribatejada,2023,115.0000,282,0.1566,334.3574,52,0.3439,1.0673,0.1346,,0.9899,0.7462,,2,0.8680,19,0.8990,baja (municipio < 1.000 afiliados residentes),
+124,Robledillo de la Jara,2023,35.0000,31,0.1566,36.7556,10,0.9522,0.0489,0.2139,,-1.1743,2.8924,,2,0.8591,20,0.8940,baja (municipio < 1.000 afiliados residentes),
+008,Aldea del Fresno,2023,545.0000,938,0.1566,1112.1533,222,0.4900,0.7133,0.1664,0.1563,0.2375,1.6072,0.7114,3,0.8520,21,0.8880,baja (municipio < 1.000 afiliados residentes),
+135,Santa María de la Alameda,2023,270.0000,486,0.1566,576.2329,107,0.4686,0.7581,0.1566,,0.3328,1.3422,,2,0.8375,22,0.8830,baja (municipio < 1.000 afiliados residentes),
+048,Corpa,2023,90.0000,271,0.1566,321.3151,42,0.2801,1.2726,0.1156,,1.4262,0.2322,,2,0.8292,23,0.8770,baja (municipio < 1.000 afiliados residentes),
+019,Belmonte de Tajo,2023,235.0000,682,0.1566,808.6232,108,0.2906,1.2357,0.1178,,1.3479,0.2924,,2,0.8201,24,0.8720,baja (municipio < 1.000 afiliados residentes),
+136,Santorcaz,2023,120.0000,304,0.1566,360.4420,53,0.3329,1.0998,0.1282,,1.0590,0.5730,,2,0.8160,25,0.8660,baja (municipio < 1.000 afiliados residentes),
+118,Puebla de la Sierra,2023,15.0000,19,0.1566,22.5276,5,0.6658,0.4067,0.1816,,-0.4140,2.0197,,2,0.8028,26,0.8600,baja (municipio < 1.000 afiliados residentes),
+043,Colmenar de Oreja,2023,1340.0000,3207,0.1566,3802.4259,537,0.3524,1.0430,0.1237,0.1780,0.9382,0.4527,0.9866,3,0.7925,27,0.8550,alta,
+147,Titulcia,2023,235.0000,539,0.1566,639.0731,98,0.3677,1.0004,0.1330,,0.8478,0.7020,,2,0.7749,28,0.8490,baja (municipio < 1.000 afiliados residentes),
+159,Valdemaqueda,2023,150.0000,276,0.1566,327.2434,56,0.4584,0.7801,0.1461,,0.3795,1.0583,,2,0.7189,29,0.8440,baja (municipio < 1.000 afiliados residentes),
+067,Guadalix de la Sierra,2023,1015.0000,2666,0.1566,3160.9814,350,0.3211,1.1360,0.0997,0.1956,1.1359,-0.1986,1.2096,3,0.7156,30,0.8380,alta,
+111,Pezuela de las Torres,2023,145.0000,274,0.1566,324.8721,54,0.4463,0.8067,0.1425,,0.4361,0.9611,,2,0.6986,31,0.8320,baja (municipio < 1.000 afiliados residentes),
+057,Fresno de Torote,2023,305.0000,804,0.1566,953.2742,125,0.3199,1.1396,0.1159,,1.1435,0.2410,,2,0.6923,32,0.8270,baja (municipio < 1.000 afiliados residentes),
+112,Pinilla del Valle,2023,25.0000,60,0.1566,71.1399,10,0.3514,1.0458,0.1232,,0.9441,0.4391,,2,0.6916,33,0.8210,baja (municipio < 1.000 afiliados residentes),
+032,Camarma de Esteruelas,2023,2315.0000,2900,0.1566,3438.4269,428,0.6733,0.3956,0.1107,0.2869,-0.4376,0.0994,2.3662,3,0.6760,34,0.8160,alta,
+145,Talamanca de Jarama,2023,695.0000,1584,0.1566,1878.0925,191,0.3701,0.9941,0.0923,0.2250,0.8343,-0.3982,1.5818,3,0.6726,35,0.8100,alta,
+183,Zarzalejo,2023,355.0000,608,0.1566,720.8840,123,0.4925,0.7084,0.1458,,0.2271,1.0484,,2,0.6377,36,0.8040,baja (municipio < 1.000 afiliados residentes),
+137,Santos de la Humosa (Los),2023,335.0000,875,0.1566,1037.4564,130,0.3229,1.1304,0.1114,,1.1240,0.1172,,2,0.6206,37,0.7990,baja (municipio < 1.000 afiliados residentes),
+109,Pelayos de la Presa,2023,610.0000,893,0.1566,1058.7984,213,0.5761,0.5514,0.1675,0.1211,-0.1064,1.6365,0.2654,3,0.5985,38,0.7930,baja (municipio < 1.000 afiliados residentes),
+075,Loeches,2023,4395.0000,3878,0.1566,4598.0068,478,0.9558,0.0452,0.0942,0.3530,-1.1823,-0.3480,3.2042,3,0.5580,39,0.7880,alta,
+110,Perales de Tajuña,2023,530.0000,1143,0.1566,1355.2145,253,0.3911,0.9388,0.1573,0.0650,0.7169,1.3614,-0.4461,3,0.5441,40,0.7820,alta,
+035,Carabaña,2023,420.0000,799,0.1566,947.3459,141,0.4433,0.8134,0.1296,,0.4503,0.6099,,2,0.5301,41,0.7770,baja (municipio < 1.000 afiliados residentes),
+170,Villaconejos,2023,615.0000,1334,0.1566,1581.6764,216,0.3888,0.9446,0.1202,0.1364,0.7292,0.3555,0.4588,3,0.5145,42,0.7710,alta,
+174,Villamanta,2023,570.0000,990,0.1566,1173.8078,170,0.4856,0.7224,0.1265,0.1596,0.2569,0.5274,0.7527,3,0.5123,43,0.7650,baja (municipio < 1.000 afiliados residentes),
+033,Campo Real,2023,1735.0000,2700,0.1566,3201.2940,385,0.5420,0.6125,0.1074,0.2153,0.0235,0.0089,1.4590,3,0.4971,44,0.7600,alta,
+119,Quijorna,2023,495.0000,1491,0.1566,1767.8257,172,0.2800,1.2729,0.0887,,1.4269,-0.4969,,2,0.4650,45,0.7540,media (sin componente sectorial: < 500 empleos),
+100,Nuevo Baztán,2023,1255.0000,2472,0.1566,2930.9625,398,0.4282,0.8482,0.1196,0.1410,0.5243,0.3393,0.5168,3,0.4601,46,0.7490,alta,
+073,Humanes de Madrid,2023,10910.0000,8627,0.1566,10228.7273,1169,1.0666,-0.0645,0.1026,0.3281,-1.4153,-0.1207,2.8885,3,0.4508,47,0.7430,alta,
+182,Villavieja del Lozoya,2023,50.0000,100,0.1566,118.5664,16,0.4217,0.8635,0.1189,,0.5567,0.3215,,2,0.4391,48,0.7370,baja (municipio < 1.000 afiliados residentes),
+150,Torrejón de Velasco,2023,1030.0000,1856,0.1566,2200.5932,189,0.4681,0.7592,0.0791,0.2371,0.3351,-0.7560,1.7353,3,0.4381,49,0.7320,alta,
+028,Bustarviejo,2023,485.0000,992,0.1566,1176.1791,154,0.4124,0.8859,0.1158,,0.6043,0.2369,,2,0.4206,50,0.7260,baja (municipio < 1.000 afiliados residentes),
+051,Chapinería,2023,480.0000,861,0.1566,1020.8571,147,0.4702,0.7546,0.1259,,0.3254,0.5102,,2,0.4178,51,0.7210,baja (municipio < 1.000 afiliados residentes),
+036,Casarrubuelos,2023,1075.0000,1498,0.1566,1776.1254,197,0.6053,0.5021,0.0998,0.2295,-0.2112,-0.1944,1.6387,3,0.4110,52,0.7150,alta,
+084,Mejorada del Campo,2023,6665.0000,10744,0.1566,12738.7789,1326,0.5232,0.6478,0.0943,0.2167,0.0983,-0.3450,1.4770,3,0.4101,53,0.7090,alta,
+133,San Martín de Valdeiglesias,2023,1675.0000,2977,0.1566,3529.7231,628,0.4745,0.7454,0.1510,0.0770,0.3058,1.1916,-0.2946,3,0.4009,54,0.7040,alta,
+091,Morata de Tajuña,2023,1290.0000,3143,0.1566,3726.5434,480,0.3462,1.0608,0.1141,0.1027,0.9762,0.1918,0.0319,3,0.3999,55,0.6980,alta,
+050,Cubas de la Sagra,2023,1620.0000,2479,0.1566,2939.2622,274,0.5512,0.5957,0.0853,0.2380,-0.0123,-0.5888,1.7468,3,0.3819,56,0.6930,alta,
+012,Anchuelo,2023,185.0000,485,0.1566,575.0473,59,0.3217,1.1341,0.0931,,1.1319,-0.3782,,2,0.3768,57,0.6870,baja (municipio < 1.000 afiliados residentes),
+165,Valdilecha,2023,635.0000,1205,0.1566,1428.7257,206,0.4445,0.8109,0.1260,0.1121,0.4450,0.5141,0.1513,3,0.3701,58,0.6820,alta,
+097,Navarredonda y San Mamés,2023,20.0000,38,0.1566,45.0552,6,0.4439,0.8122,0.1175,,0.4477,0.2841,,2,0.3659,59,0.6760,baja (municipio < 1.000 afiliados residentes),
+175,Villamantilla,2023,270.0000,578,0.1566,685.3141,83,0.3940,0.9315,0.1080,,0.7012,0.0272,,2,0.3642,60,0.6700,baja (municipio < 1.000 afiliados residentes),
+156,Valdeavero,2023,315.0000,567,0.1566,672.2717,92,0.4686,0.7581,0.1204,,0.3328,0.3614,,2,0.3471,61,0.6650,baja (municipio < 1.000 afiliados residentes),
+178,Villanueva de Perales,2023,300.0000,664,0.1566,787.2812,91,0.3811,0.9648,0.1036,,0.7721,-0.0924,,2,0.3399,62,0.6590,baja (municipio < 1.000 afiliados residentes),
+106,Parla,2023,18295.0000,54613,0.1566,64752.6930,8380,0.2825,1.2639,0.1146,0.0511,1.4078,0.2047,-0.6218,3,0.3303,63,0.6540,alta,
+125,Robledo de Chavela,2023,1005.0000,1503,0.1566,1782.0537,275,0.5640,0.5728,0.1337,0.1262,-0.0610,0.7217,0.3293,3,0.3300,64,0.6480,alta,
+166,Valverde de Alcalá,2023,80.0000,176,0.1566,208.6769,24,0.3834,0.9588,0.1031,,0.7592,-0.1049,,2,0.3272,65,0.6420,baja (municipio < 1.000 afiliados residentes),
+158,Valdemanco,2023,150.0000,332,0.1566,393.6406,44,0.3811,0.9648,0.1005,,0.7721,-0.1755,,2,0.2983,66,0.6370,baja (municipio < 1.000 afiliados residentes),
+086,Molar (El),2023,1300.0000,3643,0.1566,4319.3756,485,0.3010,1.2007,0.1009,0.0753,1.2735,-0.1644,-0.3162,3,0.2643,67,0.6310,alta,
+089,Moraleja de Enmedio,2023,2290.0000,2334,0.1566,2767.3408,244,0.8275,0.1893,0.0810,0.2871,-0.8759,-0.7037,2.3694,3,0.2633,68,0.6260,alta,
+164,Valdetorres de Jarama,2023,960.0000,1864,0.1566,2210.0785,284,0.4344,0.8339,0.1139,0.1051,0.4938,0.1853,0.0621,3,0.2471,69,0.6200,alta,
+902,Puentes Viejas,2023,100.0000,237,0.1566,281.0025,28,0.3559,1.0332,0.0906,,0.9174,-0.4442,,2,0.2366,70,0.6150,baja (municipio < 1.000 afiliados residentes),
+128,Rozas de Puerto Real,2023,175.0000,137,0.1566,162.4360,35,1.0773,-0.0745,0.1773,,-1.4366,1.9016,,2,0.2325,71,0.6090,baja (municipio < 1.000 afiliados residentes),
+099,Navas del Rey,2023,610.0000,1042,0.1566,1235.4624,185,0.4937,0.7057,0.1302,0.0871,0.2215,0.6284,-0.1658,3,0.2281,72,0.6030,alta,
+062,Garganta de los Montes,2023,85.0000,140,0.1566,165.9930,22,0.5121,0.6693,0.1170,,0.1441,0.2708,,2,0.2074,73,0.5980,baja (municipio < 1.000 afiliados residentes),
+001,Acebeda (La),2023,25.0000,33,0.1566,39.1269,6,0.6389,0.4479,0.1330,,-0.3264,0.7020,,2,0.1878,74,0.5920,baja (municipio < 1.000 afiliados residentes),
+021,Berrueco (El),2023,145.0000,234,0.1566,277.4455,36,0.5226,0.6489,0.1149,,0.1007,0.2119,,2,0.1563,75,0.5870,baja (municipio < 1.000 afiliados residentes),
+058,Fuenlabrada,2023,46165.0000,90115,0.1566,106846.1526,11191,0.4321,0.8392,0.0948,0.1203,0.5051,-0.3306,0.2544,3,0.1430,76,0.5810,alta,
+052,Chinchón,2023,1420.0000,2108,0.1566,2499.3807,341,0.5681,0.5654,0.1201,0.1085,-0.0768,0.3527,0.1055,3,0.1272,77,0.5750,alta,
+023,Boalo (El),2023,1730.0000,3237,0.1566,3837.9958,353,0.4508,0.7968,0.0842,0.1456,0.4151,-0.6170,0.5749,3,0.1243,78,0.5700,alta,
+082,Manzanares el Real,2023,1420.0000,3582,0.1566,4247.0501,433,0.3343,1.0956,0.0925,0.0755,1.0500,-0.3926,-0.3136,3,0.1146,79,0.5640,alta,
+042,Colmenar del Arroyo,2023,470.0000,612,0.1566,725.6266,107,0.6477,0.4343,0.1285,,-0.3553,0.5816,,2,0.1131,80,0.5590,baja (municipio < 1.000 afiliados residentes),
+046,Collado Mediano,2023,1465.0000,2994,0.1566,3549.8794,380,0.4127,0.8851,0.0967,0.1008,0.6026,-0.2796,0.0071,3,0.1100,81,0.5530,alta,
+146,Tielmes,2023,605.0000,1035,0.1566,1227.1627,196,0.4930,0.7072,0.1377,0.0405,0.2247,0.8310,-0.7566,3,0.0997,82,0.5470,alta,
+063,Gargantilla del Lozoya y Pinilla de Buitrago,2023,105.0000,110,0.1566,130.4231,22,0.8051,0.2168,0.1443,,-0.8175,1.0100,,2,0.0962,83,0.5420,baja (municipio < 1.000 afiliados residentes),
+151,Torrelaguna,2023,755.0000,1974,0.1566,2340.5016,240,0.3226,1.1314,0.0930,0.0639,1.1261,-0.3795,-0.4599,3,0.0956,84,0.5360,alta,
+132,San Martín de la Vega,2023,5185.0000,8157,0.1566,9671.4650,1278,0.5361,0.6234,0.1167,0.0980,0.0466,0.2624,-0.0285,3,0.0935,85,0.5310,alta,
+044,Colmenarejo,2023,1705.0000,4018,0.1566,4763.9998,444,0.3579,1.0275,0.0853,0.0949,0.9054,-0.5893,-0.0676,3,0.0828,86,0.5250,alta,
+179,Villar del Olmo,2023,475.0000,1106,0.1566,1311.3449,113,0.3622,1.0155,0.0793,,0.8798,-0.7495,,2,0.0652,87,0.5200,media (sin componente sectorial: < 500 empleos),
+171,Villa del Prado,2023,1810.0000,2725,0.1566,3230.9356,439,0.5602,0.5794,0.1196,0.0877,-0.0469,0.3410,-0.1585,3,0.0452,88,0.5140,alta,
+101,Olmeda de las Fuentes,2023,90.0000,134,0.1566,158.8790,20,0.5665,0.5683,0.1118,,-0.0705,0.1295,,2,0.0295,89,0.5080,baja (municipio < 1.000 afiliados residentes),
+017,Batres,2023,335.0000,635,0.1566,752.8969,77,0.4449,0.8098,0.0928,,0.4427,-0.3855,,2,0.0286,90,0.5030,baja (municipio < 1.000 afiliados residentes),
+129,San Agustín del Guadalix,2023,5290.0000,5831,0.1566,6913.6095,491,0.7652,0.2677,0.0663,0.2494,-0.7095,-1.1021,1.8913,3,0.0266,91,0.4970,alta,
+163,Valdepiélagos,2023,115.0000,256,0.1566,303.5301,26,0.3789,0.9705,0.0789,,0.7843,-0.7613,,2,0.0115,92,0.4920,baja (municipio < 1.000 afiliados residentes),
+059,Fuente el Saz de Jarama,2023,2065.0000,2984,0.1566,3538.0227,352,0.5837,0.5384,0.0905,0.1447,-0.1340,-0.4476,0.5636,3,-0.0060,93,0.4860,alta,
+034,Canencia,2023,115.0000,133,0.1566,157.6934,23,0.7293,0.3157,0.1273,,-0.6073,0.5485,,2,-0.0294,94,0.4800,baja (municipio < 1.000 afiliados residentes),
+014,Arganda del Rey,2023,24560.0000,24982,0.1566,29620.2695,3662,0.8292,0.1873,0.1100,0.1536,-0.8802,0.0813,0.6768,3,-0.0407,95,0.4750,alta,
+061,Galapagar,2023,6115.0000,15940,0.1566,18899.4915,1617,0.3236,1.1284,0.0788,0.0618,1.1197,-0.7636,-0.4872,3,-0.0437,96,0.4690,alta,
+013,Aranjuez,2023,13650.0000,21311,0.1566,25267.6953,3676,0.5402,0.6158,0.1270,0.0446,0.0304,0.5409,-0.7047,3,-0.0445,97,0.4640,alta,
+108,Pedrezuela,2023,995.0000,2430,0.1566,2881.1646,276,0.3453,1.0632,0.0874,0.0531,0.9812,-0.5306,-0.5968,3,-0.0487,98,0.4580,alta,
+085,Miraflores de la Sierra,2023,1120.0000,2588,0.1566,3068.4996,356,0.3650,1.0079,0.1040,0.0264,0.8636,-0.0830,-0.9357,3,-0.0517,99,0.4530,alta,
+029,Cabanillas de la Sierra,2023,170.0000,337,0.1566,399.5689,36,0.4255,0.8546,0.0827,,0.5378,-0.6597,,2,-0.0609,100,0.4470,baja (municipio < 1.000 afiliados residentes),
+076,Lozoya,2023,160.0000,201,0.1566,238.3186,32,0.6714,0.3984,0.1184,,-0.4316,0.3074,,2,-0.0621,101,0.4410,baja (municipio < 1.000 afiliados residentes),
+053,Daganzo de Arriba,2023,3840.0000,4614,0.1566,5470.6558,456,0.7019,0.3539,0.0769,0.1891,-0.5261,-0.8143,1.1266,3,-0.0713,102,0.4360,alta,
+030,Cabrera (La),2023,590.0000,1111,0.1566,1317.2732,168,0.4479,0.8032,0.1131,0.0362,0.4286,0.1648,-0.8118,3,-0.0728,103,0.4300,alta,
+009,Algete,2023,8760.0000,9592,0.1566,11372.8935,810,0.7703,0.2610,0.0665,0.2265,-0.7236,-1.0973,1.6006,3,-0.0734,104,0.4250,alta,
+172,Villalbilla,2023,3115.0000,6176,0.1566,7322.6637,584,0.4254,0.8547,0.0739,0.1059,0.5382,-0.8976,0.0722,3,-0.0957,105,0.4190,alta,
+004,Álamo (El),2023,1925.0000,3593,0.1566,4260.0924,530,0.4519,0.7944,0.1106,0.0335,0.4099,0.0980,-0.8458,3,-0.1126,106,0.4130,alta,
+092,Móstoles,2023,44420.0000,91515,0.1566,108506.0828,10860,0.4094,0.8931,0.0910,0.0580,0.6197,-0.4343,-0.5343,3,-0.1163,107,0.4080,alta,
+121,Redueña,2023,70.0000,112,0.1566,132.7944,14,0.5271,0.6403,0.0954,,0.0825,-0.3154,,2,-0.1165,108,0.4020,baja (municipio < 1.000 afiliados residentes),
+018,Becerril de la Sierra,2023,1110.0000,2435,0.1566,2887.0930,322,0.3845,0.9559,0.1003,0.0274,0.7531,-0.1809,-0.9234,3,-0.1170,109,0.3970,alta,
+065,Getafe,2023,72920.0000,80998,0.1566,96036.4497,9166,0.7593,0.2754,0.0871,0.1677,-0.6931,-0.5386,0.8555,3,-0.1254,110,0.3910,alta,
+148,Torrejón de Ardoz,2023,37820.0000,60141,0.1566,71307.0461,7523,0.5304,0.6342,0.0954,0.0763,0.0694,-0.3137,-0.3031,3,-0.1825,111,0.3850,alta,
+901,Lozoyuela-Navas-Sieteiglesias,2023,450.0000,449,0.1566,532.3633,77,0.8453,0.1681,0.1264,,-0.9211,0.5235,,2,-0.1988,112,0.3800,baja (municipio < 1.000 afiliados residentes),
+054,Escorial (El),2023,2945.0000,6636,0.1566,7868.0693,760,0.3743,0.9827,0.0881,0.0266,0.8101,-0.5126,-0.9327,3,-0.2117,113,0.3740,alta,
+160,Valdemorillo,2023,3055.0000,5595,0.1566,6633.7926,627,0.4605,0.7754,0.0864,0.0616,0.3696,-0.5595,-0.4890,3,-0.2263,114,0.3690,alta,
+010,Alpedrete,2023,3120.0000,6282,0.1566,7448.3441,678,0.4189,0.8702,0.0834,0.0511,0.5709,-0.6386,-0.6225,3,-0.2301,115,0.3630,alta,
+107,Patones,2023,120.0000,157,0.1566,186.1493,21,0.6446,0.4391,0.1014,,-0.3452,-0.1529,,2,-0.2490,116,0.3580,baja (municipio < 1.000 afiliados residentes),
+093,Navacerrada,2023,655.0000,1195,0.1566,1416.8690,133,0.4623,0.7716,0.0858,0.0576,0.3614,-0.5741,-0.5397,3,-0.2508,117,0.3520,alta,
+154,Torres de la Alameda,2023,2810.0000,3245,0.1566,3847.4812,458,0.7303,0.3142,0.1064,0.0871,-0.6105,-0.0175,-0.1658,3,-0.2646,118,0.3460,alta,
+090,Moralzarzal,2023,2735.0000,5420,0.1566,6426.3014,536,0.4256,0.8543,0.0770,0.0575,0.5372,-0.8131,-0.5418,3,-0.2726,119,0.3410,alta,
+140,Serranillos del Valle,2023,1275.0000,1790,0.1566,2122.3394,220,0.6008,0.5096,0.0939,0.0764,-0.1954,-0.3546,-0.3017,3,-0.2839,120,0.3350,alta,
+047,Collado Villalba,2023,14280.0000,29611,0.1566,35108.7103,3570,0.4067,0.8996,0.0923,0.0128,0.6335,-0.3986,-1.1083,3,-0.2911,121,0.3300,alta,
+040,Ciempozuelos,2023,7290.0000,9727,0.1566,11532.9582,1482,0.6321,0.4587,0.1139,0.0357,-0.3035,0.1853,-0.8173,3,-0.3118,122,0.3240,alta,
+153,Torremocha de Jarama,2023,290.0000,300,0.1566,355.6993,46,0.8153,0.2042,0.1145,,-0.8443,0.2028,,2,-0.3208,123,0.3180,baja (municipio < 1.000 afiliados residentes),
+114,Piñuécar-Gandullas,2023,30.0000,79,0.1566,93.6675,4,0.3203,1.1386,0.0410,,1.1413,-1.7884,,2,-0.3235,124,0.3130,baja (municipio < 1.000 afiliados residentes),
+087,Molinos (Los),2023,875.0000,1893,0.1566,2244.4628,203,0.3898,0.9420,0.0829,0.0170,0.7236,-0.6518,-1.0544,3,-0.3275,125,0.3070,alta,
+045,Colmenar Viejo,2023,12925.0000,23803,0.1566,28222.3711,2182,0.4580,0.7810,0.0718,0.0646,0.3814,-0.9544,-0.4508,3,-0.3413,126,0.3020,alta,
+070,Horcajo de la Sierra-Aoslos,2023,50.0000,60,0.1566,71.1399,8,0.7028,0.3526,0.1011,,-0.5289,-0.1607,,2,-0.3448,127,0.2960,baja (municipio < 1.000 afiliados residentes),
+120,Rascafría,2023,460.0000,670,0.1566,794.3952,74,0.5791,0.5464,0.0852,,-0.1172,-0.5903,,2,-0.3538,128,0.2910,baja (municipio < 1.000 afiliados residentes),
+005,Alcalá de Henares,2023,65130.0000,81965,0.1566,97182.9873,10944,0.6702,0.4002,0.1012,0.0625,-0.4278,-0.1572,-0.4774,3,-0.3541,129,0.2850,alta,
+068,Guadarrama,2023,3955.0000,6910,0.1566,8192.9414,727,0.4827,0.7283,0.0815,0.0486,0.2694,-0.6908,-0.6543,3,-0.3586,130,0.2790,alta,
+113,Pinto,2023,20175.0000,22480,0.1566,26653.7370,2782,0.7569,0.2785,0.0945,0.0955,-0.6865,-0.3387,-0.0592,3,-0.3615,131,0.2740,alta,
+138,Serna del Monte (La),2023,50.0000,37,0.1566,43.8696,7,1.1397,-0.1308,0.1376,,-1.5563,0.8279,,2,-0.3642,132,0.2680,baja (municipio < 1.000 afiliados residentes),
+169,Venturada,2023,525.0000,854,0.1566,1012.5574,101,0.5185,0.6568,0.0907,0.0393,0.1176,-0.4418,-0.7720,3,-0.3654,133,0.2630,baja (municipio < 1.000 afiliados residentes),
+055,Estremera,2023,1070.0000,465,0.1566,551.3340,94,1.9407,-0.6631,0.1457,0.1418,-2.6875,1.0459,0.5278,3,-0.3713,134,0.2570,baja (municipio < 1.000 afiliados residentes),
+123,Rivas-Vaciamadrid,2023,26720.0000,41087,0.1566,48715.3956,4139,0.5485,0.6006,0.0783,0.0737,-0.0020,-0.7772,-0.3354,3,-0.3715,135,0.2510,alta,
+104,Paracuellos de Jarama,2023,6620.0000,10492,0.1566,12439.9915,813,0.5322,0.6308,0.0613,0.1014,0.0623,-1.2365,0.0154,3,-0.3863,136,0.2460,alta,
+015,Arroyomolinos,2023,9925.0000,13202,0.1566,15653.1422,1321,0.6341,0.4556,0.0778,0.0919,-0.3100,-0.7904,-0.1054,3,-0.4019,137,0.2400,alta,
+117,Prádena del Rincón,2023,40.0000,50,0.1566,59.2832,6,0.6747,0.3934,0.0919,,-0.4422,-0.4092,,2,-0.4257,138,0.2350,baja (municipio < 1.000 afiliados residentes),
+141,Sevilla la Nueva,2023,2315.0000,4013,0.1566,4758.0715,404,0.4865,0.7204,0.0783,0.0383,0.2527,-0.7785,-0.7849,3,-0.4369,139,0.2290,alta,
+177,Villanueva del Pardillo,2023,4125.0000,7883,0.1566,9346.5929,601,0.4413,0.8179,0.0604,0.0593,0.4600,-1.2616,-0.5186,3,-0.4401,140,0.2230,alta,
+007,Alcorcón,2023,50700.0000,75818,0.1566,89894.7079,8041,0.5640,0.5727,0.0821,0.0450,-0.0612,-0.6745,-0.6993,3,-0.4783,141,0.2180,alta,
+066,Griñón,2023,6100.0000,4205,0.1566,4985.7190,405,1.2235,-0.2017,0.0751,0.1870,-1.7070,-0.8633,1.1002,3,-0.4900,142,0.2120,alta,
+024,Braojos,2023,50.0000,105,0.1566,124.4948,6,0.4016,0.9122,0.0460,,0.6604,-1.6524,,2,-0.4960,143,0.2070,baja (municipio < 1.000 afiliados residentes),
+074,Leganés,2023,59525.0000,81898,0.1566,97103.5478,9591,0.6130,0.4894,0.0899,0.0369,-0.2383,-0.4637,-0.8028,3,-0.5016,144,0.2010,alta,
+041,Cobeña,2023,1610.0000,3131,0.1566,3712.3154,246,0.4337,0.8354,0.0621,0.0375,0.4971,-1.2147,-0.7951,3,-0.5042,145,0.1960,alta,
+038,Cercedilla,2023,1990.0000,3077,0.1566,3648.2895,355,0.5455,0.6061,0.0887,0.0134,0.0098,-0.4966,-1.1006,3,-0.5291,146,0.1900,alta,
+002,Ajalvir,2023,5180.0000,1974,0.1566,2340.5016,207,2.2132,-0.7944,0.0813,0.2622,-2.9666,-0.6975,2.0534,3,-0.5369,147,0.1840,alta,
+026,Brunete,2023,2675.0000,4689,0.1566,5559.5806,444,0.4812,0.7316,0.0740,0.0204,0.2764,-0.8951,-1.0119,3,-0.5435,148,0.1790,alta,
+049,Coslada,2023,29485.0000,38993,0.1566,46232.6142,3934,0.6378,0.4498,0.0784,0.0562,-0.3224,-0.7743,-0.5579,3,-0.5515,149,0.1730,alta,
+162,Valdeolmos-Alalpardo,2023,965.0000,1717,0.1566,2035.7859,127,0.4740,0.7465,0.0587,0.0475,0.3082,-1.3075,-0.6674,3,-0.5556,150,0.1680,alta,
+143,Somosierra,2023,40.0000,31,0.1566,36.7556,5,1.0883,-0.0846,0.1197,,-1.4581,0.3443,,2,-0.5569,151,0.1620,baja (municipio < 1.000 afiliados residentes),
+083,Meco,2023,6870.0000,5773,0.1566,6844.8409,743,1.0037,-0.0037,0.0979,0.0821,-1.2861,-0.2464,-0.2290,3,-0.5872,152,0.1560,alta,
+096,Navalcarnero,2023,10220.0000,12147,0.1566,14402.2662,1551,0.7096,0.3430,0.0972,0.0214,-0.5493,-0.2653,-0.9991,3,-0.6046,153,0.1510,alta,
+064,Gascones,2023,80.0000,101,0.1566,119.7521,10,0.6680,0.4034,0.0771,,-0.4210,-0.8108,,2,-0.6159,154,0.1450,baja (municipio < 1.000 afiliados residentes),
+069,Hiruela (La),2023,25.0000,7,0.1566,8.2997,2,3.0122,-1.1027,0.1942,,-3.6217,2.3593,,2,-0.6312,155,0.1400,baja (municipio < 1.000 afiliados residentes),
+144,Soto del Real,2023,2430.0000,3749,0.1566,4445.0561,315,0.5467,0.6039,0.0662,0.0358,0.0051,-1.1057,-0.8162,3,-0.6389,156,0.1340,alta,
+025,Brea de Tajo,2023,455.0000,175,0.1566,207.4913,42,2.1929,-0.7852,0.1683,,-2.9470,1.6598,,2,-0.6436,157,0.1280,baja (municipio < 1.000 afiliados residentes),
+027,Buitrago del Lozoya,2023,1005.0000,828,0.1566,981.7302,92,1.0237,-0.0234,0.0857,0.0961,-1.3281,-0.5777,-0.0518,3,-0.6525,158,0.1230,baja (municipio < 1.000 afiliados residentes),
+131,San Lorenzo de El Escorial,2023,4815.0000,7612,0.1566,9025.2779,739,0.5335,0.6283,0.0757,0.0022,0.0569,-0.8483,-1.2417,3,-0.6777,159,0.1170,alta,
+072,Hoyo de Manzanares,2023,2825.0000,3514,0.1566,4166.4249,303,0.6780,0.3885,0.0678,0.0425,-0.4526,-1.0619,-0.7311,3,-0.7485,160,0.1120,alta,
+088,Montejo de la Sierra,2023,100.0000,110,0.1566,130.4231,11,0.7667,0.2656,0.0778,,-0.7138,-0.7916,,2,-0.7527,161,0.1060,baja (municipio < 1.000 afiliados residentes),
+161,Valdemoro,2023,31845.0000,31578,0.1566,37440.9122,4085,0.8505,0.1619,0.0984,0.0127,-0.9343,-0.2342,-1.1096,3,-0.7594,162,0.1010,alta,
+152,Torrelodones,2023,6895.0000,10038,0.1566,11901.6998,656,0.5793,0.5459,0.0522,0.0361,-0.1182,-1.4829,-0.8122,3,-0.8044,163,0.0950,alta,
+071,Horcajuelo de la Sierra,2023,30.0000,35,0.1566,41.4983,3,0.7229,0.3245,0.0674,,-0.5888,-1.0721,,2,-0.8304,164,0.0890,baja (municipio < 1.000 afiliados residentes),
+130,San Fernando de Henares,2023,23090.0000,19488,0.1566,23106.2290,2067,0.9993,0.0007,0.0821,0.0408,-1.2768,-0.6743,-0.7534,3,-0.9015,165,0.0840,alta,
+149,Torrejón de la Calzada,2023,5590.0000,3675,0.1566,4357.3169,429,1.2829,-0.2491,0.0896,0.0634,-1.8077,-0.4708,-0.4662,3,-0.9149,166,0.0780,alta,
+020,Berzosa del Lozoya,2023,75.0000,59,0.1566,69.9542,7,1.0721,-0.0696,0.0910,,-1.4263,-0.4347,,2,-0.9305,167,0.0730,baja (municipio < 1.000 afiliados residentes),
+176,Villanueva de la Cañada,2023,7980.0000,9258,0.1566,10976.8815,688,0.7270,0.3189,0.0590,0.0183,-0.6007,-1.3005,-1.0376,3,-0.9796,168,0.0670,alta,
+079,Madrid,2023,2214215.0000,1494001,0.1566,1771383.8854,149263,1.2500,-0.2231,0.0777,0.0471,-1.7525,-0.7933,-0.6734,3,-1.0731,169,0.0610,alta,
+080,Majadahonda,2023,33195.0000,31900,0.1566,37822.6962,1977,0.8776,0.1305,0.0497,0.0378,-1.0009,-1.5524,-0.7914,3,-1.1149,170,0.0560,alta,
+134,San Sebastián de los Reyes,2023,45760.0000,42395,0.1566,50266.2447,3504,0.9104,0.0939,0.0652,0.0103,-1.0787,-1.1330,-1.1394,3,-1.1170,171,0.0500,alta,
+181,Villaviciosa de Odón,2023,11955.0000,11693,0.1566,13863.9745,799,0.8623,0.1481,0.0545,0.0235,-0.9635,-1.4220,-0.9716,3,-1.1190,172,0.0450,alta,
+078,Madarcos,2023,20.0000,29,0.1566,34.3843,1,0.5817,0.5419,0.0283,,-0.1267,-2.1320,,2,-1.1294,173,0.0390,baja (municipio < 1.000 afiliados residentes),
+167,Velilla de San Antonio,2023,13650.0000,5872,0.1566,6962.2217,681,1.9606,-0.6732,0.0891,0.0797,-2.7091,-0.4852,-0.2598,3,-1.1513,174,0.0340,alta,
+903,Tres Cantos,2023,40655.0000,21444,0.1566,25425.3886,1380,1.5990,-0.4694,0.0515,0.1138,-2.2758,-1.5034,0.1722,3,-1.2024,175,0.0280,alta,
+022,Boadilla del Monte,2023,34890.0000,24578,0.1566,29141.2610,1430,1.1973,-0.1800,0.0468,0.0371,-1.6609,-1.6308,-0.7996,3,-1.3638,176,0.0220,alta,
+127,Rozas de Madrid (Las),2023,56205.0000,42167,0.1566,49995.9132,2612,1.1242,-0.1171,0.0497,0.0137,-1.5271,-1.5530,-1.0970,3,-1.3924,177,0.0170,alta,
+006,Alcobendas,2023,123920.0000,55382,0.1566,65664.4690,4144,1.8872,-0.6351,0.0594,0.0493,-2.6280,-1.2901,-0.6455,3,-1.5212,178,0.0110,alta,
+115,Pozuelo de Alarcón,2023,85185.0000,38276,0.1566,45382.4928,2083,1.8770,-0.6297,0.0439,0.0505,-2.6165,-1.7091,-0.6297,3,-1.6518,179,0.0060,alta,
+037,Cenicientos,2024,225.0000,627,0.1617,747.9466,162,0.3008,1.2012,0.1780,,1.1845,2.2891,,2,1.7368,1,1.0000,baja (municipio < 1.000 afiliados residentes),
+157,Valdelaguna,2024,100.0000,249,0.1617,297.0314,67,0.3367,1.0887,0.1841,,0.9516,2.4642,,2,1.7079,2,0.9940,baja (municipio < 1.000 afiliados residentes),
+155,Valdaracete,2024,70.0000,250,0.1617,298.2243,49,0.2347,1.4494,0.1411,,1.6979,1.2156,,2,1.4567,3,0.9890,baja (municipio < 1.000 afiliados residentes),
+126,Robregordo,2024,10.0000,20,0.1617,23.8579,5,0.4191,0.8695,0.1733,,0.4982,2.1504,,2,1.3243,4,0.9830,baja (municipio < 1.000 afiliados residentes),
+168,Vellón (El),2024,185.0000,764,0.1617,911.3736,126,0.2030,1.5946,0.1215,,1.9984,0.6438,,2,1.3211,5,0.9780,baja (municipio < 1.000 afiliados residentes),
+031,Cadalso de los Vidrios,2024,620.0000,1035,0.1617,1234.6487,245,0.5022,0.6888,0.1656,0.2589,0.1243,1.9270,1.8509,3,1.3007,6,0.9720,alta,
+136,Santorcaz,2024,100.0000,314,0.1617,374.5698,59,0.2670,1.3206,0.1361,,1.4315,1.0690,,2,1.2502,7,0.9660,baja (municipio < 1.000 afiliados residentes),
+135,Santa María de la Alameda,2024,255.0000,484,0.1617,577.3623,116,0.4417,0.8172,0.1673,,0.3899,1.9770,,2,1.1835,8,0.9610,baja (municipio < 1.000 afiliados residentes),
+095,Navalagamella,2024,305.0000,1099,0.1617,1310.9942,181,0.2326,1.4582,0.1213,,1.7162,0.6396,,2,1.1779,9,0.9550,media (sin componente sectorial: < 500 empleos),
+094,Navalafuente,2024,180.0000,634,0.1617,756.2969,106,0.2380,1.4355,0.1229,,1.6692,0.6865,,2,1.1778,10,0.9500,baja (municipio < 1.000 afiliados residentes),
+173,Villamanrique de Tajo,2024,120.0000,253,0.1617,301.8030,57,0.3976,0.9223,0.1589,,0.6073,1.7316,,2,1.1695,11,0.9440,baja (municipio < 1.000 afiliados residentes),
+048,Corpa,2024,90.0000,277,0.1617,330.4326,50,0.2724,1.3006,0.1314,,1.3901,0.9337,,2,1.1619,12,0.9390,baja (municipio < 1.000 afiliados residentes),
+056,Fresnedillas de la Oliva,2024,225.0000,647,0.1617,771.8046,119,0.2915,1.2326,0.1336,,1.2495,0.9965,,2,1.1230,13,0.9330,baja (municipio < 1.000 afiliados residentes),
+159,Valdemaqueda,2024,160.0000,286,0.1617,341.1686,68,0.4690,0.7572,0.1662,,0.2658,1.9447,,2,1.1053,14,0.9270,baja (municipio < 1.000 afiliados residentes),
+019,Belmonte de Tajo,2024,225.0000,682,0.1617,813.5560,120,0.2766,1.2853,0.1285,,1.3585,0.8497,,2,1.1041,15,0.9220,baja (municipio < 1.000 afiliados residentes),
+060,Fuentidueña de Tajo,2024,380.0000,702,0.1617,837.4139,162,0.4538,0.7901,0.1621,,0.3339,1.8256,,2,1.0798,16,0.9160,baja (municipio < 1.000 afiliados residentes),
+128,Rozas de Puerto Real,2024,155.0000,129,0.1617,153.8838,43,1.0073,-0.0072,0.2184,,-1.3159,3.4633,,2,1.0737,17,0.9110,baja (municipio < 1.000 afiliados residentes),
+102,Orusco de Tajuña,2024,225.0000,484,0.1617,577.3623,98,0.3897,0.9424,0.1451,,0.6489,1.3316,,2,0.9902,18,0.9050,baja (municipio < 1.000 afiliados residentes),
+039,Cervera de Buitrago,2024,40.0000,35,0.1617,41.7514,11,0.9581,0.0429,0.2085,,-1.2122,3.1760,,2,0.9819,19,0.8990,baja (municipio < 1.000 afiliados residentes),
+124,Robledillo de la Jara,2024,30.0000,32,0.1617,38.1727,9,0.7859,0.2409,0.1908,,-0.8024,2.6601,,2,0.9289,20,0.8940,baja (municipio < 1.000 afiliados residentes),
+180,Villarejo de Salvanés,2024,2260.0000,3063,0.1617,3653.8446,538,0.6185,0.4804,0.1283,0.2900,-0.3069,0.8440,2.2314,3,0.9228,21,0.8880,alta,
+036,Casarrubuelos,2024,1025.0000,1532,0.1617,1827.5187,191,0.5609,0.5783,0.0946,0.3504,-0.1044,-0.1367,2.9681,3,0.9090,22,0.8830,alta,
+147,Titulcia,2024,215.0000,564,0.1617,672.7941,93,0.3196,1.1408,0.1214,,1.0595,0.6433,,2,0.8514,23,0.8770,baja (municipio < 1.000 afiliados residentes),
+122,Ribatejada,2024,120.0000,289,0.1617,344.7473,50,0.3481,1.0553,0.1267,,0.8826,0.7951,,2,0.8389,24,0.8720,baja (municipio < 1.000 afiliados residentes),
+011,Ambite,2024,120.0000,235,0.1617,280.3309,46,0.4281,0.8485,0.1410,,0.4546,1.2110,,2,0.8328,25,0.8660,baja (municipio < 1.000 afiliados residentes),
+035,Carabaña,2024,345.0000,859,0.1617,1024.6988,144,0.3367,1.0886,0.1232,,0.9515,0.6948,,2,0.8231,26,0.8600,baja (municipio < 1.000 afiliados residentes),
+116,Pozuelo del Rey,2024,165.0000,486,0.1617,579.7481,72,0.2846,1.2566,0.1105,,1.2992,0.3242,,2,0.8117,27,0.8550,baja (municipio < 1.000 afiliados residentes),
+043,Colmenar de Oreja,2024,1360.0000,3341,0.1617,3985.4700,535,0.3412,1.0752,0.1184,0.1832,0.9237,0.5534,0.9261,3,0.8010,28,0.8490,alta,
+183,Zarzalejo,2024,400.0000,632,0.1617,753.9111,137,0.5306,0.6338,0.1538,,0.0105,1.5836,,2,0.7971,29,0.8440,baja (municipio < 1.000 afiliados residentes),
+109,Pelayos de la Presa,2024,610.0000,975,0.1617,1163.0749,238,0.5245,0.6454,0.1699,0.1160,0.0344,2.0517,0.1062,3,0.7308,30,0.8380,baja (municipio < 1.000 afiliados residentes),
+032,Camarma de Esteruelas,2024,2335.0000,3070,0.1617,3662.1948,426,0.6376,0.4501,0.1042,0.3034,-0.3697,0.1419,2.3942,3,0.7221,31,0.8320,alta,
+016,Atazar (El),2024,15.0000,41,0.1617,48.9088,6,0.3067,1.1819,0.1093,,1.1445,0.2893,,2,0.7169,32,0.8270,baja (municipio < 1.000 afiliados residentes),
+057,Fresno de Torote,2024,330.0000,859,0.1617,1024.6988,130,0.3220,1.1331,0.1126,,1.0434,0.3856,,2,0.7145,33,0.8210,baja (municipio < 1.000 afiliados residentes),
+174,Villamanta,2024,535.0000,990,0.1617,1180.9684,179,0.4530,0.7918,0.1316,0.1778,0.3374,0.9393,0.8605,3,0.7124,34,0.8160,baja (municipio < 1.000 afiliados residentes),
+012,Anchuelo,2024,180.0000,504,0.1617,601.2203,72,0.2994,1.2060,0.1069,,1.1944,0.2218,,2,0.7081,35,0.8100,baja (municipio < 1.000 afiliados residentes),
+110,Perales de Tajuña,2024,545.0000,1165,0.1617,1389.7254,241,0.3922,0.9361,0.1478,0.1055,0.6359,1.4095,-0.0226,3,0.6743,36,0.8040,alta,
+099,Navas del Rey,2024,570.0000,1070,0.1617,1276.4002,208,0.4466,0.8062,0.1401,0.1426,0.3671,1.1866,0.4309,3,0.6615,37,0.7990,alta,
+033,Campo Real,2024,1750.0000,2776,0.1617,3311.4830,389,0.5285,0.6378,0.1051,0.2535,0.0187,0.1686,1.7854,3,0.6576,38,0.7930,alta,
+008,Aldea del Fresno,2024,575.0000,1014,0.1617,1209.5979,202,0.4754,0.7437,0.1431,0.1439,0.2378,1.2732,0.4462,3,0.6524,39,0.7880,alta,
+145,Talamanca de Jarama,2024,645.0000,1620,0.1617,1932.4937,187,0.3338,1.0973,0.0882,0.2088,0.9695,-0.3227,1.2392,3,0.6287,40,0.7820,alta,
+137,Santos de la Humosa (Los),2024,340.0000,932,0.1617,1111.7803,127,0.3058,1.1848,0.1025,,1.1504,0.0930,,2,0.6217,41,0.7770,baja (municipio < 1.000 afiliados residentes),
+175,Villamantilla,2024,270.0000,600,0.1617,715.7384,95,0.3772,0.9749,0.1172,,0.7162,0.5192,,2,0.6177,42,0.7710,baja (municipio < 1.000 afiliados residentes),
+166,Valverde de Alcalá,2024,70.0000,179,0.1617,213.5286,25,0.3278,1.1153,0.1048,,1.0067,0.1595,,2,0.5831,43,0.7650,baja (municipio < 1.000 afiliados residentes),
+063,Gargantilla del Lozoya y Pinilla de Buitrago,2024,90.0000,107,0.1617,127.6400,24,0.7051,0.3494,0.1583,,-0.5780,1.7144,,2,0.5682,44,0.7600,baja (municipio < 1.000 afiliados residentes),
+170,Villaconejos,2024,625.0000,1387,0.1617,1654.5486,217,0.3777,0.9735,0.1159,0.1414,0.7134,0.4835,0.4162,3,0.5377,45,0.7540,alta,
+067,Guadalix de la Sierra,2024,985.0000,2757,0.1617,3288.8180,342,0.2995,1.2056,0.0942,0.1515,1.1936,-0.1492,0.5401,3,0.5282,46,0.7490,alta,
+021,Berrueco (El),2024,155.0000,250,0.1617,298.2243,46,0.5197,0.6544,0.1336,,0.0531,0.9979,,2,0.5255,47,0.7430,baja (municipio < 1.000 afiliados residentes),
+156,Valdeavero,2024,320.0000,595,0.1617,709.7739,99,0.4508,0.7966,0.1224,,0.3473,0.6714,,2,0.5094,48,0.7370,baja (municipio < 1.000 afiliados residentes),
+051,Chapinería,2024,480.0000,876,0.1617,1044.9781,147,0.4593,0.7780,0.1233,,0.3087,0.6980,,2,0.5034,49,0.7320,baja (municipio < 1.000 afiliados residentes),
+165,Valdilecha,2024,610.0000,1250,0.1617,1491.1217,200,0.4091,0.8938,0.1183,0.1408,0.5485,0.5509,0.4089,3,0.5027,50,0.7260,alta,
+902,Puentes Viejas,2024,95.0000,248,0.1617,295.8385,32,0.3211,1.1359,0.0976,,1.0494,-0.0499,,2,0.4998,51,0.7210,baja (municipio < 1.000 afiliados residentes),
+075,Loeches,2024,4460.0000,4001,0.1617,4772.7823,452,0.9345,0.0678,0.0865,0.3547,-1.1607,-0.3727,3.0208,3,0.4958,52,0.7150,alta,
+125,Robledo de Chavela,2024,995.0000,1534,0.1617,1829.9045,271,0.5437,0.6093,0.1290,0.1583,-0.0403,0.8629,0.6228,3,0.4818,53,0.7090,alta,
+112,Pinilla del Valle,2024,25.0000,57,0.1617,67.9951,8,0.3677,1.0006,0.1053,,0.7693,0.1729,,2,0.4711,54,0.7040,baja (municipio < 1.000 afiliados residentes),
+119,Quijorna,2024,510.0000,1606,0.1617,1915.7931,160,0.2662,1.3235,0.0771,0.1571,1.4374,-0.6470,0.6076,3,0.4660,55,0.6980,alta,
+164,Valdetorres de Jarama,2024,960.0000,1923,0.1617,2293.9416,278,0.4185,0.8711,0.1081,0.1573,0.5014,0.2549,0.6101,3,0.4555,56,0.6930,alta,
+073,Humanes de Madrid,2024,11125.0000,8794,0.1617,10490.3392,1182,1.0605,-0.0587,0.1013,0.3263,-1.4224,0.0565,2.6747,3,0.4362,57,0.6870,alta,
+028,Bustarviejo,2024,485.0000,1045,0.1617,1246.5777,148,0.3891,0.9440,0.1061,,0.6523,0.1978,,2,0.4250,58,0.6820,media (sin componente sectorial: < 500 empleos),
+017,Batres,2024,315.0000,657,0.1617,783.7336,94,0.4019,0.9115,0.1071,,0.5850,0.2260,,2,0.4055,59,0.6760,baja (municipio < 1.000 afiliados residentes),
+042,Colmenar del Arroyo,2024,480.0000,615,0.1617,733.6319,118,0.6543,0.4242,0.1386,,-0.4232,1.1411,,2,0.3589,60,0.6700,baja (municipio < 1.000 afiliados residentes),
+178,Villanueva de Perales,2024,320.0000,691,0.1617,824.2921,93,0.3882,0.9462,0.1014,,0.6568,0.0600,,2,0.3584,61,0.6650,baja (municipio < 1.000 afiliados residentes),
+089,Moraleja de Enmedio,2024,2295.0000,2418,0.1617,2884.4258,230,0.7957,0.2286,0.0738,0.3232,-0.8279,-0.7409,2.6368,3,0.3560,62,0.6590,alta,
+106,Parla,2024,18575.0000,55880,0.1617,66659.1033,8119,0.2787,1.2778,0.1086,0.0624,1.3429,0.2690,-0.5485,3,0.3545,63,0.6540,alta,
+111,Pezuela de las Torres,2024,165.0000,289,0.1617,344.7473,45,0.4786,0.7369,0.1155,,0.2237,0.4693,,2,0.3465,64,0.6480,baja (municipio < 1.000 afiliados residentes),
+100,Nuevo Baztán,2024,1350.0000,2561,0.1617,3055.0101,397,0.4419,0.8167,0.1150,0.1204,0.3888,0.4561,0.1600,3,0.3350,65,0.6420,alta,
+133,San Martín de Valdeiglesias,2024,1715.0000,3108,0.1617,3707.5249,619,0.4626,0.7710,0.1431,0.0519,0.2942,1.2723,-0.6773,3,0.2964,66,0.6370,alta,
+084,Mejorada del Campo,2024,6770.0000,10887,0.1617,12987.0733,1313,0.5213,0.6515,0.0918,0.1875,0.0470,-0.2183,0.9787,3,0.2691,67,0.6310,alta,
+179,Villar del Olmo,2024,510.0000,1161,0.1617,1384.9538,111,0.3682,0.9990,0.0742,0.1697,0.7661,-0.7307,0.7624,3,0.2659,68,0.6260,alta,
+091,Morata de Tajuña,2024,1360.0000,3289,0.1617,3923.4394,457,0.3466,1.0595,0.1043,0.0853,0.8912,0.1455,-0.2685,3,0.2561,69,0.6200,alta,
+050,Cubas de la Sagra,2024,1685.0000,2613,0.1617,3117.0407,251,0.5406,0.6151,0.0745,0.2285,-0.0282,-0.7213,1.4800,3,0.2435,70,0.6150,alta,
+086,Molar (El),2024,1325.0000,3909,0.1617,4663.0357,484,0.2841,1.2583,0.0940,0.0709,1.3025,-0.1538,-0.4446,3,0.2347,71,0.6090,alta,
+034,Canencia,2024,105.0000,144,0.1617,171.7772,24,0.6113,0.4922,0.1226,,-0.2824,0.6766,,2,0.1971,72,0.6030,baja (municipio < 1.000 afiliados residentes),
+052,Chinchón,2024,1450.0000,2171,0.1617,2589.7801,368,0.5599,0.5800,0.1244,0.1023,-0.1008,0.7298,-0.0607,3,0.1894,73,0.5980,alta,
+146,Tielmes,2024,615.0000,1116,0.1617,1331.2734,197,0.4620,0.7723,0.1289,0.0571,0.2970,0.8603,-0.6133,3,0.1813,74,0.5920,alta,
+129,San Agustín del Guadalix,2024,5445.0000,6111,0.1617,7289.7956,502,0.7469,0.2918,0.0644,0.2898,-0.6972,-1.0150,2.2286,3,0.1721,75,0.5870,alta,
+150,Torrejón de Velasco,2024,1085.0000,1926,0.1617,2297.5203,193,0.4722,0.7503,0.0775,0.1797,0.2514,-0.6349,0.8839,3,0.1668,76,0.5810,alta,
+023,Boalo (El),2024,1805.0000,3363,0.1617,4011.7138,418,0.4499,0.7987,0.0944,0.1267,0.3516,-0.1443,0.2363,3,0.1478,77,0.5750,alta,
+108,Pedrezuela,2024,1000.0000,2480,0.1617,2958.3854,312,0.3380,1.0846,0.0954,0.0717,0.9433,-0.1141,-0.4348,3,0.1315,78,0.5700,alta,
+018,Becerril de la Sierra,2024,1110.0000,2545,0.1617,3035.9237,327,0.3656,1.0062,0.0972,0.0734,0.7809,-0.0607,-0.4139,3,0.1021,79,0.5640,alta,
+085,Miraflores de la Sierra,2024,1120.0000,2755,0.1617,3286.4322,364,0.3408,1.0765,0.0997,0.0551,0.9264,0.0113,-0.6375,3,0.1001,80,0.5590,alta,
+132,San Martín de la Vega,2024,5295.0000,8435,0.1617,10062.0891,1191,0.5262,0.6420,0.1058,0.1122,0.0274,0.1894,0.0599,3,0.0923,81,0.5530,alta,
+114,Piñuécar-Gandullas,2024,30.0000,74,0.1617,88.2744,7,0.3398,1.0793,0.0735,,0.9321,-0.7519,,2,0.0901,82,0.5470,baja (municipio < 1.000 afiliados residentes),
+158,Valdemanco,2024,165.0000,356,0.1617,424.6715,38,0.3885,0.9454,0.0821,,0.6551,-0.5000,,2,0.0775,83,0.5420,baja (municipio < 1.000 afiliados residentes),
+058,Fuenlabrada,2024,47660.0000,90925,0.1617,108464.1906,10443,0.4394,0.8223,0.0878,0.1206,0.4005,-0.3344,0.1624,3,0.0762,84,0.5360,alta,
+901,Lozoyuela-Navas-Sieteiglesias,2024,480.0000,459,0.1617,547.5399,89,0.8766,0.1316,0.1398,,-1.0285,1.1777,,2,0.0746,85,0.5310,baja (municipio < 1.000 afiliados residentes),
+013,Aranjuez,2024,12800.0000,22225,0.1617,26512.1434,3433,0.4828,0.7282,0.1146,0.0714,0.2057,0.4455,-0.4388,3,0.0708,86,0.5250,alta,
+151,Torrelaguna,2024,770.0000,2004,0.1617,2390.5663,237,0.3221,1.1329,0.0902,0.0579,1.0431,-0.2654,-0.6040,3,0.0579,87,0.5200,alta,
+044,Colmenarejo,2024,1670.0000,4118,0.1617,4912.3512,468,0.3400,1.0789,0.0870,0.0731,0.9314,-0.3589,-0.4183,3,0.0514,88,0.5140,alta,
+029,Cabanillas de la Sierra,2024,175.0000,359,0.1617,428.2501,39,0.4086,0.8949,0.0835,,0.5507,-0.4612,,2,0.0448,89,0.5080,baja (municipio < 1.000 afiliados residentes),
+046,Collado Mediano,2024,1545.0000,3083,0.1617,3677.7025,378,0.4201,0.8673,0.0932,0.0884,0.4935,-0.1781,-0.2313,3,0.0280,90,0.5030,alta,
+061,Galapagar,2024,6340.0000,16464,0.1617,19639.8618,1610,0.3228,1.1307,0.0758,0.0812,1.0385,-0.6852,-0.3196,3,0.0113,91,0.4970,alta,
+062,Garganta de los Montes,2024,85.0000,147,0.1617,175.3559,18,0.4847,0.7242,0.0931,,0.1974,-0.1812,,2,0.0081,92,0.4920,baja (municipio < 1.000 afiliados residentes),
+059,Fuente el Saz de Jarama,2024,2090.0000,3109,0.1617,3708.7178,356,0.5635,0.5735,0.0876,0.1453,-0.1143,-0.3415,0.4637,3,0.0027,93,0.4860,alta,
+082,Manzanares el Real,2024,1440.0000,3739,0.1617,4460.2432,376,0.3229,1.1306,0.0777,0.0702,1.0383,-0.6276,-0.4535,3,-0.0143,94,0.4800,alta,
+163,Valdepiélagos,2024,130.0000,265,0.1617,316.1178,27,0.4112,0.8886,0.0787,,0.5376,-0.6001,,2,-0.0313,95,0.4750,baja (municipio < 1.000 afiliados residentes),
+172,Villalbilla,2024,3160.0000,6676,0.1617,7963.7826,575,0.3968,0.9243,0.0673,0.1200,0.6116,-0.9302,0.1550,3,-0.0546,96,0.4690,alta,
+107,Patones,2024,120.0000,163,0.1617,194.4423,23,0.6171,0.4826,0.1058,,-0.3023,0.1876,,2,-0.0573,97,0.4640,baja (municipio < 1.000 afiliados residentes),
+140,Serranillos del Valle,2024,1290.0000,1877,0.1617,2239.0683,193,0.5761,0.5514,0.0794,0.1539,-0.1600,-0.5807,0.5686,3,-0.0574,98,0.4580,alta,
+004,Álamo (El),2024,1930.0000,3671,0.1617,4379.1261,544,0.4407,0.8193,0.1105,0.0337,0.3943,0.3250,-0.8987,3,-0.0598,99,0.4530,alta,
+097,Navarredonda y San Mamés,2024,25.0000,45,0.1617,53.6804,5,0.4657,0.7642,0.0852,,0.2802,-0.4106,,2,-0.0652,100,0.4470,baja (municipio < 1.000 afiliados residentes),
+171,Villa del Prado,2024,1880.0000,2830,0.1617,3375.8995,377,0.5569,0.5854,0.1005,0.0907,-0.0897,0.0329,-0.2033,3,-0.0867,101,0.4410,alta,
+118,Puebla de la Sierra,2024,20.0000,15,0.1617,17.8935,3,1.1177,-0.1113,0.1436,,-1.5312,1.2873,,2,-0.1219,102,0.4360,baja (municipio < 1.000 afiliados residentes),
+065,Getafe,2024,76080.0000,83682,0.1617,99824.0352,8849,0.7621,0.2716,0.0814,0.1804,-0.7389,-0.5205,0.8930,3,-0.1221,103,0.4300,alta,
+101,Olmeda de las Fuentes,2024,85.0000,146,0.1617,174.1630,16,0.4880,0.7173,0.0841,,0.1833,-0.4417,,2,-0.1292,104,0.4250,baja (municipio < 1.000 afiliados residentes),
+070,Horcajo de la Sierra-Aoslos,2024,60.0000,60,0.1617,71.5738,10,0.8383,0.1764,0.1226,,-0.9360,0.6766,,2,-0.1297,105,0.4190,baja (municipio < 1.000 afiliados residentes),
+014,Arganda del Rey,2024,25590.0000,25881,0.1617,30873.3760,3546,0.8289,0.1877,0.1030,0.1364,-0.9126,0.1076,0.3550,3,-0.1500,106,0.4130,alta,
+092,Móstoles,2024,44790.0000,92918,0.1617,110841.6350,10563,0.4041,0.9061,0.0870,0.0514,0.5739,-0.3582,-0.6825,3,-0.1556,107,0.4080,alta,
+053,Daganzo de Arriba,2024,3890.0000,4850,0.1617,5785.5521,413,0.6724,0.3970,0.0666,0.1834,-0.4796,-0.9509,0.9297,3,-0.1669,108,0.4020,alta,
+160,Valdemorillo,2024,3100.0000,5795,0.1617,6912.8401,647,0.4484,0.8020,0.0856,0.0691,0.3584,-0.3996,-0.4669,3,-0.1694,109,0.3970,alta,
+009,Algete,2024,8930.0000,9764,0.1617,11647.4496,798,0.7667,0.2657,0.0641,0.2046,-0.7512,-1.0239,1.1879,3,-0.1957,110,0.3910,alta,
+153,Torremocha de Jarama,2024,270.0000,318,0.1617,379.3414,45,0.7118,0.3400,0.1060,,-0.5974,0.1955,,2,-0.2009,111,0.3850,baja (municipio < 1.000 afiliados residentes),
+030,Cabrera (La),2024,620.0000,1170,0.1617,1395.6899,152,0.4442,0.8114,0.0982,0.0285,0.3780,-0.0324,-0.9626,3,-0.2057,112,0.3800,alta,
+087,Molinos (Los),2024,910.0000,1929,0.1617,2301.0990,194,0.3955,0.9277,0.0778,0.0571,0.6185,-0.6274,-0.6128,3,-0.2072,113,0.3740,alta,
+154,Torres de la Alameda,2024,2920.0000,3367,0.1617,4016.4853,441,0.7270,0.3188,0.0989,0.1079,-0.6412,-0.0113,0.0072,3,-0.2151,114,0.3690,alta,
+010,Alpedrete,2024,3095.0000,6502,0.1617,7756.2185,642,0.3990,0.9187,0.0764,0.0551,0.5999,-0.6654,-0.6373,3,-0.2343,115,0.3630,alta,
+093,Navacerrada,2024,710.0000,1238,0.1617,1476.8069,117,0.4808,0.7324,0.0734,0.0898,0.2144,-0.7537,-0.2145,3,-0.2513,116,0.3580,alta,
+182,Villavieja del Lozoya,2024,55.0000,110,0.1617,131.2187,9,0.4191,0.8695,0.0642,,0.4982,-1.0220,,2,-0.2619,117,0.3520,baja (municipio < 1.000 afiliados residentes),
+148,Torrejón de Ardoz,2024,38545.0000,62185,0.1617,74180.3211,7081,0.5196,0.6547,0.0871,0.0669,0.0536,-0.3544,-0.4937,3,-0.2648,118,0.3460,alta,
+120,Rascafría,2024,445.0000,659,0.1617,786.1193,72,0.5661,0.5690,0.0839,,-0.1235,-0.4485,,2,-0.2860,119,0.3410,baja (municipio < 1.000 afiliados residentes),
+068,Guadarrama,2024,3915.0000,7055,0.1617,8415.8907,742,0.4652,0.7653,0.0810,0.0575,0.2825,-0.5323,-0.6087,3,-0.2861,120,0.3350,alta,
+064,Gascones,2024,90.0000,108,0.1617,128.8329,14,0.6986,0.3587,0.0980,,-0.5587,-0.0380,,2,-0.2984,121,0.3300,baja (municipio < 1.000 afiliados residentes),
+003,Alameda del Valle,2024,50.0000,87,0.1617,103.7821,8,0.4818,0.7303,0.0716,,0.2101,-0.8073,,2,-0.2986,122,0.3240,baja (municipio < 1.000 afiliados residentes),
+090,Moralzarzal,2024,2910.0000,5672,0.1617,6766.1137,518,0.4301,0.8438,0.0711,0.0638,0.4449,-0.8205,-0.5311,3,-0.3022,123,0.3180,alta,
+047,Collado Villalba,2024,14605.0000,30482,0.1617,36361.8967,3523,0.4017,0.9122,0.0883,0.0097,0.5864,-0.3198,-1.1923,3,-0.3086,124,0.3130,alta,
+054,Escorial (El),2024,3190.0000,6916,0.1617,8250.0780,752,0.3867,0.9502,0.0835,0.0136,0.6651,-0.4592,-1.1446,3,-0.3129,125,0.3070,alta,
+113,Pinto,2024,20850.0000,23259,0.1617,27745.5992,2648,0.7515,0.2857,0.0871,0.1169,-0.7097,-0.3548,0.1166,3,-0.3160,126,0.3020,alta,
+104,Paracuellos de Jarama,2024,6435.0000,10941,0.1617,13051.4898,820,0.4930,0.7072,0.0591,0.1095,0.1622,-1.1695,0.0261,3,-0.3270,127,0.2960,alta,
+045,Colmenar Viejo,2024,13045.0000,24699,0.1617,29463.3714,2131,0.4428,0.8147,0.0674,0.0712,0.3848,-0.9271,-0.4412,3,-0.3278,128,0.2910,alta,
+076,Lozoya,2024,165.0000,197,0.1617,235.0008,25,0.7021,0.3536,0.0962,,-0.5692,-0.0922,,2,-0.3307,129,0.2850,baja (municipio < 1.000 afiliados residentes),
+005,Alcalá de Henares,2024,65420.0000,84527,0.1617,100832.0334,10454,0.6488,0.4326,0.0939,0.0716,-0.4058,-0.1566,-0.4356,3,-0.3327,130,0.2790,alta,
+123,Rivas-Vaciamadrid,2024,27005.0000,42854,0.1617,51120.4226,3993,0.5283,0.6382,0.0725,0.0788,0.0195,-0.7816,-0.3480,3,-0.3700,131,0.2740,alta,
+015,Arroyomolinos,2024,10430.0000,13930,0.1617,16617.0599,1314,0.6277,0.4657,0.0733,0.1010,-0.3373,-0.7574,-0.0778,3,-0.3908,132,0.2680,alta,
+038,Cercedilla,2024,1975.0000,3161,0.1617,3770.7485,395,0.5238,0.6467,0.0948,0.0188,0.0372,-0.1310,-1.0813,3,-0.3917,133,0.2630,alta,
+027,Buitrago del Lozoya,2024,970.0000,843,0.1617,1005.6125,95,0.9646,0.0361,0.0863,0.1379,-1.2263,-0.3783,0.3730,3,-0.4106,134,0.2570,baja (municipio < 1.000 afiliados residentes),
+040,Ciempozuelos,2024,7620.0000,10158,0.1617,12117.4512,1390,0.6288,0.4639,0.1029,0.0185,-0.3411,0.1042,-1.0848,3,-0.4406,135,0.2510,alta,
+141,Sevilla la Nueva,2024,2370.0000,4145,0.1617,4944.5595,385,0.4793,0.7354,0.0722,0.0448,0.2207,-0.7878,-0.7639,3,-0.4437,136,0.2460,alta,
+177,Villanueva del Pardillo,2024,4270.0000,8260,0.1617,9853.3320,576,0.4334,0.8362,0.0552,0.0622,0.4292,-1.2825,-0.5506,3,-0.4679,137,0.2400,alta,
+007,Alcorcón,2024,50930.0000,77896,0.1617,92921.9312,7722,0.5481,0.6013,0.0767,0.0504,-0.0568,-0.6572,-0.6952,3,-0.4697,138,0.2350,alta,
+041,Cobeña,2024,1605.0000,3214,0.1617,3833.9720,240,0.4186,0.8708,0.0589,0.0433,0.5008,-1.1754,-0.7817,3,-0.4854,139,0.2290,alta,
+024,Braojos,2024,40.0000,101,0.1617,120.4826,4,0.3320,1.1026,0.0321,,0.9805,-1.9542,,2,-0.4868,140,0.2230,baja (municipio < 1.000 afiliados residentes),
+121,Redueña,2024,55.0000,126,0.1617,150.3051,6,0.3659,1.0053,0.0384,,0.7792,-1.7723,,2,-0.4966,141,0.2180,baja (municipio < 1.000 afiliados residentes),
+096,Navalcarnero,2024,9985.0000,12603,0.1617,15034.0852,1653,0.6642,0.4092,0.0991,0.0228,-0.4542,-0.0077,-1.0322,3,-0.4980,142,0.2120,alta,
+055,Estremera,2024,1160.0000,489,0.1617,583.3268,83,1.9886,-0.6874,0.1246,0.1472,-2.7232,0.7341,0.4869,3,-0.5008,143,0.2070,baja (municipio < 1.000 afiliados residentes),
+074,Leganés,2024,61260.0000,84103,0.1617,100326.2450,9161,0.6106,0.4933,0.0837,0.0441,-0.2802,-0.4552,-0.7715,3,-0.5023,144,0.2010,alta,
+026,Brunete,2024,2700.0000,4821,0.1617,5750.9581,430,0.4695,0.7561,0.0696,0.0325,0.2635,-0.8654,-0.9141,3,-0.5053,145,0.1960,alta,
+138,Serna del Monte (La),2024,50.0000,41,0.1617,48.9088,6,1.0223,-0.0221,0.1093,,-1.3466,0.2893,,2,-0.5286,146,0.1900,baja (municipio < 1.000 afiliados residentes),
+066,Griñón,2024,6650.0000,4394,0.1617,5241.5909,410,1.2687,-0.2380,0.0725,0.1786,-1.7933,-0.7788,0.8703,3,-0.5673,147,0.1840,alta,
+049,Coslada,2024,30110.0000,39069,0.1617,46605.3062,3652,0.6461,0.4369,0.0727,0.0612,-0.3970,-0.7753,-0.5636,3,-0.5787,148,0.1790,alta,
+162,Valdeolmos-Alalpardo,2024,965.0000,1783,0.1617,2126.9360,131,0.4537,0.7903,0.0580,0.0350,0.3343,-1.2014,-0.8834,3,-0.5835,149,0.1730,alta,
+131,San Lorenzo de El Escorial,2024,4815.0000,7667,0.1617,9145.9439,721,0.5265,0.6416,0.0731,0.0228,0.0265,-0.7635,-1.0323,3,-0.5898,150,0.1680,alta,
+072,Hoyo de Manzanares,2024,2770.0000,3576,0.1617,4265.8009,325,0.6494,0.4318,0.0708,0.0612,-0.4075,-0.8298,-0.5628,3,-0.6000,151,0.1620,alta,
+002,Ajalvir,2024,5455.0000,2064,0.1617,2462.1401,188,2.2156,-0.7955,0.0709,0.2572,-2.9468,-0.8255,1.8308,3,-0.6472,152,0.1560,alta,
+169,Venturada,2024,590.0000,928,0.1617,1107.0087,82,0.5330,0.6293,0.0690,0.0122,0.0011,-0.8830,-1.1620,3,-0.6813,153,0.1510,baja (municipio < 1.000 afiliados residentes),
+083,Meco,2024,7545.0000,6003,0.1617,7160.9627,677,1.0536,-0.0522,0.0864,0.0775,-1.4090,-0.3766,-0.3640,3,-0.7165,154,0.1450,alta,
+001,Acebeda (La),2024,20.0000,30,0.1617,35.7869,2,0.5589,0.5819,0.0529,,-0.0970,-1.3494,,2,-0.7232,155,0.1400,baja (municipio < 1.000 afiliados residentes),
+144,Soto del Real,2024,2645.0000,3834,0.1617,4573.5684,333,0.5783,0.5476,0.0679,0.0165,-0.1679,-0.9149,-1.1096,3,-0.7308,156,0.1340,alta,
+161,Valdemoro,2024,32690.0000,33222,0.1617,39630.4354,3885,0.8249,0.1925,0.0893,0.0217,-0.9026,-0.2922,-1.0462,3,-0.7470,157,0.1280,alta,
+071,Horcajuelo de la Sierra,2024,30.0000,41,0.1617,48.9088,3,0.6134,0.4888,0.0578,,-0.2896,-1.2079,,2,-0.7488,158,0.1230,baja (municipio < 1.000 afiliados residentes),
+025,Brea de Tajo,2024,455.0000,180,0.1617,214.7215,36,2.1190,-0.7510,0.1436,,-2.8547,1.2873,,2,-0.7837,159,0.1170,baja (municipio < 1.000 afiliados residentes),
+152,Torrelodones,2024,6935.0000,10509,0.1617,12536.1581,655,0.5532,0.5920,0.0497,0.0228,-0.0760,-1.4446,-1.0319,3,-0.8508,160,0.1120,alta,
+130,San Fernando de Henares,2024,24325.0000,19707,0.1617,23508.4279,1913,1.0347,-0.0341,0.0753,0.0576,-1.3716,-0.7001,-0.6068,3,-0.8928,161,0.1060,alta,
+020,Berzosa del Lozoya,2024,80.0000,59,0.1617,70.3809,7,1.1367,-0.1281,0.0905,,-1.5660,-0.2578,,2,-0.9119,162,0.1010,baja (municipio < 1.000 afiliados residentes),
+149,Torrejón de la Calzada,2024,5570.0000,3883,0.1617,4632.0204,432,1.2025,-0.1844,0.0853,0.0524,-1.6824,-0.4077,-0.6709,3,-0.9203,163,0.0950,alta,
+088,Montejo de la Sierra,2024,95.0000,101,0.1617,120.4826,8,0.7885,0.2376,0.0623,,-0.8092,-1.0778,,2,-0.9435,164,0.0890,baja (municipio < 1.000 afiliados residentes),
+143,Somosierra,2024,50.0000,34,0.1617,40.5585,4,1.2328,-0.2093,0.0898,,-1.7339,-0.2779,,2,-1.0059,165,0.0840,baja (municipio < 1.000 afiliados residentes),
+176,Villanueva de la Cañada,2024,8750.0000,9642,0.1617,11501.9161,676,0.7607,0.2735,0.0555,0.0179,-0.7351,-1.2743,-1.0925,3,-1.0340,166,0.0780,alta,
+078,Madarcos,2024,20.0000,31,0.1617,36.9798,1,0.5408,0.6146,0.0263,,-0.0292,-2.1230,,2,-1.0761,167,0.0730,baja (municipio < 1.000 afiliados residentes),
+079,Madrid,2024,2316150.0000,1544690,0.1617,1842656.5916,146168,1.2570,-0.2287,0.0735,0.0442,-1.7741,-0.7512,-0.7707,3,-1.0987,168,0.0670,alta,
+903,Tres Cantos,2024,41430.0000,22251,0.1617,26543.1587,1450,1.5609,-0.4452,0.0518,0.1289,-2.2221,-1.3822,0.2637,3,-1.1135,169,0.0610,alta,
+134,San Sebastián de los Reyes,2024,49615.0000,43459,0.1617,51842.1255,3421,0.9570,0.0439,0.0619,0.0114,-1.2101,-1.0883,-1.1710,3,-1.1565,170,0.0560,alta,
+080,Majadahonda,2024,33830.0000,32626,0.1617,38919.4686,1982,0.8692,0.1401,0.0485,0.0272,-1.0109,-1.4794,-0.9791,3,-1.1565,171,0.0500,alta,
+181,Villaviciosa de Odón,2024,12605.0000,11876,0.1617,14166.8488,798,0.8898,0.1168,0.0533,0.0163,-1.0592,-1.3378,-1.1121,3,-1.1697,172,0.0450,alta,
+167,Velilla de San Antonio,2024,14440.0000,6097,0.1617,7273.0951,630,1.9854,-0.6858,0.0797,0.0747,-2.7199,-0.5703,-0.3983,3,-1.2295,173,0.0390,alta,
+117,Prádena del Rincón,2024,45.0000,55,0.1617,65.6094,2,0.6859,0.3771,0.0296,,-0.5208,-2.0284,,2,-1.2746,174,0.0340,baja (municipio < 1.000 afiliados residentes),
+069,Hiruela (La),2024,20.0000,6,0.1617,7.1574,1,2.7943,-1.0276,0.1226,,-3.4270,0.6766,,2,-1.3752,175,0.0280,baja (municipio < 1.000 afiliados residentes),
+127,Rozas de Madrid (Las),2024,56645.0000,43563,0.1617,51966.1868,2622,1.0900,-0.0862,0.0480,0.0086,-1.4793,-1.4918,-1.2058,3,-1.3923,176,0.0220,alta,
+022,Boadilla del Monte,2024,38365.0000,25991,0.1617,31004.5948,1373,1.2374,-0.2130,0.0424,0.0340,-1.7416,-1.6554,-0.8955,3,-1.4308,177,0.0170,alta,
+006,Alcobendas,2024,127615.0000,57192,0.1617,68224.1846,4068,1.8705,-0.6262,0.0563,0.0549,-2.5966,-1.2521,-0.6403,3,-1.4964,178,0.0110,alta,
+115,Pozuelo de Alarcón,2024,87655.0000,39177,0.1617,46734.1391,2082,1.8756,-0.6289,0.0426,0.0464,-2.6022,-1.6483,-0.7436,3,-1.6647,179,0.0060,alta,
+126,Robregordo,2025,10.0000,16,0.1667,19.2011,6,0.5208,0.6524,0.2381,,0.0210,3.8765,,2,1.9487,1,1.0000,baja (municipio < 1.000 afiliados residentes),
+037,Cenicientos,2025,230.0000,671,0.1667,805.2462,168,0.2856,1.2531,0.1726,,1.2583,2.0803,,2,1.6693,2,0.9940,baja (municipio < 1.000 afiliados residentes),
+157,Valdelaguna,2025,115.0000,250,0.1667,300.0172,69,0.3833,0.9589,0.1870,,0.6524,2.4744,,2,1.5634,3,0.9890,baja (municipio < 1.000 afiliados residentes),
+016,Atazar (El),2025,15.0000,43,0.1667,51.6030,10,0.2907,1.2355,0.1623,,1.2222,1.7980,,2,1.5101,4,0.9830,baja (municipio < 1.000 afiliados residentes),
+168,Vellón (El),2025,180.0000,804,0.1667,964.8553,139,0.1866,1.6790,0.1259,,2.1358,0.7991,,2,1.4675,5,0.9780,baja (municipio < 1.000 afiliados residentes),
+155,Valdaracete,2025,75.0000,254,0.1667,304.8175,49,0.2460,1.4022,0.1385,,1.5656,1.1439,,2,1.3548,6,0.9720,baja (municipio < 1.000 afiliados residentes),
+173,Villamanrique de Tajo,2025,120.0000,268,0.1667,321.6184,65,0.3731,0.9859,0.1681,,0.7079,1.9570,,2,1.3325,7,0.9660,baja (municipio < 1.000 afiliados residentes),
+159,Valdemaqueda,2025,135.0000,293,0.1667,351.6202,72,0.3839,0.9573,0.1700,,0.6490,2.0075,,2,1.3282,8,0.9610,baja (municipio < 1.000 afiliados residentes),
+094,Navalafuente,2025,175.0000,668,0.1667,801.6460,116,0.2183,1.5219,0.1264,,1.8121,0.8125,,2,1.3123,9,0.9550,baja (municipio < 1.000 afiliados residentes),
+122,Ribatejada,2025,120.0000,292,0.1667,350.4201,61,0.3424,1.0716,0.1483,,0.8846,1.4122,,2,1.1484,10,0.9500,baja (municipio < 1.000 afiliados residentes),
+095,Navalagamella,2025,310.0000,1126,0.1667,1351.2775,181,0.2294,1.4722,0.1181,,1.7098,0.5852,,2,1.1475,11,0.9440,media (sin componente sectorial: < 500 empleos),
+069,Hiruela (La),2025,20.0000,9,0.1667,10.8006,4,1.8517,-0.6161,0.2703,,-2.5921,4.7592,,2,1.0836,12,0.9390,baja (municipio < 1.000 afiliados residentes),
+056,Fresnedillas de la Oliva,2025,235.0000,673,0.1667,807.6463,121,0.2910,1.2345,0.1303,,1.2202,0.9192,,2,1.0697,13,0.9330,baja (municipio < 1.000 afiliados residentes),
+048,Corpa,2025,85.0000,298,0.1667,357.6205,45,0.2377,1.4368,0.1118,,1.6369,0.4108,,2,1.0238,14,0.9270,baja (municipio < 1.000 afiliados residentes),
+039,Cervera de Buitrago,2025,45.0000,36,0.1667,43.2025,12,1.0416,-0.0408,0.2174,,-1.4069,3.3084,,2,0.9508,15,0.9220,baja (municipio < 1.000 afiliados residentes),
+036,Casarrubuelos,2025,1105.0000,1619,0.1667,1942.9114,202,0.5687,0.5643,0.0942,0.3849,-0.1604,-0.0719,3.0817,3,0.9498,16,0.9160,alta,
+135,Santa María de la Alameda,2025,300.0000,494,0.1667,592.8340,115,0.5060,0.6811,0.1625,,0.0802,1.8018,,2,0.9410,17,0.9110,baja (municipio < 1.000 afiliados residentes),
+097,Navarredonda y San Mamés,2025,20.0000,37,0.1667,44.4025,8,0.4504,0.7976,0.1527,,0.3200,1.5328,,2,0.9264,18,0.9050,baja (municipio < 1.000 afiliados residentes),
+060,Fuentidueña de Tajo,2025,375.0000,725,0.1667,870.0499,151,0.4310,0.8416,0.1479,,0.4108,1.4018,,2,0.9063,19,0.8990,baja (municipio < 1.000 afiliados residentes),
+136,Santorcaz,2025,110.0000,348,0.1667,417.6239,51,0.2634,1.3341,0.1088,,1.4253,0.3302,,2,0.8777,20,0.8940,baja (municipio < 1.000 afiliados residentes),
+042,Colmenar del Arroyo,2025,525.0000,669,0.1667,802.8460,112,0.6539,0.4248,0.1224,0.3164,-0.4479,0.7032,2.3072,3,0.8541,21,0.8880,baja (municipio < 1.000 afiliados residentes),
+147,Titulcia,2025,230.0000,571,0.1667,685.2393,97,0.3356,1.0917,0.1240,,0.9259,0.7465,,2,0.8362,22,0.8830,baja (municipio < 1.000 afiliados residentes),
+019,Belmonte de Tajo,2025,245.0000,719,0.1667,862.8495,108,0.2839,1.2590,0.1112,,1.2705,0.3964,,2,0.8335,23,0.8770,baja (municipio < 1.000 afiliados residentes),
+102,Orusco de Tajuña,2025,255.0000,524,0.1667,628.8360,100,0.4055,0.9026,0.1372,,0.5364,1.1087,,2,0.8226,24,0.8720,baja (municipio < 1.000 afiliados residentes),
+180,Villarejo de Salvanés,2025,2355.0000,3161,0.1667,3793.4175,479,0.6208,0.4767,0.1121,0.3221,-0.3409,0.4203,2.3713,3,0.8169,25,0.8660,alta,
+031,Cadalso de los Vidrios,2025,630.0000,1096,0.1667,1315.2754,220,0.4790,0.7361,0.1433,0.1985,0.1934,1.2758,0.9745,3,0.8146,26,0.8600,alta,
+116,Pozuelo del Rey,2025,170.0000,490,0.1667,588.0337,72,0.2891,1.2410,0.1091,,1.2334,0.3372,,2,0.7853,27,0.8550,baja (municipio < 1.000 afiliados residentes),
+043,Colmenar de Oreja,2025,1395.0000,3418,0.1667,4101.8351,514,0.3401,1.0785,0.1114,0.1821,0.8988,0.3995,0.7893,3,0.6959,28,0.8490,alta,
+137,Santos de la Humosa (Los),2025,335.0000,972,0.1667,1166.4669,132,0.2872,1.2476,0.1017,,1.2471,0.1334,,2,0.6903,29,0.8440,baja (municipio < 1.000 afiliados residentes),
+145,Talamanca de Jarama,2025,730.0000,1733,0.1667,2079.7192,173,0.3510,1.0469,0.0768,0.2700,0.8337,-0.5487,1.7823,3,0.6891,30,0.8380,alta,
+174,Villamanta,2025,525.0000,1009,0.1667,1210.8694,161,0.4336,0.8357,0.1174,0.2054,0.3986,0.5642,1.0521,3,0.6716,31,0.8320,alta,
+011,Ambite,2025,135.0000,239,0.1667,286.8164,45,0.4707,0.7536,0.1356,,0.2294,1.0651,,2,0.6473,32,0.8270,baja (municipio < 1.000 afiliados residentes),
+057,Fresno de Torote,2025,340.0000,918,0.1667,1101.6632,127,0.3086,1.1756,0.1034,,1.0988,0.1802,,2,0.6395,33,0.8210,baja (municipio < 1.000 afiliados residentes),
+035,Carabaña,2025,345.0000,875,0.1667,1050.0602,127,0.3286,1.1131,0.1079,,0.9699,0.3046,,2,0.6372,34,0.8160,baja (municipio < 1.000 afiliados residentes),
+166,Valverde de Alcalá,2025,55.0000,179,0.1667,214.8123,21,0.2560,1.3624,0.0891,,1.4836,-0.2124,,2,0.6356,35,0.8100,baja (municipio < 1.000 afiliados residentes),
+156,Valdeavero,2025,325.0000,638,0.1667,765.6439,110,0.4245,0.8569,0.1256,,0.4422,0.7909,,2,0.6166,36,0.8040,baja (municipio < 1.000 afiliados residentes),
+012,Anchuelo,2025,185.0000,516,0.1667,619.2355,68,0.2988,1.2081,0.0989,,1.1658,0.0590,,2,0.6124,37,0.7990,baja (municipio < 1.000 afiliados residentes),
+109,Pelayos de la Presa,2025,640.0000,973,0.1667,1167.6669,247,0.5481,0.6013,0.1746,0.0916,-0.0843,2.1347,-0.2347,3,0.6052,38,0.7930,baja (municipio < 1.000 afiliados residentes),
+033,Campo Real,2025,1685.0000,2890,0.1667,3468.1988,332,0.4858,0.7219,0.0874,0.2774,0.1641,-0.2588,1.8663,3,0.5906,39,0.7880,alta,
+170,Villaconejos,2025,600.0000,1440,0.1667,1728.0991,220,0.3472,1.0578,0.1129,0.1513,0.8562,0.4427,0.4402,3,0.5797,40,0.7820,alta,
+067,Guadalix de la Sierra,2025,1035.0000,2866,0.1667,3439.3972,345,0.3009,1.2009,0.0912,0.1775,1.1509,-0.1545,0.7371,3,0.5778,41,0.7770,alta,
+099,Navas del Rey,2025,630.0000,1122,0.1667,1346.4772,203,0.4679,0.7595,0.1310,0.1571,0.2417,0.9388,0.5067,3,0.5624,42,0.7710,alta,
+032,Camarma de Esteruelas,2025,2355.0000,3262,0.1667,3914.6244,447,0.6016,0.5082,0.1025,0.2710,-0.2761,0.1561,1.7936,3,0.5579,43,0.7650,alta,
+124,Robledillo de la Jara,2025,35.0000,38,0.1667,45.6026,9,0.7675,0.2646,0.1648,,-0.7778,1.8665,,2,0.5444,44,0.7600,baja (municipio < 1.000 afiliados residentes),
+175,Villamantilla,2025,280.0000,634,0.1667,760.8436,93,0.3680,0.9996,0.1089,,0.7363,0.3326,,2,0.5345,45,0.7540,baja (municipio < 1.000 afiliados residentes),
+183,Zarzalejo,2025,415.0000,665,0.1667,798.0457,124,0.5200,0.6539,0.1345,,0.0241,1.0340,,2,0.5290,46,0.7490,baja (municipio < 1.000 afiliados residentes),
+110,Perales de Tajuña,2025,560.0000,1204,0.1667,1444.8828,233,0.3876,0.9478,0.1389,0.0865,0.6296,1.1543,-0.2917,3,0.4974,47,0.7430,alta,
+003,Alameda del Valle,2025,60.0000,89,0.1667,106.8061,17,0.5618,0.5767,0.1373,,-0.1350,1.1116,,2,0.4883,48,0.7370,baja (municipio < 1.000 afiliados residentes),
+063,Gargantilla del Lozoya y Pinilla de Buitrago,2025,95.0000,117,0.1667,140.4080,25,0.6766,0.3907,0.1511,,-0.5181,1.4911,,2,0.4865,49,0.7320,baja (municipio < 1.000 afiliados residentes),
+178,Villanueva de Perales,2025,300.0000,697,0.1667,836.4480,95,0.3587,1.0254,0.1020,,0.7893,0.1426,,2,0.4659,50,0.7260,baja (municipio < 1.000 afiliados residentes),
+101,Olmeda de las Fuentes,2025,95.0000,149,0.1667,178.8103,27,0.5313,0.6324,0.1312,,-0.0201,0.9436,,2,0.4618,51,0.7210,baja (municipio < 1.000 afiliados residentes),
+089,Moraleja de Enmedio,2025,2625.0000,2484,0.1667,2980.9709,221,0.8806,0.1272,0.0690,0.3949,-1.0609,-0.7621,3.1940,3,0.4570,52,0.7150,alta,
+008,Aldea del Fresno,2025,610.0000,1082,0.1667,1298.4744,204,0.4698,0.7555,0.1358,0.1090,0.2333,1.0695,-0.0372,3,0.4219,53,0.7090,alta,
+179,Villar del Olmo,2025,520.0000,1209,0.1667,1450.8832,115,0.3584,1.0261,0.0734,0.2062,0.7908,-0.6408,1.0609,3,0.4036,54,0.7040,alta,
+028,Bustarviejo,2025,495.0000,1077,0.1667,1292.4741,146,0.3830,0.9598,0.1015,,0.6541,0.1290,,2,0.3916,55,0.6980,media (sin componente sectorial: < 500 empleos),
+164,Valdetorres de Jarama,2025,980.0000,1999,0.1667,2398.9375,288,0.4085,0.8952,0.1072,0.1447,0.5212,0.2851,0.3666,3,0.3909,56,0.6930,alta,
+125,Robledo de Chavela,2025,1005.0000,1626,0.1667,1951.3119,278,0.5150,0.6635,0.1247,0.1330,0.0439,0.7657,0.2332,3,0.3476,57,0.6870,alta,
+106,Parla,2025,18665.0000,57321,0.1667,68789.1434,7519,0.2713,1.3044,0.0985,0.0759,1.3641,0.0477,-0.4118,3,0.3333,58,0.6820,alta,
+017,Batres,2025,290.0000,665,0.1667,798.0457,82,0.3634,1.0123,0.0932,,0.7623,-0.0993,,2,0.3315,59,0.6760,baja (municipio < 1.000 afiliados residentes),
+073,Humanes de Madrid,2025,11500.0000,8972,0.1667,10767.0172,1100,1.0681,-0.0659,0.0927,0.3361,-1.4586,-0.1125,2.5295,3,0.3195,60,0.6700,alta,
+150,Torrejón de Velasco,2025,1095.0000,1956,0.1667,2347.3346,199,0.4665,0.7625,0.0782,0.2188,0.2479,-0.5115,1.2037,3,0.3133,61,0.6650,alta,
+075,Loeches,2025,4595.0000,4128,0.1667,4953.8840,424,0.9276,0.0752,0.0788,0.3398,-1.1680,-0.4926,2.5714,3,0.3036,62,0.6590,alta,
+108,Pedrezuela,2025,930.0000,2534,0.1667,3040.9743,293,0.3058,1.1847,0.0879,0.1108,1.1176,-0.2445,-0.0169,3,0.2854,63,0.6540,alta,
+902,Puentes Viejas,2025,90.0000,254,0.1667,304.8175,24,0.2953,1.2199,0.0730,,1.1900,-0.6532,,2,0.2684,64,0.6480,baja (municipio < 1.000 afiliados residentes),
+034,Canencia,2025,100.0000,141,0.1667,169.2097,24,0.5910,0.5260,0.1242,,-0.2394,0.7524,,2,0.2565,65,0.6420,baja (municipio < 1.000 afiliados residentes),
+046,Collado Mediano,2025,1555.0000,3180,0.1667,3816.2188,384,0.4075,0.8978,0.0914,0.1458,0.5265,-0.1474,0.3788,3,0.2526,66,0.6370,alta,
+133,San Martín de Valdeiglesias,2025,1760.0000,3201,0.1667,3841.4202,585,0.4582,0.7805,0.1322,0.0677,0.2849,0.9703,-0.5048,3,0.2502,67,0.6310,alta,
+129,San Agustín del Guadalix,2025,5490.0000,6327,0.1667,7592.8353,503,0.7231,0.3243,0.0621,0.3196,-0.6549,-0.9511,2.3436,3,0.2459,68,0.6260,alta,
+052,Chinchón,2025,1470.0000,2210,0.1667,2652.1520,354,0.5543,0.5901,0.1178,0.1348,-0.1073,0.5752,0.2538,3,0.2405,69,0.6200,alta,
+084,Mejorada del Campo,2025,6855.0000,11132,0.1667,13359.1658,1194,0.5131,0.6672,0.0820,0.2064,0.0515,-0.4047,1.0639,3,0.2369,70,0.6150,alta,
+070,Horcajo de la Sierra-Aoslos,2025,55.0000,62,0.1667,74.4043,12,0.7392,0.3022,0.1389,,-0.7004,1.1547,,2,0.2271,71,0.6090,baja (municipio < 1.000 afiliados residentes),
+151,Torrelaguna,2025,765.0000,2033,0.1667,2439.7399,235,0.3136,1.1598,0.0879,0.0996,1.0662,-0.2452,-0.1435,3,0.2258,72,0.6030,alta,
+086,Molar (El),2025,1375.0000,3994,0.1667,4793.0748,468,0.2869,1.2487,0.0890,0.0772,1.2494,-0.2151,-0.3973,3,0.2123,73,0.5980,alta,
+119,Quijorna,2025,510.0000,1691,0.1667,2029.3163,147,0.2513,1.3810,0.0675,0.1044,1.5220,-0.8025,-0.0892,3,0.2101,74,0.5920,alta,
+091,Morata de Tajuña,2025,1430.0000,3353,0.1667,4023.8307,459,0.3554,1.0346,0.1024,0.0821,0.8082,0.1535,-0.3413,3,0.2068,75,0.5870,alta,
+165,Valdilecha,2025,660.0000,1305,0.1667,1566.0898,172,0.4214,0.8641,0.0990,0.1212,0.4571,0.0594,0.1005,3,0.2056,76,0.5810,alta,
+021,Berrueco (El),2025,170.0000,238,0.1667,285.6164,39,0.5952,0.5189,0.1201,,-0.2541,0.6405,,2,0.1932,77,0.5750,baja (municipio < 1.000 afiliados residentes),
+111,Pezuela de las Torres,2025,170.0000,288,0.1667,345.6198,40,0.4919,0.7095,0.1037,,0.1387,0.1902,,2,0.1645,78,0.5700,baja (municipio < 1.000 afiliados residentes),
+023,Boalo (El),2025,1750.0000,3508,0.1667,4209.8413,363,0.4157,0.8778,0.0794,0.1540,0.4853,-0.4778,0.4714,3,0.1597,79,0.5640,alta,
+100,Nuevo Baztán,2025,1320.0000,2591,0.1667,3109.3782,397,0.4245,0.8568,0.1132,0.0744,0.4420,0.4507,-0.4292,3,0.1545,80,0.5590,alta,
+158,Valdemanco,2025,195.0000,400,0.1667,480.0275,46,0.4062,0.9008,0.0874,,0.5328,-0.2565,,2,0.1382,81,0.5530,baja (municipio < 1.000 afiliados residentes),
+018,Becerril de la Sierra,2025,1150.0000,2671,0.1667,3205.3838,327,0.3588,1.0251,0.0926,0.0885,0.7887,-0.1159,-0.2694,3,0.1345,82,0.5470,alta,
+114,Piñuécar-Gandullas,2025,30.0000,75,0.1667,90.0052,7,0.3333,1.0987,0.0722,,0.9403,-0.6759,,2,0.1322,83,0.5420,baja (municipio < 1.000 afiliados residentes),
+062,Garganta de los Montes,2025,75.0000,148,0.1667,177.6102,17,0.4223,0.8621,0.0874,,0.4530,-0.2590,,2,0.0970,84,0.5360,baja (municipio < 1.000 afiliados residentes),
+085,Miraflores de la Sierra,2025,1150.0000,2879,0.1667,3454.9981,348,0.3329,1.1001,0.0915,0.0602,0.9432,-0.1451,-0.5891,3,0.0697,85,0.5310,alta,
+050,Cubas de la Sagra,2025,1635.0000,2695,0.1667,3234.1854,260,0.5055,0.6821,0.0744,0.1731,0.0822,-0.6142,0.6868,3,0.0516,86,0.5250,alta,
+182,Villavieja del Lozoya,2025,60.0000,113,0.1667,135.6078,13,0.4425,0.8154,0.0875,,0.3568,-0.2556,,2,0.0506,87,0.5200,baja (municipio < 1.000 afiliados residentes),
+163,Valdepiélagos,2025,165.0000,266,0.1667,319.2183,35,0.5169,0.6599,0.0988,,0.0365,0.0552,,2,0.0459,88,0.5140,baja (municipio < 1.000 afiliados residentes),
+128,Rozas de Puerto Real,2025,185.0000,135,0.1667,162.0093,30,1.1419,-0.1327,0.1562,,-1.5963,1.6310,,2,0.0174,89,0.5080,baja (municipio < 1.000 afiliados residentes),
+058,Fuenlabrada,2025,47665.0000,91484,0.1667,109787.0937,9632,0.4342,0.8343,0.0807,0.1210,0.3958,-0.4428,0.0984,3,0.0171,90,0.5030,alta,
+044,Colmenarejo,2025,1665.0000,4229,0.1667,5075.0909,441,0.3281,1.1145,0.0799,0.0705,0.9729,-0.4622,-0.4730,3,0.0126,91,0.4970,alta,
+004,Álamo (El),2025,2010.0000,3771,0.1667,4525.4594,523,0.4442,0.8116,0.1036,0.0658,0.3489,0.1866,-0.5260,3,0.0032,92,0.4920,alta,
+112,Pinilla del Valle,2025,25.0000,62,0.1667,74.4043,5,0.3360,1.0906,0.0630,,0.9237,-0.9281,,2,-0.0022,93,0.4860,baja (municipio < 1.000 afiliados residentes),
+082,Manzanares el Real,2025,1490.0000,3805,0.1667,4566.2618,411,0.3263,1.1199,0.0826,0.0578,0.9841,-0.3901,-0.6169,3,-0.0077,94,0.4800,alta,
+140,Serranillos del Valle,2025,1305.0000,1934,0.1667,2320.9331,183,0.5623,0.5758,0.0731,0.1798,-0.1369,-0.6505,0.7628,3,-0.0082,95,0.4750,alta,
+132,San Martín de la Vega,2025,5285.0000,8719,0.1667,10463.3998,1159,0.5051,0.6830,0.0997,0.0931,0.0841,0.0803,-0.2173,3,-0.0177,96,0.4690,alta,
+061,Galapagar,2025,6225.0000,16864,0.1667,20237.9602,1540,0.3076,1.1790,0.0707,0.0728,1.1057,-0.7156,-0.4468,3,-0.0189,97,0.4640,alta,
+013,Aranjuez,2025,12875.0000,22816,0.1667,27380.7696,3310,0.4702,0.7546,0.1079,0.0571,0.2314,0.3033,-0.6238,3,-0.0297,98,0.4580,alta,
+146,Tielmes,2025,640.0000,1129,0.1667,1354.8777,198,0.4724,0.7500,0.1275,0.0090,0.2220,0.8426,-1.1679,3,-0.0344,99,0.4530,alta,
+154,Torres de la Alameda,2025,2980.0000,3419,0.1667,4103.0352,434,0.7263,0.3198,0.0957,0.1609,-0.6641,-0.0312,0.5486,3,-0.0489,100,0.4470,alta,
+172,Villalbilla,2025,3245.0000,7052,0.1667,8462.8851,578,0.3834,0.9586,0.0639,0.1210,0.6517,-0.9017,0.0979,3,-0.0507,101,0.4410,alta,
+051,Chapinería,2025,510.0000,918,0.1667,1101.6632,128,0.4629,0.7702,0.1041,0.0539,0.2636,0.2002,-0.6606,3,-0.0656,102,0.4360,baja (municipio < 1.000 afiliados residentes),
+059,Fuente el Saz de Jarama,2025,2215.0000,3180,0.1667,3816.2188,331,0.5804,0.5440,0.0798,0.1532,-0.2023,-0.4660,0.4618,3,-0.0688,103,0.4300,alta,
+171,Villa del Prado,2025,1810.0000,2867,0.1667,3440.5972,400,0.5261,0.6423,0.1042,0.0746,0.0002,0.2018,-0.4265,3,-0.0748,104,0.4250,alta,
+053,Daganzo de Arriba,2025,4005.0000,4926,0.1667,5911.5389,433,0.6775,0.3894,0.0682,0.2052,-0.5208,-0.7832,1.0503,3,-0.0846,105,0.4190,alta,
+121,Redueña,2025,55.0000,128,0.1667,153.6088,10,0.3581,1.0271,0.0611,,0.7928,-0.9788,,2,-0.0930,106,0.4130,baja (municipio < 1.000 afiliados residentes),
+160,Valdemorillo,2025,3115.0000,6026,0.1667,7231.6146,583,0.4307,0.8422,0.0746,0.0984,0.4120,-0.6089,-0.1578,3,-0.1182,107,0.4080,alta,
+029,Cabanillas de la Sierra,2025,165.0000,368,0.1667,441.6253,29,0.3736,0.9845,0.0616,,0.7051,-0.9651,,2,-0.1300,108,0.4020,baja (municipio < 1.000 afiliados residentes),
+087,Molinos (Los),2025,960.0000,2006,0.1667,2407.3380,219,0.3988,0.9193,0.0834,0.0519,0.5709,-0.3679,-0.6826,3,-0.1599,109,0.3970,alta,
+076,Lozoya,2025,175.0000,197,0.1667,236.4136,29,0.7402,0.3008,0.1093,,-0.7033,0.3421,,2,-0.1806,110,0.3910,baja (municipio < 1.000 afiliados residentes),
+009,Algete,2025,8685.0000,9796,0.1667,11755.8739,759,0.7388,0.3028,0.0606,0.2136,-0.6992,-0.9918,1.1453,3,-0.1819,111,0.3850,alta,
+065,Getafe,2025,78465.0000,85734,0.1667,102886.6981,8640,0.7626,0.2710,0.0775,0.1778,-0.7647,-0.5302,0.7405,3,-0.1848,112,0.3800,alta,
+092,Móstoles,2025,45515.0000,94134,0.1667,112967.2760,9776,0.4029,0.9091,0.0796,0.0554,0.5497,-0.4705,-0.6439,3,-0.1883,113,0.3740,alta,
+030,Cabrera (La),2025,635.0000,1172,0.1667,1406.4806,153,0.4515,0.7952,0.0981,0.0260,0.3152,0.0361,-0.9759,3,-0.2082,114,0.3690,alta,
+107,Patones,2025,125.0000,153,0.1667,183.6105,20,0.6808,0.3845,0.0982,,-0.5309,0.0393,,2,-0.2458,115,0.3630,baja (municipio < 1.000 afiliados residentes),
+014,Arganda del Rey,2025,26720.0000,26642,0.1667,31972.2328,3407,0.8357,0.1795,0.0963,0.1317,-0.9532,-0.0136,0.2191,3,-0.2493,116,0.3580,alta,
+104,Paracuellos de Jarama,2025,6485.0000,11394,0.1667,13673.5839,817,0.4743,0.7460,0.0564,0.1238,0.2138,-1.1088,0.1298,3,-0.2551,117,0.3520,alta,
+118,Puebla de la Sierra,2025,20.0000,19,0.1667,22.8013,3,0.8771,0.1311,0.1163,,-1.0529,0.5344,,2,-0.2592,118,0.3460,baja (municipio < 1.000 afiliados residentes),
+054,Escorial (El),2025,3075.0000,7088,0.1667,8506.0876,720,0.3615,1.0175,0.0780,0.0134,0.7730,-0.5146,-1.1183,3,-0.2866,119,0.3410,alta,
+148,Torrejón de Ardoz,2025,39075.0000,64097,0.1667,76920.8096,6574,0.5080,0.6773,0.0787,0.0736,0.0723,-0.4955,-0.4382,3,-0.2871,120,0.3350,alta,
+005,Alcalá de Henares,2025,65545.0000,86221,0.1667,103471.1316,10061,0.6335,0.4566,0.0886,0.0874,-0.3824,-0.2244,-0.2821,3,-0.2963,121,0.3300,alta,
+055,Estremera,2025,1235.0000,490,0.1667,588.0337,85,2.1002,-0.7420,0.1263,0.2134,-2.8515,0.8093,1.1431,3,-0.2997,122,0.3240,baja (municipio < 1.000 afiliados residentes),
+093,Navacerrada,2025,720.0000,1264,0.1667,1516.8870,127,0.4747,0.7452,0.0773,0.0579,0.2121,-0.5361,-0.6150,3,-0.3130,123,0.3180,alta,
+090,Moralzarzal,2025,3035.0000,5821,0.1667,6985.6005,530,0.4345,0.8336,0.0705,0.0574,0.3943,-0.7209,-0.6203,3,-0.3156,124,0.3130,alta,
+113,Pinto,2025,21095.0000,23999,0.1667,28800.4510,2493,0.7325,0.3114,0.0797,0.1302,-0.6815,-0.4700,0.2022,3,-0.3164,125,0.3070,alta,
+120,Rascafría,2025,455.0000,671,0.1667,805.2462,69,0.5650,0.5709,0.0789,,-0.1470,-0.4903,,2,-0.3186,126,0.3020,baja (municipio < 1.000 afiliados residentes),
+024,Braojos,2025,50.0000,103,0.1667,123.6071,7,0.4045,0.9051,0.0536,,0.5415,-1.1852,,2,-0.3219,127,0.2960,baja (municipio < 1.000 afiliados residentes),
+047,Collado Villalba,2025,14995.0000,30980,0.1667,37178.1313,3390,0.4033,0.9080,0.0836,0.0103,0.5475,-0.3630,-1.1527,3,-0.3227,128,0.2910,alta,
+901,Lozoyuela-Navas-Sieteiglesias,2025,480.0000,503,0.1667,603.6346,70,0.7952,0.2292,0.1039,,-0.8508,0.1953,,2,-0.3277,129,0.2850,baja (municipio < 1.000 afiliados residentes),
+001,Acebeda (La),2025,20.0000,30,0.1667,36.0021,3,0.5555,0.5878,0.0769,,-0.1120,-0.5453,,2,-0.3287,130,0.2790,baja (municipio < 1.000 afiliados residentes),
+027,Buitrago del Lozoya,2025,605.0000,883,0.1667,1059.6607,83,0.5709,0.5605,0.0726,0.0963,-0.1684,-0.6628,-0.1813,3,-0.3375,131,0.2740,baja (municipio < 1.000 afiliados residentes),
+045,Colmenar Viejo,2025,13635.0000,25390,0.1667,30469.7467,2153,0.4475,0.8041,0.0660,0.0679,0.3335,-0.8450,-0.5024,3,-0.3380,132,0.2680,alta,
+123,Rivas-Vaciamadrid,2025,27705.0000,44231,0.1667,53080.2429,3780,0.5219,0.6502,0.0665,0.0910,0.0164,-0.8318,-0.2409,3,-0.3521,133,0.2630,alta,
+010,Alpedrete,2025,3185.0000,6762,0.1667,8114.8652,599,0.3925,0.9352,0.0687,0.0281,0.6036,-0.7697,-0.9520,3,-0.3727,134,0.2570,alta,
+015,Arroyomolinos,2025,10960.0000,14726,0.1667,17672.2131,1252,0.6202,0.4777,0.0662,0.1109,-0.3388,-0.8406,-0.0155,3,-0.3983,135,0.2510,alta,
+141,Sevilla la Nueva,2025,2435.0000,4259,0.1667,5111.0930,374,0.4764,0.7415,0.0682,0.0555,0.2045,-0.7850,-0.6424,3,-0.4076,136,0.2460,alta,
+162,Valdeolmos-Alalpardo,2025,1020.0000,1865,0.1667,2238.1283,139,0.4557,0.7858,0.0585,0.0640,0.2959,-1.0514,-0.5460,3,-0.4338,137,0.2400,alta,
+068,Guadarrama,2025,4045.0000,7344,0.1667,8813.3052,680,0.4590,0.7788,0.0716,0.0317,0.2813,-0.6905,-0.9111,3,-0.4401,138,0.2350,alta,
+177,Villanueva del Pardillo,2025,4335.0000,8535,0.1667,10242.5872,594,0.4232,0.8598,0.0548,0.0560,0.4483,-1.1518,-0.6361,3,-0.4466,139,0.2290,alta,
+117,Prádena del Rincón,2025,45.0000,55,0.1667,66.0038,6,0.6818,0.3830,0.0833,,-0.5338,-0.3695,,2,-0.4517,140,0.2230,baja (municipio < 1.000 afiliados residentes),
+038,Cercedilla,2025,1925.0000,3197,0.1667,3836.6199,361,0.5017,0.6897,0.0860,0.0076,0.0978,-0.2962,-1.1841,3,-0.4608,141,0.2180,alta,
+153,Torremocha de Jarama,2025,330.0000,345,0.1667,414.0237,43,0.7971,0.2268,0.0941,,-0.8556,-0.0743,,2,-0.4650,142,0.2120,baja (municipio < 1.000 afiliados residentes),
+007,Alcorcón,2025,51385.0000,79380,0.1667,95261.4610,7389,0.5394,0.6173,0.0720,0.0500,-0.0513,-0.6808,-0.7042,3,-0.4788,143,0.2070,alta,
+041,Cobeña,2025,1605.0000,3312,0.1667,3974.6279,231,0.4038,0.9068,0.0549,0.0342,0.5451,-1.1487,-0.8830,3,-0.4955,144,0.2010,alta,
+040,Ciempozuelos,2025,8030.0000,10342,0.1667,12411.1115,1287,0.6470,0.4354,0.0940,0.0226,-0.4260,-0.0779,-1.0139,3,-0.5059,145,0.1960,alta,
+074,Leganés,2025,61905.0000,85277,0.1667,102338.2667,8873,0.6049,0.5027,0.0798,0.0446,-0.2874,-0.4667,-0.7655,3,-0.5065,146,0.1900,alta,
+096,Navalcarnero,2025,10340.0000,13054,0.1667,15665.6981,1537,0.6600,0.4155,0.0893,0.0265,-0.4671,-0.2044,-0.9699,3,-0.5471,147,0.1840,alta,
+026,Brunete,2025,2845.0000,5030,0.1667,6036.3460,397,0.4713,0.7522,0.0617,0.0277,0.2267,-0.9626,-0.9570,3,-0.5643,148,0.1790,alta,
+049,Coslada,2025,29805.0000,39059,0.1667,46873.4871,3390,0.6359,0.4528,0.0674,0.0680,-0.3902,-0.8053,-0.5010,3,-0.5655,149,0.1730,alta,
+169,Venturada,2025,625.0000,968,0.1667,1161.6666,77,0.5380,0.6199,0.0622,0.0503,-0.0460,-0.9502,-0.7011,3,-0.5658,150,0.1680,baja (municipio < 1.000 afiliados residentes),
+071,Horcajuelo de la Sierra,2025,35.0000,51,0.1667,61.2035,4,0.5719,0.5589,0.0613,,-0.1717,-0.9726,,2,-0.5721,151,0.1620,baja (municipio < 1.000 afiliados residentes),
+088,Montejo de la Sierra,2025,100.0000,113,0.1667,135.6078,11,0.7374,0.3046,0.0750,,-0.6955,-0.5972,,2,-0.6463,152,0.1560,baja (municipio < 1.000 afiliados residentes),
+131,San Lorenzo de El Escorial,2025,4905.0000,7932,0.1667,9518.9457,677,0.5153,0.6630,0.0664,0.0093,0.0429,-0.8340,-1.1648,3,-0.6520,153,0.1510,alta,
+144,Soto del Real,2025,2660.0000,3999,0.1667,4799.0751,325,0.5543,0.5901,0.0634,0.0255,-0.1073,-0.9155,-0.9820,3,-0.6683,154,0.1450,alta,
+072,Hoyo de Manzanares,2025,2945.0000,3709,0.1667,4451.0552,324,0.6616,0.4130,0.0679,0.0469,-0.4721,-0.7941,-0.7399,3,-0.6687,155,0.1400,alta,
+064,Gascones,2025,85.0000,105,0.1667,126.0072,9,0.6746,0.3937,0.0667,,-0.5119,-0.8267,,2,-0.6693,156,0.1340,baja (municipio < 1.000 afiliados residentes),
+083,Meco,2025,7175.0000,6224,0.1667,7469.2282,662,0.9606,0.0402,0.0814,0.0765,-1.2401,-0.4220,-0.4046,3,-0.6889,157,0.1280,alta,
+143,Somosierra,2025,50.0000,33,0.1667,39.6023,5,1.2626,-0.2331,0.1121,,-1.8032,0.4200,,2,-0.6916,158,0.1230,baja (municipio < 1.000 afiliados residentes),
+066,Griñón,2025,6815.0000,4524,0.1667,5429.1112,381,1.2553,-0.2274,0.0656,0.1517,-1.7912,-0.8566,0.4452,3,-0.7342,159,0.1170,alta,
+002,Ajalvir,2025,5625.0000,2168,0.1667,2601.7491,177,2.1620,-0.7710,0.0637,0.2313,-2.9112,-0.9081,1.3454,3,-0.8246,160,0.1120,alta,
+152,Torrelodones,2025,7155.0000,10753,0.1667,12904.3398,643,0.5545,0.5898,0.0475,0.0211,-0.1081,-1.3535,-1.0306,3,-0.8307,161,0.1060,alta,
+149,Torrejón de la Calzada,2025,5520.0000,4018,0.1667,4821.8764,407,1.1448,-0.1352,0.0778,0.0744,-1.6014,-0.5202,-0.4288,3,-0.8501,162,0.1010,alta,
+138,Serna del Monte (La),2025,60.0000,34,0.1667,40.8023,5,1.4705,-0.3856,0.1092,,-2.1172,0.3394,,2,-0.8889,163,0.0950,baja (municipio < 1.000 afiliados residentes),
+161,Valdemoro,2025,38740.0000,34791,0.1667,41751.5935,3721,0.9279,0.0749,0.0818,0.0097,-1.1687,-0.4106,-1.1602,3,-0.9132,164,0.0890,alta,
+176,Villanueva de la Cañada,2025,9380.0000,9907,0.1667,11889.0816,658,0.7890,0.2370,0.0524,0.0445,-0.8346,-1.2169,-0.7669,3,-0.9395,165,0.0840,alta,
+025,Brea de Tajo,2025,465.0000,190,0.1667,228.0131,34,2.0394,-0.7126,0.1298,,-2.7909,0.9046,,2,-0.9432,166,0.0780,baja (municipio < 1.000 afiliados residentes),
+130,San Fernando de Henares,2025,26930.0000,19722,0.1667,23667.7568,1807,1.1378,-0.1291,0.0709,0.0612,-1.5889,-0.7096,-0.5784,3,-0.9589,167,0.0730,alta,
+078,Madarcos,2025,20.0000,30,0.1667,36.0021,1,0.5555,0.5878,0.0270,,-0.1120,-1.9142,,2,-1.0131,168,0.0670,baja (municipio < 1.000 afiliados residentes),
+903,Tres Cantos,2025,41450.0000,23149,0.1667,27780.3925,1428,1.4921,-0.4002,0.0489,0.1337,-2.1472,-1.3144,0.2414,3,-1.0734,169,0.0610,alta,
+181,Villaviciosa de Odón,2025,13145.0000,12131,0.1667,14558.0346,787,0.9029,0.1021,0.0513,0.0340,-1.1126,-1.2486,-0.8857,3,-1.0823,170,0.0560,alta,
+080,Majadahonda,2025,33985.0000,33054,0.1667,39667.0740,1916,0.8568,0.1546,0.0461,0.0285,-1.0044,-1.3915,-0.9471,3,-1.1144,171,0.0500,alta,
+079,Madrid,2025,2391460.0000,1581565,0.1667,1897986.8045,140249,1.2600,-0.2311,0.0688,0.0414,-1.7990,-0.7678,-0.8021,3,-1.1230,172,0.0450,alta,
+134,San Sebastián de los Reyes,2025,50740.0000,44780,0.1667,53739.0807,3364,0.9442,0.0574,0.0589,0.0097,-1.2046,-1.0394,-1.1598,3,-1.1346,173,0.0390,alta,
+167,Velilla de San Antonio,2025,15275.0000,6359,0.1667,7631.2375,633,2.0016,-0.6940,0.0766,0.0702,-2.7524,-0.5542,-0.4763,3,-1.2610,174,0.0340,alta,
+127,Rozas de Madrid (Las),2025,57685.0000,44351,0.1667,53224.2511,2547,1.0838,-0.0805,0.0457,0.0165,-1.4887,-1.4027,-1.0833,3,-1.3249,175,0.0280,alta,
+022,Boadilla del Monte,2025,38665.0000,26856,0.1667,32229.0476,1439,1.1997,-0.1821,0.0427,0.0311,-1.6980,-1.4831,-0.9176,3,-1.3662,176,0.0220,alta,
+006,Alcobendas,2025,130295.0000,57899,0.1667,69482.7832,4034,1.8752,-0.6287,0.0549,0.0632,-2.6180,-1.1502,-0.5548,3,-1.4410,177,0.0170,alta,
+020,Berzosa del Lozoya,2025,70.0000,56,0.1667,67.2039,3,1.0416,-0.0408,0.0427,,-1.4069,-1.4833,,2,-1.4451,178,0.0110,baja (municipio < 1.000 afiliados residentes),
+115,Pozuelo de Alarcón,2025,90190.0000,39903,0.1667,47886.3451,1961,1.8834,-0.6331,0.0393,0.0415,-2.6270,-1.5764,-0.8004,3,-1.6679,179,0.0060,alta,

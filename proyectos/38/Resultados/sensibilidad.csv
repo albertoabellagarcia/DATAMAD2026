@@ -1,0 +1,7 @@
+anio,medida,spearman_todos,spearman_fiabilidad_alta,top20_coincidentes_todos,top20_coincidentes_alta,n_todos,n_alta
+2021,indice,0.985,0.992,18,18,179,96
+2021,A_deficit_empleo,0.929,0.973,15,18,179,96
+2021,B_presion_paro,0.845,0.924,15,15,179,96
+2025,indice,0.985,0.993,16,19,179,103
+2025,A_deficit_empleo,0.937,0.964,16,18,179,103
+2025,B_presion_paro,0.917,0.949,12,17,179,103

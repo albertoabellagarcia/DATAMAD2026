@@ -1,0 +1,7 @@
+cluster,tipo,n,paro,residentes,indice,ratio_empleo,B_presion_paro,C_desajuste_sectorial,baja_cualif,alta_cualif,temporal,var_paro,ejemplos,pct_paro_cm
+0,Municipios pequeños (fuera de tipología),76,4453,28344,0.3597,0.4567,0.1102,0.0940,0.2148,0.1477,0.1445,-0.1767,"Pelayos de la Presa, Navalagamella, Cenicientos, Fuentidueña de Tajo",0.0152
+1,Paro alto y empleo poco cualificado,16,7629,50622,0.2812,0.4688,0.1176,0.1043,0.2394,0.1208,0.1354,-0.2395,"Aranjuez, San Martín de Valdeiglesias, Colmenar de Oreja, Villa del Prado",0.0260
+2,Desajuste sectorial (el empleo local es de otros sectores),14,5830,57946,0.2442,0.7003,0.0775,0.2742,0.1932,0.1507,0.0951,-0.2763,"Humanes de Madrid, Algete, San Agustín del Guadalix, Villarejo de Salvanés",0.0198
+3,"Residenciales cualificados (pocos empleos locales, poco paro)",28,19950,206543,-0.0458,0.4011,0.0776,0.0736,0.1609,0.2368,0.1045,-0.2598,"Rivas-Vaciamadrid, Collado Villalba, Colmenar Viejo, Galapagar",0.0679
+4,Grandes municipios metropolitanos de cualificación media,29,93711,881892,-0.3297,0.5804,0.0798,0.0744,0.2115,0.1622,0.0996,-0.3442,"Alcalá de Henares, Móstoles, Fuenlabrada, Leganés",0.3189
+5,Polos de empleo cualificado,16,162244,1926024,-0.9601,0.8799,0.0536,0.0415,0.1017,0.3763,0.0795,-0.2852,"Madrid, Alcobendas, San Sebastián de los Reyes, Rozas de Madrid (Las)",0.5522
