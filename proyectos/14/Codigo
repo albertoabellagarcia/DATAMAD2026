@@ -1,0 +1,112 @@
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
+archivo = Path("2025.xlsx")
+archivo2 = Path("2024.xlsx") 
+
+# Leer las hojas sin interpretar automáticamente los encabezados
+tam_raw = pd.read_excel(archivo, sheet_name="Tamaño del hogar", header=None)
+comp_raw = pd.read_excel(archivo, sheet_name="Composicion del hogar", header=None)
+nac_raw = pd.read_excel(
+    archivo,
+    sheet_name="Tipo-Nacionalidad de sus miembr",
+    header=None
+)
+
+tam_raw2 = pd.read_excel(archivo2, sheet_name="Tamaño del hogar", header=None)
+comp_raw2 = pd.read_excel(archivo2, sheet_name="Composicion del hogar", header=None)
+nac_raw2 = pd.read_excel(
+    archivo2,
+    sheet_name="Tipo-Nacionalidad de sus miembr",
+    header=None
+)
+
+def extraer_secciones(df):
+    """
+    Extrae únicamente las filas correspondientes a secciones censales.
+    La columna 0 contiene el distrito y la columna 1 el código de sección.
+    """
+    datos = df.iloc[9:].copy()
+
+    # Recuperar el distrito en las filas de secciones censales
+    datos["Distrito"] = datos[0].ffill()
+
+    # Conservar filas con código de sección numérico
+    datos = datos[pd.to_numeric(datos[1], errors="coerce").notna()].copy()
+
+    datos["Seccion"] = datos[1].astype(int).astype(str)
+
+    return datos.reset_index(drop=True)
+
+
+tam = extraer_secciones(tam_raw)
+comp = extraer_secciones(comp_raw)
+nac = extraer_secciones(nac_raw)
+
+tam2 = extraer_secciones(tam_raw2)
+comp2 = extraer_secciones(comp_raw2)
+nac2 = extraer_secciones(nac_raw2)
+
+# Tabla de tamaño del hogar
+tamaño = tam[[2, 3, 4, 5, 6]].copy()
+
+tamaño.columns = [
+    "Habitantes",
+    "Total_hogares",
+    "Tamaño_medio",
+    "Hogares_1_persona",
+    "Hogares_2_personas"
+]
+
+tamaño["Distrito"] = tam["Distrito"]
+tamaño["Seccion"] = tam["Seccion"]
+
+# Tabla de composición del hogar
+composicion = comp[[2, 3, 4, 5, 6]].copy()
+
+composicion.columns = [
+    "Total_hogares_comp",
+    "Mujeres_solas_16_64",
+    "Hombres_solos_16_64",
+    "Mujeres_solas_65_mas",
+    "Hombres_solos_65_mas"
+]
+
+composicion["Distrito"] = comp["Distrito"]
+composicion["Seccion"] = comp["Seccion"]
+
+# Tabla de nacionalidad
+nacionalidad = nac[[2, 3, 4, 5]].copy()
+
+nacionalidad.columns = [
+    "Total_hogares_nac",
+    "Hogares_todos_espanoles",
+    "Hogares_todos_extranjeros",
+    "Hogares_mixtos"
+]
+
+nacionalidad["Distrito"] = nac["Distrito"]
+nacionalidad["Seccion"] = nac["Seccion"]
+
+# Unir las tres tablas por distrito y sección censal
+datos_2025 = (
+    tamaño
+    .merge(composicion, on=["Distrito", "Seccion"], how="inner")
+    .merge(nacionalidad, on=["Distrito", "Seccion"], how="inner")
+)
+
+print("Dimensiones de la tabla final:", datos_2025.shape)
+display(datos_2025.head())
+
+
+# Guardar la tabla final en CSV
+datos_2025.to_csv(
+    "datos_2025.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+
+print("CSV guardado correctamente")
+
+
