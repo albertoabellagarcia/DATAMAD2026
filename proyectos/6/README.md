@@ -2,6 +2,8 @@
 
 **DATAMAD 2026 · Proyecto 6** · Integrantes: Alessandro Lair Rodríguez
 
+![Los invisibles del Bono: mismo alquiler, distintas oportunidades](portada.png)
+
 **¿Llegan las ayudas al alquiler a quien más las necesita?** El Bono Alquiler Joven da 250 € al mes durante 2 años, solo si el alquiler no pasa de 600 o 900 €. Los invisibles pagan más que el tope, no la piden y no salen ni entre los rechazados. Con datos abiertos de la Comunidad de Madrid medimos dónde pasa y simulamos cómo repartir el mismo dinero por necesidad.
 
 ## Lo principal
@@ -9,6 +11,34 @@
 - **Hallazgo:** −7,6 % de solicitudes por joven por cada 10 puntos más de alquileres sobre el tope. Es una asociación, no una causa: contraste registrado antes de calcular, en 132 municipios (IC 95 %: −3,9 % a −11,1 %).
 - **Riesgo:** con el tope del Plan 2026-2030 (500 €), quedaría fuera el 58 % de los alquileres de los pueblos (hoy, el 26 %).
 - **Simulación:** con el mismo dinero (31,8 M€), llegaría un 41 % más de ayudas a los 36 municipios con más necesidad: unos 280 jóvenes más.
+
+## La app: https://invisibles-del-bono.streamlit.app
+
+**Para el joven, «¿Puedo pedirla?»:** Marta (Hoyo de Manzanares, 750 €) no puede hoy ni con el Plan; con la propuesta, sí: 300 € al mes.
+
+![Marta en la calculadora de la app](app_marta.png)
+
+**Para la Consejería, «Tu municipio»:** en Campo Real, con el tope del Plan quedaría fuera el 59 % de los alquileres; la propuesta sube el tope a 650 €.
+
+![La ficha de Campo Real en la app](app_campo.png)
+
+## Los gráficos
+
+**Necesidad y cobertura del Bono, municipio a municipio:**
+
+![Mapa de necesidad y cobertura](mapa_necesidad_cobertura.png)
+
+**El −7,6 % y todas las pruebas de robustez:**
+
+![El contraste y sus pruebas](contraste_todas_las_pruebas.png)
+
+**La simulación: el mismo dinero repartido por necesidad:**
+
+![Reparto por necesidad](reparto_por_necesidad.png)
+
+**El tope de 500 € del Plan, comunidad a comunidad:**
+
+![El tope de 500 € por comunidades](espana_tope500_comunidades.png)
 
 ## Cómo lo hicimos
 
@@ -28,6 +58,7 @@
 
 - `Los_invisibles_del_Bono.pptx` y `Los_invisibles_del_Bono.pdf`: la presentación (3 diapositivas y la captura).
 - `Los_invisibles_del_Bono_codigo.zip`: el código del repositorio.
+- Las imágenes de este README: la portada, dos capturas de la app y cuatro gráficos del análisis (`resultados/figuras/` en el código).
 
 ## Datos abiertos utilizados
 
