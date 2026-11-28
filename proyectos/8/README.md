@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/4cd542a3-f760-4498-b979-b952985f7afd
 - **Vídeo de la aplicación (39 s):** [presentacion/media/demo.mp4](presentacion/media/demo.mp4)
 - **Fuentes de datos, con sus registros:** https://movilimad.es/fuentes.php
 - **Estadísticas de uso:** https://movilimad.es/estadisticas/
-- **Integrante:** Eugenio Serrano Mayor (e.serranom.2020@alumnos.urjc.es)
+- **Integrante:** Eugenio Serrano 
 
 ## Qué es
 
